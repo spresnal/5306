@@ -157,8 +157,7 @@ class ReviewRunnerTests(unittest.TestCase):
             runner.run(self.work(), self.args)
         self.assertEqual(self.work().coverage()['reviewed'], 7)
         with patch.object(runner, 'model_request', return_value=({'entries': []}, {})):
-            with self.assertRaises(ValueError):
-                runner.run(self.work(), self.args)
+            runner.run(self.work(), self.args)
         work = self.work()
         self.assertEqual(work.coverage()['reviewed'], 7)
         self.assertEqual(work.coverage()['failed'], 7)
@@ -166,6 +165,93 @@ class ReviewRunnerTests(unittest.TestCase):
             runner.run(work, self.args)
         self.assertEqual(self.work().coverage()['reviewed'], 14)
         self.assertEqual(self.work().coverage()['failed'], 0)
+
+    def test_rejected_quotes_are_skipped_and_later_batches_continue(self):
+        self.args.pilot = None
+        self.args.unattended = True
+        self.args.retries = 1
+        rejected = []
+        def model(*args):
+            result, usage = self.fake_model(*args)
+            if args[3] == runner.SCHEMA and args[2]['entries'][0]['id'] == 'gmail:0001':
+                rejected.append(True)
+                result['entries'][0]['quotes'][0]['text'] = 'Invented words.'
+            return result, usage
+        inputs = {p: p.read_bytes() for p in (self.root / 'data/archives').rglob('*') if p.is_file()}
+        with patch.object(runner, 'model_request', side_effect=model), patch.object(runner.time, 'sleep'):
+            runner.run(self.work(), self.args)
+        work = self.work()
+        self.assertEqual(len(rejected), 2)
+        self.assertEqual(work.coverage()['reviewed'], 22)
+        self.assertEqual(work.coverage()['remaining'], 1)
+        self.assertEqual(work.coverage()['failed'], 1)
+        self.assertEqual(work.coverage()['manual_review'], 1)
+        self.assertFalse(work.coverage()['cross_review_complete'])
+        self.assertNotIn('gmail:0001', work.state['assessments'])
+        self.assertEqual(work.state['failures']['gmail:0001']['kind'], 'validation')
+        self.assertTrue(work.state['failures']['gmail:0001']['manual_review'])
+        progress = json.loads((self.root / 'data/reviews/review_progress.json').read_text())
+        self.assertEqual(progress['manual_review_ids'], ['gmail:0001'])
+        self.assertIn('Quotation does not match supplied evidence',
+                      (self.root / 'output/counsel_review.md').read_text())
+        for p, original in inputs.items():
+            self.assertEqual(p.read_bytes(), original)
+        with patch.object(runner, 'model_request', side_effect=self.fake_model) as request:
+            runner.run(self.work(), self.args)
+            request.assert_not_called()
+        self.args.retry_manual_review = True
+        with patch.object(runner, 'model_request', side_effect=self.fake_model):
+            runner.run(self.work(), self.args)
+        self.assertEqual(self.work().coverage()['failed'], 0)
+        self.assertTrue(self.work().coverage()['cross_review_complete'])
+
+    def test_entry_validation_attributes_multiple_failures_and_keeps_valid_entries(self):
+        work = self.work()
+        batch = [work.prepare(record, 1000) for record in work.records[:3]]
+        entries = [assessment(item['id']) for item in batch]
+        entries[0]['quotes'][0]['text'] = 'Invented words.'
+        entries[1]['priority'] = 'invalid category'
+        with self.assertRaises(runner.EntryValidationError) as caught:
+            runner.validate_entries({'entries': entries}, batch)
+        self.assertEqual(set(caught.exception.failures), {'gmail:0001', 'gmail:0002'})
+        self.assertEqual([entry['id'] for entry in caught.exception.result['entries']], ['gmail:0003'])
+
+    def test_manual_review_flag_is_invalidated_by_changed_evidence_or_criteria(self):
+        work = self.work()
+        record = work.records[0]
+        work.state['failures'][record['id']] = {
+            'manual_review': True, 'review_hash': record['review_hash'], 'criteria_hash': work.criteria_hash}
+        self.assertTrue(work.manual_review(record))
+        self.assertFalse(work.manual_review({**record, 'review_hash': 'changed'}))
+        work.criteria_hash = 'changed'
+        self.assertFalse(work.manual_review(record))
+
+    def test_codex_error_still_stops_run(self):
+        with patch.object(runner, 'model_request', side_effect=runner.CodexError('Codex plan usage limit reached')):
+            with self.assertRaisesRegex(ValueError, 'plan usage limit'):
+                runner.run(self.work(), self.args)
+        self.assertEqual(self.work().coverage()['reviewed'], 0)
+
+    def test_cross_validation_failure_stays_pending_then_resumes(self):
+        self.args.pilot = None
+        self.args.unattended = True
+        rejected = []
+        def model(*args):
+            if args[3] == runner.CROSS_SCHEMA and not rejected:
+                rejected.append(True)
+                return {'findings': [{'bad': 'shape'}]}, {}
+            return self.fake_model(*args)
+        with patch.object(runner, 'model_request', side_effect=model):
+            runner.run(self.work(), self.args)
+        work = self.work()
+        self.assertEqual(work.coverage()['remaining'], 0)
+        self.assertEqual(work.coverage()['cross_tasks_failed'], 1)
+        self.assertFalse(work.coverage()['cross_review_complete'])
+        self.assertIn('Failed cross-entry comparisons', (self.root / 'output/counsel_review.md').read_text())
+        with patch.object(runner, 'model_request', side_effect=self.fake_model):
+            runner.run(self.work(), self.args)
+        self.assertEqual(self.work().coverage()['cross_tasks_failed'], 0)
+        self.assertTrue(self.work().coverage()['cross_review_complete'])
 
     def test_brief_and_source_changes_mark_stale(self):
         with patch.object(runner, 'model_request', side_effect=self.fake_model):
@@ -285,8 +371,9 @@ class ReviewRunnerTests(unittest.TestCase):
                    'questions': ['Same incident?'], 'contextual_priority': 'high'}
         invalid = {**finding, 'quotes': [{'source_id': 'gmail:0001', 'text': 'Invented quotation.'}]}
         with patch.object(runner, 'model_request', return_value=({'findings': [invalid]}, {})):
-            with self.assertRaisesRegex(ValueError, 'Cross quotation'):
-                runner.run(self.work(), self.args)
+            runner.run(self.work(), self.args)
+        self.assertFalse(self.work().coverage()['cross_review_complete'])
+        self.assertIn('Cross quotation', (self.root / 'output/counsel_review.md').read_text())
         with patch.object(runner, 'model_request', return_value=({'findings': [finding]}, {})):
             runner.run(self.work(), self.args)
         report = self.root / 'output/counsel_review.md'

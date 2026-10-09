@@ -91,8 +91,19 @@ This starts from the next pending/stale entry, skips the pilot-approval pause,
 and runs the cross-entry pass after all entries have current assessments. It
 does not prompt between batches. Repeat the same command after an interruption
 to resume. Omit `--max-batches` and `--max-cross-calls` to run to completion.
-Authentication failures, plan limits, oversized entries, or failures after the
-configured retries still stop the run and preserve progress.
+Responses that fail quotation or assessment validation are retried. After retries,
+identifiable invalid entries are flagged `manual_review: true` in `entry_review.json`;
+valid entries in that response are saved and later batches continue. Unchanged
+manual-review entries are skipped on future runs. `status` counts them, progress
+lists `manual_review_ids`, and the counsel report labels each with its error.
+Use `run --unattended --retry-manual-review` to attempt them again, retaining your
+usual model and batch options. Changes to their evidence or review criteria also
+make them eligible again. They remain unreviewed and prevent the second pass from
+starting until valid assessments exist. Responses with missing/duplicate/unknown
+IDs cannot be safely attributed and still mark the whole batch failed. Failed comparisons
+in the second pass are also recorded and skipped, and that pass remains incomplete.
+Repeat the same command to retry pending tasks. Authentication failures, plan
+limits, oversized entries, and execution errors still stop the run and preserve progress.
 
 At the end, check `output/counsel_review.md` and run `status`: `remaining` should
 be zero and `cross_review_complete` should be true. Attachment review gaps still
@@ -118,8 +129,13 @@ python -m property_timeline.review_runner report
 
 Successful batches are checkpointed before moving on. You can interrupt with
 Ctrl+C and resume. If interrupted before a response is saved, that batch is
-requested again and consumes additional plan allowance. Failed batches stop the run and
-remain pending; completed batches are preserved. There are two retries by default.
+requested again and consumes additional plan allowance. Validation failures are
+marked in `entry_review.json`, counted by `status` and `review_progress.json`, and
+listed in `output/counsel_review.md`. Valid entries from a partially rejected response
+are preserved. Entries flagged for manual review require `--retry-manual-review`
+to retry with unchanged evidence and criteria; whole-batch failures retry on the
+next run. The second pass waits for all first-pass
+entries to have valid assessments. There are two retries by default.
 Accepted-call usage is saved, but failed/retried request usage may not be available.
 The usage log does not establish your remaining subscription allowance.
 

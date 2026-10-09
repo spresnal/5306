@@ -103,6 +103,19 @@ class CodexError(RuntimeError):
         self.retryable = retryable
 
 
+class ReviewValidationError(ValueError):
+    """A model response failed validation; its review task can be skipped."""
+
+
+class EntryValidationError(ReviewValidationError):
+    """Entry-specific failures with the validated remainder of a response."""
+    def __init__(self, entries, failures):
+        super().__init__('; '.join(f'{identifier}: {error}' for identifier, error in failures.items()))
+        self.result = {'entries': entries}
+        self.failures = failures
+        self.usage = {}
+
+
 def codex_environment():
     environment = os.environ.copy()
     for name in ('OPENAI_API_KEY', 'CODEX_API_KEY'):
@@ -148,22 +161,34 @@ def validate_quotes(quotes, evidence):
 
 
 def validate_entries(result, batch, context=()):
-    validate_shape(result, SCHEMA)
+    if not isinstance(result, dict) or set(result) != {'entries'} or not isinstance(result['entries'], list):
+        raise ValueError('Response has missing or unexpected fields')
     wanted = {entry['id'] for entry in batch}
-    ids = [entry['id'] for entry in result['entries']]
+    ids = [entry.get('id') if isinstance(entry, dict) else None for entry in result['entries']]
+    if not all(isinstance(identifier, str) for identifier in ids):
+        raise ValueError('Response contains an entry without a valid ID')
     if len(ids) != len(wanted) or set(ids) != wanted:
         raise ValueError('Response must assess every requested ID exactly once')
     supplied_ids = wanted | {entry['id'] for entry in context}
+    valid, failures = [], {}
     for entry in result['entries']:
-        if not entry['topics'] or not entry['summary'].strip() or not entry['relevance'].strip():
-            raise ValueError('Missing assessment explanation or topics')
-        if not set(entry['related_ids']) <= supplied_ids:
-            raise ValueError('Related ID was not supplied')
-        if entry['priority'] == 'high' and not entry['quotes']:
-            raise ValueError('High-priority assessment requires supporting evidence')
-        # An entry cannot use another entry's attachment as its own evidence.
-        own = next(item['evidence'] for item in batch if item['id'] == entry['id'])
-        validate_quotes(entry['quotes'], own)
+        try:
+            validate_shape(entry, SCHEMA['properties']['entries']['items'])
+            if not entry['topics'] or not entry['summary'].strip() or not entry['relevance'].strip():
+                raise ValueError('Missing assessment explanation or topics')
+            if not set(entry['related_ids']) <= supplied_ids:
+                raise ValueError('Related ID was not supplied')
+            if entry['priority'] == 'high' and not entry['quotes']:
+                raise ValueError('High-priority assessment requires supporting evidence')
+            # An entry cannot use another entry's attachment as its own evidence.
+            own = next(item['evidence'] for item in batch if item['id'] == entry['id'])
+            validate_quotes(entry['quotes'], own)
+        except ValueError as exc:
+            failures[entry['id']] = str(exc)
+        else:
+            valid.append(entry)
+    if failures:
+        raise EntryValidationError(valid, failures)
 
 
 def model_request(model, instructions, payload, schema, executable, timeout):
@@ -335,6 +360,12 @@ class Workspace:
         return (assessment.get('review_hash') == record['review_hash']
                 and assessment.get('criteria_hash') == self.criteria_hash)
 
+    def manual_review(self, record):
+        failure = self.state['failures'].get(record['id'], {})
+        return (failure.get('manual_review') is True
+                and failure.get('review_hash') == record['review_hash']
+                and failure.get('criteria_hash') == self.criteria_hash and not self.current(record))
+
     def coverage(self):
         current = [r for r in self.records if self.current(r)]
         known = {r['id'] for r in self.records}
@@ -345,10 +376,13 @@ class Workspace:
                 'stale': sum(r['id'] in self.state['assessments'] and not self.current(r) for r in self.records),
                 'orphaned': len(set(self.state['assessments']) - known),
                 'failed': sum(r['id'] in self.state['failures'] and not self.current(r) for r in self.records),
+                'manual_review': sum(self.manual_review(r) for r in self.records),
                 'attachment_incomplete': sum(bool(self.state['assessments'][r['id']]['review_gaps']) for r in current),
                 'cross_tasks_total': plan.get('total_tasks', 0) if plan.get('snapshot') == snapshot else 0,
                 'cross_tasks_completed': sum(review.get('snapshot') == snapshot
                                              for review in self.state['cross_reviews'].values()),
+                'cross_tasks_failed': sum(failure.get('snapshot') == snapshot
+                                         for failure in self.state.get('cross_failures', {}).values()),
                 'cross_review_complete': len(current) == len(self.records) and
                     self.state.get('cross_complete_snapshot') == snapshot}
 
@@ -359,6 +393,7 @@ class Workspace:
         # State is authoritative; this summary can always be regenerated after interruption.
         self.save_json(self.folder / 'review_progress.json', {
             'updated_at': stamp(), 'criteria_hash': self.criteria_hash, **self.coverage(),
+            'manual_review_ids': [r['id'] for r in self.records if self.manual_review(r)],
             'pending_ids': [r['id'] for r in self.records if not self.current(r)]})
 
     def snapshot(self):
@@ -421,14 +456,22 @@ class Workspace:
 
 def ask(args, instructions, payload, schema, validator):
     last_error = ''
+    last_exception = None
     for attempt in range(args.retries + 1):
         try:
             result, usage = model_request(args.model, instructions, payload, schema,
                                           args.codex_bin, args.codex_timeout)
-            validator(result)
+            try:
+                validator(result)
+            except EntryValidationError as exc:
+                exc.usage = usage
+                raise
+            except ValueError as exc:
+                raise ReviewValidationError(str(exc)) from exc
             return result, usage
         except (ValueError, RuntimeError) as exc:
             last_error = str(exc)
+            last_exception = exc
             if isinstance(exc, CodexError) and not exc.retryable:
                 break
             if attempt < args.retries:
@@ -436,16 +479,21 @@ def ask(args, instructions, payload, schema, validator):
                 delay = base + random.uniform(0, 1)
                 print(f'Retrying after {delay:.1f}s: {last_error}', flush=True)
                 time.sleep(delay)
+    if isinstance(last_exception, ReviewValidationError):
+        raise last_exception
     raise ValueError(last_error)
 
 
 def run(work, args):
     if 'Review status: READY' not in work.brief or '[Describe' in work.brief:
         raise ValueError('Fill in data/reviews/case_brief.md and set Review status: READY first')
-    pending = [record for record in work.records if not work.current(record)]
+    def eligible(record):
+        return (not work.current(record) and
+                (getattr(args, 'retry_manual_review', False) or not work.manual_review(record)))
+    pending = [record for record in work.records if eligible(record)]
     if args.pilot:
         # A repeated pilot resumes the same first N entries; it never advances beyond them.
-        pending = [r for r in work.records[:args.pilot] if not work.current(r)]
+        pending = [r for r in work.records[:args.pilot] if eligible(r)]
     elif not args.unattended:
         pilot_records = work.records[:min(20, len(work.records))]
         if not all(work.current(r) for r in pilot_records):
@@ -484,10 +532,24 @@ def run(work, args):
         try:
             result, usage = ask(args, work.instructions + '\nAssess entries only, not context_only records.',
                                 payload, SCHEMA, lambda result: validate_entries(result, batch, context))
+        except EntryValidationError as exc:
+            records = {r['id']: r for r in work.records}
+            for identifier, error in exc.failures.items():
+                work.state['failures'][identifier] = {
+                    'at': stamp(), 'error': error, 'kind': 'validation', 'manual_review': True,
+                    'review_hash': records[identifier]['review_hash'], 'criteria_hash': work.criteria_hash}
+                print('Manual review required; skipped ' + identifier + ': ' + error, flush=True)
+            result, usage = exc.result, exc.usage
         except ValueError as exc:
             for item in batch:
-                work.state['failures'][item['id']] = {'at': stamp(), 'error': str(exc)}
+                work.state['failures'][item['id']] = {
+                    'at': stamp(), 'error': str(exc),
+                    'kind': 'validation' if isinstance(exc, ReviewValidationError) else 'execution'}
             work.checkpoint()
+            if isinstance(exc, ReviewValidationError):
+                print('Marked failed and skipped batch: ' + str(exc), flush=True)
+                batches += 1
+                continue
             raise
         records = {r['id']: r for r in work.records}
         for entry in result['entries']:
@@ -499,7 +561,8 @@ def run(work, args):
                 'model': args.model or 'codex-default', 'backend': 'codex-chatgpt', 'reviewed_at': stamp()}
             work.state['failures'].pop(entry['id'], None)
         work.state['calls'].append({'at': stamp(), 'phase': 'entries', 'model': args.model or 'codex-default', 'backend': 'codex-chatgpt',
-                                    'ids': [r['id'] for r in batch], 'usage': usage})
+                                    'ids': [r['id'] for r in batch],
+                                    'accepted_ids': [entry['id'] for entry in result['entries']], 'usage': usage})
         work.checkpoint()
         batches += 1
     if not args.pilot and work.coverage()['remaining'] == 0:
@@ -601,23 +664,33 @@ def cross_review(work, args):
             if len({unit['id'] for unit in supplied}) < 2:
                 result, usage = {'findings': []}, {}
             else:
-                result, usage = ask(args, work.instructions + '\nThis is pass two: reread the supplied '
-                    'source evidence, not just the provisional first-pass summaries. Compare earlier knowledge '
-                    'with later statements and events, across participants and topic categories. Include routine '
-                    'and low-priority entries when context changes their significance. Seek supporting and '
-                    'unfavorable connections and alternative explanations. Give each finding a contextual_priority '
-                    'and explain its significance in analysis, without rewriting first-pass assessments. '
-                    'Some entries have evidence parts spread across requests; do not infer omitted context. '
-                    'Every finding must cite exact evidence quotations from at least two distinct entries. '
-                    'An empty findings list is valid.',
-                    {'case_brief': work.brief, 'entries': supplied}, CROSS_SCHEMA, validate)
                 calls += 1
+                try:
+                    result, usage = ask(args, work.instructions + '\nThis is pass two: reread the supplied '
+                        'source evidence, not just the provisional first-pass summaries. Compare earlier knowledge '
+                        'with later statements and events, across participants and topic categories. Include routine '
+                        'and low-priority entries when context changes their significance. Seek supporting and '
+                        'unfavorable connections and alternative explanations. Give each finding a contextual_priority '
+                        'and explain its significance in analysis, without rewriting first-pass assessments. '
+                        'Some entries have evidence parts spread across requests; do not infer omitted context. '
+                        'Every finding must cite exact evidence quotations from at least two distinct entries. '
+                        'An empty findings list is valid.',
+                        {'case_brief': work.brief, 'entries': supplied}, CROSS_SCHEMA, validate)
+                except ReviewValidationError as exc:
+                    work.state.setdefault('cross_failures', {})[task_hash] = {
+                        'at': stamp(), 'error': str(exc), 'snapshot': snapshot,
+                        'entries': sorted({u['id'] for u in supplied})}
+                    work.checkpoint()
+                    print('Marked failed and skipped cross-review task: ' + str(exc), flush=True)
+                    continue
                 work.state['calls'].append({'at': stamp(), 'phase': 'cross',
                     'model': args.model or 'codex-default', 'backend': 'codex-chatgpt', 'usage': usage})
             work.state['cross_reviews'][task_hash] = {'algorithm': 2, 'entries': sorted({u['id'] for u in supplied}),
                                                      'snapshot': snapshot, 'findings': result['findings']}
+            work.state.get('cross_failures', {}).pop(task_hash, None)
             work.checkpoint()
-    work.state['cross_complete_snapshot'] = snapshot
+    if work.coverage()['cross_tasks_completed'] == work.state['cross_plan']['total_tasks']:
+        work.state['cross_complete_snapshot'] = snapshot
     work.checkpoint()
 
 
@@ -627,7 +700,22 @@ def report(work):
              'Provisional AI triage; check interpretations against the original evidence.', '',
              f"Coverage: {coverage['reviewed']}/{coverage['total']} current assessments; "
              f"{coverage['remaining']} pending, {coverage['stale']} stale, "
-             f"{coverage['attachment_incomplete']} with attachment review gaps.", '']
+             f"{coverage['failed']} failed, {coverage['attachment_incomplete']} with attachment review gaps.", '']
+    failed = [r for r in work.records if r['id'] in work.state['failures'] and not work.current(r)]
+    if failed:
+        lines += ['## Failed entries requiring another attempt', '',
+                  'Entry-specific failures are labeled for manual review. Whole-response failures mark the entire batch.', '']
+        for record in failed:
+            label = 'Manual review required' if work.manual_review(record) else 'Retry pending'
+            lines += [f"- {record['id']} — {label}: {work.state['failures'][record['id']]['error']}"]
+        lines += ['']
+    cross_failures = [failure for failure in work.state.get('cross_failures', {}).values()
+                      if failure.get('snapshot') == work.snapshot()]
+    if cross_failures:
+        lines += ['## Failed cross-entry comparisons', '']
+        for failure in cross_failures:
+            lines += ['- ' + ', '.join(failure['entries']) + ': ' + failure['error']]
+        lines += ['']
     rows = {r['id']: r for r in work.records}
     current = [work.state['assessments'][r['id']] for r in work.records if work.current(r)]
     contextual = work.contextual_review()['findings']
@@ -711,6 +799,8 @@ def main():
     command.add_argument('--max-batches', type=int)
     command.add_argument('--max-cross-calls', type=int, help='Limit cross-entry calls per invocation')
     command.add_argument('--retries', type=int, default=2)
+    command.add_argument('--retry-manual-review', action='store_true',
+                         help='Retry entries flagged for manual review; otherwise leave unchanged flagged entries skipped')
     args = parser.parse_args()
     if args.command == 'run':
         for key in ('batch_size', 'max_chars', 'attachment_chars', 'codex_timeout'):
