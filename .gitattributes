@@ -1,2 +1,5 @@
+# Preserve export bytes, attachment hashes, and the generated provenance bundle.
+/data/** -text
+/output/** -text
 *.pdf filter=lfs diff=lfs merge=lfs -text
 *.mbox filter=lfs diff=lfs merge=lfs -text
