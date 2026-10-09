@@ -20,9 +20,9 @@ class ProjectLayoutTests(unittest.TestCase):
             for origin in ('gmail', 'android', 'iphone'):
                 (root / 'data/originals' / origin).mkdir(parents=True)
                 (root / 'data/archives' / origin).mkdir(parents=True)
-            for origin, name in [('gmail', '5306 House.mbox'),
-                                 ('android', 'group_conversation_966.html'),
-                                 ('android', 'group_conversation_966.smsbackup'),
+            for origin, name in [('gmail', 'property_emails.mbox'),
+                                 ('android', 'android_darcy_group.html'),
+                                 ('android', 'android_darcy_group.smsbackup'),
                                  ('iphone', 'iphone_darcy.pdf')]:
                 (root / 'data/originals' / origin / name).write_bytes(b'original export fixture')
 
@@ -57,6 +57,9 @@ class ProjectLayoutTests(unittest.TestCase):
             self.assertEqual(result.returncode, 0, result.stderr)
             output = root / 'output/master_timeline.html'
             attachments = collect_files(output.read_text(encoding='utf-8'), output)
+            self.assertIn('href="master_timeline_ai.zip"', output.read_text(encoding='utf-8'))
+            self.assertIn('Export for AI', output.read_text(encoding='utf-8'))
+            self.assertTrue(output.with_name('master_timeline_ai.zip').is_file())
             self.assertEqual(len(attachments), 1)
             self.assertEqual(next(iter(attachments.values()))['path'].resolve(), original.resolve())
             with output.with_suffix('.csv').open(encoding='utf-8-sig', newline='') as stream:
@@ -69,7 +72,7 @@ class ProjectLayoutTests(unittest.TestCase):
                              compact.read_text(encoding='utf-8')).group(1)
             self.assertEqual((compact.parent / unquote(href)).resolve(), original.resolve())
             markdown = output.with_suffix('.md').read_text(encoding='utf-8')
-            for name in ['5306%20House.mbox', 'group_conversation_966.html',
-                         'group_conversation_966.smsbackup', 'iphone_darcy.pdf']:
+            for name in ['property_emails.mbox', 'android_darcy_group.html',
+                         'android_darcy_group.smsbackup', 'iphone_darcy.pdf']:
                 self.assertIn(name, markdown)
                 self.assertNotIn(f'supporting source unavailable:** `{name}`', markdown)

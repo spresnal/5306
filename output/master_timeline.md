@@ -14,15 +14,15 @@ The email archive contains shortened events and edited correspondence; its text 
 
 SHA-256 hashes identify file versions; they do not authenticate authorship or establish a chain of custody.
 
-- **android archive:** [android_darcy_group_messages.md](../data/archives/android/android_darcy_group_messages.md) — SHA-256 `2cbd698cab7d2cd7a3a1ace7b7237af0498da56e7c3d6c8a8e1bf727935315a7`
-- **android supporting source:** [group_conversation_966.html](../data/originals/android/group_conversation_966.html) — SHA-256 `c690835c447931ed7d3e259971b8e9cdcbc369c90ccb2abd44f6a41e12758c51`
-- **android supporting source:** [group_conversation_966.smsbackup](../data/originals/android/group_conversation_966.smsbackup) — SHA-256 `59428b5cc4fe50be54eefd449f7d02dc67d90f081eb04c0a42846e477077b1df`
-- **android supporting source:** [android_darcy_group_index.csv](../data/archives/android/android_darcy_group_index.csv) — SHA-256 `a17e0ea5d090be6791536ef27f7cca2df62424e1c61b35ae5bbe87a67e14ac66`
+- **android archive:** [android_darcy_group_messages.md](../data/archives/android/android_darcy_group_messages.md) — SHA-256 `995685b4c27211592ca3f7fdb0effc7ecaf167c1363cef1cf4cc356c3c26e8bc`
+- **android supporting source:** [android_darcy_group.html](../data/originals/android/android_darcy_group.html) — SHA-256 `c690835c447931ed7d3e259971b8e9cdcbc369c90ccb2abd44f6a41e12758c51`
+- **android supporting source:** [android_darcy_group.smsbackup](../data/originals/android/android_darcy_group.smsbackup) — SHA-256 `59428b5cc4fe50be54eefd449f7d02dc67d90f081eb04c0a42846e477077b1df`
+- **android supporting source:** [android_darcy_group_index.csv](../data/archives/android/android_darcy_group_index.csv) — SHA-256 `bed88f5bfce8c6fbf4e9e1886fa8a4117bf26b0da366fe204938c25c4f2e9cb7`
 - **iphone archive:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md) — SHA-256 `fc3ef89d161ba460d4c09fbd5e046da674503e30da006f69fab7a94f05daa3c1`
 - **iphone supporting source:** [iphone_darcy.pdf](../data/originals/iphone/iphone_darcy.pdf) — SHA-256 `dddb335f75019f322f076f97abb2619a85669049b3ed84540111a61ac7461647`
 - **iphone supporting source:** [iphone_darcy_index.csv](../data/archives/iphone/iphone_darcy_index.csv) — SHA-256 `83b61d8724740c2aa819226da59bebc13fe8b2f9908ba110907ca55284689df6`
-- **gmail archive:** [property_emails_compact.md](../data/archives/gmail/property_emails_compact.md) — SHA-256 `a68a4578d70c1c0b74c06fafc7f4fec59d19784a66a6c1fb64096cb247e0fc1e`
-- **gmail supporting source:** [5306 House.mbox](../data/originals/gmail/5306%20House.mbox) — SHA-256 `10afb164da4336d03bc90613062cc6f030e5864f1a59c44c008aec0a739a33ed`
+- **gmail archive:** [property_emails_compact.md](../data/archives/gmail/property_emails_compact.md) — SHA-256 `60ef5ba20dd9c4e1b3bcb58cec500d5e5fc6142b48b1d5ebc11c164d11af368f`
+- **gmail supporting source:** [property_emails.mbox](../data/originals/gmail/property_emails.mbox) — SHA-256 `10afb164da4336d03bc90613062cc6f030e5864f1a59c44c008aec0a739a33ed`
 - **gmail supporting source:** [property_email_source_index.csv](../data/archives/gmail/property_email_source_index.csv) — SHA-256 `8c3a00bd78d225df7c099d7218dbe0e417526c0390684ff9129f1034da14f64a`
 - **gmail supporting source:** [property_emails_compact_attachment_manifest.csv](../data/archives/gmail/property_emails_compact_attachment_manifest.csv) — SHA-256 `93d7ede0dbf511bc797ea7196a4b5dac628b3104dcd4c19914065bdb05859787`
 - **gmail supporting source:** [email_quote_recovery_manifest.json](../data/archives/gmail/email_quote_recovery_manifest.json) — SHA-256 `181ce9391901c47a580f0938fbe483627a6d9cd6c9af2a5ce87ac2a6a302e57c`
@@ -30065,7 +30065,7 @@ as the source.
 # Android SMS archive — Darcy group
 
 **Source type:** `android_sms`
-**Source HTML:** `group_conversation_966.html`
+**Source HTML:** `android_darcy_group.html`
 **Source SHA-256:** `c690835c447931ed7d3e259971b8e9cdcbc369c90ccb2abd44f6a41e12758c51`
 **Conversation ID:** `android_sms:android_darcy_group`
 **Messages represented:** 215
@@ -30099,7 +30099,7 @@ as the source.
 # Property Correspondence — Compact Email Archive
 
 Emails represented: 281 (source email numbers are unchanged).
-Source: `5306 House.mbox` (compact derivative; original archive should be retained).
+Source: `property_emails.mbox` (compact derivative; original archive should be retained).
 Purpose: remove administrative boilerplate and footers while preserving substantive quoted replies and forwarded correspondence.
 Reply-history text is preserved unless an entire forwarded passage has verified near-exact earlier coverage. Check original MBOX for all exhibits.
 Automated notifications are shortened to event records; they are NOT verbatim quotations.

@@ -239,7 +239,7 @@ def email_body_html(body, sender, event=False, earlier_email_text=(), files=(), 
     return rendered
 
 
-def write_html(records, email_index, phone_zone, destination, compact_record, android_index=None, iphone_index=None, pdf_destination=None):
+def write_html(records, email_index, phone_zone, destination, compact_record, android_index=None, iphone_index=None, pdf_destination=None, ai_destination=None, ai_summary='Refresh the timeline to generate the AI review package.'):
     cards = []
     earlier_email_text = []
     subject_groups = {}
@@ -423,7 +423,9 @@ def write_html(records, email_index, phone_zone, destination, compact_record, an
     if current_group is not None:
         content.append('</section>')
     # Replace template markers in one pass so source text cannot become a marker.
-    values = {"COUNT": str(len(records)), "ZONE": escape(phone_zone), "CONTENT": "\n".join(content), 'PDF_URL': quote((pdf_destination or destination.with_suffix('.pdf')).name)}
-    document = re.sub(r"\b(?:COUNT|ZONE|CONTENT|PDF_URL)\b", lambda match: values[match.group()], document)
+    values = {"COUNT": str(len(records)), "ZONE": escape(phone_zone), "CONTENT": "\n".join(content), 'PDF_URL': quote((pdf_destination or destination.with_suffix('.pdf')).name),
+              'AI_URL': quote((ai_destination or destination.with_name(destination.stem + '_ai.zip')).name),
+              'AI_SUMMARY': escape(ai_summary)}
+    document = re.sub(r"\b(?:COUNT|ZONE|CONTENT|PDF_URL|AI_URL|AI_SUMMARY)\b", lambda match: values[match.group()], document)
     destination.parent.mkdir(parents=True, exist_ok=True)
     destination.write_text(document, encoding="utf-8")

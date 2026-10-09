@@ -111,7 +111,7 @@ def recover(mbox, archive, index, manifest):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--mbox', type=Path, default=Path('data/originals/gmail/5306 House.mbox'))
+    parser.add_argument('--mbox', type=Path, default=Path('data/originals/gmail/property_emails.mbox'))
     parser.add_argument('--archive', type=Path, default=Path('data/archives/gmail/property_emails_compact.md'))
     parser.add_argument('--index', type=Path, default=Path('data/archives/gmail/property_email_source_index.csv'))
     parser.add_argument('--manifest', type=Path, default=Path('data/archives/gmail/email_quote_recovery_manifest.json'))

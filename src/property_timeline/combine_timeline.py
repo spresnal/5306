@@ -13,6 +13,7 @@ from urllib.parse import quote, unquote, urlsplit
 from zoneinfo import ZoneInfo
 from property_timeline.timeline_html import write_html
 from property_timeline.output_safety import staged_outputs
+from property_timeline.ai_export import export_review
 
 
 HEADER = re.compile(r"^## (Message|Email) (\d+) — (\d{4}-\d{2}-\d{2} \d{2}:\d{2})( UTC| \(TZ unspecified\))?$")
@@ -131,8 +132,9 @@ def main():
     index_path = output.with_suffix(".csv")
     compact_path = (args.compact_output or output.with_name(output.stem + "_compact.md")).resolve()
     html_path = output.with_suffix(".html")
-    destinations = (output, index_path, compact_path, html_path)
-    if len(set(destinations)) != 4 or any(p in destinations for _, p in paths):
+    ai_path = output.with_name(output.stem + '_ai.zip')
+    destinations = (output, index_path, compact_path, html_path, ai_path)
+    if len(set(destinations)) != len(destinations) or any(p in destinations for _, p in paths):
         parser.error("Output paths must differ from each other and all input archives")
     records, preambles = [], []
     for origin, path in paths:
@@ -163,9 +165,9 @@ def main():
                "The source email archive flags potential attorney-client privileged material; review that material before distributing this compilation.", "",
                "## Source manifest", "",
                "SHA-256 hashes identify file versions; they do not authenticate authorship or establish a chain of custody.", ""]
-    companions = {"android": ["group_conversation_966.html", "group_conversation_966.smsbackup", "android_darcy_group_index.csv"],
+    companions = {"android": ["android_darcy_group.html", "android_darcy_group.smsbackup", "android_darcy_group_index.csv"],
                   "iphone": ["iphone_darcy.pdf", "iphone_darcy_index.csv"],
-                  "gmail": ["5306 House.mbox", "property_email_source_index.csv", "property_emails_compact_attachment_manifest.csv", "email_quote_recovery_manifest.json"]}
+                  "gmail": ["property_emails.mbox", "property_email_source_index.csv", "property_emails_compact_attachment_manifest.csv", "email_quote_recovery_manifest.json"]}
     email_index = {}
     android_index = {}
     iphone_index = {}
@@ -175,8 +177,8 @@ def main():
             companion = path.parent / name
             # Indexes/manifests stay beside their archives. Original exports
             # can also be supplied from the separate originals tree.
-            if name in {"group_conversation_966.html", "group_conversation_966.smsbackup",
-                        "iphone_darcy.pdf", "5306 House.mbox"} and not companion.exists():
+            if name in {"android_darcy_group.html", "android_darcy_group.smsbackup",
+                        "iphone_darcy.pdf", "property_emails.mbox"} and not companion.exists():
                 companion = args.originals_dir / origin / name
             if companion.resolve() in destinations:
                 parser.error('Output path collides with supporting source: ' + str(companion))
@@ -247,9 +249,13 @@ def main():
             writer = csv.DictWriter(stream, fieldnames=list(csv_rows[0]))
             writer.writeheader()
             writer.writerows(csv_rows)
+        ai_summary = export_review(records, {'gmail': email_index, 'android': android_index,
+                                  'iphone': iphone_index}, stages[4], compact_record,
+                                  args.phone_timezone, ai_path)
         write_html(records, email_index, args.phone_timezone, stages[3], compact_record,
-                   android_index, iphone_index, html_path.with_suffix('.pdf'))
-    print(f"Wrote {len(records)} records to {output}, {index_path}, {compact_path}, and {html_path}")
+                   android_index, iphone_index, html_path.with_suffix('.pdf'), ai_path, ai_summary)
+    print(f"Wrote {len(records)} records to {output}, {index_path}, {compact_path}, {html_path}, and {ai_path}")
+    print('AI export:', ai_summary)
 
 
 

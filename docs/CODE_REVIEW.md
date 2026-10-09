@@ -219,7 +219,7 @@ above are retained so the changes remain traceable.
 
 | Finding | Resolution |
 | --- | --- |
-| 1 — dropped wrapped replies | `email_parsing.py` supplies shared multiline boundaries. `recover_email_quotes.py` restored missing quoted passages in 34 FULL records by Message-ID, preserving existing edited text and IDs. EVENT shortening remains unchanged. Recovery is idempotent, recorded in `email_quote_recovery_manifest.json`, with pre-recovery archive/index copies in `review_backups/`. |
+| 1 — dropped wrapped replies | `email_parsing.py` supplies shared multiline boundaries. `recover_email_quotes.py` restored missing quoted passages in 34 FULL records by Message-ID, preserving existing edited text and IDs. EVENT shortening remains unchanged. Recovery is idempotent, recorded in `email_quote_recovery_manifest.json`; the historical pre-recovery copies were removed after verification. |
 | 2 — lossy forwarded-copy deduplication | Removed destructive forwarded-copy elimination from Gmail extraction. Display matching requires complete normalized passage equality; digits, signs, URLs, and changed terms are retained. |
 | 3 — prose swallowed by headers | Shared `quoted_headers()` recognizes folded headers and stops at unindented prose. Header display and matching use the same parser. |
 | 4 — missing/replaced attachments | `attachment_inventory.py` validates extraction sizes/hashes. Generated file links carry those expectations; `pdf_attachments.py` fails on missing or altered originals. Embedding rechecks bytes and verifies both embedded manifests. |

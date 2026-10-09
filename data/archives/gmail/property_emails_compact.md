@@ -1,7 +1,7 @@
 # Property Correspondence — Compact Email Archive
 
 Emails represented: 281 (source email numbers are unchanged).
-Source: `5306 House.mbox` (compact derivative; original archive should be retained).
+Source: `property_emails.mbox` (compact derivative; original archive should be retained).
 Purpose: remove administrative boilerplate and footers while preserving substantive quoted replies and forwarded correspondence.
 Reply-history text is preserved unless an entire forwarded passage has verified near-exact earlier coverage. Check original MBOX for all exhibits.
 Automated notifications are shortened to event records; they are NOT verbatim quotations.
