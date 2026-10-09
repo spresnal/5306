@@ -148,3 +148,14 @@ path collisions are rejected. A failed PDF verification preserves the previous
 successful PDF. Rebuild from source after interruption during multi-file replacement.
 
 [CODE_REVIEW.md](CODE_REVIEW.md) retains the original findings and their remediation status.
+
+## Automated counsel triage
+
+See [the review harness workflow](REVIEW_HARNESS.md) for a case-brief template,
+20-entry pilot, automatic batch review, resumable cross-entry comparisons, and
+coverage checks. The harness writes only separate review artifacts; refreshing
+the timeline does not run Codex review or incorporate assessments into the PDF.
+The runner requires Codex CLI signed in with ChatGPT; no API key is needed.
+After completing review, rebuild the timeline to refresh its evidence/criteria
+fingerprints, then use **Load review** in the HTML viewer to open
+`data/reviews/entry_review.json`. **Clear review** removes the optional overlay.

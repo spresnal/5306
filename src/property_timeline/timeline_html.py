@@ -14,6 +14,7 @@ from property_timeline.email_signatures import strip_signature
 from property_timeline.email_parsing import quoted_headers, reply_marker, message_boundary
 from property_timeline.signature_attachments import is_signature_attachment
 from property_timeline.attachment_inventory import validate_attachment
+from property_timeline.review_evidence import hashed, evidence_hash, criteria_hash
 
 
 def participant_names(value):
@@ -356,7 +357,10 @@ def write_html(records, email_index, phone_zone, destination, compact_record, an
             footer_html = ''
         else:
             footer_html = '<footer>' + source_html + '</footer>'
-        cards.append(f'''<article id="{record['id']}" data-date="{day}" data-origin="{record['origin']}" class="card {record['origin']} speaker-{speaker}">
+        review_index = {'gmail': email_index, 'android': android_index or {}, 'iphone': iphone_index or {}}[record['origin']]
+        review_metadata = review_index.get(record['number'], {})
+        review_fingerprint = evidence_hash(record['text'], review_metadata, record['path'].parent)
+        cards.append(f'''<article id="{record['id']}" data-source-hash="{hashed(record['text'])}" data-review-hash="{review_fingerprint}" data-date="{day}" data-origin="{record['origin']}" class="card {record['origin']} speaker-{speaker}">
 <header class="record-top"><span class="badge">{record['origin']}</span><a class="id" href="#{record['id']}">{record['id']}</a><time>{escape(stamp)}</time></header>
 {('<h3>' + escape(subject) + '</h3>') if record['origin'] == 'gmail' else ''}
 {metadata_html}
@@ -423,9 +427,17 @@ def write_html(records, email_index, phone_zone, destination, compact_record, an
     if current_group is not None:
         content.append('</section>')
     # Replace template markers in one pass so source text cannot become a marker.
+    review_criteria = ''
+    for ancestor in destination.resolve().parents:
+        folder = ancestor / 'data/reviews'
+        if (folder / 'case_brief.md').is_file() and (folder / 'REVIEW_INSTRUCTIONS.md').is_file():
+            review_criteria = criteria_hash((folder / 'case_brief.md').read_text(encoding='utf-8'),
+                                           (folder / 'REVIEW_INSTRUCTIONS.md').read_text(encoding='utf-8'))
+            break
     values = {"COUNT": str(len(records)), "ZONE": escape(phone_zone), "CONTENT": "\n".join(content), 'PDF_URL': quote((pdf_destination or destination.with_suffix('.pdf')).name),
               'AI_URL': quote((ai_destination or destination.with_name(destination.stem + '_ai.zip')).name),
-              'AI_SUMMARY': escape(ai_summary)}
-    document = re.sub(r"\b(?:COUNT|ZONE|CONTENT|PDF_URL|AI_URL|AI_SUMMARY)\b", lambda match: values[match.group()], document)
+              'AI_SUMMARY': escape(ai_summary), 'REVIEW_CRITERIA': review_criteria,
+              'REVIEW_SCRIPT': resource_files('property_timeline.resources').joinpath('review_viewer.js').read_text(encoding='utf-8')}
+    document = re.sub(r"\b(?:COUNT|ZONE|CONTENT|PDF_URL|AI_URL|AI_SUMMARY|REVIEW_CRITERIA|REVIEW_SCRIPT)\b", lambda match: values[match.group()], document)
     destination.parent.mkdir(parents=True, exist_ok=True)
     destination.write_text(document, encoding="utf-8")

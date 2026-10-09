@@ -10,3 +10,6 @@ dist/
 # Temporary PDF renders/previews.
 /output/master_timeline_pdf_assets/
 /output/.*_pdf_render.html
+
+# Active review-runner lock; review results remain visible to Git.
+/data/reviews/.runner.lock

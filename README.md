@@ -73,3 +73,15 @@ include `output/` and `data/` with their relative folder layout intact.
 - [Maintenance workflows](docs/WORKFLOWS.md): importing exports, quote recovery, tests, and verification.
 - [Reading and file reference](docs/REFERENCE.md): filenames, extraction behavior, quotations, attachments, and PDF details.
 - [Code review](docs/CODE_REVIEW.md): original findings and remediation status.
+
+## Automated review for counsel
+
+The optional [review harness](docs/REVIEW_HARNESS.md) assesses entries in resumable
+batches, validates evidence quotations, and produces a separate counsel report.
+It keeps review state in `data/reviews/` and leaves correspondence unchanged.
+Start locally with `python -m property_timeline.review_runner init`, complete the
+case brief, then run a 20-entry pilot before approving automatic continuation.
+Review runs use Codex CLI signed in with ChatGPT and consume your plan allowance.
+No API key or API billing setup is required.
+After review, open the timeline viewer, choose **Load review**, and select
+`data/reviews/entry_review.json` to show removable annotations and review filters.

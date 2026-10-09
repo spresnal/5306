@@ -13,4 +13,4 @@ dependencies = ["PyMuPDF", "Pillow", "tzdata"]
 where = ["src"]
 
 [tool.setuptools.package-data]
-"property_timeline.resources" = ["*.html", "*.css", "*.json"]
+"property_timeline.resources" = ["*.html", "*.css", "*.json", "*.js"]

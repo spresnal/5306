@@ -1,0 +1,800 @@
+{
+  "schema_version": 1,
+  "assessments": {
+    "iphone:0001": {
+      "id": "iphone:0001",
+      "priority": "low",
+      "topics": [
+        "property_condition",
+        "routine"
+      ],
+      "summary": "On June 25, 2026, Regina sent Darcy an embedded image/link concerning the subject property. The underlying Zillow image or page was not supplied as readable text and was not visually reviewed.",
+      "relevance": "Shows the property Regina initially brought to Darcy's attention, but supplies no readable representation about square footage or condition.",
+      "assertion": "Representation concerns: the buyers began the transaction remotely and sought Darcy's assistance regarding 5306 State Road 144.",
+      "stance": "context",
+      "quotes": [
+        {
+          "source_id": "iphone:0001",
+          "text": "[Image of a house with a pool at 5306 State Road 144 Greenwood, IN 46143 zillow.com]"
+        }
+      ],
+      "related_ids": [
+        "iphone:0002",
+        "iphone:0003"
+      ],
+      "uncertainty": "Only an extracted image description is available; the image and linked listing require visual review. It is unknown what listing details were visible on June 25.",
+      "questions": [
+        "Obtain and visually review the original image and contemporaneous linked listing if initial marketing representations are material."
+      ],
+      "source_hash": "ddce3bc2128cef4fa0e18d711fd9969b9ed293bedd4191ebf5261b83ea3e1177",
+      "review_hash": "54acf6b839de6bafc3dc9d499b705f1e48ef33c47b38227fa52e6059e0aa2072",
+      "criteria_hash": "a1dd906e15899e34ba8d7b9c572bd73e42c1cf476c8cd8fde25c4a606bd0ed10",
+      "review_gaps": [],
+      "model": "codex-default",
+      "backend": "codex-chatgpt",
+      "reviewed_at": "2026-10-09T17:13:17.014828+00:00"
+    },
+    "iphone:0002": {
+      "id": "iphone:0002",
+      "priority": "low",
+      "topics": [
+        "agent_conduct",
+        "transaction_timing",
+        "routine"
+      ],
+      "summary": "On June 25, Regina told Darcy that she and Sam were again looking for a property and asked whether Darcy served Greenwood.",
+      "relevance": "Documents the start of the agency communications concerning the relevant geographic area; it does not address property defects or Darcy's subsequent performance.",
+      "assertion": "Representation concerns: Darcy undertook to assist the buyers with a Greenwood purchase.",
+      "stance": "context",
+      "quotes": [
+        {
+          "source_id": "iphone:0002",
+          "text": "Back in the market again and have expanded the search area. Is Greenwood a location you still service?"
+        }
+      ],
+      "related_ids": [
+        "iphone:0001",
+        "iphone:0003"
+      ],
+      "uncertainty": "The message does not establish the terms or formal commencement of any agency relationship.",
+      "questions": [
+        "When was the buyer-agency relationship formally established, and what duties were stated in the governing agreement?"
+      ],
+      "source_hash": "71675e362f46cf47159d24c4d4b12a5565cdc14e7cb1df46dc4d31172518f7ac",
+      "review_hash": "f85831189b18b680ac880088a5e641c7a934003281437517b9c54a44c7c1ad11",
+      "criteria_hash": "a1dd906e15899e34ba8d7b9c572bd73e42c1cf476c8cd8fde25c4a606bd0ed10",
+      "review_gaps": [],
+      "model": "codex-default",
+      "backend": "codex-chatgpt",
+      "reviewed_at": "2026-10-09T17:13:17.014845+00:00"
+    },
+    "iphone:0003": {
+      "id": "iphone:0003",
+      "priority": "medium",
+      "topics": [
+        "agent_conduct",
+        "transaction_timing"
+      ],
+      "summary": "On June 25, Darcy said Greenwood was serviceable, disclosed that she was leaving the next day for a one-week Florida vacation, and proposed asking Jack to conduct a FaceTime showing. This directly establishes planned travel and delegated remote-showing arrangements, but not inadequate representation.",
+      "relevance": "Relevant to the allegation that Darcy was traveling during the transaction and did not personally visit the property; alternatively, it shows she promptly proposed coverage through Jack.",
+      "assertion": "Representation concerns: Darcy's travel and lack of personal property attendance may have affected the care provided.",
+      "stance": "supports",
+      "quotes": [
+        {
+          "source_id": "iphone:0003",
+          "text": "Greenwood is doable for me 😊 But....I am leaving tomorrow for a week for Florida for family vacation."
+        },
+        {
+          "source_id": "iphone:0003",
+          "text": "Let me check this out real quick and then I will see if Jack has time to do a FaceTime."
+        }
+      ],
+      "related_ids": [
+        "iphone:0005",
+        "iphone:0006",
+        "iphone:0009",
+        "iphone:0011",
+        "iphone:0012"
+      ],
+      "uncertainty": "The message does not identify Jack's role or qualifications, show whether Darcy later visited the property, or demonstrate that travel caused any missed investigation or loss.",
+      "questions": [
+        "Who was Jack, what brokerage role did he have, and what information did he report from the showing?",
+        "Did Darcy personally inspect or visit the property at any later point before closing?",
+        "What coverage or supervision arrangements existed during Darcy's vacation?"
+      ],
+      "source_hash": "71c23290f08ba2d4383b9da2c2ba0c0c3b5e7f5743584fe392851afa0f0a571c",
+      "review_hash": "c84950addff1876116ea58038dead7ea6d1efa21ba3e92c2a5c63e3bc6962f4f",
+      "criteria_hash": "a1dd906e15899e34ba8d7b9c572bd73e42c1cf476c8cd8fde25c4a606bd0ed10",
+      "review_gaps": [],
+      "model": "codex-default",
+      "backend": "codex-chatgpt",
+      "reviewed_at": "2026-10-09T17:13:17.014850+00:00"
+    },
+    "iphone:0004": {
+      "id": "iphone:0004",
+      "priority": "medium",
+      "topics": [
+        "transaction_timing",
+        "agent_conduct"
+      ],
+      "summary": "On June 25, Darcy opined that the property had been listed for some time and probably would not sell before the buyers could see it.",
+      "relevance": "Provides transaction-timing context and may show Darcy initially conveyed low urgency, although the basis and accuracy of that assessment are not supplied.",
+      "assertion": "Representation concerns: Darcy's professional judgment influenced the buyers' investigation and transaction timing.",
+      "stance": "context",
+      "quotes": [
+        {
+          "source_id": "iphone:0004",
+          "text": "Its been on the market a little while so it shouldn't sell overnight or anything before you could see it!"
+        }
+      ],
+      "related_ids": [
+        "iphone:0017",
+        "iphone:0020"
+      ],
+      "uncertainty": "The listing duration, market data, and basis for Darcy's prediction are not in this entry. The prediction does not itself concern a property defect.",
+      "questions": [
+        "What listing history or market information supported Darcy's statement?",
+        "Did later statements about other interest create pressure that affected inspection or negotiation decisions?"
+      ],
+      "source_hash": "4636617740e299fea77676479773f09cdfb8b0868aa32365986c2a61ec599bb9",
+      "review_hash": "5527e34fa87dd7ff8af4b68dc45d3bee0d1ea9f5ca4b75aeb515c53a83a2a3f2",
+      "criteria_hash": "a1dd906e15899e34ba8d7b9c572bd73e42c1cf476c8cd8fde25c4a606bd0ed10",
+      "review_gaps": [],
+      "model": "codex-default",
+      "backend": "codex-chatgpt",
+      "reviewed_at": "2026-10-09T17:13:17.014852+00:00"
+    },
+    "iphone:0005": {
+      "id": "iphone:0005",
+      "priority": "medium",
+      "topics": [
+        "agent_conduct",
+        "inspection",
+        "transaction_timing"
+      ],
+      "summary": "On June 25, Regina said the buyers were still in Florida, wanted to move to Indiana before winter, and were willing to conduct a FaceTime walkthrough promptly with Jack or another person while Darcy was unavailable.",
+      "relevance": "Directly establishes that the buyers were remote and accepted a delegated virtual walkthrough, which supports the factual setting of the representation concern but may also be an alternative explanation for Darcy's absence from the initial showing.",
+      "assertion": "Representation concerns: Darcy reportedly did not physically visit the property before closing while the buyers were also conducting the initial review remotely.",
+      "stance": "context",
+      "quotes": [
+        {
+          "source_id": "iphone:0005",
+          "text": "We are still in FL."
+        },
+        {
+          "source_id": "iphone:0005",
+          "text": "We would be willing to do FaceTime walk through asap for it with Jack or someone if you aren't available in the meantime."
+        }
+      ],
+      "related_ids": [
+        "iphone:0003",
+        "iphone:0006",
+        "iphone:0009",
+        "iphone:0011",
+        "iphone:0012"
+      ],
+      "uncertainty": "The message establishes consent to this initial FaceTime arrangement, not consent to the agent never visiting or to limiting later inspections. It does not reveal what was visible during the walkthrough.",
+      "questions": [
+        "Was the FaceTime walkthrough recorded or documented?",
+        "What conditions or questions arose during the walkthrough?",
+        "Did the buyers expect Darcy to attend a later in-person visit?"
+      ],
+      "source_hash": "35c475ada815256d6a0edcaa3e772127dbfaf8d379338b18f6ac25246a788f51",
+      "review_hash": "f5792559aa6e9549f375085e8fd356e98c5f4d06a433e1b9049c80651ac233af",
+      "criteria_hash": "a1dd906e15899e34ba8d7b9c572bd73e42c1cf476c8cd8fde25c4a606bd0ed10",
+      "review_gaps": [],
+      "model": "codex-default",
+      "backend": "codex-chatgpt",
+      "reviewed_at": "2026-10-09T17:13:17.014855+00:00"
+    },
+    "iphone:0006": {
+      "id": "iphone:0006",
+      "priority": "low",
+      "topics": [
+        "agent_conduct",
+        "transaction_timing",
+        "routine"
+      ],
+      "summary": "On June 26, Regina followed up with Darcy about whether Jack could conduct the FaceTime walkthrough and acknowledged Darcy's travel that day.",
+      "relevance": "Shows Regina actively pursued scheduling while Darcy traveled, but does not show that the brief delay impaired the transaction.",
+      "assertion": "Representation concerns: the buyers undertook some coordination while Darcy was traveling.",
+      "stance": "context",
+      "quotes": [
+        {
+          "source_id": "iphone:0006",
+          "text": "Hi just wanted to touch base and see if that FaceTime would be possible with Jack."
+        },
+        {
+          "source_id": "iphone:0006",
+          "text": "I know you are traveling to Florida today so no rush or anything but just wanted to see :)"
+        }
+      ],
+      "related_ids": [
+        "iphone:0003",
+        "iphone:0007",
+        "iphone:0008",
+        "iphone:0009"
+      ],
+      "uncertainty": "No evidence here shows when Jack was first contacted or whether any material opportunity was lost.",
+      "questions": [
+        "When did Darcy contact Jack, and was the June 28 appointment the earliest available showing?"
+      ],
+      "source_hash": "6aa459a16241c0381e44b4cde5905cc55d11ed5bab4753dc3aa7c6db96a56e87",
+      "review_hash": "992b418400b803742e45eff9efaf92aaa2f5dcb2a2f5c24f2a4ff55ab1a77803",
+      "criteria_hash": "a1dd906e15899e34ba8d7b9c572bd73e42c1cf476c8cd8fde25c4a606bd0ed10",
+      "review_gaps": [],
+      "model": "codex-default",
+      "backend": "codex-chatgpt",
+      "reviewed_at": "2026-10-09T17:13:17.014857+00:00"
+    },
+    "iphone:0007": {
+      "id": "iphone:0007",
+      "priority": "low",
+      "topics": [
+        "inspection",
+        "transaction_timing",
+        "routine"
+      ],
+      "summary": "On June 26, Darcy proposed 12:30 on Sunday for the remote showing.",
+      "relevance": "Documents Darcy's participation in arranging the initial walkthrough.",
+      "assertion": "Representation concerns: Darcy coordinated coverage for an initial remote property showing while traveling.",
+      "stance": "challenges",
+      "quotes": [
+        {
+          "source_id": "iphone:0007",
+          "text": "Does 12:30 Sunday work?"
+        }
+      ],
+      "related_ids": [
+        "iphone:0006",
+        "iphone:0008",
+        "iphone:0009"
+      ],
+      "uncertainty": "The message does not specify the date in its text; based on the June 26 message timestamp, Sunday appears to refer to June 28. It does not establish the quality of the showing.",
+      "questions": [
+        "Confirm that the scheduled showing occurred on June 28 and identify who attended."
+      ],
+      "source_hash": "4dba69e6e17950d2b03d40e6965114aa5ada087bc377f46b35bc322ead68b99a",
+      "review_hash": "8bdb7d7f69c5d6b9992f0c79b07f87c4783d7dceb22321ff7ff85b32c94802ea",
+      "criteria_hash": "a1dd906e15899e34ba8d7b9c572bd73e42c1cf476c8cd8fde25c4a606bd0ed10",
+      "review_gaps": [],
+      "model": "codex-default",
+      "backend": "codex-chatgpt",
+      "reviewed_at": "2026-10-09T17:13:17.014860+00:00"
+    },
+    "iphone:0008": {
+      "id": "iphone:0008",
+      "priority": "low",
+      "topics": [
+        "inspection",
+        "transaction_timing",
+        "routine"
+      ],
+      "summary": "On June 26, Regina confirmed that 12:30 Sunday worked for the buyers.",
+      "relevance": "Shows buyer agreement to the proposed remote-showing time and weighs against an inference that Darcy imposed that appointment without consent.",
+      "assertion": "Representation concerns: the delegated FaceTime showing was arranged with buyer agreement.",
+      "stance": "challenges",
+      "quotes": [
+        {
+          "source_id": "iphone:0008",
+          "text": "12:30 Sunday works for us!!"
+        }
+      ],
+      "related_ids": [
+        "iphone:0007",
+        "iphone:0009"
+      ],
+      "uncertainty": "Agreement to the scheduling does not resolve whether the eventual representation or inspection services were adequate.",
+      "questions": [
+        "Did the buyers receive any explanation of the limitations of a remote walkthrough?"
+      ],
+      "source_hash": "1942c4775dd135acdba7c7638d69f383215ecf71d9f09f0534ffed30029cc0f0",
+      "review_hash": "8b70ff87a30d890ffc28ca113cecf0f95c00ae013ed3c63d39fad7961bd20a7b",
+      "criteria_hash": "a1dd906e15899e34ba8d7b9c572bd73e42c1cf476c8cd8fde25c4a606bd0ed10",
+      "review_gaps": [],
+      "model": "codex-default",
+      "backend": "codex-chatgpt",
+      "reviewed_at": "2026-10-09T17:13:17.014862+00:00"
+    },
+    "iphone:0009": {
+      "id": "iphone:0009",
+      "priority": "medium",
+      "topics": [
+        "agent_conduct",
+        "transaction_timing"
+      ],
+      "summary": "On June 27, Darcy provided Jack's number and said he would call around 12:30, while acknowledging that she had thought the time was confirmed when it was not. She sought renewed confirmation.",
+      "relevance": "Shows a minor coordination lapse but also corrective follow-up before the proposed June 28 showing.",
+      "assertion": "Representation concerns: Darcy's travel and coordination may have affected service during the initial showing.",
+      "stance": "context",
+      "quotes": [
+        {
+          "source_id": "iphone:0009",
+          "text": "He will call you around 12:30. Sorry, I thought confirmed 12:30, but I didn't."
+        },
+        {
+          "source_id": "iphone:0009",
+          "text": "That time still works?!"
+        }
+      ],
+      "related_ids": [
+        "iphone:0006",
+        "iphone:0007",
+        "iphone:0008",
+        "iphone:0010",
+        "iphone:0011"
+      ],
+      "uncertainty": "The missing confirmation's cause and any practical consequence are unknown. The entry does not show that the showing was delayed or lost.",
+      "questions": [
+        "Did the confirmation lapse alter the showing time or otherwise prejudice the buyers?",
+        "What instructions did Darcy give Jack concerning the walkthrough?"
+      ],
+      "source_hash": "34131eeb8f6be7e984357e07890190ae941ff2203da7076c41275781a004e7ee",
+      "review_hash": "a0eec89590718d772380f8ed28ca378fbde2635671d83f1efd6ce8327f3c2a11",
+      "criteria_hash": "a1dd906e15899e34ba8d7b9c572bd73e42c1cf476c8cd8fde25c4a606bd0ed10",
+      "review_gaps": [],
+      "model": "codex-default",
+      "backend": "codex-chatgpt",
+      "reviewed_at": "2026-10-09T17:13:17.014864+00:00"
+    },
+    "iphone:0010": {
+      "id": "iphone:0010",
+      "priority": "low",
+      "topics": [
+        "transaction_timing",
+        "routine"
+      ],
+      "summary": "On June 27, Regina confirmed that the arrangement was satisfactory.",
+      "relevance": "Indicates no contemporaneous buyer objection to the showing coordination reflected in the immediately preceding message.",
+      "assertion": "Representation concerns: the delegated remote showing was acceptable to the buyers at the scheduling stage.",
+      "stance": "challenges",
+      "quotes": [
+        {
+          "source_id": "iphone:0010",
+          "text": "Thank you! That's perfect"
+        }
+      ],
+      "related_ids": [
+        "iphone:0009",
+        "iphone:0011",
+        "iphone:0012"
+      ],
+      "uncertainty": "This brief response addresses scheduling only and does not establish satisfaction with the showing's quality or later representation.",
+      "questions": [],
+      "source_hash": "eed620d361a6b6629465b383258e8ef1ffaee2b06b8489918d204be88eae0deb",
+      "review_hash": "cfd3d6d6e162c141b9b5ab523d2557952a7c9611fa0fcac75de542bdd485b1be",
+      "criteria_hash": "a1dd906e15899e34ba8d7b9c572bd73e42c1cf476c8cd8fde25c4a606bd0ed10",
+      "review_gaps": [],
+      "model": "codex-default",
+      "backend": "codex-chatgpt",
+      "reviewed_at": "2026-10-09T17:13:17.014866+00:00"
+    },
+    "iphone:0011": {
+      "id": "iphone:0011",
+      "priority": "low",
+      "topics": [
+        "agent_conduct",
+        "inspection",
+        "routine"
+      ],
+      "summary": "On June 28, Darcy said Jack would probably call or text first and asked Regina to report how the showing went.",
+      "relevance": "Shows Darcy continued to monitor the delegated showing, although it does not establish direct supervision or substantive follow-up.",
+      "assertion": "Representation concerns: Darcy arranged and followed up on a remote showing through Jack.",
+      "stance": "challenges",
+      "quotes": [
+        {
+          "source_id": "iphone:0011",
+          "text": "Jack will probably call or text first. Let me know how it goes!"
+        }
+      ],
+      "related_ids": [
+        "iphone:0009",
+        "iphone:0012",
+        "iphone:0013"
+      ],
+      "uncertainty": "The entry does not show whether Darcy obtained a report from Jack or independently evaluated the property.",
+      "questions": [
+        "Did Darcy receive a substantive report from Jack after the walkthrough?"
+      ],
+      "source_hash": "ec0f7efacee441e064490edf074e1f68e2a03bd39a2623fcf2f2cf2fd814b824",
+      "review_hash": "3601827b5bac2eb76ee23fac6f40b095792cc07e792be752dbea7ebb90693315",
+      "criteria_hash": "a1dd906e15899e34ba8d7b9c572bd73e42c1cf476c8cd8fde25c4a606bd0ed10",
+      "review_gaps": [],
+      "model": "codex-default",
+      "backend": "codex-chatgpt",
+      "reviewed_at": "2026-10-09T17:13:17.014869+00:00"
+    },
+    "iphone:0012": {
+      "id": "iphone:0012",
+      "priority": "low",
+      "topics": [
+        "agent_conduct",
+        "transaction_timing",
+        "routine"
+      ],
+      "summary": "On June 28, Regina confirmed that Jack had already contacted the buyers.",
+      "relevance": "Confirms that the delegated contact occurred, but not that the property walkthrough itself had been completed when this message was sent.",
+      "assertion": "Representation concerns: Darcy successfully connected the remote buyers with Jack for the initial showing process.",
+      "stance": "challenges",
+      "quotes": [
+        {
+          "source_id": "iphone:0012",
+          "text": "He's already been in touch thank you!!"
+        }
+      ],
+      "related_ids": [
+        "iphone:0011",
+        "iphone:0013"
+      ],
+      "uncertainty": "The message confirms contact only; it does not describe Jack's role, what he observed, or the walkthrough's completeness.",
+      "questions": [
+        "Obtain any direct correspondence, notes, photographs, or video from Jack's contact and walkthrough."
+      ],
+      "source_hash": "06611e935100ce3be62a1eb39e2021d46810dd1cdf9f5f2658fa419528ad17f0",
+      "review_hash": "df94d77d815b075fa51aa18c65fc6e88814350e667015622427d3391f5e7c087",
+      "criteria_hash": "a1dd906e15899e34ba8d7b9c572bd73e42c1cf476c8cd8fde25c4a606bd0ed10",
+      "review_gaps": [],
+      "model": "codex-default",
+      "backend": "codex-chatgpt",
+      "reviewed_at": "2026-10-09T17:13:17.014872+00:00"
+    },
+    "iphone:0013": {
+      "id": "iphone:0013",
+      "priority": "low",
+      "topics": [
+        "agent_conduct",
+        "transaction_timing",
+        "routine"
+      ],
+      "summary": "On June 29, Darcy asked what the buyers thought of the home the previous day, identifying June 28 as the apparent showing date.",
+      "relevance": "Shows post-showing follow-up by Darcy and fixes the referenced showing event to the day before the message.",
+      "assertion": "Representation concerns: Darcy followed up after the remote showing despite being away.",
+      "stance": "challenges",
+      "quotes": [
+        {
+          "source_id": "iphone:0013",
+          "text": "Hello! What did you guys think of the home yesterday?"
+        }
+      ],
+      "related_ids": [
+        "iphone:0011",
+        "iphone:0012",
+        "iphone:0014"
+      ],
+      "uncertainty": "It is inferred from the message timestamp that “yesterday” means June 28, 2026. The message does not show Darcy's knowledge of specific property conditions.",
+      "questions": [
+        "What did Jack communicate separately to Darcy about the June 28 showing?"
+      ],
+      "source_hash": "31e4d2bcdde91841a3075d6937b9098787de542a87dc6705d85dfbb3a8883fb8",
+      "review_hash": "8de32633e9445a22246a2cb4858d94dfeaf07aa7d8ce95470f405ac134c90958",
+      "criteria_hash": "a1dd906e15899e34ba8d7b9c572bd73e42c1cf476c8cd8fde25c4a606bd0ed10",
+      "review_gaps": [],
+      "model": "codex-default",
+      "backend": "codex-chatgpt",
+      "reviewed_at": "2026-10-09T17:13:17.014874+00:00"
+    },
+    "iphone:0014": {
+      "id": "iphone:0014",
+      "priority": "medium",
+      "topics": [
+        "disclosure",
+        "agent_conduct",
+        "transaction_timing"
+      ],
+      "summary": "On June 29, Regina reported that the buyers “LOVED” the property after the prior day's apparent remote showing and asked Darcy for all detailed listing information.",
+      "relevance": "Shows strong buyer interest before the later documented inspection and disclosure disputes, while also documenting a request that Darcy supply complete listing information.",
+      "assertion": "Failure to investigate and representation concerns: the buyers relied on Darcy for detailed listing information after a remote showing.",
+      "stance": "context",
+      "quotes": [
+        {
+          "source_id": "iphone:0014",
+          "text": "We LOVED the property though. Can you email me all the detailed information for the listing when you have a moment ?"
+        }
+      ],
+      "related_ids": [
+        "iphone:0013",
+        "iphone:0015",
+        "iphone:0018",
+        "iphone:0019"
+      ],
+      "uncertainty": "The requested “detailed information” is undefined. The buyers' enthusiasm does not show knowledge of latent conditions or resolve whether later representations were accurate.",
+      "questions": [
+        "What information did the portal and Darcy provide in response, including square footage, disclosures, photographs, and listing remarks?",
+        "Did Darcy identify any limits in independently verifying listing information at this stage?"
+      ],
+      "source_hash": "9c9f252f3b79b93c374b0676fdab3770d3573f7d04a6c20e5efeebd462f95ce4",
+      "review_hash": "b7d9b805198ce918cb04f2f0d105def7ef49cc9d5614e2d87ba91a44f2118509",
+      "criteria_hash": "a1dd906e15899e34ba8d7b9c572bd73e42c1cf476c8cd8fde25c4a606bd0ed10",
+      "review_gaps": [],
+      "model": "codex-default",
+      "backend": "codex-chatgpt",
+      "reviewed_at": "2026-10-09T17:13:17.014876+00:00"
+    },
+    "iphone:0015": {
+      "id": "iphone:0015",
+      "priority": "medium",
+      "topics": [
+        "transaction_timing",
+        "agent_conduct"
+      ],
+      "summary": "Later on June 29, Regina said she had found the listing information on the buyers' portal and wanted to submit an offer.",
+      "relevance": "Shows that the buyers obtained at least some information directly through the portal and decided quickly to pursue an offer, an alternative explanation relevant to the transaction's pace.",
+      "assertion": "Representation concerns: the buyers' offer decision followed a remote walkthrough and review of portal information.",
+      "stance": "context",
+      "quotes": [
+        {
+          "source_id": "iphone:0015",
+          "text": "I actually found all that on our portal! We wanna put an offer in on it!"
+        }
+      ],
+      "related_ids": [
+        "iphone:0014",
+        "iphone:0016",
+        "iphone:0017",
+        "iphone:0018"
+      ],
+      "uncertainty": "The entry does not identify which portal materials Regina reviewed, whether the 8,555-square-foot figure appeared there, or whether all attachments were readable.",
+      "questions": [
+        "Preserve the June 29 portal contents and identify every listing representation the buyers reviewed before deciding to offer.",
+        "Was the seller disclosure available and legible through the portal at that time?"
+      ],
+      "source_hash": "e694ce96d91f005db4c2ec5f1ca108bb611c5cc21a9d528ba2b3197fe50e4e50",
+      "review_hash": "99d0ffe6be5dcbd6e77d103d7926602cc1f31449c7da62fff0dbc6efcc705ee1",
+      "criteria_hash": "a1dd906e15899e34ba8d7b9c572bd73e42c1cf476c8cd8fde25c4a606bd0ed10",
+      "review_gaps": [],
+      "model": "codex-default",
+      "backend": "codex-chatgpt",
+      "reviewed_at": "2026-10-09T17:13:17.014878+00:00"
+    },
+    "iphone:0016": {
+      "id": "iphone:0016",
+      "priority": "medium",
+      "topics": [
+        "agent_conduct",
+        "transaction_timing",
+        "costs"
+      ],
+      "summary": "On June 29, Darcy said she was returning from Gainesville, proposed discussing the offer that evening, and asked whether the buyers would provide proof of funds or use financing.",
+      "relevance": "Confirms Darcy was traveling while offer discussions began, but also shows she proposed prompt consultation and addressed proof of funds and financing.",
+      "assertion": "Representation concerns: Darcy was traveling during an important transaction stage, potentially affecting service.",
+      "stance": "context",
+      "quotes": [
+        {
+          "source_id": "iphone:0016",
+          "text": "I am on my way back from Gainesville (took my son to see U of Florida) I will be home in a little less than 2 hours."
+        },
+        {
+          "source_id": "iphone:0016",
+          "text": "Could we chat around 7-8?? Or if another time is best?"
+        },
+        {
+          "source_id": "iphone:0016",
+          "text": "Would you ask Sam if he could get a letter for proof of funds from his financial guy or will you do financing?"
+        }
+      ],
+      "related_ids": [
+        "iphone:0003",
+        "iphone:0015",
+        "iphone:0017"
+      ],
+      "uncertainty": "The message does not establish whether travel impaired the offer preparation or whether the proposed call occurred. It contains no advice about inspections, measurement, or contractual protections.",
+      "questions": [
+        "Did the proposed call occur, and are there notes or recordings of the advice given?",
+        "What due-diligence and contingency options did Darcy discuss before preparing the offer?"
+      ],
+      "source_hash": "d8a9578ebdaae407c804a731dc9a364a49c16276c563f04282b624b37547bf44",
+      "review_hash": "35394fed904c4ae5f450610b60727066b32c0bc34d2a0f56f7ec01541878319a",
+      "criteria_hash": "a1dd906e15899e34ba8d7b9c572bd73e42c1cf476c8cd8fde25c4a606bd0ed10",
+      "review_gaps": [],
+      "model": "codex-default",
+      "backend": "codex-chatgpt",
+      "reviewed_at": "2026-10-09T17:13:17.014881+00:00"
+    },
+    "iphone:0017": {
+      "id": "iphone:0017",
+      "priority": "medium",
+      "topics": [
+        "transaction_timing",
+        "costs",
+        "property_condition"
+      ],
+      "summary": "On June 29, Regina said the buyers could wait until the next day if no one else was interested, reported that Derrick had mentioned $2.8 million for the entire property and pond privatization, and said they were considering an all-cash offer around $2.5 million subject to consulting an advisor.",
+      "relevance": "Documents the buyers' early price expectations, possible seller-sourced terms, interest in the full property, and sensitivity to competing interest. It does not address the alleged defects or establish final terms.",
+      "assertion": "Transaction timing and damages: the buyers considered an approximately $2.5 million cash offer after Derrick reportedly described a $2.8 million price for the entire property.",
+      "stance": "context",
+      "quotes": [
+        {
+          "source_id": "iphone:0017",
+          "text": "Yes no rush, as long as Nobody else is eyeing the property we can discuss more tomorrow."
+        },
+        {
+          "source_id": "iphone:0017",
+          "text": "I think we want to get the entire property and the owner Derrick mention it would be at 2.8 for the entire property and to privatize the pond."
+        },
+        {
+          "source_id": "iphone:0017",
+          "text": "We will most likely put an all cash offer in around 2.5 but wanna check with advisor first on that but believe that's the route we want to take!"
+        }
+      ],
+      "related_ids": [
+        "iphone:0016",
+        "iphone:0018",
+        "iphone:0020"
+      ],
+      "uncertainty": "Regina is reporting what Derrick allegedly said; this is not a direct statement from Derrick in the supplied entry. “Entire property” and “privatize the pond” are not defined, and the contemplated terms were not necessarily the final agreement.",
+      "questions": [
+        "What did Derrick mean by the entire property and privatizing the pond?",
+        "Was Derrick's reported $2.8 million statement made during the June 28 walkthrough, and is there direct evidence from Derrick or Jack?",
+        "How did competing-interest information affect the offer timetable or investigation decisions?"
+      ],
+      "source_hash": "9136e95694458271298c69980e01da4c06234f580b6850469172bcc4e073d0f5",
+      "review_hash": "9425004cf996a77b7e625b4f9ca9cc5b0745d3eef9f4db53330460ad46ba53be",
+      "criteria_hash": "a1dd906e15899e34ba8d7b9c572bd73e42c1cf476c8cd8fde25c4a606bd0ed10",
+      "review_gaps": [],
+      "model": "codex-default",
+      "backend": "codex-chatgpt",
+      "reviewed_at": "2026-10-09T17:13:17.014883+00:00"
+    },
+    "iphone:0018": {
+      "id": "iphone:0018",
+      "priority": "medium",
+      "topics": [
+        "disclosure",
+        "agent_conduct",
+        "transaction_timing"
+      ],
+      "summary": "On June 29, Darcy said the owner had requested feedback, that she asked him about serious interest, and that Jack had also reported a $2.8 million figure for everything. Darcy said she would verify the information and asked whether Regina had seen the seller disclosure in the portal.",
+      "relevance": "Shows Darcy recognized a need to verify the proposed property/price information and directed attention to the seller disclosure. This may counter a broad claim of complete inattention, while leaving open whether verification occurred and whether the disclosure was legible or accurate.",
+      "assertion": "Representation and disclosure concerns: Darcy had responsibility for communicating and verifying material transaction information and ensuring buyers received the seller disclosure.",
+      "stance": "context",
+      "quotes": [
+        {
+          "source_id": "iphone:0018",
+          "text": "The owner actually text me earlier too for feedback so I just asked if he has any serious interest at the moment"
+        },
+        {
+          "source_id": "iphone:0018",
+          "text": "Yes, Jack told me 2.8 for it all. I will verify all this too"
+        },
+        {
+          "source_id": "iphone:0018",
+          "text": "Did you see sellers disclosure from portal?"
+        }
+      ],
+      "related_ids": [
+        "iphone:0017",
+        "iphone:0019",
+        "iphone:0020"
+      ],
+      "uncertainty": "The entry does not show what Darcy intended to verify, whether she completed verification, or the contents and readability of the portal disclosure. Jack's statement is relayed by Darcy rather than supplied directly.",
+      "questions": [
+        "What verification did Darcy perform concerning the $2.8 million terms, acreage, easement, and pond?",
+        "Obtain the exact disclosure version available through the portal on June 29 and confirm whether its checked responses were readable.",
+        "Preserve the owner's direct text requesting feedback and Darcy's inquiry about competing interest."
+      ],
+      "source_hash": "d49546527c8c50fb4fa986add10e0145a73dfe0aed0a52c1c852731e827202ee",
+      "review_hash": "ccd1817e67a6a94052f37aba503210caf6453a9d985ce13683418ccfbfca1498",
+      "criteria_hash": "a1dd906e15899e34ba8d7b9c572bd73e42c1cf476c8cd8fde25c4a606bd0ed10",
+      "review_gaps": [],
+      "model": "codex-default",
+      "backend": "codex-chatgpt",
+      "reviewed_at": "2026-10-09T17:13:17.014885+00:00"
+    },
+    "iphone:0019": {
+      "id": "iphone:0019",
+      "priority": "medium",
+      "topics": [
+        "disclosure",
+        "costs"
+      ],
+      "summary": "On June 29, Regina said the buyers had viewed the seller disclosure and that it “looks good,” then asked Darcy to obtain general monthly utility costs from Derrick.",
+      "relevance": "Potentially unfavorable to the buyers because it records a positive contemporaneous reaction to the disclosure before offering. It does not establish that the disclosure was complete, legible, or accurate, and it predates the later alleged discoveries.",
+      "assertion": "Seller-disclosure allegations: the buyers later contend relevant defects were not accurately disclosed, but initially reported that the disclosure looked satisfactory.",
+      "stance": "challenges",
+      "quotes": [
+        {
+          "source_id": "iphone:0019",
+          "text": "We do see sellers disclosure, looks good!"
+        },
+        {
+          "source_id": "iphone:0019",
+          "text": "Can you also ask Derrick what the general utilities costs are monthly for the property if he is allowed to share that with us."
+        }
+      ],
+      "related_ids": [
+        "iphone:0018",
+        "iphone:0020"
+      ],
+      "uncertainty": "The statement is Regina's general impression, not proof that she read every checked response or that the extracted disclosure was legible. This entry does not reproduce the disclosure or identify any specific condition represented.",
+      "questions": [
+        "What exact version of the seller disclosure did Regina review, and were all checked answers and attachments legible?",
+        "What conditions, claims, or repairs were disclosed in that version?",
+        "Did Darcy obtain the requested utility information, and could it bear on occupancy or property-use representations?"
+      ],
+      "source_hash": "5038d15ca0c541ed5400cf41229dd210149c7050712f1a2dbb5f4985afa6703b",
+      "review_hash": "ada186ed5951cdbd8e6838ee0e4f5320f429339b833f3c4189321ede6c3df9d4",
+      "criteria_hash": "a1dd906e15899e34ba8d7b9c572bd73e42c1cf476c8cd8fde25c4a606bd0ed10",
+      "review_gaps": [],
+      "model": "codex-default",
+      "backend": "codex-chatgpt",
+      "reviewed_at": "2026-10-09T17:13:17.014888+00:00"
+    },
+    "iphone:0020": {
+      "id": "iphone:0020",
+      "priority": "medium",
+      "topics": [
+        "transaction_timing",
+        "agent_conduct"
+      ],
+      "summary": "On June 29, Darcy relayed a statement attributed to the seller that another couple might make contact, although that was considered less likely, and that another showing was scheduled for the following day, apparently June 30.",
+      "relevance": "Documents possible competing interest communicated during early offer discussions. It may explain buyer urgency, but the wording is qualified and does not establish that another offer existed.",
+      "assertion": "Transaction timing and representation concerns: communications about market interest may have affected the buyers' pace of offering and investigation.",
+      "stance": "context",
+      "quotes": [
+        {
+          "source_id": "iphone:0020",
+          "text": "From seller:\n\nWe might hear from another couple but it's less likely at the moment. We have one more showing tomorrow."
+        }
+      ],
+      "related_ids": [
+        "iphone:0004",
+        "iphone:0017",
+        "iphone:0018"
+      ],
+      "uncertainty": "Darcy attributes the quoted text to the seller, but the original seller message and sender identity are not independently supplied. “Tomorrow” appears to mean June 30 based on the June 29 entry date. No competing offer is stated.",
+      "questions": [
+        "Obtain the original seller communication and identify which seller authored it.",
+        "Did the June 30 showing occur, and was any offer or serious interest received?",
+        "Did Darcy present this information as a reason to accelerate the offer or limit due diligence?"
+      ],
+      "source_hash": "199721deb206ef92d2dcedf411a19e60cd6c179b401b7782040e7610fbfa135b",
+      "review_hash": "b1162cb1cc870b28d134e388ac57c3b12bc05dad41d3df516318a079d7970fc7",
+      "criteria_hash": "a1dd906e15899e34ba8d7b9c572bd73e42c1cf476c8cd8fde25c4a606bd0ed10",
+      "review_gaps": [],
+      "model": "codex-default",
+      "backend": "codex-chatgpt",
+      "reviewed_at": "2026-10-09T17:13:17.014890+00:00"
+    }
+  },
+  "failures": {},
+  "calls": [
+    {
+      "at": "2026-10-09T17:13:17.014892+00:00",
+      "phase": "entries",
+      "model": "codex-default",
+      "backend": "codex-chatgpt",
+      "ids": [
+        "iphone:0001",
+        "iphone:0002",
+        "iphone:0003",
+        "iphone:0004",
+        "iphone:0005",
+        "iphone:0006",
+        "iphone:0007",
+        "iphone:0008",
+        "iphone:0009",
+        "iphone:0010",
+        "iphone:0011",
+        "iphone:0012",
+        "iphone:0013",
+        "iphone:0014",
+        "iphone:0015",
+        "iphone:0016",
+        "iphone:0017",
+        "iphone:0018",
+        "iphone:0019",
+        "iphone:0020"
+      ],
+      "usage": {
+        "input_tokens": 21539,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 5270,
+        "reasoning_output_tokens": 228
+      }
+    }
+  ],
+  "cross_reviews": {},
+  "pilot_approved": null,
+  "updated_at": "2026-10-09T17:13:17.014895+00:00"
+}
