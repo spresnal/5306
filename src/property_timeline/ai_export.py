@@ -15,6 +15,7 @@ import zipfile
 from property_timeline.attachment_inventory import validate_attachment
 from property_timeline.output_safety import distinct_paths
 from property_timeline.signature_attachments import is_signature_attachment
+from property_timeline.source_identity import record_metadata
 
 
 class VisibleText(HTMLParser):
@@ -165,7 +166,7 @@ def export_review(records, indexes, destination, compact_record, phone_zone, fin
     record_files = {}
     original_paths = []
     for record in records:
-        metadata = indexes.get(record['origin'], {}).get(record['number'], {})
+        metadata = record_metadata(indexes.get(record['origin'], {}), record)
         items = json.loads(metadata.get('attachment_files_json') or '[]')
         record_files[record['id']] = []
         for item in items:

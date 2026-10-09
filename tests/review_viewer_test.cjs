@@ -35,6 +35,8 @@ function entry(id,options={}) { return {id,source_hash:hash,review_hash:hash,cri
   review_gaps:[],related_ids:['gmail:0002'],...options}; }
 async function load(value) {controls['review-file'].files=[{name:'entry_review.json',size:100,text:async()=>JSON.stringify(value)}];await controls['review-file'].listeners.change();}
 (async()=>{
+  assert.equal(vm.runInContext("validateReview({schema_version:1,assessments:{'iphone_derrick:0001':" +
+    JSON.stringify(entry('iphone_derrick:0001')) + "}}).size", context), 1);
   assert.equal(controls['review-clear'].disabled,true);
   await load({schema_version:1,assessments:{'gmail:0001':entry('gmail:0001'),
     'gmail:0002':entry('gmail:0002',{source_hash:changed,review_gaps:['Missing PDF']}),

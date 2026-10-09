@@ -43,7 +43,7 @@ python -m pip install -e .
    | Source | Files to replace together |
    | --- | --- |
    | Gmail | `data/originals/gmail/property_emails.mbox` from the updated Gmail export |
-   | iPhone | `data/originals/iphone/iphone_darcy.pdf`, the updated TextPort conversation PDF |
+   | iPhone | `data/originals/iphone/iphone_darcy.pdf` and `iphone_derrick.pdf`, the TextPort conversation PDFs |
    | Android | `data/originals/android/android_darcy_group.html` and its matching `data/originals/android/group_conversation_966_Attachments/` folder; retain the matching `data/originals/android/android_darcy_group.smsbackup` as the native original |
 
    Keep the Android HTML and attachment folder from the same export together;
@@ -51,7 +51,7 @@ python -m pip install -e .
    uses a different filename/folder, use its actual HTML filename in the command
    below and preserve its linked folder names. The explicit output names and
    conversation ID keep the downstream filenames consistent.
-3. **Re-extract all three archives** using the commands below. These replace
+3. **Re-extract all archives** using the commands below. These replace
    derivative archives and indexes, including manual edits. Compare fresh output
    with your backup and reapply any required curation before combining. IDs follow
    source numbering and remain stable only while the source set and ordering
@@ -63,6 +63,7 @@ python -m pip install -e .
 ```powershell
 python -m property_timeline.gmail_archive "data/originals/gmail/property_emails.mbox" --output data/archives/gmail/property_emails_compact.md --index data/archives/gmail/property_email_source_index.csv --attachments-dir data/archives/gmail/property_emails_compact_attachments
 python -m property_timeline.iphone_pdf_to_markdown "data/originals/iphone/iphone_darcy.pdf" --me Regina --other Darcy --output data/archives/iphone/iphone_darcy_messages.md --index data/archives/iphone/iphone_darcy_index.csv
+python -m property_timeline.iphone_pdf_to_markdown "data/originals/iphone/iphone_derrick.pdf" --me Regina --other Derrick --output data/archives/iphone/iphone_derrick_messages.md --index data/archives/iphone/iphone_derrick_index.csv
 python -m property_timeline.android_txt_to_markdown data/originals/android/android_darcy_group.html --me Sam --wife Regina --contact Darcy --conversation-id android_darcy_group --output data/archives/android/android_darcy_group_messages.md --index data/archives/android/android_darcy_group_index.csv
 
 # Pause here to compare archives and reapply any manual edits.
@@ -78,7 +79,7 @@ Python are separate from those installed in Windows Python.
 
 The three extractors produce the source Markdown archives and CSV indexes,
 Gmail attachment files and `data/archives/gmail/property_emails_compact_attachment_manifest.csv`,
-and any qualifying iPhone images in `data/archives/iphone/iphone_darcy_messages_assets/`. Android
+and any qualifying iPhone images in each conversation's `*_messages_assets/` folder. Android
 attachments remain in the original export folder. Combining regenerates all
 four master Markdown/CSV/HTML outputs listed in the
 [quick guide](../README.md#open-these-files); PDF export regenerates

@@ -15,6 +15,7 @@ from property_timeline.email_parsing import quoted_headers, reply_marker, messag
 from property_timeline.signature_attachments import is_signature_attachment
 from property_timeline.attachment_inventory import validate_attachment
 from property_timeline.review_evidence import hashed, evidence_hash, criteria_hash
+from property_timeline.source_identity import record_metadata
 
 
 def participant_names(value):
@@ -300,7 +301,7 @@ def write_html(records, email_index, phone_zone, destination, compact_record, an
         body_html = '<div class="body">' + escape(body) + '</div>'
         if record['origin'] in ('android', 'iphone'):
             index = (android_index if record['origin'] == 'android' else iphone_index) or {}
-            files = json.loads(index.get(record['number'], {}).get('attachment_files_json') or '[]')
+            files = json.loads(record_metadata(index, record).get('attachment_files_json') or '[]')
             if files:
                 body_html += '<div class="sms-attachments">'
                 for item in files:
@@ -358,7 +359,7 @@ def write_html(records, email_index, phone_zone, destination, compact_record, an
         else:
             footer_html = '<footer>' + source_html + '</footer>'
         review_index = {'gmail': email_index, 'android': android_index or {}, 'iphone': iphone_index or {}}[record['origin']]
-        review_metadata = review_index.get(record['number'], {})
+        review_metadata = record_metadata(review_index, record)
         review_fingerprint = evidence_hash(record['text'], review_metadata, record['path'].parent)
         cards.append(f'''<article id="{record['id']}" data-source-hash="{hashed(record['text'])}" data-review-hash="{review_fingerprint}" data-date="{day}" data-origin="{record['origin']}" class="card {record['origin']} speaker-{speaker}">
 <header class="record-top"><span class="badge">{record['origin']}</span><a class="id" href="#{record['id']}">{record['id']}</a><time>{escape(stamp)}</time></header>

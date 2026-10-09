@@ -1,6 +1,6 @@
 # Master correspondence timeline
 
-Records: 789 (android: 215, iphone: 293, gmail: 281).
+Records: 866 (iphone: 370, gmail: 281, android: 215).
 
 This is a combined reference copy of derivative archives. It is not a certified transcript or the original evidence. No records are deduplicated, summarized, or merged; quoted replies remain within their containing email.
 
@@ -21,6 +21,9 @@ SHA-256 hashes identify file versions; they do not authenticate authorship or es
 - **iphone archive:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md) — SHA-256 `fa2fab8daa41f82f3455d6d9d2c00585c22d2ce349bb8cc5a8e34daa4a2b55c1`
 - **iphone supporting source:** [iphone_darcy.pdf](../data/originals/iphone/iphone_darcy.pdf) — SHA-256 `558a3d521c0de2568cbc447dcba5b36b39cc1770b86634afb19fdceb52e60c6f`
 - **iphone supporting source:** [iphone_darcy_index.csv](../data/archives/iphone/iphone_darcy_index.csv) — SHA-256 `934b1014c0dcd65356ce6e9a77912125b72af37a2cdc3cce0eb19f8e1f8419a3`
+- **iphone archive:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md) — SHA-256 `b7d7982085d766b91981a69b927c7a125cc62d7da788910ff7c1d7446a6fdbeb`
+- **iphone supporting source:** [iphone_derrick.pdf](../data/originals/iphone/iphone_derrick.pdf) — SHA-256 `890343f2d6f4ca7ac2269fba9af487969fbea97308826a45520c2330d764486d`
+- **iphone supporting source:** [iphone_derrick_index.csv](../data/archives/iphone/iphone_derrick_index.csv) — SHA-256 `6e1122c376ffd2a665b5f0bfeba78febc3aaf727767d1f29abd837824a528c27`
 - **gmail archive:** [property_emails_compact.md](../data/archives/gmail/property_emails_compact.md) — SHA-256 `60ef5ba20dd9c4e1b3bcb58cec500d5e5fc6142b48b1d5ebc11c164d11af368f`
 - **gmail supporting source:** [property_emails.mbox](../data/originals/gmail/property_emails.mbox) — SHA-256 `10afb164da4336d03bc90613062cc6f030e5864f1a59c44c008aec0a739a33ed`
 - **gmail supporting source:** [property_email_source_index.csv](../data/archives/gmail/property_email_source_index.csv) — SHA-256 `8c3a00bd78d225df7c099d7218dbe0e417526c0390684ff9129f1034da14f64a`
@@ -26620,6 +26623,149 @@ I swear they have never deep cleaned this property once. Also they lied about th
 ![Embedded attachment from PDF page 42](iphone_darcy_messages_assets/message_0288_page_042_image_003.jpeg)
 ```
 
+### iphone_derrick:0001 — 2026-08-22 14:38 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 14–21  
+**Timestamp as archived:** 2026-08-22 14:38  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0001 — 2026-08-22 14:38
+**From:** Regina  
+**To:** Derrick  
+**Source:** PDF page 1
+
+Hi it’s Regina.
+
+Can you give us a call when you can, thank you
+```
+
+### iphone_derrick:0002 — 2026-08-22 15:30 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 25–30  
+**Timestamp as archived:** 2026-08-22 15:30  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0002 — 2026-08-22 15:30
+**From:** Derrick  
+**To:** Regina  
+**Source:** PDF page 1
+
+Is this the Regina who just bought our home? Sorry, lots of random/ spam texts over the past few months?
+```
+
+### iphone_derrick:0003 — 2026-08-22 15:32 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 34–39  
+**Timestamp as archived:** 2026-08-22 15:32  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0003 — 2026-08-22 15:32
+**From:** Regina  
+**To:** Derrick  
+**Source:** PDF page 1
+
+Yes it is.
+```
+
+### iphone_derrick:0004 — 2026-08-22 16:24 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 43–48  
+**Timestamp as archived:** 2026-08-22 16:24  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0004 — 2026-08-22 16:24
+**From:** Derrick  
+**To:** Regina  
+**Source:** PDF page 1
+
+We are coming by now and going to pick up what we can.
+```
+
+### iphone_derrick:0005 — 2026-08-22 16:25 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 52–57  
+**Timestamp as archived:** 2026-08-22 16:25  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0005 — 2026-08-22 16:25
+**From:** Regina  
+**To:** Derrick  
+**Source:** PDF page 1
+
+Ok
+```
+
+### iphone_derrick:0006 — 2026-08-22 18:30 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 61–66  
+**Timestamp as archived:** 2026-08-22 18:30  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0006 — 2026-08-22 18:30
+**From:** Derrick  
+**To:** Regina  
+**Source:** PDF page 1
+
+I need special tools to take apart the exercise equipment. I hope it is okay to get it tomorrow. It will take about 45 mins to disassemble. We will call text before hand to confirm its okay.
+```
+
+### iphone_derrick:0007 — 2026-08-22 18:32 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 70–79  
+**Timestamp as archived:** 2026-08-22 18:32  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0007 — 2026-08-22 18:32
+**From:** Regina  
+**To:** Derrick  
+**Source:** PDF page 1
+
+No worries at all. Sam can help with that as well if you need. Appreciate yall getting that stuff so quickly. Was nice being able to talk more as well!
+
+We left to grab some food anyways!
+
+Ps. Can you give Sarah my number as well!
+```
+
+### iphone_derrick:0008 — 2026-08-22 18:40 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 83–90  
+**Timestamp as archived:** 2026-08-22 18:40  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0008 — 2026-08-22 18:40
+**From:** Regina  
+**To:** Derrick  
+**Source:** PDF page 2
+
++1 (574) 850-8256 Sam Presnal
+
+Here’s Sam’s!
+```
+
+### iphone_derrick:0009 — 2026-08-22 19:22 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 94–99  
+**Timestamp as archived:** 2026-08-22 19:22  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0009 — 2026-08-22 19:22
+**From:** Derrick  
+**To:** Regina  
+**Source:** PDF page 2
+
+No problem at all. We try to be timely as possible. We enjoyed getting to talk face to face as well. So much better than thru a 3rd party! We are having issues with changing our address online so will have to wait and go to the physical post office Monday. So if you do see some of our mail either let us know or just put moved on the envelope and put back in the mailbox please and thank you. We  still have to switch Doorking payments over to the Fletchers. You will need to meet with as I am closing out the HOA account and having them take it over as they requested. We talked it over with them today.
+```
+
 ### iphone:0289 — 2026-08-22 20:51 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2740–2745  
@@ -26648,6 +26794,431 @@ Does any of that footage NOT include any finished areas. For example, the home w
 **Source:** PDF page 42
 
 I think the tax assessor includes the attic space unfinished!! It’s ok we talked to Derrick and Sarah again today.
+```
+
+### iphone_derrick:0010 — 2026-08-23 09:15 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 103–112  
+**Timestamp as archived:** 2026-08-23 09:15  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0010 — 2026-08-23 09:15
+**From:** Regina  
+**To:** Derrick  
+**Source:** PDF page 2
+
+Good morning, Understood about the post office and will keep in touch about mail. What is the address y’all used for mailing by the way? Also wondering about trash cans and Sam said that was needing to be switched over still as well but we couldn’t until you guys ended yours. Are the cans by the road for this house or will we need to get those ordered from the city?
+
+We will get over the Fletchers and stop by either today or tomorrow and chat with them.
+
+Thank you.
+```
+
+### iphone_derrick:0011 — 2026-08-23 09:17 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 116–121  
+**Timestamp as archived:** 2026-08-23 09:17  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0011 — 2026-08-23 09:17
+**From:** Derrick  
+**To:** Regina  
+**Source:** PDF page 2
+
+We already talked to Best Way and they will pick up the trash Monday then the cans on Wednesday. You will have to order new cans to be delivered as per their requirements. Just make sure to leave ours there so they can pick them up.
+```
+
+### iphone_derrick:0012 — 2026-08-23 09:18 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 125–130  
+**Timestamp as archived:** 2026-08-23 09:18  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0012 — 2026-08-23 09:18
+**From:** Regina  
+**To:** Derrick  
+**Source:** PDF page 2
+
+Will do, thanks for the clarification.
+```
+
+### iphone_derrick:0013 — 2026-08-23 09:19 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 134–139  
+**Timestamp as archived:** 2026-08-23 09:19  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0013 — 2026-08-23 09:19
+**From:** Derrick  
+**To:** Regina  
+**Source:** PDF page 3
+
+The trash for you in the future is best to be put out Sunday night because they will most of the time pick up trash or recycling by 8am or earlier.
+```
+
+### iphone_derrick:0014 — 2026-08-23 09:28 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 143–148  
+**Timestamp as archived:** 2026-08-23 09:28  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0014 — 2026-08-23 09:28
+**From:** Regina  
+**To:** Derrick  
+**Source:** PDF page 3
+
+Good to know, thank you.
+```
+
+### iphone_derrick:0015 — 2026-08-23 16:47 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 152–157  
+**Timestamp as archived:** 2026-08-23 16:47  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0015 — 2026-08-23 16:47
+**From:** Regina  
+**To:** Derrick  
+**Source:** PDF page 3
+
+Hi. Are y’all still planning on coming by today?
+```
+
+### iphone_derrick:0016 — 2026-08-23 16:55 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 161–166  
+**Timestamp as archived:** 2026-08-23 16:55  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0016 — 2026-08-23 16:55
+**From:** Derrick  
+**To:** Regina  
+**Source:** PDF page 3
+
+Sorry, our oldest is going back to college today so we took her shopping and out to eat. We sre now dropping off kids a church. Would tomorrow be better at this point? Time flying by on Sundays, unfortunately.
+```
+
+### iphone_derrick:0017 — 2026-08-23 17:10 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 170–175  
+**Timestamp as archived:** 2026-08-23 17:10  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0017 — 2026-08-23 17:10
+**From:** Regina  
+**To:** Derrick  
+**Source:** PDF page 3
+
+Tomorrow is fine. We do have hvac and pest control coming tomorrow as well.
+```
+
+### iphone_derrick:0018 — 2026-08-23 17:12 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 179–184  
+**Timestamp as archived:** 2026-08-23 17:12  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0018 — 2026-08-23 17:12
+**From:** Derrick  
+**To:** Regina  
+**Source:** PDF page 3
+
+We can today. Just didn't want to have you wait around on us if you were planning on going somewhere.
+```
+
+### iphone_derrick:0019 — 2026-08-23 17:13 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 188–193  
+**Timestamp as archived:** 2026-08-23 17:13  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0019 — 2026-08-23 17:13
+**From:** Regina  
+**To:** Derrick  
+**Source:** PDF page 3
+
+Tomorrow would be fine at this point.
+```
+
+### iphone_derrick:0020 — 2026-08-23 17:14 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 197–202  
+**Timestamp as archived:** 2026-08-23 17:14  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0020 — 2026-08-23 17:14
+**From:** Derrick  
+**To:** Regina  
+**Source:** PDF page 3
+
+Is 8 am okay?
+```
+
+### iphone_derrick:0021 — 2026-08-23 17:17 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 206–211  
+**Timestamp as archived:** 2026-08-23 17:17  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0021 — 2026-08-23 17:17
+**From:** Regina  
+**To:** Derrick  
+**Source:** PDF page 3
+
+Can you do 9 by chance or tomorrow evening?
+```
+
+### iphone_derrick:0022 — 2026-08-23 17:23 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 215–220  
+**Timestamp as archived:** 2026-08-23 17:23  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0022 — 2026-08-23 17:23
+**From:** Derrick  
+**To:** Regina  
+**Source:** PDF page 3
+
+9 is fine. We will try to be out quickly. Sorry, Sunday's are always busy with family and church.
+```
+
+### iphone_derrick:0023 — 2026-08-23 17:47 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 224–229  
+**Timestamp as archived:** 2026-08-23 17:47  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0023 — 2026-08-23 17:47
+**From:** Regina  
+**To:** Derrick  
+**Source:** PDF page 4
+
+We will see you at 9 then, no apologies needed on that.
+```
+
+### iphone_derrick:0024 — 2026-08-23 18:56 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 233–240  
+**Timestamp as archived:** 2026-08-23 18:56  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0024 — 2026-08-23 18:56
+**From:** Regina  
+**To:** Derrick  
+**Source:** PDF page 4
+
+You weren’t having any trouble with the upstairs AC?
+
+It’s gone completely out. Do you know which electric panel is for the upstairs AC?
+```
+
+### iphone_derrick:0025 — 2026-08-23 18:59 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 244–249  
+**Timestamp as archived:** 2026-08-23 18:59  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0025 — 2026-08-23 18:59
+**From:** Derrick  
+**To:** Regina  
+**Source:** PDF page 4
+
+No not at all. We had it set to 68 every night or I can't sleep. I have never had to do anything with that unit but believe all 3 are in the main panels in the garage. There is another panel in the attic section but unsure if it is located in that subpanel.
+```
+
+### iphone_derrick:0026 — 2026-08-23 19:01 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 253–258  
+**Timestamp as archived:** 2026-08-23 19:01  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0026 — 2026-08-23 19:01
+**From:** Derrick  
+**To:** Regina  
+**Source:** PDF page 4
+
+Is the unit outside frozen maybe? That is not at all anything we have experienced nor did anyone who looked at them. They spent at least an hour looking it over inside and out.
+```
+
+### iphone_derrick:0027 — 2026-08-23 19:04 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 262–271  
+**Timestamp as archived:** 2026-08-23 19:04  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0027 — 2026-08-23 19:04
+**From:** Regina  
+**To:** Derrick  
+**Source:** PDF page 4
+
+We haven’t had it be able to turn on for the upstairs at all…
+
+Thermostat says cooling, fan will come on but outside unit is completely in operable. We haven’t been able to get the upstairs cooled since yesterday morning. It’s been 80 during the day and 72 was the lowest it got last night but only due to temp drop outside.
+
+No signs of being frozen 🙃😭
+```
+
+### iphone_derrick:0028 — 2026-08-23 19:06 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 275–280  
+**Timestamp as archived:** 2026-08-23 19:06  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0028 — 2026-08-23 19:06
+**From:** Regina  
+**To:** Derrick  
+**Source:** PDF page 4
+
+Also which thermostat controls the basement?
+```
+
+### iphone_derrick:0029 — 2026-08-23 19:07 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 284–289  
+**Timestamp as archived:** 2026-08-23 19:07  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0029 — 2026-08-23 19:07
+**From:** Derrick  
+**To:** Regina  
+**Source:** PDF page 4
+
+Maybe try this. Shut off all 3 thermostats and wait about 30 mins. Check the braker to make sure it's not triped. Then turn on the master bedroom only and listen for the outside unti to turn on. The air movement will be pretty strong with only one room on. If that works them turn on the 2nd bedroom and wait for the office till last.
+```
+
+### iphone_derrick:0030 — 2026-08-23 19:08 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 293–298  
+**Timestamp as archived:** 2026-08-23 19:08  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0030 — 2026-08-23 19:08
+**From:** Derrick  
+**To:** Regina  
+**Source:** PDF page 5
+
+There is no actual basement thermostat. The 2 hvac units feed the basement as long as they are running for the main floor. It is odd setup but the basement never gets warm that way.
+```
+
+### iphone_derrick:0031 — 2026-08-23 19:11 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 302–309  
+**Timestamp as archived:** 2026-08-23 19:11  
+**Time basis:** User-supplied America/New_York
+
+Same sorting minute as other entries; within-minute sequence is not established.
+
+```text
+## Message 0031 — 2026-08-23 19:11
+**From:** Regina  
+**To:** Derrick  
+**Source:** PDF page 5
+
+Good to know on basement as we were wondering. Other systems seem to work fine if not more than fine.
+
+Noted on the upstairs unit and doing so now.
+```
+
+### iphone_derrick:0032 — 2026-08-23 19:11 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 313–318  
+**Timestamp as archived:** 2026-08-23 19:11  
+**Time basis:** User-supplied America/New_York
+
+Same sorting minute as other entries; within-minute sequence is not established.
+
+```text
+## Message 0032 — 2026-08-23 19:11
+**From:** Regina  
+**To:** Derrick  
+**Source:** PDF page 5
+
+Thank you
+```
+
+### iphone_derrick:0033 — 2026-08-23 19:15 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 322–327  
+**Timestamp as archived:** 2026-08-23 19:15  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0033 — 2026-08-23 19:15
+**From:** Derrick  
+**To:** Regina  
+**Source:** PDF page 5
+
+Are the windows in the attic still open slightly?
+```
+
+### iphone_derrick:0034 — 2026-08-23 19:16 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 331–336  
+**Timestamp as archived:** 2026-08-23 19:16  
+**Time basis:** User-supplied America/New_York
+
+Same sorting minute as other entries; within-minute sequence is not established.
+
+```text
+## Message 0034 — 2026-08-23 19:16
+**From:** Regina  
+**To:** Derrick  
+**Source:** PDF page 5
+
+Yes, we didn’t close them
+```
+
+### iphone_derrick:0035 — 2026-08-23 19:16 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 340–345  
+**Timestamp as archived:** 2026-08-23 19:16  
+**Time basis:** User-supplied America/New_York
+
+Same sorting minute as other entries; within-minute sequence is not established.
+
+```text
+## Message 0035 — 2026-08-23 19:16
+**From:** Regina  
+**To:** Derrick  
+**Source:** PDF page 5
+
+Do you close them when it rains?
+```
+
+### iphone_derrick:0036 — 2026-08-23 19:17 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 349–354  
+**Timestamp as archived:** 2026-08-23 19:17  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0036 — 2026-08-23 19:17
+**From:** Derrick  
+**To:** Regina  
+**Source:** PDF page 5
+
+Okay HVAC people told me to keep them cracked because of how hot it gets up there and does affect the systems. No if they are cracked no rain gets in due ti soffitting.
 ```
 
 ### gmail:0248 — 2026-08-23 19:30 EDT
@@ -26837,6 +27408,145 @@ Thank you,
 Regina and Sam
 ```
 
+### iphone_derrick:0037 — 2026-08-23 19:49 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 358–363  
+**Timestamp as archived:** 2026-08-23 19:49  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0037 — 2026-08-23 19:49
+**From:** Regina  
+**To:** Derrick  
+**Source:** PDF page 5
+
+Yeah I think the system decided to just not work anymore 😭 that’s so sad. We have hvac inspections tomorrow so hopefully we will get answers soon. Thanks for the suggestions and noted about attic space windows
+```
+
+### iphone_derrick:0038 — 2026-08-23 19:52 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 367–372  
+**Timestamp as archived:** 2026-08-23 19:52  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0038 — 2026-08-23 19:52
+**From:** Derrick  
+**To:** Regina  
+**Source:** PDF page 5
+
+Well, I hope that really isn't the case because I promise it was working fine to the point Sarah had to wear sweat pants and a sweatshirt to bed every night because I kept the room so cold.
+```
+
+### iphone_derrick:0039 — 2026-08-23 19:59 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 376–381  
+**Timestamp as archived:** 2026-08-23 19:59  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0039 — 2026-08-23 19:59
+**From:** Regina  
+**To:** Derrick  
+**Source:** PDF page 6
+
+We are 68 sleepers as well so we are really hoping that’s not the case either and maybe just a clogged line of some sort. 🙏
+```
+
+### iphone_derrick:0040 — 2026-08-23 20:36 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 385–390  
+**Timestamp as archived:** 2026-08-23 20:36  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0040 — 2026-08-23 20:36
+**From:** Derrick  
+**To:** Regina  
+**Source:** PDF page 6
+
+I spoke to soon on the 9am tomorrow because of a doctor appointment. Please let me know when in the afternoon we can remove the elliptical. We will be by the football fields around 530 or can come earlier or later just let me know. Sorry. To many schedules to keep in mind with all the moving parts. We will get it out I promise by tomorrow night.
+```
+
+### iphone_derrick:0041 — 2026-08-23 20:42 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 394–399  
+**Timestamp as archived:** 2026-08-23 20:42  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0041 — 2026-08-23 20:42
+**From:** Regina  
+**To:** Derrick  
+**Source:** PDF page 6
+
+We will be here all day tomorrow but will leave garage door that leads inside unlocked if not and just let you know. You are welcome to stop by when you can.
+```
+
+### iphone_derrick:0042 — 2026-08-24 11:03 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 403–408  
+**Timestamp as archived:** 2026-08-24 11:03  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0042 — 2026-08-24 11:03
+**From:** Regina  
+**To:** Derrick  
+**Source:** PDF page 6
+
+Is there an irrigation system for the yard?
+```
+
+### iphone_derrick:0043 — 2026-08-24 11:04 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 412–417  
+**Timestamp as archived:** 2026-08-24 11:04  
+**Time basis:** User-supplied America/New_York
+
+Same sorting minute as other entries; within-minute sequence is not established.
+
+```text
+## Message 0043 — 2026-08-24 11:04
+**From:** Derrick  
+**To:** Regina  
+**Source:** PDF page 6
+
+No
+```
+
+### iphone_derrick:0044 — 2026-08-24 11:04 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 421–426  
+**Timestamp as archived:** 2026-08-24 11:04  
+**Time basis:** User-supplied America/New_York
+
+Same sorting minute as other entries; within-minute sequence is not established.
+
+```text
+## Message 0044 — 2026-08-24 11:04
+**From:** Derrick  
+**To:** Regina  
+**Source:** PDF page 6
+
+Well not that I know of.
+```
+
+### iphone_derrick:0045 — 2026-08-24 11:14 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 430–435  
+**Timestamp as archived:** 2026-08-24 11:14  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0045 — 2026-08-24 11:14
+**From:** Regina  
+**To:** Derrick  
+**Source:** PDF page 6
+
+Thank you
+```
+
 ### gmail:0250 — 2026-08-24 12:11 EDT
 
 **Archive reference:** [property_emails_compact.md](../data/archives/gmail/property_emails_compact.md), lines 13619–13627  
@@ -27014,6 +27724,55 @@ On Sun, Aug 23, 2026 at 7:45 PM Regina Gray <graylregina@gmail.com> wrote:
 > Regina and Sam
 ```
 
+### iphone_derrick:0046 — 2026-08-24 16:57 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 439–444  
+**Timestamp as archived:** 2026-08-24 16:57  
+**Time basis:** User-supplied America/New_York
+
+Same sorting minute as other entries; within-minute sequence is not established.
+
+```text
+## Message 0046 — 2026-08-24 16:57
+**From:** Derrick  
+**To:** Regina  
+**Source:** PDF page 6
+
+We are dropping off Asher at football then coming to get the Elliptical, if that is okay?
+```
+
+### iphone_derrick:0047 — 2026-08-24 16:57 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 448–453  
+**Timestamp as archived:** 2026-08-24 16:57  
+**Time basis:** User-supplied America/New_York
+
+Same sorting minute as other entries; within-minute sequence is not established.
+
+```text
+## Message 0047 — 2026-08-24 16:57
+**From:** Derrick  
+**To:** Regina  
+**Source:** PDF page 6
+
+We can go up the back staircase as well if it's unlocked.
+```
+
+### iphone_derrick:0048 — 2026-08-24 16:58 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 457–462  
+**Timestamp as archived:** 2026-08-24 16:58  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0048 — 2026-08-24 16:58
+**From:** Regina  
+**To:** Derrick  
+**Source:** PDF page 7
+
+Hi, yes all is good there. Sam’s out at the moment but I’m here
+```
+
 ### gmail:0254 — 2026-08-24 17:00 EDT
 
 **Archive reference:** [property_emails_compact.md](../data/archives/gmail/property_emails_compact.md), lines 13720–13875  
@@ -27187,6 +27946,21 @@ This E-mail was sent from "RNP58387976E281" (IM C4500).
 
 Scan Date: 08.17.2026 13:25:14 (-0400)
 Queries to: bhhsdonotreply@gmail.com<mailto:bhhsdonotreply@gmail.com>
+```
+
+### iphone_derrick:0049 — 2026-08-24 17:18 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 466–471  
+**Timestamp as archived:** 2026-08-24 17:18  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0049 — 2026-08-24 17:18
+**From:** Derrick  
+**To:** Regina  
+**Source:** PDF page 7
+
+Can I open the garage?
 ```
 
 ### gmail:0255 — 2026-08-24 18:40 EDT
@@ -27401,6 +28175,134 @@ Sincerely,
 Your Friends at Carter's My Plumber
 ```
 
+### iphone_derrick:0050 — 2026-08-25 09:24 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 475–482  
+**Timestamp as archived:** 2026-08-25 09:24  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0050 — 2026-08-25 09:24
+**From:** Regina  
+**To:** Derrick  
+**Source:** PDF page 7
+
+Good morning,
+
+When you had the bats taken care of was that done by a professional or DIY?
+```
+
+### iphone_derrick:0051 — 2026-08-25 09:29 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 486–491  
+**Timestamp as archived:** 2026-08-25 09:29  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0051 — 2026-08-25 09:29
+**From:** Derrick  
+**To:** Regina  
+**Source:** PDF page 7
+
+Both. Professional came out told me what and how to seal it up. With his help we then waited 3 to 4 weeks to confirm they were no longer in the attic. They then treated the entire attic and switched out affected insulation.
+```
+
+### iphone_derrick:0052 — 2026-08-25 09:32 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 495–500  
+**Timestamp as archived:** 2026-08-25 09:32  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0052 — 2026-08-25 09:32
+**From:** Derrick  
+**To:** Regina  
+**Source:** PDF page 7
+
+It was the 2nd home I have had to address this in. The bats are heavy there but that is also way the mosquito population is low. We also protected the dragon flies as they control mosquitos as well.
+```
+
+### iphone_derrick:0053 — 2026-08-25 11:40 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 504–509  
+**Timestamp as archived:** 2026-08-25 11:40  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0053 — 2026-08-25 11:40
+**From:** Regina  
+**To:** Derrick  
+**Source:** PDF page 7
+
+The bats are still an issue and the exterior didn’t get fixed.. to keep them out. I am kinda curious about that as I was under the impression this was fixed under an insurance claim and unsure how you were able to DIY it without having it properly fixed completely by the professional.. unless I’m wrong on how that process works which I could be.
+```
+
+### iphone_derrick:0054 — 2026-08-25 11:42 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 513–518  
+**Timestamp as archived:** 2026-08-25 11:42  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0054 — 2026-08-25 11:42
+**From:** Derrick  
+**To:** Regina  
+**Source:** PDF page 7
+
+So they are an issue in the attic or the exterior?
+```
+
+### iphone_derrick:0055 — 2026-08-25 11:43 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 522–529  
+**Timestamp as archived:** 2026-08-25 11:43  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0055 — 2026-08-25 11:43
+**From:** Regina  
+**To:** Derrick  
+**Source:** PDF page 8
+
+They are in the walls but have to get someone to come out and confirm but showing signs.
+
+Also a dead bat and check books are inside the basement fireplace.
+```
+
+### iphone_derrick:0056 — 2026-08-25 11:50 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 533–538  
+**Timestamp as archived:** 2026-08-25 11:50  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0056 — 2026-08-25 11:50
+**From:** Derrick  
+**To:** Regina  
+**Source:** PDF page 8
+
+Birds definitely get into the fireplace time to time and would expect an occasional bat since they look for places to roost. Once the birds happen to fly just into the upper portion of the chimney they quickly fall and can't get back out. We have had to remove at least 1 or 2 birds a year. The bat people only focused on the inside of the attic as that is where they carry a concern for disease spread. They didn't focus on the exterior as it is hard to exclude them in that situation. They did the work about 2 yrs ago now. They checked for guano 2 to 3 different times before they confirmed they were removed and finished the treatment. What evidence do they find they were in the walls?
+```
+
+### iphone_derrick:0057 — 2026-08-25 11:57 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 542–551  
+**Timestamp as archived:** 2026-08-25 11:57  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0057 — 2026-08-25 11:57
+**From:** Regina  
+**To:** Derrick  
+**Source:** PDF page 8
+
+I’ll be able to share more once we have the bat guy come tomorrow.
+
+The pest guy noticed it particularly on the first floor balcony.. there’s a lot of guano and an opening where they are getting in. The smell coming from the sun/garden room suggests bats are in or around it that area is all I know so far.
+
+There is guano in the attic space as well.
+```
+
 ### gmail:0258 — 2026-08-25 12:05 EDT
 
 **Archive reference:** [property_emails_compact.md](../data/archives/gmail/property_emails_compact.md), lines 14035–14164  
@@ -27550,6 +28452,21 @@ wrote:
 > again.
 ```
 
+### iphone_derrick:0058 — 2026-08-25 12:19 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 555–560  
+**Timestamp as archived:** 2026-08-25 12:19  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0058 — 2026-08-25 12:19
+**From:** Derrick  
+**To:** Regina  
+**Source:** PDF page 8
+
+I will look for the paperwork but unlikely they will have more than a year warranty as bats can make new ways back in and only need a hole the size of a nickel to get thru. I personally looked for new guano in the attic this spring and did not find any. We found they were there because they actually entered the home and were flying around the house right after we bought it and before we  had it fix 2 to 3 yrs ago. We had to exclude them from the red home as well up the lane. Not sure how to prevent them from ever getting back in like mice. I believe we used Admiral Wildlife services.
+```
+
 ### iphone:0291 — 2026-08-25 13:14 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2758–2769  
@@ -27569,6 +28486,136 @@ Hvac upstairs went out Saturday and we had to get the condenser replaced.
 Bat droppings everywhere and remediation wasn’t done properly.. so wondering what they did with that 25k.
 
 Ugh I’m so annoyed. Idk if doing “as is” at the very end screwed Sam and I from being able to take action especially if our square footage was wrong but Derrick had access to everything we requested documents wise and never shared that and lied saying he didn’t have it.
+```
+
+### iphone_derrick:0059 — 2026-08-25 13:21 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 564–569  
+**Timestamp as archived:** 2026-08-25 13:21  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0059 — 2026-08-25 13:21
+**From:** Regina  
+**To:** Derrick  
+**Source:** PDF page 8
+
+Is there a separate account for water at the warehouse?
+```
+
+### iphone_derrick:0060 — 2026-08-25 13:22 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 573–578  
+**Timestamp as archived:** 2026-08-25 13:22  
+**Time basis:** User-supplied America/New_York
+
+Same sorting minute as other entries; within-minute sequence is not established.
+
+```text
+## Message 0060 — 2026-08-25 13:22
+**From:** Derrick  
+**To:** Regina  
+**Source:** PDF page 9
+
+No just gas and electric for some reason. The electric bill for both the house and building will come in the same envelope but they desire a separate check for each and can be mailed back together.
+```
+
+### iphone_derrick:0061 — 2026-08-25 13:22 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 582–587  
+**Timestamp as archived:** 2026-08-25 13:22  
+**Time basis:** User-supplied America/New_York
+
+Same sorting minute as other entries; within-minute sequence is not established.
+
+```text
+## Message 0061 — 2026-08-25 13:22
+**From:** Regina  
+**To:** Derrick  
+**Source:** PDF page 9
+
+Noted, thank you.
+```
+
+### iphone_derrick:0062 — 2026-08-25 13:22 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 591–596  
+**Timestamp as archived:** 2026-08-25 13:22  
+**Time basis:** User-supplied America/New_York
+
+Same sorting minute as other entries; within-minute sequence is not established.
+
+```text
+## Message 0062 — 2026-08-25 13:22
+**From:** Derrick  
+**To:** Regina  
+**Source:** PDF page 9
+
+I checked the electric and that account was switched over the only one that wasn't was gas.
+```
+
+### iphone_derrick:0063 — 2026-08-25 14:11 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 600–605  
+**Timestamp as archived:** 2026-08-25 14:11  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0063 — 2026-08-25 14:11
+**From:** Regina  
+**To:** Derrick  
+**Source:** PDF page 9
+
+We got that taken care of yesterday. Should be all good now on utilities. Can you send me the Fletchers number? Looks like electric went ahead and put gate and lights in our name even though we asked the company not to..
+```
+
+### iphone_derrick:0064 — 2026-08-25 14:13 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 609–614  
+**Timestamp as archived:** 2026-08-25 14:13  
+**Time basis:** User-supplied America/New_York
+
+Same sorting minute as other entries; within-minute sequence is not established.
+
+```text
+## Message 0064 — 2026-08-25 14:13
+**From:** Derrick  
+**To:** Regina  
+**Source:** PDF page 9
+
+[Name] Luke Fletcher [Mobile] (317) 695-9861
+```
+
+### iphone_derrick:0065 — 2026-08-25 14:13 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 618–623  
+**Timestamp as archived:** 2026-08-25 14:13  
+**Time basis:** User-supplied America/New_York
+
+Same sorting minute as other entries; within-minute sequence is not established.
+
+```text
+## Message 0065 — 2026-08-25 14:13
+**From:** Derrick  
+**To:** Regina  
+**Source:** PDF page 9
+
+[Name] Laura Fletcher [Mobile] (317) 431-7686
+```
+
+### iphone_derrick:0066 — 2026-08-25 14:14 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 627–632  
+**Timestamp as archived:** 2026-08-25 14:14  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0066 — 2026-08-25 14:14
+**From:** Regina  
+**To:** Derrick  
+**Source:** PDF page 9
+
+Thank you
 ```
 
 ### gmail:0259 — 2026-08-25 14:15 EDT
@@ -27614,6 +28661,53 @@ Holly Stalets Co-Owner
 Taking care of dirty work since 2011
 Commercial, Residential and Constructions Sites
 www.thecleaningpeople2010.com
+```
+
+### iphone_derrick:0067 — 2026-08-25 15:40 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 636–643  
+**Timestamp as archived:** 2026-08-25 15:40  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0067 — 2026-08-25 15:40
+**From:** Regina  
+**To:** Derrick  
+**Source:** PDF page 9
+
+Last question for today I believe,
+
+Do you have number of the people with the beagles?
+```
+
+### iphone_derrick:0068 — 2026-08-25 15:52 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 647–652  
+**Timestamp as archived:** 2026-08-25 15:52  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0068 — 2026-08-25 15:52
+**From:** Derrick  
+**To:** Regina  
+**Source:** PDF page 9
+
+We do not. We have never really talked to them much.
+```
+
+### iphone_derrick:0069 — 2026-08-25 15:54 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 656–661  
+**Timestamp as archived:** 2026-08-25 15:54  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0069 — 2026-08-25 15:54
+**From:** Regina  
+**To:** Derrick  
+**Source:** PDF page 10
+
+Ok thank you
 ```
 
 ### gmail:0260 — 2026-08-25 17:13 EDT
@@ -27671,6 +28765,36 @@ tmp_1506_4290566833390195373.jpg]
 <[long link omitted]
 93917d8a-7534-480a-ae97-3bf2b233c382_cdv_photo_015.jpg]
 <[long link omitted]
+```
+
+### iphone_derrick:0070 — 2026-08-25 18:23 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 665–670  
+**Timestamp as archived:** 2026-08-25 18:23  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0070 — 2026-08-25 18:23
+**From:** Regina  
+**To:** Derrick  
+**Source:** PDF page 10
+
+Do you know anyone in a white SUV? Someone drove down the barn but we didn’t see them until they were leaving.
+```
+
+### iphone_derrick:0071 — 2026-08-25 18:25 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 674–679  
+**Timestamp as archived:** 2026-08-25 18:25  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0071 — 2026-08-25 18:25
+**From:** Derrick  
+**To:** Regina  
+**Source:** PDF page 10
+
+No, it likely was someone just looking around. When the gate is open that happens time to time.
 ```
 
 ### gmail:0261 — 2026-08-26 08:10 EDT
@@ -28420,6 +29544,51 @@ wrote:
 > again.
 ```
 
+### iphone_derrick:0072 — 2026-09-01 12:35 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 683–688  
+**Timestamp as archived:** 2026-09-01 12:35  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0072 — 2026-09-01 12:35
+**From:** Regina  
+**To:** Derrick  
+**Source:** PDF page 10
+
+Hi, Do you know the brand of fountain we have for the pond? Thank you.
+```
+
+### iphone_derrick:0073 — 2026-09-01 12:36 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 692–697  
+**Timestamp as archived:** 2026-09-01 12:36  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0073 — 2026-09-01 12:36
+**From:** Derrick  
+**To:** Regina  
+**Source:** PDF page 10
+
+No but I believe there is a manual in the building.
+```
+
+### iphone_derrick:0074 — 2026-09-01 12:37 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 701–706  
+**Timestamp as archived:** 2026-09-01 12:37  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0074 — 2026-09-01 12:37
+**From:** Regina  
+**To:** Derrick  
+**Source:** PDF page 10
+
+Liked “No but I believe there is a manual in the building. ”
+```
+
 ### gmail:0269 — 2026-09-03 15:08 EDT
 
 **Archive reference:** [property_emails_compact.md](../data/archives/gmail/property_emails_compact.md), lines 14803–14921  
@@ -28870,6 +30039,55 @@ On Thu, Sep 3, 2026 at 3:32 PM Regina Gray <graylregina@gmail.com> wrote:
 
 >>>>>> Thank you,
 >>>>>> Regina and Sam
+```
+
+### iphone_derrick:0075 — 2026-09-03 18:01 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 710–715  
+**Timestamp as archived:** 2026-09-03 18:01  
+**Time basis:** User-supplied America/New_York
+
+Same sorting minute as other entries; within-minute sequence is not established.
+
+```text
+## Message 0075 — 2026-09-03 18:01
+**From:** Regina  
+**To:** Derrick  
+**Source:** PDF page 10
+
+[Attachment unavailable]
+```
+
+### iphone_derrick:0076 — 2026-09-03 18:01 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 719–724  
+**Timestamp as archived:** 2026-09-03 18:01  
+**Time basis:** User-supplied America/New_York
+
+Same sorting minute as other entries; within-minute sequence is not established.
+
+```text
+## Message 0076 — 2026-09-03 18:01
+**From:** Regina  
+**To:** Derrick  
+**Source:** PDF page 10
+
+On the front porch
+```
+
+### iphone_derrick:0077 — 2026-09-03 18:03 EDT
+
+**Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 728–733  
+**Timestamp as archived:** 2026-09-03 18:03  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0077 — 2026-09-03 18:03
+**From:** Derrick  
+**To:** Regina  
+**Source:** PDF page 10
+
+Thank you! We're out right now so we'll grab it on the way home.
 ```
 
 ### gmail:0272 — 2026-09-05 13:01 EDT
@@ -29984,6 +31202,21 @@ as the source.
 **Source PDF:** `iphone_darcy.pdf`
 **Messages represented:** 293
 **Conversation:** Regina ↔ Darcy
+**Order:** As exported by TextPort, earliest first
+**Time zone:** Not specified in the PDF; do not assume UTC
+**Evidence note:** TextPort may repeat rounded timestamps across distinct messages. No exact seconds or missing timestamps have been inferred.
+**Attachment note:** Bracketed image/document descriptions are preserved, but are not the actual original attachments. The PDF may omit their content.
+**Provenance:** Keep the original PDF and, preferably, the native phone export.
+```
+
+### iphone — iphone_derrick_messages.md
+
+```text
+# SMS / iMessage archive — Derrick
+
+**Source PDF:** `iphone_derrick.pdf`
+**Messages represented:** 77
+**Conversation:** Regina ↔ Derrick
 **Order:** As exported by TextPort, earliest first
 **Time zone:** Not specified in the PDF; do not assume UTC
 **Evidence note:** TextPort may repeat rounded timestamps across distinct messages. No exact seconds or missing timestamps have been inferred.

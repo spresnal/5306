@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Combine the three correspondence archives without deduplicating their records."""
+"""Combine correspondence archives without deduplicating their records."""
 
 import argparse
 import csv
@@ -14,6 +14,7 @@ from zoneinfo import ZoneInfo
 from property_timeline.timeline_html import write_html
 from property_timeline.output_safety import staged_outputs
 from property_timeline.ai_export import export_review
+from property_timeline.source_identity import archive_namespace
 
 
 HEADER = re.compile(r"^## (Message|Email) (\d+) — (\d{4}-\d{2}-\d{2} \d{2}:\d{2})( UTC| \(TZ unspecified\))?$")
@@ -88,7 +89,7 @@ def parse_archive(path, origin, phone_zone):
         kind, number, displayed, utc_marker = match.groups()
         if (origin == "gmail") != (kind == "Email") or (origin != "gmail" and bool(utc_marker)):
             raise ValueError(f"Unexpected record type/time zone in {path}:{start + 1}")
-        identifier = f"{origin}:{int(number):04d}"
+        identifier = f"{archive_namespace(path, origin)}:{int(number):04d}"
         if identifier in seen:
             raise ValueError(f"Duplicate identifier {identifier}")
         seen.add(identifier)
@@ -116,7 +117,8 @@ def parse_archive(path, origin, phone_zone):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--android", type=Path, default=Path("data/archives/android/android_darcy_group_messages.md"))
-    parser.add_argument("--iphone", type=Path, default=Path("data/archives/iphone/iphone_darcy_messages.md"))
+    parser.add_argument("--iphone", type=Path, action='append',
+                        help="iPhone archive; repeat for multiple conversations. Default: all iphone_*_messages.md archives")
     parser.add_argument("--gmail", type=Path, default=Path("data/archives/gmail/property_emails_compact.md"))
     parser.add_argument("--originals-dir", type=Path, default=Path("data/originals"),
                         help="Original exports grouped in android/, iphone/, and gmail/ subfolders")
@@ -128,7 +130,13 @@ def main():
     args = parser.parse_args()
     zone = ZoneInfo(args.phone_timezone)
     output = args.output.resolve()
-    paths = [(origin, getattr(args, origin).resolve()) for origin in ("android", "iphone", "gmail")]
+    iphone_paths = args.iphone or sorted(Path('data/archives/iphone').glob('iphone_*_messages.md'))
+    if not iphone_paths:
+        parser.error('No iPhone archives found; extract the PDFs first')
+    paths = [('android', args.android.resolve()),
+             *(('iphone', path.resolve()) for path in iphone_paths), ('gmail', args.gmail.resolve())]
+    if len({path for _, path in paths}) != len(paths):
+        parser.error('Input archives must be distinct')
     index_path = output.with_suffix(".csv")
     compact_path = (args.compact_output or output.with_name(output.stem + "_compact.md")).resolve()
     html_path = output.with_suffix(".html")
@@ -141,7 +149,9 @@ def main():
         entries, preamble = parse_archive(path, origin, zone)
         records.extend(entries)
         preambles.append((origin, path, preamble))
-    records.sort(key=lambda record: (record["utc"] is None, record["utc"] or datetime.max.replace(tzinfo=timezone.utc), record["displayed"] if record["utc"] is None else "", record["origin"], record["number"]))
+    if len({record['id'] for record in records}) != len(records):
+        parser.error('Input archives contain duplicate reference IDs')
+    records.sort(key=lambda record: (record["utc"] is None, record["utc"] or datetime.max.replace(tzinfo=timezone.utc), record["displayed"] if record["utc"] is None else "", record["origin"], record["number"], record["id"]))
     counts = Counter(record["origin"] for record in records)
     ties = Counter(record["utc"] for record in records)
 
@@ -150,7 +160,7 @@ def main():
         return f"[{path.name}]({quote(relative, safe='/')})"
 
     archive = ["# Master correspondence timeline", "",
-               f"Records: {len(records)} (" + ", ".join(f"{origin}: {counts[origin]}" for origin, _ in paths) + ").", "",
+               f"Records: {len(records)} (" + ", ".join(f"{origin}: {counts[origin]}" for origin in counts) + ").", "",
                "This is a combined reference copy of derivative archives. It is not a certified transcript or the original evidence. "
                "No records are deduplicated, summarized, or merged; quoted replies remain within their containing email.", "",
                f"Phone time zone: `{args.phone_timezone}`, supplied by the user; the phone exports do not specify a zone. "
@@ -173,12 +183,16 @@ def main():
     iphone_index = {}
     for origin, path in paths:
         archive += [f"- **{origin} archive:** {link(path)} — SHA-256 `{digest(path)}`"]
-        for name in companions[origin]:
+        names = companions[origin]
+        if origin == 'iphone':
+            stem = path.stem.removesuffix('_messages')
+            names = [stem + '.pdf', stem + '_index.csv']
+        for name in names:
             companion = path.parent / name
             # Indexes/manifests stay beside their archives. Original exports
             # can also be supplied from the separate originals tree.
-            if name in {"android_darcy_group.html", "android_darcy_group.smsbackup",
-                        "iphone_darcy.pdf", "property_emails.mbox"} and not companion.exists():
+            if (name in {"android_darcy_group.html", "android_darcy_group.smsbackup",
+                         "property_emails.mbox"} or (origin == 'iphone' and name.endswith('.pdf'))) and not companion.exists():
                 companion = args.originals_dir / origin / name
             if companion.resolve() in destinations:
                 parser.error('Output path collides with supporting source: ' + str(companion))
@@ -191,14 +205,15 @@ def main():
                             if number in email_index:
                                 raise ValueError(f"Duplicate email source index number: {number}")
                             email_index[number] = row
-                elif name in ("android_darcy_group_index.csv", "iphone_darcy_index.csv"):
+                elif name == "android_darcy_group_index.csv" or (origin == 'iphone' and name.endswith('_index.csv')):
                     with companion.open(encoding="utf-8-sig", newline="") as stream:
                         for row in csv.DictReader(stream):
                             number = int(row['message_number'])
                             target = android_index if origin == 'android' else iphone_index
-                            if number in target:
+                            key = number if origin == 'android' else f"{archive_namespace(path, origin)}:{number:04d}"
+                            if key in target:
                                 raise ValueError(f'Duplicate phone source index number: {number}')
-                            target[number] = row
+                            target[key] = row
             else:
                 archive += [f"- **{origin} supporting source unavailable:** `{name}`"]
     archive += ["", "## Timeline", ""]

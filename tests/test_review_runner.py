@@ -79,6 +79,31 @@ class ReviewRunnerTests(unittest.TestCase):
             return {'findings': []}, {'total_tokens': 1}
         return {'entries': [assessment(r['id']) for r in payload['entries']]}, {'total_tokens': 1}
 
+    def test_loads_additional_iphone_conversation_with_its_own_index(self):
+        directory = self.root / 'data/archives/iphone'
+        path = directory / 'iphone_derrick_messages.md'
+        path.write_text('# Derrick\n\n## Message 0001 — 2026-01-01 12:02\n'
+                        '**From:** Derrick\n**To:** Regina\n\nDerrick evidence.', encoding='utf-8')
+        (directory / 'iphone_derrick_index.csv').write_text(
+            'message_number,attachment_files_json,sender\n1,[],Derrick\n', encoding='utf-8')
+        record = parse_archive(path, 'iphone', ZoneInfo('America/New_York'))[0][0]
+        timeline = self.root / 'output/master_timeline.csv'
+        with timeline.open(newline='') as stream:
+            rows = list(csv.DictReader(stream))
+        rows.append(dict(reference_id=record['id'], origin='iphone', datetime_eastern=record['displayed'],
+                         archive_file='../data/archives/iphone/' + path.name,
+                         archive_line_start=record['line_start'], archive_line_end=record['line_end']))
+        with timeline.open('w', newline='') as stream:
+            writer = csv.DictWriter(stream, fieldnames=list(rows[0]))
+            writer.writeheader()
+            writer.writerows(rows)
+        work = self.work()
+        self.assertEqual(work.coverage()['total'], 24)
+        derrick = next(r for r in work.records if r['id'] == 'iphone_derrick:0001')
+        self.assertIn('Derrick evidence.', derrick['text'])
+        self.assertEqual(derrick['review_hash'], runner.evidence_hash(
+            record['text'], {'message_number': '1', 'attachment_files_json': '[]', 'sender': 'Derrick'}, directory))
+
     def test_pilot_resume_complete_and_sources_unchanged(self):
         inputs = {p: p.read_bytes() for p in (self.root / 'data/archives').rglob('*') if p.is_file()}
         inputs[self.root / 'output/master_timeline.csv'] = (self.root / 'output/master_timeline.csv').read_bytes()

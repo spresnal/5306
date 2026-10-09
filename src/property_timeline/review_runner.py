@@ -295,6 +295,8 @@ class Workspace:
                 records, _ = parse_archive(path, origin, ZoneInfo('America/New_York'))
                 archives[key] = {record['id']: record for record in records}
                 index_name, number_field = names[origin]
+                if origin == 'iphone':
+                    index_name = path.stem.removesuffix('_messages') + '_index.csv'
                 index_path = path.parent / index_name
                 with index_path.open(encoding='utf-8-sig', newline='') as stream:
                     index_rows = list(csv.DictReader(stream))
