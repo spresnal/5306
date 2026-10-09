@@ -383,6 +383,8 @@ class Workspace:
                                              for review in self.state['cross_reviews'].values()),
                 'cross_tasks_failed': sum(failure.get('snapshot') == snapshot
                                          for failure in self.state.get('cross_failures', {}).values()),
+                'cross_entries_excluded': len(self.cross_excluded_ids()),
+                'cross_review_complete_for_scope': self.state.get('cross_complete_snapshot') == snapshot,
                 'cross_review_complete': len(current) == len(self.records) and
                     self.state.get('cross_complete_snapshot') == snapshot}
 
@@ -397,19 +399,29 @@ class Workspace:
             'pending_ids': [r['id'] for r in self.records if not self.current(r)]})
 
     def snapshot(self):
-        return hashed({'criteria': self.criteria_hash, 'cross_algorithm': 2,
-                       'assessments': [self.state['assessments'].get(r['id']) for r in self.records]})
+        value = {'criteria': self.criteria_hash, 'cross_algorithm': 2,
+                 'assessments': [self.state['assessments'].get(r['id']) for r in self.records]}
+        if self.state.get('cross_skip_manual_review'):
+            value['excluded_ids'] = self.cross_excluded_ids()
+            value['evidence'] = [(r['id'], r['review_hash']) for r in self.records]
+        return hashed(value)
+
+    def cross_excluded_ids(self):
+        return ([r['id'] for r in self.records if self.manual_review(r)]
+                if self.state.get('cross_skip_manual_review') else [])
 
     def contextual_review(self):
         snapshot = self.snapshot()
         findings = {}
-        if all(self.current(record) for record in self.records):
+        excluded = set(self.cross_excluded_ids())
+        if all(self.current(record) or record['id'] in excluded for record in self.records):
             for review in self.state['cross_reviews'].values():
                 if review.get('snapshot') == snapshot:
                     for finding in review['findings']:
                         identifier = 'finding:' + hashed(finding)[:16]
                         findings[identifier] = {**finding, 'id': identifier}
         return {'version': 2, 'complete': self.state.get('cross_complete_snapshot') == snapshot,
+                'excluded_ids': sorted(excluded),
                 'criteria_hash': self.criteria_hash,
                 'entry_hashes': {r['id']: {'source_hash': r['source_hash'], 'review_hash': r['review_hash']}
                                  for r in self.records}, 'findings': list(findings.values())}
@@ -504,18 +516,33 @@ def run(work, args):
         if work.state.get('pilot_approved') != work.criteria_hash:
             raise ValueError('Inspect the pilot, then continue with --resume --approve-pilot')
     batches = 0
+    base_size = len(work.brief) + len(work.instructions) + 1000
+    if base_size >= args.max_chars and pending:
+        raise ValueError('--max-chars is too small for the case brief and instructions; increase the limit')
     while pending and (args.max_batches is None or batches < args.max_batches):
-        batch, size = [], len(work.brief) + len(work.instructions) + 1000
+        batch, size = [], base_size
         while pending and len(batch) < args.batch_size:
             candidate = work.prepare(pending[0], args.attachment_chars)
             candidate_size = len(json.dumps(candidate, ensure_ascii=False))
             if size + candidate_size > args.max_chars:
                 if not batch:
-                    raise ValueError('Entry ' + candidate['id'] + ' exceeds --max-chars; increase limit or reduce --attachment-chars')
+                    record = pending.pop(0)
+                    error = (f'Entry requires approximately {size + candidate_size} request characters, '
+                             f'exceeding --max-chars {args.max_chars}; increase limit or reduce --attachment-chars')
+                    work.state['failures'][record['id']] = {
+                        'at': stamp(), 'error': error, 'kind': 'oversized', 'manual_review': True,
+                        'review_hash': record['review_hash'], 'criteria_hash': work.criteria_hash,
+                        'required_chars': size + candidate_size, 'max_chars': args.max_chars,
+                        'attachment_chars': args.attachment_chars}
+                    work.checkpoint()
+                    print('Manual review required; skipped ' + record['id'] + ': ' + error, flush=True)
+                    continue
                 break
             batch.append(candidate)
             size += candidate_size
             pending.pop(0)
+        if not batch:
+            continue
         positions = {r['id']: i for i, r in enumerate(work.records)}
         boundary = (positions[batch[0]['id']] - 1, positions[batch[-1]['id']] + 1)
         context = []
@@ -565,7 +592,9 @@ def run(work, args):
                                     'accepted_ids': [entry['id'] for entry in result['entries']], 'usage': usage})
         work.checkpoint()
         batches += 1
-    if not args.pilot and work.coverage()['remaining'] == 0:
+    coverage = work.coverage()
+    if not args.pilot and (coverage['remaining'] == 0 or
+            (getattr(args, 'skip_manual_review', False) and coverage['remaining'] == coverage['manual_review'])):
         cross_review(work, args)
     report(work)
     print(json.dumps(work.coverage(), indent=2))
@@ -574,7 +603,10 @@ def run(work, args):
 def cross_evidence_units(work, limit):
     """Retain every readable source character; split large evidence into bounded parts."""
     units = []
+    excluded = set(work.cross_excluded_ids())
     for record in work.records:
+        if record['id'] in excluded:
+            continue
         prepared = work.prepare(record, 2**63 - 1)
         assessment = work.state['assessments'][record['id']]
         base = {'id': record['id'], 'date': record['date'],
@@ -612,6 +644,10 @@ def cross_evidence_units(work, limit):
 
 def cross_review(work, args):
     """Reread full source evidence and compare every chronology block pair across topics."""
+    work.state['cross_skip_manual_review'] = bool(getattr(args, 'skip_manual_review', False))
+    excluded = work.cross_excluded_ids()
+    if excluded:
+        print(f'Partial cross-review: excluding {len(excluded)} manual-review entries.', flush=True)
     snapshot = work.snapshot()
     limit = (args.max_chars - len(work.brief) - len(work.instructions) - 4000) // 2
     if limit <= 0:
@@ -627,6 +663,7 @@ def cross_review(work, args):
     if block:
         blocks.append(block)
     work.state['cross_plan'] = {'snapshot': snapshot, 'blocks': len(blocks),
+                                'excluded_ids': excluded,
                                 'total_tasks': len(blocks) * (len(blocks) + 1) // 2}
     work.checkpoint()
     print(f"Cross-review plan: {len(blocks)} chronology blocks, {work.state['cross_plan']['total_tasks']} comparison tasks", flush=True)
@@ -755,9 +792,13 @@ def report(work):
     lines += ['## Cross-entry findings', '',
               'Comparisons reread source evidence across topics and chronology blocks; '
               'they do not establish that all possible relationships were found.', '']
-    if coverage['remaining'] or work.state.get('cross_complete_snapshot') != work.snapshot():
+    excluded = work.cross_excluded_ids()
+    if excluded:
+        lines += [f'Partial chronology review: {len(excluded)} manual-review entries excluded. '
+                  'Findings do not account for those entries.', '', 'Excluded IDs: ' + ', '.join(excluded), '']
+    if work.state.get('cross_complete_snapshot') != work.snapshot():
         lines += ['Cross-entry pass is incomplete; resume the runner to finish it.', '']
-    if not coverage['remaining']:
+    if coverage['remaining'] == len(excluded):
         seen = set()
         snapshot = work.snapshot()
         for review in work.state['cross_reviews'].values():
@@ -801,6 +842,8 @@ def main():
     command.add_argument('--retries', type=int, default=2)
     command.add_argument('--retry-manual-review', action='store_true',
                          help='Retry entries flagged for manual review; otherwise leave unchanged flagged entries skipped')
+    command.add_argument('--skip-manual-review', action='store_true',
+                         help='Allow pass two to exclude manual-review entries; findings explicitly have partial coverage')
     args = parser.parse_args()
     if args.command == 'run':
         for key in ('batch_size', 'max_chars', 'attachment_chars', 'codex_timeout'):

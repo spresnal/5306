@@ -216,6 +216,43 @@ class ReviewRunnerTests(unittest.TestCase):
         self.assertEqual(set(caught.exception.failures), {'gmail:0001', 'gmail:0002'})
         self.assertEqual([entry['id'] for entry in caught.exception.result['entries']], ['gmail:0003'])
 
+    def test_second_pass_can_exclude_manual_entries_and_resume_full_scope_later(self):
+        self.args.pilot = None
+        self.args.unattended = True
+        self.args.skip_manual_review = True
+        seen = set()
+        def partial_model(*args):
+            result, usage = self.fake_model(*args)
+            if args[3] == runner.SCHEMA:
+                for entry in result['entries']:
+                    if entry['id'] == 'gmail:0001':
+                        entry['quotes'][0]['text'] = 'Invented quotation.'
+            else:
+                seen.update(entry['id'] for entry in args[2]['entries'])
+            return result, usage
+        with patch.object(runner, 'model_request', side_effect=partial_model):
+            runner.run(self.work(), self.args)
+        work = self.work()
+        self.assertEqual(work.coverage()['remaining'], 1)
+        self.assertEqual(work.coverage()['cross_entries_excluded'], 1)
+        self.assertTrue(work.coverage()['cross_review_complete_for_scope'])
+        self.assertFalse(work.coverage()['cross_review_complete'])
+        self.assertEqual(work.contextual_review()['excluded_ids'], ['gmail:0001'])
+        self.assertEqual(seen, {r['id'] for r in work.records} - {'gmail:0001'})
+        self.assertIn('1 manual-review entries excluded', (self.root / 'output/counsel_review.md').read_text())
+        snapshot = work.snapshot()
+        with patch.object(runner, 'model_request') as request:
+            runner.run(self.work(), self.args)
+            request.assert_not_called()
+        self.args.skip_manual_review = False
+        self.args.retry_manual_review = True
+        with patch.object(runner, 'model_request', side_effect=self.fake_model):
+            runner.run(self.work(), self.args)
+        work = self.work()
+        self.assertNotEqual(snapshot, work.snapshot())
+        self.assertEqual(work.coverage()['cross_entries_excluded'], 0)
+        self.assertTrue(work.coverage()['cross_review_complete'])
+
     def test_manual_review_flag_is_invalidated_by_changed_evidence_or_criteria(self):
         work = self.work()
         record = work.records[0]
@@ -286,12 +323,43 @@ class ReviewRunnerTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'omits archive entries'):
             self.work()
 
-    def test_oversized_entry_never_silently_truncated_or_skipped(self):
+    def test_impossible_prompt_budget_stops_without_flagging_entries(self):
         self.args.max_chars = 1
         with patch.object(runner, 'model_request') as model:
-            with self.assertRaisesRegex(ValueError, 'exceeds --max-chars'):
+            with self.assertRaisesRegex(ValueError, 'too small for the case brief'):
                 runner.run(self.work(), self.args)
             model.assert_not_called()
+        self.assertEqual(self.work().coverage()['manual_review'], 0)
+
+    def test_oversized_entry_is_flagged_and_later_entries_continue(self):
+        self.args.pilot = None
+        self.args.unattended = True
+        path = self.root / 'data/archives/gmail/property_emails_compact.md'
+        path.write_text(path.read_text().replace('The basement leaked.',
+                        'The basement leaked. ' + 'Oversized evidence. ' * 4000, 1))
+        work = self.work()
+        original = path.read_bytes()
+        with patch.object(runner, 'model_request', side_effect=self.fake_model) as model:
+            runner.run(work, self.args)
+        refreshed = self.work()
+        self.assertEqual(refreshed.coverage()['reviewed'], 22)
+        self.assertEqual(refreshed.coverage()['manual_review'], 1)
+        failure = refreshed.state['failures']['gmail:0001']
+        self.assertEqual(failure['kind'], 'oversized')
+        self.assertGreater(failure['required_chars'], self.args.max_chars)
+        self.assertFalse(refreshed.coverage()['cross_review_complete'])
+        self.assertEqual(path.read_bytes(), original)
+        for call in model.call_args_list:
+            self.assertNotIn('gmail:0001', [item['id'] for item in call.args[2]['entries']])
+        with patch.object(runner, 'model_request') as model:
+            runner.run(refreshed, self.args)
+            model.assert_not_called()
+        self.args.retry_manual_review = True
+        self.args.max_chars = 300000
+        with patch.object(runner, 'model_request', side_effect=self.fake_model):
+            runner.run(self.work(), self.args)
+        self.assertEqual(self.work().coverage()['manual_review'], 0)
+        self.assertTrue(self.work().coverage()['cross_review_complete'])
 
     def test_draft_fails_before_codex(self):
         brief = self.root / 'data/reviews/case_brief.md'

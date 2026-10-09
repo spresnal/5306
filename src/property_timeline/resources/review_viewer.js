@@ -35,6 +35,10 @@ function contextualFindings(value, cards, expectedCriteria) {
   if (value.version !== 2 || typeof value.complete !== 'boolean' ||
       typeof value.criteria_hash !== 'string' || !value.entry_hashes || typeof value.entry_hashes !== 'object' ||
       !Array.isArray(value.findings)) throw new Error('Malformed contextual review.');
+  const excluded = value.excluded_ids || [];
+  if (!Array.isArray(excluded) || !excluded.every(id => typeof id === 'string')) {
+    throw new Error('Malformed contextual exclusions.');
+  }
   const validIds = new Set(cards.map(card => card.id));
   const byEntry = new Map();
   for (const finding of value.findings) {
@@ -66,7 +70,9 @@ function contextualFindings(value, cards, expectedCriteria) {
       byEntry.get(id).push(finding);
     }
   }
-  return {byEntry, message: value.findings.length + ' cross-entry findings · second pass ' + (value.complete ? 'complete.' : 'in progress.')};
+  return {byEntry, message: value.findings.length + ' cross-entry findings · second pass ' +
+    (value.complete ? 'complete for included entries.' : 'in progress.') +
+    (excluded.length ? ' Partial coverage: ' + excluded.length + ' manual-review entries excluded.' : '')};
 }
 
 function effectivePriority(entry, findings) {

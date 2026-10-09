@@ -75,6 +75,11 @@ async function load(value) {controls['review-file'].files=[{name:'entry_review.j
   assert.equal(cards[0].hidden,false);
   assert.equal(cards[1].hidden,false);
   assert.equal(cards[2].hidden,true);
+  await load({schema_version:1,assessments:{'gmail:0001':entry('gmail:0001',{priority:'low'}),
+    'gmail:0002':entry('gmail:0002',{priority:'low'})},
+    contextual_review:{...manifest,excluded_ids:[cards[2].id]}});
+  assert.match(controls['review-status'].textContent,/Partial coverage: 1 manual-review entries excluded/);
+  assert.match(cards[0].querySelector('.review-panel').textContent,/Related later statement/);
   // A changed third entry invalidates contextual priorities even for unchanged linked entries.
   cards[2].dataset.reviewHash=changed;
   await load({schema_version:1,assessments:{'gmail:0001':entry('gmail:0001',{priority:'low'})},contextual_review:manifest});

@@ -99,11 +99,31 @@ lists `manual_review_ids`, and the counsel report labels each with its error.
 Use `run --unattended --retry-manual-review` to attempt them again, retaining your
 usual model and batch options. Changes to their evidence or review criteria also
 make them eligible again. They remain unreviewed and prevent the second pass from
-starting until valid assessments exist. Responses with missing/duplicate/unknown
+starting until valid assessments exist, unless you explicitly exclude them:
+
+```powershell
+python -m property_timeline.review_runner run --unattended --skip-manual-review
+```
+
+This runs pass two over valid current assessments after all other automated
+first-pass work is done. It leaves manual-review entries flagged and records
+`excluded_ids` in the contextual review. The report and website label partial
+coverage. `cross_review_complete_for_scope` can be true while `cross_review_complete`
+remains false and `remaining` still counts excluded entries. Keep the same flag
+when resuming this partial pass. After resolving the flagged entries, run with
+`--retry-manual-review` and omit `--skip-manual-review` for a fresh full-coverage
+comparison pass. Saved partial comparisons cannot substitute for full coverage.
+
+Responses with missing/duplicate/unknown
 IDs cannot be safely attributed and still mark the whole batch failed. Failed comparisons
 in the second pass are also recorded and skipped, and that pass remains incomplete.
 Repeat the same command to retry pending tasks. Authentication failures, plan
-limits, oversized entries, and execution errors still stop the run and preserve progress.
+limits and execution errors still stop the run and preserve progress.
+An entry that cannot fit alone under `--max-chars` is flagged for manual review
+with its estimated request size, then skipped without truncating its evidence.
+To retry it, use `--retry-manual-review` with a larger `--max-chars` or smaller
+`--attachment-chars`. A limit too small even for the brief and instructions still
+stops the run as a configuration error.
 
 At the end, check `output/counsel_review.md` and run `status`: `remaining` should
 be zero and `cross_review_complete` should be true. Attachment review gaps still
@@ -134,8 +154,9 @@ marked in `entry_review.json`, counted by `status` and `review_progress.json`, a
 listed in `output/counsel_review.md`. Valid entries from a partially rejected response
 are preserved. Entries flagged for manual review require `--retry-manual-review`
 to retry with unchanged evidence and criteria; whole-batch failures retry on the
-next run. The second pass waits for all first-pass
-entries to have valid assessments. There are two retries by default.
+next run. The second pass waits for all first-pass entries to have valid
+assessments unless `--skip-manual-review` explicitly permits partial coverage.
+There are two retries by default.
 Accepted-call usage is saved, but failed/retried request usage may not be available.
 The usage log does not establish your remaining subscription allowance.
 
