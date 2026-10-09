@@ -6,6 +6,40 @@ offline HTML viewer, a PDF with embedded original attachments, Markdown referenc
 copies, and a CSV index. Retain the original exports and source indexes: the
 compilation is a derivative, and some automated emails are shortened events.
 
+## Project layout
+
+```text
+5306/
+├── README.md
+├── pyproject.toml                # Package metadata and dependencies
+├── requirements.txt              # Dependency-only installation alternative
+├── src/property_timeline/        # Python modules
+│   └── resources/                # HTML template, PDF CSS, signature hashes
+├── tests/                        # Sanitized regression and integration tests
+├── data/
+│   ├── originals/{gmail,android,iphone}/  # Original exports and Android files
+│   └── archives/{gmail,android,iphone}/   # Curated Markdown, indexes, manifests
+├── output/                       # Master timeline and PDF preview assets
+├── docs/CODE_REVIEW.md
+└── backups/                      # Historical review and migration copies
+```
+
+Run all commands from this project folder. Install the package with
+`python -m pip install -e .` before using the module commands below. Use Windows
+Python for PDF export and verification; install the package in that environment
+even if it is also installed in WSL.
+
+Retain originals unchanged. Curated archives can contain manual edits and need
+backups; extraction overwrites them. Archive indexes/manifests and Gmail or iPhone
+attachment folders stay beside their Markdown archive. Android attachment bytes
+stay with the original HTML export. `output/` can be rebuilt from those archives.
+
+`backups/structure_migration_2026-10-09/` preserves the pre-migration archives,
+indexes, timeline outputs, and a file-move inventory with original SHA-256 hashes.
+Historical backup copies retain their original paths and are snapshots, not live
+viewers. Python caches, build artifacts, local backups, and PDF preview assets are
+ignored by Git; correspondence data and final outputs remain visible to Git.
+
 ## Refresh the existing timeline
 
 Use the existing edited archives to retain their curation and numbering:
@@ -14,13 +48,13 @@ MBOX or phone exports, follow [Refresh source files and regenerate everything](#
 instead; combining alone does not re-read the original exports.
 
 ```bash
-python combine_timeline.py --phone-timezone America/New_York
-python export_timeline_pdf.py
-python export_timeline_pdf.py --verify-only
+python -m property_timeline.combine_timeline --phone-timezone America/New_York
+python -m property_timeline.export_timeline_pdf
+python -m property_timeline.export_timeline_pdf --verify-only
 ```
 
 Run PDF export with **Windows Python**, with Chrome or Edge installed. From WSL,
-use `cmd.exe /c python export_timeline_pdf.py`. The HTML **Export PDF** control
+use `cmd.exe /c python -m property_timeline.export_timeline_pdf`. The HTML **Export PDF** control
 opens the generated PDF; it does not regenerate it. Refresh the PDF after each
 archive or viewer change. HTML filters do not affect PDF export.
 
@@ -30,23 +64,23 @@ quoted-message panels, and attachment thumbnails are retained. Letter-page
 spacing and page-break rules keep short cards together while allowing long
 emails to continue across pages. Full email addresses and source references
 remain available in smaller secondary text. Export styles live in
-`timeline_pdf.css`; no browser print dialog is required.
+`src/property_timeline/resources/timeline_pdf.css`; no browser print dialog is required.
 
 For visual checks, save selected PDF pages as images without rebuilding it:
 
 ```bash
-python export_timeline_pdf.py --verify-only --preview-pages 1 2 12
+python -m property_timeline.export_timeline_pdf --verify-only --preview-pages 1 2 12
 ```
 
-Images are written as `master_timeline_pdf_assets/preview_page_0001.png`, etc.
+Images are written as `output/master_timeline_pdf_assets/preview_page_0001.png`, etc.
 
 | Output | Purpose |
 | --- | --- |
-| `master_timeline.html` | Searchable offline chronology with attachment previews |
-| `master_timeline.pdf` | Complete chronology, daily bookmarks, page numbers, embedded files |
-| `master_timeline.md` | Edited archive entries, source locations, hashes, and notices |
-| `master_timeline.csv` | Record references, source locations, UTC and Eastern timestamps |
-| `master_timeline_compact.md` | Smaller copy for timeline questions in ChatGPT |
+| `output/master_timeline.html` | Searchable offline chronology with attachment previews |
+| `output/master_timeline.pdf` | Complete chronology, daily bookmarks, page numbers, embedded files |
+| `output/master_timeline.md` | Edited archive entries, source locations, hashes, and notices |
+| `output/master_timeline.csv` | Record references, source locations, UTC and Eastern timestamps |
+| `output/master_timeline_compact.md` | Smaller copy for timeline questions in ChatGPT |
 
 The compact copy keeps all records, participants, subjects, attachment references,
 and substantive archive text, including quotations. It removes reference
@@ -59,10 +93,10 @@ the source references.
 Use Python **3.11 or newer**. Gmail/Android extraction and combination use the
 standard library; iPhone extraction requires PyMuPDF. PDF export requires PyMuPDF,
 Pillow, and Windows Chrome/Edge. `tzdata` supplies IANA time zones on Windows.
-Install dependencies in the Python environment used to run these commands:
+Install the project and its dependencies in the Python environment used to run these commands (editable mode makes changes under `src/` immediately available):
 
 ```bash
-python -m pip install -r requirements.txt
+python -m pip install -e .
 ```
 
 ## Refresh source files and regenerate everything
@@ -75,13 +109,13 @@ In Windows PowerShell, open the folder with:
 
 ```powershell
 Set-Location 'C:\Users\samgp\Desktop\5306'
-python -m pip install -r requirements.txt
+python -m pip install -e .
 ```
 
 1. **Back up the current project folder to a separate dated folder before
    replacing anything.** Include the original exports, edited Markdown archives,
    CSV indexes, attachment folders/manifests, recovery manifest, and generated
-   timeline. `review_backups/` contains historical review copies, not an automatic
+   timeline. `backups/review_backups/` contains historical review copies, not an automatic
    backup of your latest work.
 2. **Replace the source exports with complete updated exports**, using the names
    below. The extractors rebuild from the supplied export; they do not append
@@ -90,9 +124,9 @@ python -m pip install -r requirements.txt
 
    | Source | Files to replace together |
    | --- | --- |
-   | Gmail | `5306 House.mbox` from the updated Gmail export |
-   | iPhone | `iphone_darcy.pdf`, the updated TextPort conversation PDF |
-   | Android | `group_conversation_966.html` and its matching `group_conversation_966_Attachments/` folder; retain the matching `group_conversation_966.smsbackup` as the native original |
+   | Gmail | `data/originals/gmail/5306 House.mbox` from the updated Gmail export |
+   | iPhone | `data/originals/iphone/iphone_darcy.pdf`, the updated TextPort conversation PDF |
+   | Android | `data/originals/android/group_conversation_966.html` and its matching `data/originals/android/group_conversation_966_Attachments/` folder; retain the matching `data/originals/android/group_conversation_966.smsbackup` as the native original |
 
    Keep the Android HTML and attachment folder from the same export together;
    the HTML's attachment links must resolve to the supplied files. If the export
@@ -109,14 +143,14 @@ python -m pip install -r requirements.txt
    repeat the combine/export/verify steps.
 
 ```powershell
-python gmail_archive.py "5306 House.mbox" --output property_emails_compact.md --index property_email_source_index.csv --attachments-dir property_emails_compact_attachments
-python iphone_pdf_to_markdown.py "iphone_darcy.pdf" --me Regina --output iphone_darcy_messages.md --index iphone_darcy_index.csv
-python android_txt_to_markdown.py group_conversation_966.html --me Sam --wife Regina --contact Darcy --conversation-id android_darcy_group --output android_darcy_group_messages.md --index android_darcy_group_index.csv
+python -m property_timeline.gmail_archive "data/originals/gmail/5306 House.mbox" --output data/archives/gmail/property_emails_compact.md --index data/archives/gmail/property_email_source_index.csv --attachments-dir data/archives/gmail/property_emails_compact_attachments
+python -m property_timeline.iphone_pdf_to_markdown "data/originals/iphone/iphone_darcy.pdf" --me Regina --output data/archives/iphone/iphone_darcy_messages.md --index data/archives/iphone/iphone_darcy_index.csv
+python -m property_timeline.android_txt_to_markdown data/originals/android/group_conversation_966.html --me Sam --wife Regina --contact Darcy --conversation-id android_darcy_group --output data/archives/android/android_darcy_group_messages.md --index data/archives/android/android_darcy_group_index.csv
 
 # Pause here to compare archives and reapply any manual edits.
-python combine_timeline.py --phone-timezone America/New_York
-python export_timeline_pdf.py
-python export_timeline_pdf.py --verify-only
+python -m property_timeline.combine_timeline --phone-timezone America/New_York
+python -m property_timeline.export_timeline_pdf
+python -m property_timeline.export_timeline_pdf --verify-only
 ```
 
 From WSL, run from `/mnt/c/Users/samgp/Desktop/5306` and prefix each `python`
@@ -125,22 +159,22 @@ command above with `cmd.exe /c` to use Windows Python
 Python are separate from those installed in Windows Python.
 
 The three extractors produce the source Markdown archives and CSV indexes,
-Gmail attachment files and `property_emails_compact_attachment_manifest.csv`,
-and any qualifying iPhone images in `iphone_darcy_messages_assets/`. Android
+Gmail attachment files and `data/archives/gmail/property_emails_compact_attachment_manifest.csv`,
+and any qualifying iPhone images in `data/archives/iphone/iphone_darcy_messages_assets/`. Android
 attachments remain in the original export folder. Combining regenerates all
 four master Markdown/CSV/HTML outputs listed above; PDF export regenerates
-`master_timeline.pdf` and its preview assets in `master_timeline_pdf_assets/`.
+`output/master_timeline.pdf` and its preview assets in `output/master_timeline_pdf_assets/`.
 Extraction does not guarantee that older, unreferenced attachment files are
 removed; keep the indexes/manifests with the corresponding refreshed archives.
 
 The quote-recovery command below repairs older curated email archives; it is
 not an incremental import command and is unnecessary after fresh extraction
-with the current Gmail extractor. Move an old `email_quote_recovery_manifest.json`
+with the current Gmail extractor. Move an old `data/archives/gmail/email_quote_recovery_manifest.json`
 to the backup before re-extracting Gmail, so the rebuilt timeline does not link
 historical recovery evidence as if it applied to the fresh archive.
 
-After verification succeeds, open `master_timeline.html` and
-`master_timeline.pdf`. Check the newest expected messages, source counts, dates,
+After verification succeeds, open `output/master_timeline.html` and
+`output/master_timeline.pdf`. Check the newest expected messages, source counts, dates,
 participant names, and a few attachments against the updated originals. A
 successful PDF check validates the generated bundle, not whether your exports
 contain every message you intended to include. See
@@ -149,14 +183,14 @@ tests and final review guidance.
 
 ### Source extraction details
 
-The Android source is `group_conversation_966.html`, with
-`group_conversation_966_Attachments/` and the native `.smsbackup` retained. The
+The Android source is `data/originals/android/group_conversation_966.html`, with
+`data/originals/android/group_conversation_966_Attachments/` and the native `.smsbackup` retained. The
 older TXT input is still supported, but cannot provide original attachment
 bytes. Ordinary hyperlinks remain message text; attachment-specific links
 become structured file references.
 
 Gmail extraction saves MIME attachments (including attached emails as `.eml`)
-in `property_emails_compact_attachments/`. The source index and attachment manifest
+in `data/archives/gmail/property_emails_compact_attachments/`. The source index and attachment manifest
 record Message-IDs, MIME parts, original filenames, sizes, and SHA-256 hashes.
 It retains forwarded text rather than deleting similar copies. Recognized
 boilerplate is cleaned and certain system messages become explicit EVENT entries.
@@ -164,14 +198,16 @@ Unzoned original email dates use UTC solely for reproducible extraction ordering
 they remain explicitly unzoned in the archive and master chronology.
 
 The iPhone converter preserves text and attachment descriptions from TextPort.
-Actual large embedded images are extracted to `iphone_darcy_messages_assets/`
-and registered in `iphone_darcy_index.csv` for HTML previews and PDF embedding.
+Actual large embedded images are extracted to `data/archives/iphone/iphone_darcy_messages_assets/`
+and registered in `data/archives/iphone/iphone_darcy_index.csv` for HTML previews and PDF embedding.
 Bracketed descriptions alone are not the original attachments. The current
 source PDF contains no qualifying embedded images.
 
 The combining command discovers the established source-index filenames beside
-each input archive. Optional paths: `--android`, `--iphone`, `--gmail`, `--output`,
-and `--compact-output`. Use `--help` for extraction options and alternate paths.
+each input archive. Original exports are found under `data/originals/<source>/`;
+a supporting export beside its archive takes precedence. Optional paths:
+`--android`, `--iphone`, `--gmail`, `--originals-dir`, `--output`, and
+`--compact-output`. The master CSV records archive paths relative to its folder. Use `--help` for extraction options and alternate paths.
 
 ## Recover quoted text in an edited email archive
 
@@ -181,16 +217,16 @@ with the viewer. To repair the existing curated archive without overwriting
 its edited text:
 
 ```bash
-python recover_email_quotes.py
+python -m property_timeline.recover_email_quotes
 ```
 
 Recovery compares old and corrected extraction against the original MBOX by
 Message-ID, appends only missing passages to FULL entries, and retains intentional
 EVENT shortening. It is idempotent and records additions and hashes in
-`email_quote_recovery_manifest.json`. Existing numbering and edited text are
+`data/archives/gmail/email_quote_recovery_manifest.json`. Existing numbering and edited text are
 preserved. Refresh the master outputs afterward. The review remediation restored
 passages in 34 records; the pre-recovery archive/index copies are in
-`review_backups/`.
+`backups/review_backups/`.
 
 ## Reading and reference conventions
 
@@ -217,14 +253,15 @@ quotations; Markdown retains the edited archive text.
 Recognized signatures and routine footers are omitted from reading views.
 Original archive text is retained separately; original exports are the reference
 for unabridged source content. Reviewed decorative attachments are excluded using
-`signature_attachment_hashes.json`, with actual bytes checked. Generic filenames
+`src/property_timeline/resources/signature_attachment_hashes.json`, with actual bytes checked. Generic filenames
 and inline disposition alone are insufficient. `SecureMessageAtt.html` remains
 included because it contains the secure-message payload.
 
 ## Attachments and sharing
 
-HTML previews use local originals. Keep Gmail, Android, and any iPhone attachment
-folders with the HTML when sharing. Images open in a modal; PDFs can use browser
+HTML previews use local originals. When sharing the HTML, include `output/` and
+`data/` with their relative folder layout intact; archive references and attachment
+links cross those folders. The PDF embeds its attachments and can be shared alone. Images open in a modal; PDFs can use browser
 previews; other formats use their file links. Previews beside quoted passages
 require an explicit filename or Content-ID reference; generic "see attached"
 wording does not infer a file association. Unavailable files remain labeled.
@@ -243,9 +280,9 @@ image orientation follows EXIF metadata. Embedded originals are not converted.
 ## Verification and publication
 
 ```bash
-python -m unittest discover -v
-python export_timeline_pdf.py --self-test
-python export_timeline_pdf.py --verify-only
+python -m unittest discover -s tests -v
+python -m property_timeline.export_timeline_pdf --self-test
+python -m property_timeline.export_timeline_pdf --verify-only
 ```
 
 The Windows `--self-test` command runs the full suite, including sanitized PDF,
@@ -264,4 +301,4 @@ atomic. The multi-file bundle is not a filesystem transaction. Original/input
 path collisions are rejected. A failed PDF verification preserves the previous
 successful PDF. Rebuild from source after interruption during multi-file replacement.
 
-`CODE_REVIEW.md` retains the original findings and their remediation status.
+`docs/CODE_REVIEW.md` retains the original findings and their remediation status.

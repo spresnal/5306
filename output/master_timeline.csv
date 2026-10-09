@@ -1,0 +1,772 @@
+﻿reference_id,origin,source_number,datetime_eastern,sorting_minute_utc,timestamp_as_archived,time_basis,archive_file,archive_line_start,archive_line_end,message_id
+iphone:0001,iphone,1,2026-06-25 19:48 EDT,2026-06-25 23:48 UTC,2026-06-25 19:48,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,14,19,
+iphone:0002,iphone,2,2026-06-25 19:48 EDT,2026-06-25 23:48 UTC,2026-06-25 19:48,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,23,34,
+iphone:0003,iphone,3,2026-06-25 19:48 EDT,2026-06-25 23:48 UTC,2026-06-25 19:48,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,38,43,
+iphone:0004,iphone,4,2026-06-25 19:48 EDT,2026-06-25 23:48 UTC,2026-06-25 19:48,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,47,52,
+iphone:0005,iphone,5,2026-06-25 19:48 EDT,2026-06-25 23:48 UTC,2026-06-25 19:48,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,56,67,
+iphone:0006,iphone,6,2026-06-26 11:55 EDT,2026-06-26 15:55 UTC,2026-06-26 11:55,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,71,78,
+iphone:0007,iphone,7,2026-06-26 14:28 EDT,2026-06-26 18:28 UTC,2026-06-26 14:28,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,82,87,
+iphone:0008,iphone,8,2026-06-26 14:28 EDT,2026-06-26 18:28 UTC,2026-06-26 14:28,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,91,96,
+iphone:0009,iphone,9,2026-06-27 21:42 EDT,2026-06-28 01:42 UTC,2026-06-27 21:42,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,100,105,
+iphone:0010,iphone,10,2026-06-27 21:42 EDT,2026-06-28 01:42 UTC,2026-06-27 21:42,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,109,114,
+iphone:0011,iphone,11,2026-06-28 11:00 EDT,2026-06-28 15:00 UTC,2026-06-28 11:00,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,118,123,
+iphone:0012,iphone,12,2026-06-28 11:00 EDT,2026-06-28 15:00 UTC,2026-06-28 11:00,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,127,132,
+iphone:0013,iphone,13,2026-06-29 12:04 EDT,2026-06-29 16:04 UTC,2026-06-29 12:04,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,136,141,
+iphone:0014,iphone,14,2026-06-29 12:04 EDT,2026-06-29 16:04 UTC,2026-06-29 12:04,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,145,152,
+iphone:0015,iphone,15,2026-06-29 15:52 EDT,2026-06-29 19:52 UTC,2026-06-29 15:52,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,156,161,
+iphone:0016,iphone,16,2026-06-29 15:52 EDT,2026-06-29 19:52 UTC,2026-06-29 15:52,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,165,170,
+iphone:0017,iphone,17,2026-06-29 15:52 EDT,2026-06-29 19:52 UTC,2026-06-29 15:52,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,174,183,
+iphone:0018,iphone,18,2026-06-29 15:52 EDT,2026-06-29 19:52 UTC,2026-06-29 15:52,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,187,192,
+iphone:0019,iphone,19,2026-06-29 15:52 EDT,2026-06-29 19:52 UTC,2026-06-29 15:52,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,196,205,
+iphone:0020,iphone,20,2026-06-29 15:52 EDT,2026-06-29 19:52 UTC,2026-06-29 15:52,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,209,216,
+iphone:0021,iphone,21,2026-06-29 15:52 EDT,2026-06-29 19:52 UTC,2026-06-29 15:52,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,220,225,
+iphone:0022,iphone,22,2026-06-29 15:52 EDT,2026-06-29 19:52 UTC,2026-06-29 15:52,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,229,236,
+iphone:0023,iphone,23,2026-06-29 15:52 EDT,2026-06-29 19:52 UTC,2026-06-29 15:52,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,240,245,
+iphone:0024,iphone,24,2026-06-29 15:52 EDT,2026-06-29 19:52 UTC,2026-06-29 15:52,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,249,254,
+iphone:0025,iphone,25,2026-06-29 15:52 EDT,2026-06-29 19:52 UTC,2026-06-29 15:52,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,258,263,
+gmail:0001,gmail,1,2026-06-29 19:38 EDT,2026-06-29 23:38 UTC,2026-06-29 23:38 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,13,21,<NaDl75TiSAO7vWZllnIHRA@geopod-ismtpd-44>
+iphone:0026,iphone,26,2026-06-29 19:39 EDT,2026-06-29 23:39 UTC,2026-06-29 19:39,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,267,272,
+iphone:0027,iphone,27,2026-06-29 19:39 EDT,2026-06-29 23:39 UTC,2026-06-29 19:39,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,276,281,
+gmail:0002,gmail,2,2026-06-30 10:31 EDT,2026-06-30 14:31 UTC,2026-06-30 14:31 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,23,29,<omwrrg_dSQW1Iq24ZzIG1w@geopod-ismtpd-86>
+gmail:0003,gmail,3,2026-06-30 10:59 EDT,2026-06-30 14:59 UTC,2026-06-30 14:59 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,31,39,<BXZ9ngqZSUGfXUrGGr82oQ@geopod-ismtpd-98>
+iphone:0028,iphone,28,2026-06-30 12:22 EDT,2026-06-30 16:22 UTC,2026-06-30 12:22,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,285,290,
+iphone:0029,iphone,29,2026-06-30 12:22 EDT,2026-06-30 16:22 UTC,2026-06-30 12:22,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,294,299,
+iphone:0030,iphone,30,2026-06-30 12:22 EDT,2026-06-30 16:22 UTC,2026-06-30 12:22,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,303,310,
+iphone:0031,iphone,31,2026-06-30 12:22 EDT,2026-06-30 16:22 UTC,2026-06-30 12:22,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,314,319,
+iphone:0032,iphone,32,2026-06-30 14:32 EDT,2026-06-30 18:32 UTC,2026-06-30 14:32,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,323,328,
+iphone:0033,iphone,33,2026-06-30 14:32 EDT,2026-06-30 18:32 UTC,2026-06-30 14:32,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,332,337,
+iphone:0034,iphone,34,2026-06-30 14:32 EDT,2026-06-30 18:32 UTC,2026-06-30 14:32,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,341,346,
+iphone:0035,iphone,35,2026-06-30 16:38 EDT,2026-06-30 20:38 UTC,2026-06-30 16:38,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,350,357,
+iphone:0036,iphone,36,2026-06-30 16:38 EDT,2026-06-30 20:38 UTC,2026-06-30 16:38,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,361,370,
+iphone:0037,iphone,37,2026-06-30 16:38 EDT,2026-06-30 20:38 UTC,2026-06-30 16:38,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,374,381,
+iphone:0038,iphone,38,2026-06-30 16:38 EDT,2026-06-30 20:38 UTC,2026-06-30 16:38,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,385,390,
+iphone:0039,iphone,39,2026-06-30 16:38 EDT,2026-06-30 20:38 UTC,2026-06-30 16:38,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,394,399,
+iphone:0040,iphone,40,2026-06-30 16:38 EDT,2026-06-30 20:38 UTC,2026-06-30 16:38,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,403,408,
+iphone:0041,iphone,41,2026-06-30 20:39 EDT,2026-07-01 00:39 UTC,2026-06-30 20:39,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,412,417,
+iphone:0042,iphone,42,2026-06-30 20:39 EDT,2026-07-01 00:39 UTC,2026-06-30 20:39,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,421,428,
+iphone:0043,iphone,43,2026-06-30 20:39 EDT,2026-07-01 00:39 UTC,2026-06-30 20:39,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,432,437,
+iphone:0044,iphone,44,2026-06-30 20:39 EDT,2026-07-01 00:39 UTC,2026-06-30 20:39,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,441,446,
+iphone:0045,iphone,45,2026-07-01 08:01 EDT,2026-07-01 12:01 UTC,2026-07-01 08:01,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,450,459,
+iphone:0046,iphone,46,2026-07-01 09:54 EDT,2026-07-01 13:54 UTC,2026-07-01 09:54,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,463,468,
+iphone:0047,iphone,47,2026-07-01 09:54 EDT,2026-07-01 13:54 UTC,2026-07-01 09:54,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,472,477,
+iphone:0048,iphone,48,2026-07-01 09:54 EDT,2026-07-01 13:54 UTC,2026-07-01 09:54,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,481,486,
+iphone:0049,iphone,49,2026-07-01 09:54 EDT,2026-07-01 13:54 UTC,2026-07-01 09:54,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,490,495,
+iphone:0050,iphone,50,2026-07-01 09:54 EDT,2026-07-01 13:54 UTC,2026-07-01 09:54,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,499,504,
+iphone:0051,iphone,51,2026-07-01 09:54 EDT,2026-07-01 13:54 UTC,2026-07-01 09:54,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,508,515,
+iphone:0052,iphone,52,2026-07-01 09:54 EDT,2026-07-01 13:54 UTC,2026-07-01 09:54,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,519,524,
+iphone:0053,iphone,53,2026-07-01 09:54 EDT,2026-07-01 13:54 UTC,2026-07-01 09:54,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,528,533,
+iphone:0054,iphone,54,2026-07-01 09:54 EDT,2026-07-01 13:54 UTC,2026-07-01 09:54,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,537,542,
+gmail:0004,gmail,4,2026-07-01 15:33 EDT,2026-07-01 19:33 UTC,2026-07-01 19:33 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,41,85,<CAEh3-K7Jyst2jvtUCyiLy0sQxeefTKM2QvMaMqw=ts_na7S6+Q@mail.gmail.com>
+iphone:0055,iphone,55,2026-07-01 15:34 EDT,2026-07-01 19:34 UTC,2026-07-01 15:34,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,546,551,
+iphone:0056,iphone,56,2026-07-01 15:34 EDT,2026-07-01 19:34 UTC,2026-07-01 15:34,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,555,560,
+iphone:0057,iphone,57,2026-07-01 15:34 EDT,2026-07-01 19:34 UTC,2026-07-01 15:34,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,564,569,
+iphone:0058,iphone,58,2026-07-01 15:34 EDT,2026-07-01 19:34 UTC,2026-07-01 15:34,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,573,578,
+iphone:0059,iphone,59,2026-07-01 15:34 EDT,2026-07-01 19:34 UTC,2026-07-01 15:34,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,582,587,
+iphone:0060,iphone,60,2026-07-01 15:34 EDT,2026-07-01 19:34 UTC,2026-07-01 15:34,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,591,596,
+iphone:0061,iphone,61,2026-07-01 18:20 EDT,2026-07-01 22:20 UTC,2026-07-01 18:20,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,600,605,
+iphone:0062,iphone,62,2026-07-01 18:20 EDT,2026-07-01 22:20 UTC,2026-07-01 18:20,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,609,614,
+iphone:0063,iphone,63,2026-07-01 18:20 EDT,2026-07-01 22:20 UTC,2026-07-01 18:20,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,618,623,
+iphone:0064,iphone,64,2026-07-01 18:20 EDT,2026-07-01 22:20 UTC,2026-07-01 18:20,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,627,632,
+iphone:0065,iphone,65,2026-07-01 18:20 EDT,2026-07-01 22:20 UTC,2026-07-01 18:20,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,636,641,
+iphone:0066,iphone,66,2026-07-01 20:17 EDT,2026-07-02 00:17 UTC,2026-07-01 20:17,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,645,650,
+iphone:0067,iphone,67,2026-07-02 10:03 EDT,2026-07-02 14:03 UTC,2026-07-02 10:03,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,654,659,
+iphone:0068,iphone,68,2026-07-02 10:03 EDT,2026-07-02 14:03 UTC,2026-07-02 10:03,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,663,668,
+iphone:0069,iphone,69,2026-07-02 10:03 EDT,2026-07-02 14:03 UTC,2026-07-02 10:03,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,672,681,
+iphone:0070,iphone,70,2026-07-02 10:03 EDT,2026-07-02 14:03 UTC,2026-07-02 10:03,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,685,692,
+iphone:0071,iphone,71,2026-07-02 10:03 EDT,2026-07-02 14:03 UTC,2026-07-02 10:03,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,696,705,
+iphone:0072,iphone,72,2026-07-02 10:03 EDT,2026-07-02 14:03 UTC,2026-07-02 10:03,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,709,714,
+iphone:0073,iphone,73,2026-07-02 10:03 EDT,2026-07-02 14:03 UTC,2026-07-02 10:03,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,718,723,
+iphone:0074,iphone,74,2026-07-03 11:22 EDT,2026-07-03 15:22 UTC,2026-07-03 11:22,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,727,732,
+iphone:0075,iphone,75,2026-07-03 11:22 EDT,2026-07-03 15:22 UTC,2026-07-03 11:22,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,736,741,
+iphone:0076,iphone,76,2026-07-03 14:26 EDT,2026-07-03 18:26 UTC,2026-07-03 14:26,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,745,750,
+iphone:0077,iphone,77,2026-07-03 14:26 EDT,2026-07-03 18:26 UTC,2026-07-03 14:26,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,754,759,
+iphone:0078,iphone,78,2026-07-03 14:26 EDT,2026-07-03 18:26 UTC,2026-07-03 14:26,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,763,768,
+iphone:0079,iphone,79,2026-07-03 14:26 EDT,2026-07-03 18:26 UTC,2026-07-03 14:26,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,772,777,
+iphone:0080,iphone,80,2026-07-03 14:26 EDT,2026-07-03 18:26 UTC,2026-07-03 14:26,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,781,790,
+iphone:0081,iphone,81,2026-07-03 14:26 EDT,2026-07-03 18:26 UTC,2026-07-03 14:26,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,794,799,
+iphone:0082,iphone,82,2026-07-03 14:26 EDT,2026-07-03 18:26 UTC,2026-07-03 14:26,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,803,808,
+iphone:0083,iphone,83,2026-07-03 14:26 EDT,2026-07-03 18:26 UTC,2026-07-03 14:26,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,812,817,
+iphone:0084,iphone,84,2026-07-03 14:26 EDT,2026-07-03 18:26 UTC,2026-07-03 14:26,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,821,826,
+iphone:0085,iphone,85,2026-07-03 14:26 EDT,2026-07-03 18:26 UTC,2026-07-03 14:26,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,830,835,
+iphone:0086,iphone,86,2026-07-03 14:26 EDT,2026-07-03 18:26 UTC,2026-07-03 14:26,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,839,844,
+iphone:0087,iphone,87,2026-07-03 14:26 EDT,2026-07-03 18:26 UTC,2026-07-03 14:26,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,848,853,
+iphone:0088,iphone,88,2026-07-03 14:26 EDT,2026-07-03 18:26 UTC,2026-07-03 14:26,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,857,862,
+iphone:0089,iphone,89,2026-07-03 14:26 EDT,2026-07-03 18:26 UTC,2026-07-03 14:26,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,866,871,
+iphone:0090,iphone,90,2026-07-03 14:26 EDT,2026-07-03 18:26 UTC,2026-07-03 14:26,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,875,880,
+iphone:0091,iphone,91,2026-07-03 14:26 EDT,2026-07-03 18:26 UTC,2026-07-03 14:26,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,884,889,
+iphone:0092,iphone,92,2026-07-03 14:26 EDT,2026-07-03 18:26 UTC,2026-07-03 14:26,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,893,898,
+iphone:0093,iphone,93,2026-07-03 14:26 EDT,2026-07-03 18:26 UTC,2026-07-03 14:26,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,902,907,
+iphone:0094,iphone,94,2026-07-03 14:26 EDT,2026-07-03 18:26 UTC,2026-07-03 14:26,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,911,916,
+iphone:0095,iphone,95,2026-07-03 14:26 EDT,2026-07-03 18:26 UTC,2026-07-03 14:26,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,920,925,
+iphone:0096,iphone,96,2026-07-03 14:26 EDT,2026-07-03 18:26 UTC,2026-07-03 14:26,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,929,934,
+iphone:0097,iphone,97,2026-07-03 14:26 EDT,2026-07-03 18:26 UTC,2026-07-03 14:26,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,938,943,
+iphone:0098,iphone,98,2026-07-03 14:26 EDT,2026-07-03 18:26 UTC,2026-07-03 14:26,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,947,952,
+iphone:0099,iphone,99,2026-07-03 14:26 EDT,2026-07-03 18:26 UTC,2026-07-03 14:26,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,956,961,
+iphone:0100,iphone,100,2026-07-03 14:26 EDT,2026-07-03 18:26 UTC,2026-07-03 14:26,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,965,972,
+iphone:0101,iphone,101,2026-07-03 14:26 EDT,2026-07-03 18:26 UTC,2026-07-03 14:26,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,976,981,
+iphone:0102,iphone,102,2026-07-03 14:26 EDT,2026-07-03 18:26 UTC,2026-07-03 14:26,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,985,990,
+iphone:0103,iphone,103,2026-07-03 14:26 EDT,2026-07-03 18:26 UTC,2026-07-03 14:26,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,994,999,
+gmail:0005,gmail,5,2026-07-03 15:32 EDT,2026-07-03 19:32 UTC,2026-07-03 19:32 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,87,109,<CAEh3-K7hLTxv-1=qEs1zWkb1YncF+duwuoEfKcB_BHB_n87h3w@mail.gmail.com>
+gmail:0006,gmail,6,2026-07-03 16:00 EDT,2026-07-03 20:00 UTC,2026-07-03 20:00 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,111,120,<wfFKHRCITAu8UUHZB_m_GA@geopod-ismtpd-44>
+iphone:0104,iphone,104,2026-07-03 18:48 EDT,2026-07-03 22:48 UTC,2026-07-03 18:48,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1003,1008,
+iphone:0105,iphone,105,2026-07-03 18:48 EDT,2026-07-03 22:48 UTC,2026-07-03 18:48,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1012,1017,
+iphone:0106,iphone,106,2026-07-03 18:48 EDT,2026-07-03 22:48 UTC,2026-07-03 18:48,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1021,1026,
+iphone:0107,iphone,107,2026-07-03 18:48 EDT,2026-07-03 22:48 UTC,2026-07-03 18:48,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1030,1035,
+iphone:0108,iphone,108,2026-07-03 18:48 EDT,2026-07-03 22:48 UTC,2026-07-03 18:48,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1039,1044,
+iphone:0109,iphone,109,2026-07-03 18:48 EDT,2026-07-03 22:48 UTC,2026-07-03 18:48,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1048,1053,
+iphone:0110,iphone,110,2026-07-03 18:48 EDT,2026-07-03 22:48 UTC,2026-07-03 18:48,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1057,1062,
+iphone:0111,iphone,111,2026-07-03 18:48 EDT,2026-07-03 22:48 UTC,2026-07-03 18:48,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1066,1071,
+iphone:0112,iphone,112,2026-07-03 18:48 EDT,2026-07-03 22:48 UTC,2026-07-03 18:48,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1075,1080,
+iphone:0113,iphone,113,2026-07-03 18:48 EDT,2026-07-03 22:48 UTC,2026-07-03 18:48,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1084,1091,
+gmail:0007,gmail,7,2026-07-03 20:36 EDT,2026-07-04 00:36 UTC,2026-07-04 00:36 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,122,128,<tQE6rnfEQqa2VJLQPLFw2g@geopod-ismtpd-50>
+gmail:0008,gmail,8,2026-07-04 07:52 EDT,2026-07-04 11:52 UTC,2026-07-04 11:52 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,130,156,<CAEh3-K5nqOJqPzSB4YeypOpBfZnAENdcGuvoLhfAEXmbY4Mtag@mail.gmail.com>
+iphone:0114,iphone,114,2026-07-04 11:40 EDT,2026-07-04 15:40 UTC,2026-07-04 11:40,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1095,1100,
+iphone:0115,iphone,115,2026-07-04 11:40 EDT,2026-07-04 15:40 UTC,2026-07-04 11:40,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1104,1109,
+gmail:0009,gmail,9,2026-07-05 08:21 EDT,2026-07-05 12:21 UTC,2026-07-05 12:21 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,158,181,<CAEh3-K5Y+xpxindp0FV1Gv0HL2H4K89NQbqRg8JE1FEt3NqAgA@mail.gmail.com>
+gmail:0010,gmail,10,2026-07-05 08:27 EDT,2026-07-05 12:27 UTC,2026-07-05 12:27 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,183,199,<CAEh3-K43NoX1vu3Lc8egPfP3KofVPetR2U0vS44gNmL=Nf-GwA@mail.gmail.com>
+gmail:0011,gmail,11,2026-07-05 10:29 EDT,2026-07-05 14:29 UTC,2026-07-05 14:29 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,201,228,<CAEh3-K4uNGebPM=7ZQ8RXMVBdk6wPUymrGNGvSKT_XrO19ihRQ@mail.gmail.com>
+gmail:0012,gmail,12,2026-07-05 13:31 EDT,2026-07-05 17:31 UTC,2026-07-05 17:31 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,230,266,<CAN6V4SUGTvWZduxPRoXyZgEzaMBh1C39soN=eezaUwu5U-GdgA@mail.gmail.com>
+gmail:0013,gmail,13,2026-07-05 16:39 EDT,2026-07-05 20:39 UTC,2026-07-05 20:39 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,268,280,<CAEh3-K5S-VKYWz0BphKhdFVHpMXNATE9hvzP5DjDFKuMXFOhjQ@mail.gmail.com>
+iphone:0116,iphone,116,2026-07-05 16:48 EDT,2026-07-05 20:48 UTC,2026-07-05 16:48,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1113,1120,
+iphone:0117,iphone,117,2026-07-05 16:48 EDT,2026-07-05 20:48 UTC,2026-07-05 16:48,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1124,1129,
+iphone:0118,iphone,118,2026-07-05 16:48 EDT,2026-07-05 20:48 UTC,2026-07-05 16:48,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1133,1138,
+iphone:0119,iphone,119,2026-07-05 16:48 EDT,2026-07-05 20:48 UTC,2026-07-05 16:48,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1142,1151,
+iphone:0120,iphone,120,2026-07-05 16:48 EDT,2026-07-05 20:48 UTC,2026-07-05 16:48,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1155,1160,
+iphone:0121,iphone,121,2026-07-05 16:48 EDT,2026-07-05 20:48 UTC,2026-07-05 16:48,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1164,1169,
+iphone:0122,iphone,122,2026-07-06 09:32 EDT,2026-07-06 13:32 UTC,2026-07-06 09:32,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1173,1178,
+gmail:0014,gmail,14,2026-07-06 13:10 EDT,2026-07-06 17:10 UTC,2026-07-06 17:10 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,282,309,<CAEh3-K4-w-gsM9hSFjFGy1tmCp1mY0dOS=Y71MXwHbDjttqCbA@mail.gmail.com>
+gmail:0015,gmail,15,2026-07-06 13:12 EDT,2026-07-06 17:12 UTC,2026-07-06 17:12 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,311,346,<CAN6V4SUTomdkQHWXXdDANrBVQ_DwWrX3LasMkVw+8veHE_tYkQ@mail.gmail.com>
+iphone:0123,iphone,123,2026-07-06 13:26 EDT,2026-07-06 17:26 UTC,2026-07-06 13:26,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1182,1187,
+iphone:0124,iphone,124,2026-07-06 13:26 EDT,2026-07-06 17:26 UTC,2026-07-06 13:26,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1191,1196,
+iphone:0125,iphone,125,2026-07-06 13:26 EDT,2026-07-06 17:26 UTC,2026-07-06 13:26,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1200,1207,
+gmail:0016,gmail,16,2026-07-06 13:39 EDT,2026-07-06 17:39 UTC,2026-07-06 17:39 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,348,356,<CH2PR12MB4908964DF6A8E984AF5F71ECD2F12@CH2PR12MB4908.namprd12.prod.outlook.com>
+gmail:0017,gmail,17,2026-07-06 13:42 EDT,2026-07-06 17:42 UTC,2026-07-06 17:42 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,358,366,<CAN6V4SVur_uDntCmTxJbo1sA_PexLj_UE7qNUssQpYuXv3LY9w@mail.gmail.com>
+iphone:0126,iphone,126,2026-07-06 15:41 EDT,2026-07-06 19:41 UTC,2026-07-06 15:41,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1211,1216,
+iphone:0127,iphone,127,2026-07-06 15:41 EDT,2026-07-06 19:41 UTC,2026-07-06 15:41,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1220,1225,
+iphone:0128,iphone,128,2026-07-06 15:41 EDT,2026-07-06 19:41 UTC,2026-07-06 15:41,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1229,1234,
+iphone:0129,iphone,129,2026-07-06 19:55 EDT,2026-07-06 23:55 UTC,2026-07-06 19:55,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1238,1247,
+iphone:0130,iphone,130,2026-07-06 19:55 EDT,2026-07-06 23:55 UTC,2026-07-06 19:55,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1251,1258,
+gmail:0018,gmail,18,2026-07-07 09:42 EDT,2026-07-07 13:42 UTC,2026-07-07 13:42 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,368,403,<CAN6V4SUPfgk_+RiMxu3RJQbo+S6nR5vnY3Q0eEc4ygqKC+WTSA@mail.gmail.com>
+gmail:0019,gmail,19,2026-07-07 10:10 EDT,2026-07-07 14:10 UTC,2026-07-07 14:10 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,405,443,<CH2PR12MB49083994C894A0D6FE060777D2F02@CH2PR12MB4908.namprd12.prod.outlook.com>
+iphone:0131,iphone,131,2026-07-07 10:28 EDT,2026-07-07 14:28 UTC,2026-07-07 10:28,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1262,1267,
+iphone:0132,iphone,132,2026-07-07 10:28 EDT,2026-07-07 14:28 UTC,2026-07-07 10:28,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1271,1276,
+iphone:0133,iphone,133,2026-07-07 11:45 EDT,2026-07-07 15:45 UTC,2026-07-07 11:45,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1280,1285,
+iphone:0134,iphone,134,2026-07-07 11:45 EDT,2026-07-07 15:45 UTC,2026-07-07 11:45,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1289,1294,
+gmail:0020,gmail,20,2026-07-07 13:28 EDT,2026-07-07 17:28 UTC,2026-07-07 17:28 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,445,491,<CH2PR12MB490832ED801D5BAE567F6AA0D2F02@CH2PR12MB4908.namprd12.prod.outlook.com>
+gmail:0021,gmail,21,2026-07-07 13:30 EDT,2026-07-07 17:30 UTC,2026-07-07 17:30 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,493,535,<CAPNfwmK+1mSZkd_1skjBzq78rbTSq8vxK9HAoqsu43E1Qt3jeQ@mail.gmail.com>
+gmail:0022,gmail,22,2026-07-07 13:52 EDT,2026-07-07 17:52 UTC,2026-07-07 17:52 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,537,598,<CH2PR12MB4908F496472DDD928411B50AD2F02@CH2PR12MB4908.namprd12.prod.outlook.com>
+gmail:0023,gmail,23,2026-07-07 14:00 EDT,2026-07-07 18:00 UTC,2026-07-07 18:00 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,600,649,<CAN6V4SXSpcFr02eJAQnnfv8DXCzyhXy9VTH8jq5QNLTOdNu5Xg@mail.gmail.com>
+gmail:0024,gmail,24,2026-07-07 14:02 EDT,2026-07-07 18:02 UTC,2026-07-07 18:02 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,651,659,<20260707180202.681a1f6d1c3b926e@mail.hellosign.com>
+gmail:0025,gmail,25,2026-07-07 14:03 EDT,2026-07-07 18:03 UTC,2026-07-07 18:03 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,661,736,<CH2PR12MB4908D0F238B485B98FFB1B5DD2F02@CH2PR12MB4908.namprd12.prod.outlook.com>
+gmail:0026,gmail,26,2026-07-07 14:03 EDT,2026-07-07 18:03 UTC,2026-07-07 18:03 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,738,792,<CAN6V4SWke7EjeE781d1+jz+s1szpCDM9VZXVr5VoiYV1jJd_aw@mail.gmail.com>
+gmail:0027,gmail,27,2026-07-07 14:04 EDT,2026-07-07 18:04 UTC,2026-07-07 18:04 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,794,844,<CAPNfwm+uc88f3r-aXkuMc-G8dyOt530PCQL9bL6jtaHJQEeDsw@mail.gmail.com>
+gmail:0028,gmail,28,2026-07-07 14:05 EDT,2026-07-07 18:05 UTC,2026-07-07 18:05 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,846,932,<CH2PR12MB4908897E5C56336FF1FE554BD2F02@CH2PR12MB4908.namprd12.prod.outlook.com>
+gmail:0029,gmail,29,2026-07-07 14:13 EDT,2026-07-07 18:13 UTC,2026-07-07 18:13 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,934,991,<CAN6V4SV6ok6yMfXvU7pmVVZjGxkU4wVMz0FH_mi4=uFSNbAaVw@mail.gmail.com>
+gmail:0030,gmail,30,2026-07-07 14:22 EDT,2026-07-07 18:22 UTC,2026-07-07 18:22 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,993,1092,<CH2PR12MB4908862CDC651FA66B6C8FD0D2F02@CH2PR12MB4908.namprd12.prod.outlook.com>
+iphone:0135,iphone,135,2026-07-07 14:23 EDT,2026-07-07 18:23 UTC,2026-07-07 14:23,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1298,1303,
+gmail:0031,gmail,31,2026-07-07 14:42 EDT,2026-07-07 18:42 UTC,2026-07-07 18:42 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,1094,1203,<CH2PR12MB49081B43043BE4171FA8E721D2F02@CH2PR12MB4908.namprd12.prod.outlook.com>
+gmail:0032,gmail,32,2026-07-07 14:47 EDT,2026-07-07 18:47 UTC,2026-07-07 18:47 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,1205,1271,<CAN6V4SWJz5Uy-WF3cw-5Gggs49cptrUg+03T+i2LmsJ+kyMfHg@mail.gmail.com>
+gmail:0033,gmail,33,2026-07-07 15:19 EDT,2026-07-07 19:19 UTC,2026-07-07 19:19 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,1273,1346,<CAEh3-K4jEArQS1Sk6K-B0aN=zhDH+=D9bOUa7hbVP+VgN5f3kQ@mail.gmail.com>
+gmail:0034,gmail,34,2026-07-07 15:36 EDT,2026-07-07 19:36 UTC,2026-07-07 19:36 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,1348,1489,<CH2PR12MB4908894F7A55A72436F6C154D2F02@CH2PR12MB4908.namprd12.prod.outlook.com>
+gmail:0035,gmail,35,2026-07-07 16:25 EDT,2026-07-07 20:25 UTC,2026-07-07 20:25 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,1491,1612,<CAN6V4SXY=DJgPU+62QpNo1ysFgkaoxp__e-eZPFUuSB1TM24OQ@mail.gmail.com>
+gmail:0036,gmail,36,2026-07-07 16:38 EDT,2026-07-07 20:38 UTC,2026-07-07 20:38 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,1614,1738,<CAN6V4SX=omx-=vs9h4wBgzYkzqvzR6MXhgU4LsOWoi2zktgDrw@mail.gmail.com>
+iphone:0136,iphone,136,2026-07-07 16:46 EDT,2026-07-07 20:46 UTC,2026-07-07 16:46,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1307,1312,
+iphone:0137,iphone,137,2026-07-07 16:46 EDT,2026-07-07 20:46 UTC,2026-07-07 16:46,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1316,1321,
+iphone:0138,iphone,138,2026-07-07 16:46 EDT,2026-07-07 20:46 UTC,2026-07-07 16:46,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1325,1330,
+iphone:0139,iphone,139,2026-07-07 16:46 EDT,2026-07-07 20:46 UTC,2026-07-07 16:46,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1334,1339,
+iphone:0140,iphone,140,2026-07-07 16:46 EDT,2026-07-07 20:46 UTC,2026-07-07 16:46,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1343,1348,
+iphone:0141,iphone,141,2026-07-07 16:46 EDT,2026-07-07 20:46 UTC,2026-07-07 16:46,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1352,1357,
+iphone:0142,iphone,142,2026-07-07 16:46 EDT,2026-07-07 20:46 UTC,2026-07-07 16:46,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1361,1366,
+iphone:0143,iphone,143,2026-07-07 16:46 EDT,2026-07-07 20:46 UTC,2026-07-07 16:46,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1370,1375,
+iphone:0144,iphone,144,2026-07-07 16:46 EDT,2026-07-07 20:46 UTC,2026-07-07 16:46,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1379,1384,
+iphone:0145,iphone,145,2026-07-07 16:46 EDT,2026-07-07 20:46 UTC,2026-07-07 16:46,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1388,1393,
+iphone:0146,iphone,146,2026-07-07 16:46 EDT,2026-07-07 20:46 UTC,2026-07-07 16:46,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1397,1402,
+gmail:0037,gmail,37,2026-07-07 16:48 EDT,2026-07-07 20:48 UTC,2026-07-07 20:48 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,1740,1900,<CH2PR12MB4908ED854BA79B3E68D8EE57D2F02@CH2PR12MB4908.namprd12.prod.outlook.com>
+gmail:0038,gmail,38,2026-07-07 20:16 EDT,2026-07-08 00:16 UTC,2026-07-08 00:16 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,1902,1927,<CAEh3-K6=3dwo3OtN8iYSijhwSqZJEVrySz6izR-TDH_TjK6izA@mail.gmail.com>
+gmail:0039,gmail,39,2026-07-07 20:37 EDT,2026-07-08 00:37 UTC,2026-07-08 00:37 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,1929,1968,<CAN6V4SXY0JTXyuzXox+UBL+ZfvE87k0wsyg0mDLWuVHPzTiYnw@mail.gmail.com>
+gmail:0040,gmail,40,2026-07-07 20:41 EDT,2026-07-08 00:41 UTC,2026-07-08 00:41 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,1970,2015,<CAEh3-K7BSsaMzbTuwXLrcxyYXwG79mnSD7VYKLsUScS-zSZY5Q@mail.gmail.com>
+gmail:0041,gmail,41,2026-07-07 20:46 EDT,2026-07-08 00:46 UTC,2026-07-08 00:46 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,2017,2026,<0w8hkr0jTS22OnNZg80ktQ@geopod-ismtpd-45>
+gmail:0042,gmail,42,2026-07-07 20:56 EDT,2026-07-08 00:56 UTC,2026-07-08 00:56 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,2028,2034,<QoydPQGVQ96uS-G7XRSITA@geopod-ismtpd-40>
+gmail:0043,gmail,43,2026-07-07 20:59 EDT,2026-07-08 00:59 UTC,2026-07-08 00:59 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,2036,2044,<yPWfT2sPTyefj-52uBA0IQ@geopod-ismtpd-97>
+iphone:0147,iphone,147,2026-07-07 22:00 EDT,2026-07-08 02:00 UTC,2026-07-07 22:00,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1406,1411,
+iphone:0148,iphone,148,2026-07-07 22:00 EDT,2026-07-08 02:00 UTC,2026-07-07 22:00,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1415,1420,
+iphone:0149,iphone,149,2026-07-08 10:26 EDT,2026-07-08 14:26 UTC,2026-07-08 10:26,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1424,1429,
+iphone:0150,iphone,150,2026-07-08 10:26 EDT,2026-07-08 14:26 UTC,2026-07-08 10:26,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1433,1438,
+iphone:0151,iphone,151,2026-07-08 14:12 EDT,2026-07-08 18:12 UTC,2026-07-08 14:12,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1442,1447,
+iphone:0152,iphone,152,2026-07-08 14:12 EDT,2026-07-08 18:12 UTC,2026-07-08 14:12,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1451,1456,
+iphone:0153,iphone,153,2026-07-08 14:12 EDT,2026-07-08 18:12 UTC,2026-07-08 14:12,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1460,1465,
+iphone:0154,iphone,154,2026-07-08 14:12 EDT,2026-07-08 18:12 UTC,2026-07-08 14:12,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1469,1474,
+gmail:0044,gmail,44,2026-07-08 14:38 EDT,2026-07-08 18:38 UTC,2026-07-08 18:38 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,2046,2087,<CAEh3-K6bbDKJ0U=_+x+MGw86S4aD0K=Dc7GLTgTsV=LxDtcq2A@mail.gmail.com>
+gmail:0045,gmail,45,2026-07-08 17:55 EDT,2026-07-08 21:55 UTC,2026-07-08 21:55 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,2089,2109,<CAN6V4SWB_zkk+VxzOUcT8NrM-JnRDZd0-vmXYXpTcvPruf4oyA@mail.gmail.com>
+gmail:0046,gmail,46,2026-07-09 07:58 EDT,2026-07-09 11:58 UTC,2026-07-09 11:58 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,2111,2144,<CAEh3-K5_vNaku7H2PrabEwJwYRJQy75wO_DzpS-a1e=HV1v7NA@mail.gmail.com>
+iphone:0155,iphone,155,2026-07-09 09:10 EDT,2026-07-09 13:10 UTC,2026-07-09 09:10,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1478,1491,
+iphone:0156,iphone,156,2026-07-09 09:10 EDT,2026-07-09 13:10 UTC,2026-07-09 09:10,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1495,1500,
+iphone:0157,iphone,157,2026-07-09 09:10 EDT,2026-07-09 13:10 UTC,2026-07-09 09:10,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1504,1509,
+iphone:0158,iphone,158,2026-07-09 09:10 EDT,2026-07-09 13:10 UTC,2026-07-09 09:10,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1513,1518,
+iphone:0159,iphone,159,2026-07-09 09:10 EDT,2026-07-09 13:10 UTC,2026-07-09 09:10,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1522,1527,
+iphone:0160,iphone,160,2026-07-09 12:18 EDT,2026-07-09 16:18 UTC,2026-07-09 12:18,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1531,1536,
+iphone:0161,iphone,161,2026-07-09 12:18 EDT,2026-07-09 16:18 UTC,2026-07-09 12:18,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1540,1545,
+iphone:0162,iphone,162,2026-07-09 12:18 EDT,2026-07-09 16:18 UTC,2026-07-09 12:18,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1549,1554,
+iphone:0163,iphone,163,2026-07-09 12:18 EDT,2026-07-09 16:18 UTC,2026-07-09 12:18,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1558,1563,
+iphone:0164,iphone,164,2026-07-09 12:18 EDT,2026-07-09 16:18 UTC,2026-07-09 12:18,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1567,1572,
+iphone:0165,iphone,165,2026-07-09 12:18 EDT,2026-07-09 16:18 UTC,2026-07-09 12:18,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1576,1581,
+iphone:0166,iphone,166,2026-07-09 12:18 EDT,2026-07-09 16:18 UTC,2026-07-09 12:18,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1585,1590,
+iphone:0167,iphone,167,2026-07-09 12:18 EDT,2026-07-09 16:18 UTC,2026-07-09 12:18,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1594,1599,
+gmail:0047,gmail,47,2026-07-09 12:58 EDT,2026-07-09 16:58 UTC,2026-07-09 16:58 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,2146,2171,<CH2PR12MB49089783E06A4029A15C81C5D2FE2@CH2PR12MB4908.namprd12.prod.outlook.com>
+gmail:0048,gmail,48,2026-07-09 14:08 EDT,2026-07-09 18:08 UTC,2026-07-09 18:08 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,2173,2224,<CAPNfwm+ZuwE=9ADcQ4ecsSZRYz1xSoAb-NuJOsFwZ6L8mT7W5Q@mail.gmail.com>
+gmail:0049,gmail,49,2026-07-09 15:31 EDT,2026-07-09 19:31 UTC,2026-07-09 19:31 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,2226,2254,<CAEh3-K4cEMy3obpGDMHhUAWqGbJz9s+3dEhnbZNkJdDMJE8B2Q@mail.gmail.com>
+iphone:0168,iphone,168,2026-07-09 15:32 EDT,2026-07-09 19:32 UTC,2026-07-09 15:32,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1603,1608,
+gmail:0050,gmail,50,2026-07-09 16:21 EDT,2026-07-09 20:21 UTC,2026-07-09 20:21 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,2256,2290,<CAPNfwm+W7U0RBu19_ShuihNwxnPbfv0TYFE6D4uyde5sAdpVxA@mail.gmail.com>
+gmail:0051,gmail,51,2026-07-09 18:02 EDT,2026-07-09 22:02 UTC,2026-07-09 22:02 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,2292,2330,<CAEh3-K4sZOdKYYQZJiL1xm-ziSgV=0RYcWV=uv+LgFMXTme3Gw@mail.gmail.com>
+gmail:0052,gmail,52,2026-07-09 18:02 EDT,2026-07-09 22:02 UTC,2026-07-09 22:02 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,2332,2374,<CAPNfwm+vdOsQUi6v9o6U1nKz62BkjsJuv5-yPCMehKEs9ctbKw@mail.gmail.com>
+iphone:0169,iphone,169,2026-07-10 15:09 EDT,2026-07-10 19:09 UTC,2026-07-10 15:09,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1612,1617,
+iphone:0170,iphone,170,2026-07-10 15:09 EDT,2026-07-10 19:09 UTC,2026-07-10 15:09,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1621,1626,
+iphone:0171,iphone,171,2026-07-10 15:09 EDT,2026-07-10 19:09 UTC,2026-07-10 15:09,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1630,1635,
+iphone:0172,iphone,172,2026-07-10 15:09 EDT,2026-07-10 19:09 UTC,2026-07-10 15:09,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1639,1644,
+iphone:0173,iphone,173,2026-07-10 15:09 EDT,2026-07-10 19:09 UTC,2026-07-10 15:09,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1648,1653,
+gmail:0053,gmail,53,2026-07-10 15:10 EDT,2026-07-10 19:10 UTC,2026-07-10 19:10 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,2376,2444,<CAEh3-K45NhFrL+3LYCJXSk7X4zJ5XDxCLyneT5x+E8s4Nf=0Dg@mail.gmail.com>
+gmail:0054,gmail,54,2026-07-10 15:15 EDT,2026-07-10 19:15 UTC,2026-07-10 19:15 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,2446,2521,<CAPNfwmK6L4yYzWpn6d_HzX0JctDeQDqqqNmk-6ogR85xZ7juiw@mail.gmail.com>
+iphone:0174,iphone,174,2026-07-11 13:33 EDT,2026-07-11 17:33 UTC,2026-07-11 13:33,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1657,1664,
+iphone:0175,iphone,175,2026-07-13 08:24 EDT,2026-07-13 12:24 UTC,2026-07-13 08:24,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1668,1673,
+iphone:0176,iphone,176,2026-07-13 08:24 EDT,2026-07-13 12:24 UTC,2026-07-13 08:24,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1677,1682,
+iphone:0177,iphone,177,2026-07-13 08:24 EDT,2026-07-13 12:24 UTC,2026-07-13 08:24,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1686,1691,
+gmail:0055,gmail,55,2026-07-13 09:39 EDT,2026-07-13 13:39 UTC,2026-07-13 13:39 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,2523,2578,<CAN6V4SXUjK6FrdQ2NGdj5ZLga7aU16GR4MROV8CZMjhwM+xx+Q@mail.gmail.com>
+gmail:0056,gmail,56,2026-07-13 09:40 EDT,2026-07-13 13:40 UTC,2026-07-13 13:40 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,2580,2586,<82673d00ab2b430e941f68fb7e70d300@CH2PR12MB4908.namprd12.prod.outlook.com>
+gmail:0057,gmail,57,2026-07-13 10:29 EDT,2026-07-13 14:29 UTC,2026-07-13 14:29 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,2588,2657,<CAEh3-K72wXSRYwz6Gvm3O8593wTfd=wsOyZqvQ+QVpg6EFq3fw@mail.gmail.com>
+iphone:0178,iphone,178,2026-07-13 10:30 EDT,2026-07-13 14:30 UTC,2026-07-13 10:30,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1695,1700,
+iphone:0179,iphone,179,2026-07-13 19:51 EDT,2026-07-13 23:51 UTC,2026-07-13 19:51,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1704,1709,
+iphone:0180,iphone,180,2026-07-14 14:30 EDT,2026-07-14 18:30 UTC,2026-07-14 14:30,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1713,1718,
+iphone:0181,iphone,181,2026-07-14 15:39 EDT,2026-07-14 19:39 UTC,2026-07-14 15:39,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1722,1727,
+iphone:0182,iphone,182,2026-07-14 15:39 EDT,2026-07-14 19:39 UTC,2026-07-14 15:39,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1731,1738,
+iphone:0183,iphone,183,2026-07-14 15:39 EDT,2026-07-14 19:39 UTC,2026-07-14 15:39,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1742,1747,
+gmail:0058,gmail,58,2026-07-14 18:14 EDT,2026-07-14 22:14 UTC,2026-07-14 22:14 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,2659,2704,<CAEh3-K669zjQvA33XdMOETUPXa6+pYYknJB8ERgJMVDz3uMzgA@mail.gmail.com>
+iphone:0184,iphone,184,2026-07-14 18:15 EDT,2026-07-14 22:15 UTC,2026-07-14 18:15,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1751,1756,
+iphone:0185,iphone,185,2026-07-14 18:15 EDT,2026-07-14 22:15 UTC,2026-07-14 18:15,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1760,1767,
+iphone:0186,iphone,186,2026-07-16 14:15 EDT,2026-07-16 18:15 UTC,2026-07-16 14:15,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1771,1776,
+iphone:0187,iphone,187,2026-07-16 14:15 EDT,2026-07-16 18:15 UTC,2026-07-16 14:15,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1780,1785,
+iphone:0188,iphone,188,2026-07-17 09:50 EDT,2026-07-17 13:50 UTC,2026-07-17 09:50,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1789,1794,
+iphone:0189,iphone,189,2026-07-17 09:50 EDT,2026-07-17 13:50 UTC,2026-07-17 09:50,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1798,1803,
+iphone:0190,iphone,190,2026-07-17 11:36 EDT,2026-07-17 15:36 UTC,2026-07-17 11:36,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1807,1812,
+iphone:0191,iphone,191,2026-07-17 11:36 EDT,2026-07-17 15:36 UTC,2026-07-17 11:36,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1816,1821,
+iphone:0192,iphone,192,2026-07-17 11:36 EDT,2026-07-17 15:36 UTC,2026-07-17 11:36,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1825,1838,
+iphone:0193,iphone,193,2026-07-17 11:36 EDT,2026-07-17 15:36 UTC,2026-07-17 11:36,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1842,1847,
+iphone:0194,iphone,194,2026-07-17 11:36 EDT,2026-07-17 15:36 UTC,2026-07-17 11:36,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1851,1856,
+iphone:0195,iphone,195,2026-07-17 11:36 EDT,2026-07-17 15:36 UTC,2026-07-17 11:36,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1860,1865,
+iphone:0196,iphone,196,2026-07-17 11:36 EDT,2026-07-17 15:36 UTC,2026-07-17 11:36,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1869,1874,
+iphone:0197,iphone,197,2026-07-17 14:37 EDT,2026-07-17 18:37 UTC,2026-07-17 14:37,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1878,1883,
+iphone:0198,iphone,198,2026-07-17 14:37 EDT,2026-07-17 18:37 UTC,2026-07-17 14:37,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1887,1892,
+gmail:0059,gmail,59,2026-07-17 15:06 EDT,2026-07-17 19:06 UTC,2026-07-17 19:06 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,2706,2719,<CAEh3-K67oq=t5SO5zrO-9Pj4eVQt1ht59=4iv8OMCaMwmT-k_w@mail.gmail.com>
+gmail:0060,gmail,60,2026-07-17 16:29 EDT,2026-07-17 20:29 UTC,2026-07-17 20:29 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,2721,2739,<CAEh3-K5cW3RMT5xBzj3A-aWjV3cr6wUsm0A87jRMaqFwx2qSZQ@mail.gmail.com>
+gmail:0061,gmail,61,2026-07-17 16:51 EDT,2026-07-17 20:51 UTC,2026-07-17 20:51 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,2741,2766,<CH2PR12MB490865DE4176E0ED6229AE76D2C62@CH2PR12MB4908.namprd12.prod.outlook.com>
+iphone:0199,iphone,199,2026-07-17 17:32 EDT,2026-07-17 21:32 UTC,2026-07-17 17:32,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1896,1901,
+iphone:0200,iphone,200,2026-07-17 17:32 EDT,2026-07-17 21:32 UTC,2026-07-17 17:32,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1905,1910,
+iphone:0201,iphone,201,2026-07-17 17:32 EDT,2026-07-17 21:32 UTC,2026-07-17 17:32,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1914,1919,
+gmail:0062,gmail,62,2026-07-17 18:20 EDT,2026-07-17 22:20 UTC,2026-07-17 22:20 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,2768,2776,<CAEh3-K4B0fN+SBZwKrnfcQrtDBaLN+6Y87wzhykioYQN7r2xYg@mail.gmail.com>
+iphone:0202,iphone,202,2026-07-18 09:49 EDT,2026-07-18 13:49 UTC,2026-07-18 09:49,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1923,1928,
+iphone:0203,iphone,203,2026-07-18 09:49 EDT,2026-07-18 13:49 UTC,2026-07-18 09:49,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1932,1937,
+iphone:0204,iphone,204,2026-07-18 09:49 EDT,2026-07-18 13:49 UTC,2026-07-18 09:49,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1941,1946,
+iphone:0205,iphone,205,2026-07-18 09:49 EDT,2026-07-18 13:49 UTC,2026-07-18 09:49,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1950,1955,
+iphone:0206,iphone,206,2026-07-18 13:09 EDT,2026-07-18 17:09 UTC,2026-07-18 13:09,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1959,1964,
+iphone:0207,iphone,207,2026-07-20 11:58 EDT,2026-07-20 15:58 UTC,2026-07-20 11:58,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1968,1973,
+iphone:0208,iphone,208,2026-07-20 11:58 EDT,2026-07-20 15:58 UTC,2026-07-20 11:58,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1977,1984,
+iphone:0209,iphone,209,2026-07-20 11:58 EDT,2026-07-20 15:58 UTC,2026-07-20 11:58,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1988,1993,
+iphone:0210,iphone,210,2026-07-20 11:58 EDT,2026-07-20 15:58 UTC,2026-07-20 11:58,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,1997,2002,
+iphone:0211,iphone,211,2026-07-20 11:58 EDT,2026-07-20 15:58 UTC,2026-07-20 11:58,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,2006,2011,
+iphone:0212,iphone,212,2026-07-20 11:58 EDT,2026-07-20 15:58 UTC,2026-07-20 11:58,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,2015,2020,
+iphone:0213,iphone,213,2026-07-20 11:58 EDT,2026-07-20 15:58 UTC,2026-07-20 11:58,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,2024,2029,
+gmail:0063,gmail,63,2026-07-20 12:37 EDT,2026-07-20 16:37 UTC,2026-07-20 16:37 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,2778,2788,<G5UGj0hKTDmj67SukBcdCg@geopod-ismtpd-67>
+gmail:0064,gmail,64,2026-07-20 13:40 EDT,2026-07-20 17:40 UTC,2026-07-20 17:40 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,2790,2796,<maFKOwWDRsqUTBZEiBSKfA@geopod-ismtpd-73>
+gmail:0065,gmail,65,2026-07-20 13:45 EDT,2026-07-20 17:45 UTC,2026-07-20 17:45 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,2798,2806,<joFoNdkeSOG3dk1aEo1OmQ@geopod-ismtpd-12>
+iphone:0214,iphone,214,2026-07-20 18:56 EDT,2026-07-20 22:56 UTC,2026-07-20 18:56,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,2033,2038,
+iphone:0215,iphone,215,2026-07-20 18:56 EDT,2026-07-20 22:56 UTC,2026-07-20 18:56,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,2042,2047,
+iphone:0216,iphone,216,2026-07-21 10:06 EDT,2026-07-21 14:06 UTC,2026-07-21 10:06,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,2051,2056,
+iphone:0217,iphone,217,2026-07-21 10:06 EDT,2026-07-21 14:06 UTC,2026-07-21 10:06,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,2060,2065,
+iphone:0218,iphone,218,2026-07-21 10:06 EDT,2026-07-21 14:06 UTC,2026-07-21 10:06,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,2069,2078,
+iphone:0219,iphone,219,2026-07-21 10:06 EDT,2026-07-21 14:06 UTC,2026-07-21 10:06,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,2082,2087,
+iphone:0220,iphone,220,2026-07-21 10:06 EDT,2026-07-21 14:06 UTC,2026-07-21 10:06,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,2091,2096,
+iphone:0221,iphone,221,2026-07-21 10:06 EDT,2026-07-21 14:06 UTC,2026-07-21 10:06,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,2100,2107,
+iphone:0222,iphone,222,2026-07-21 10:06 EDT,2026-07-21 14:06 UTC,2026-07-21 10:06,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,2111,2116,
+iphone:0223,iphone,223,2026-07-21 10:06 EDT,2026-07-21 14:06 UTC,2026-07-21 10:06,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,2120,2125,
+iphone:0224,iphone,224,2026-07-21 10:06 EDT,2026-07-21 14:06 UTC,2026-07-21 10:06,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,2129,2134,
+iphone:0225,iphone,225,2026-07-21 11:36 EDT,2026-07-21 15:36 UTC,2026-07-21 11:36,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,2138,2143,
+gmail:0066,gmail,66,2026-07-21 11:57 EDT,2026-07-21 15:57 UTC,2026-07-21 15:57 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,2808,2814,<wfDK-2Y2TwupMUZHDM6fLg@geopod-ismtpd-80>
+iphone:0226,iphone,226,2026-07-21 12:51 EDT,2026-07-21 16:51 UTC,2026-07-21 12:51,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,2147,2154,
+iphone:0227,iphone,227,2026-07-21 12:51 EDT,2026-07-21 16:51 UTC,2026-07-21 12:51,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,2158,2163,
+iphone:0228,iphone,228,2026-07-21 12:51 EDT,2026-07-21 16:51 UTC,2026-07-21 12:51,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,2167,2172,
+iphone:0229,iphone,229,2026-07-21 12:51 EDT,2026-07-21 16:51 UTC,2026-07-21 12:51,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,2176,2181,
+gmail:0067,gmail,67,2026-07-21 14:38 EDT,2026-07-21 18:38 UTC,2026-07-21 18:38 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,2816,2839,<CAEh3-K6a8R+-F2BOajsN-t8-aB4y3ANeQmFx8x86KkO0meO_SQ@mail.gmail.com>
+iphone:0230,iphone,230,2026-07-21 14:41 EDT,2026-07-21 18:41 UTC,2026-07-21 14:41,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,2185,2190,
+iphone:0231,iphone,231,2026-07-21 14:41 EDT,2026-07-21 18:41 UTC,2026-07-21 14:41,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,2194,2199,
+iphone:0232,iphone,232,2026-07-21 14:41 EDT,2026-07-21 18:41 UTC,2026-07-21 14:41,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,2203,2210,
+iphone:0233,iphone,233,2026-07-21 14:41 EDT,2026-07-21 18:41 UTC,2026-07-21 14:41,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,2214,2219,
+iphone:0234,iphone,234,2026-07-21 14:41 EDT,2026-07-21 18:41 UTC,2026-07-21 14:41,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,2223,2228,
+iphone:0235,iphone,235,2026-07-21 14:41 EDT,2026-07-21 18:41 UTC,2026-07-21 14:41,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,2232,2237,
+iphone:0236,iphone,236,2026-07-21 14:41 EDT,2026-07-21 18:41 UTC,2026-07-21 14:41,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,2241,2246,
+iphone:0237,iphone,237,2026-07-21 14:41 EDT,2026-07-21 18:41 UTC,2026-07-21 14:41,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,2250,2255,
+iphone:0238,iphone,238,2026-07-21 14:41 EDT,2026-07-21 18:41 UTC,2026-07-21 14:41,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,2259,2266,
+iphone:0239,iphone,239,2026-07-21 14:41 EDT,2026-07-21 18:41 UTC,2026-07-21 14:41,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,2270,2275,
+gmail:0068,gmail,68,2026-07-21 15:02 EDT,2026-07-21 19:02 UTC,2026-07-21 19:02 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,2841,2849,<zJg_09drQYC-9h9JabIXMA@geopod-ismtpd-canary-0>
+iphone:0240,iphone,240,2026-07-22 10:06 EDT,2026-07-22 14:06 UTC,2026-07-22 10:06,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,2279,2284,
+iphone:0241,iphone,241,2026-07-22 10:06 EDT,2026-07-22 14:06 UTC,2026-07-22 10:06,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,2288,2293,
+iphone:0242,iphone,242,2026-07-22 10:06 EDT,2026-07-22 14:06 UTC,2026-07-22 10:06,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,2297,2302,
+iphone:0243,iphone,243,2026-07-22 10:06 EDT,2026-07-22 14:06 UTC,2026-07-22 10:06,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,2306,2311,
+iphone:0244,iphone,244,2026-07-22 10:06 EDT,2026-07-22 14:06 UTC,2026-07-22 10:06,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,2315,2322,
+iphone:0245,iphone,245,2026-07-22 10:06 EDT,2026-07-22 14:06 UTC,2026-07-22 10:06,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,2326,2331,
+iphone:0246,iphone,246,2026-07-22 10:06 EDT,2026-07-22 14:06 UTC,2026-07-22 10:06,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,2335,2340,
+iphone:0247,iphone,247,2026-07-22 10:06 EDT,2026-07-22 14:06 UTC,2026-07-22 10:06,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,2344,2349,
+iphone:0248,iphone,248,2026-07-22 10:06 EDT,2026-07-22 14:06 UTC,2026-07-22 10:06,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,2353,2364,
+iphone:0249,iphone,249,2026-07-22 10:06 EDT,2026-07-22 14:06 UTC,2026-07-22 10:06,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,2368,2373,
+android:0001,android,1,2026-07-22 12:29 EDT,2026-07-22 16:29 UTC,2026-07-22 12:29,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,18,27,
+android:0002,android,2,2026-07-22 13:01 EDT,2026-07-22 17:01 UTC,2026-07-22 13:01,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,31,39,
+android:0003,android,3,2026-07-22 13:35 EDT,2026-07-22 17:35 UTC,2026-07-22 13:35,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,43,51,
+android:0004,android,4,2026-07-22 15:49 EDT,2026-07-22 19:49 UTC,2026-07-22 15:49,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,55,62,
+android:0005,android,5,2026-07-22 16:29 EDT,2026-07-22 20:29 UTC,2026-07-22 16:29,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,66,75,
+android:0006,android,6,2026-07-22 16:29 EDT,2026-07-22 20:29 UTC,2026-07-22 16:29,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,79,86,
+android:0007,android,7,2026-07-22 17:25 EDT,2026-07-22 21:25 UTC,2026-07-22 17:25,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,90,97,
+android:0008,android,8,2026-07-22 17:28 EDT,2026-07-22 21:28 UTC,2026-07-22 17:28,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,101,109,
+android:0009,android,9,2026-07-22 17:50 EDT,2026-07-22 21:50 UTC,2026-07-22 17:50,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,113,121,
+android:0010,android,10,2026-07-22 17:58 EDT,2026-07-22 21:58 UTC,2026-07-22 17:58,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,125,139,
+android:0011,android,11,2026-07-22 18:06 EDT,2026-07-22 22:06 UTC,2026-07-22 18:06,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,143,153,
+android:0012,android,12,2026-07-22 18:12 EDT,2026-07-22 22:12 UTC,2026-07-22 18:12,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,157,169,
+android:0013,android,13,2026-07-22 19:43 EDT,2026-07-22 23:43 UTC,2026-07-22 19:43,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,173,184,
+android:0014,android,14,2026-07-22 20:17 EDT,2026-07-23 00:17 UTC,2026-07-22 20:17,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,188,195,
+gmail:0069,gmail,69,2026-07-23 00:33 EDT,2026-07-23 04:33 UTC,2026-07-23 04:33 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,2851,2857,<pjpfAzcKQEyAPqvKy0T8PQ@geopod-ismtpd-6>
+android:0015,android,15,2026-07-23 07:45 EDT,2026-07-23 11:45 UTC,2026-07-23 07:45,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,199,206,
+android:0016,android,16,2026-07-23 08:45 EDT,2026-07-23 12:45 UTC,2026-07-23 08:45,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,210,219,
+gmail:0070,gmail,70,2026-07-23 08:47 EDT,2026-07-23 12:47 UTC,2026-07-23 12:47 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,2859,2919,<CAPNfwmL2iMV3NLgwFkgUNxZ6Z9Wju=eNb4X5gNCs-BKFpfuB6Q@mail.gmail.com>
+gmail:0071,gmail,71,2026-07-23 08:55 EDT,2026-07-23 12:55 UTC,2026-07-23 12:55 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,2921,2927,<BlI1L9ysQkOKqHrv-lDwOQ@geopod-ismtpd-3>
+gmail:0072,gmail,72,2026-07-23 08:59 EDT,2026-07-23 12:59 UTC,2026-07-23 12:59 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,2929,2936,<W67FAMk_RuStykC6D_GtzQ@geopod-ismtpd-72>
+android:0017,android,17,2026-07-23 09:03 EDT,2026-07-23 13:03 UTC,2026-07-23 09:03,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,223,236,
+gmail:0073,gmail,73,2026-07-23 09:09 EDT,2026-07-23 13:09 UTC,2026-07-23 13:09 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,2938,2944,<ZreftzwlSDyGFNdllLLoHQ@geopod-ismtpd-107>
+android:0018,android,18,2026-07-23 09:11 EDT,2026-07-23 13:11 UTC,2026-07-23 09:11,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,240,251,
+gmail:0074,gmail,74,2026-07-23 10:32 EDT,2026-07-23 14:32 UTC,2026-07-23 14:32 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,2946,2952,<3MMdc_Z1Tbq08iAwU8oAEg@geopod-ismtpd-48>
+gmail:0075,gmail,75,2026-07-23 12:43 EDT,2026-07-23 16:43 UTC,2026-07-23 16:43 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,2954,2962,<w17wjM4KRrSR3ffQIf9Uug@geopod-ismtpd-67>
+android:0019,android,19,2026-07-23 12:46 EDT,2026-07-23 16:46 UTC,2026-07-23 12:46,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,255,262,
+android:0020,android,20,2026-07-23 12:48 EDT,2026-07-23 16:48 UTC,2026-07-23 12:48,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,266,274,
+android:0021,android,21,2026-07-23 12:52 EDT,2026-07-23 16:52 UTC,2026-07-23 12:52,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,278,287,
+gmail:0076,gmail,76,2026-07-23 18:11 EDT,2026-07-23 22:11 UTC,2026-07-23 22:11 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,2964,2970,<kXnxNIIdQiiTvetSlWmX7A@geopod-ismtpd-102>
+android:0022,android,22,2026-07-23 20:18 EDT,2026-07-24 00:18 UTC,2026-07-23 20:18,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,291,298,
+android:0023,android,23,2026-07-23 21:08 EDT,2026-07-24 01:08 UTC,2026-07-23 21:08,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,302,311,
+android:0024,android,24,2026-07-23 21:08 EDT,2026-07-24 01:08 UTC,2026-07-23 21:08,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,315,324,
+android:0025,android,25,2026-07-23 21:10 EDT,2026-07-24 01:10 UTC,2026-07-23 21:10,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,328,337,
+gmail:0077,gmail,77,2026-07-24 10:02 EDT,2026-07-24 14:02 UTC,2026-07-24 14:02 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,2972,2978,<7xJPXg_YQf23aeFiGHnjqQ@geopod-ismtpd-25>
+gmail:0078,gmail,78,2026-07-24 10:02 EDT,2026-07-24 14:02 UTC,2026-07-24 14:02 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,2980,2986,<X0S1l9dMSSi0afyzFwStmg@geopod-ismtpd-51>
+gmail:0079,gmail,79,2026-07-24 10:44 EDT,2026-07-24 14:44 UTC,2026-07-24 14:44 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,2988,3021,<CAN6V4SXgX48B_JKx8AJaRy4jviN292ELPRV+fGCxmdPRVyxqXg@mail.gmail.com>
+gmail:0080,gmail,80,2026-07-24 11:27 EDT,2026-07-24 15:27 UTC,2026-07-24 15:27 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,3023,3031,<CAPNfwmLX5ZL9-Q8uAM8Bk3MsON2jOkcqA-uB8pkO_mitW84-oA@mail.gmail.com>
+android:0026,android,26,2026-07-24 11:29 EDT,2026-07-24 15:29 UTC,2026-07-24 11:29,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,341,351,
+android:0027,android,27,2026-07-24 11:49 EDT,2026-07-24 15:49 UTC,2026-07-24 11:49,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,355,363,
+android:0028,android,28,2026-07-24 11:50 EDT,2026-07-24 15:50 UTC,2026-07-24 11:50,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,367,377,
+gmail:0081,gmail,81,2026-07-24 12:48 EDT,2026-07-24 16:48 UTC,2026-07-24 16:48 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,3033,3041,<hL7jOTDNSRuck4XOjS_UBg@geopod-ismtpd-62>
+android:0029,android,29,2026-07-24 14:51 EDT,2026-07-24 18:51 UTC,2026-07-24 14:51,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,381,389,
+android:0030,android,30,2026-07-24 15:55 EDT,2026-07-24 19:55 UTC,2026-07-24 15:55,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,393,400,
+gmail:0082,gmail,82,2026-07-24 17:08 EDT,2026-07-24 21:08 UTC,2026-07-24 21:08 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,3043,3055,<0101019f95f56c83-55971319-751f-4ec7-9413-769be803436f-000000@us-west-2.amazonses.com>
+android:0031,android,31,2026-07-24 17:44 EDT,2026-07-24 21:44 UTC,2026-07-24 17:44,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,404,413,
+android:0032,android,32,2026-07-24 17:45 EDT,2026-07-24 21:45 UTC,2026-07-24 17:45,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,417,424,
+android:0033,android,33,2026-07-25 10:45 EDT,2026-07-25 14:45 UTC,2026-07-25 10:45,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,428,437,
+android:0034,android,34,2026-07-25 10:49 EDT,2026-07-25 14:49 UTC,2026-07-25 10:49,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,441,448,
+android:0035,android,35,2026-07-25 10:51 EDT,2026-07-25 14:51 UTC,2026-07-25 10:51,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,452,459,
+android:0036,android,36,2026-07-25 10:52 EDT,2026-07-25 14:52 UTC,2026-07-25 10:52,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,463,470,
+android:0037,android,37,2026-07-25 12:02 EDT,2026-07-25 16:02 UTC,2026-07-25 12:02,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,474,481,
+android:0038,android,38,2026-07-25 12:03 EDT,2026-07-25 16:03 UTC,2026-07-25 12:03,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,485,492,
+android:0039,android,39,2026-07-25 14:33 EDT,2026-07-25 18:33 UTC,2026-07-25 14:33,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,496,504,
+android:0040,android,40,2026-07-25 14:55 EDT,2026-07-25 18:55 UTC,2026-07-25 14:55,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,508,516,
+android:0041,android,41,2026-07-25 14:57 EDT,2026-07-25 18:57 UTC,2026-07-25 14:57,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,520,527,
+android:0042,android,42,2026-07-25 14:59 EDT,2026-07-25 18:59 UTC,2026-07-25 14:59,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,531,538,
+gmail:0083,gmail,83,2026-07-25 16:02 EDT,2026-07-25 20:02 UTC,2026-07-25 20:02 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,3057,3079,<CAJWRwcFNzUJVDc+tHWjVNVt-yE6dgpJWxnV_BUXVbrPTKB0CMA@mail.gmail.com>
+android:0043,android,43,2026-07-25 19:46 EDT,2026-07-25 23:46 UTC,2026-07-25 19:46,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,542,549,
+gmail:0084,gmail,84,2026-07-25 19:52 EDT,2026-07-25 23:52 UTC,2026-07-25 23:52 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,3081,3089,<CAEh3-K5HW272xMqrSsRLwvSZ8HxJHuwn3U3UmSWARiHizXaUQg@mail.gmail.com>
+android:0044,android,44,2026-07-25 20:18 EDT,2026-07-26 00:18 UTC,2026-07-25 20:18,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,553,560,
+gmail:0085,gmail,85,2026-07-27 07:37 EDT,2026-07-27 11:37 UTC,2026-07-27 11:37 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,3091,3114,<CAJWRwcHW06OU7pziP2+=tjgzNdqcUdAQman=sHsjZjKQ5_F1Ug@mail.gmail.com>
+gmail:0086,gmail,86,2026-07-27 07:38 EDT,2026-07-27 11:38 UTC,2026-07-27 11:38 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,3116,3143,<CAJWRwcETF=rDM6gt_Rbs0NT_qwRYY+JhhN7zVXGFKBEOq7hW1A@mail.gmail.com>
+gmail:0087,gmail,87,2026-07-27 09:24 EDT,2026-07-27 13:24 UTC,2026-07-27 13:24 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,3145,3151,<922w_tZnQ8i8HA_KIRZdHA@geopod-ismtpd-20>
+android:0045,android,45,2026-07-27 11:21 EDT,2026-07-27 15:21 UTC,2026-07-27 11:21,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,564,573,
+android:0046,android,46,2026-07-27 11:24 EDT,2026-07-27 15:24 UTC,2026-07-27 11:24,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,577,587,
+android:0047,android,47,2026-07-27 11:27 EDT,2026-07-27 15:27 UTC,2026-07-27 11:27,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,591,598,
+android:0048,android,48,2026-07-27 11:33 EDT,2026-07-27 15:33 UTC,2026-07-27 11:33,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,602,609,
+android:0049,android,49,2026-07-27 11:44 EDT,2026-07-27 15:44 UTC,2026-07-27 11:44,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,613,620,
+android:0050,android,50,2026-07-27 16:50 EDT,2026-07-27 20:50 UTC,2026-07-27 16:50,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,624,631,
+gmail:0088,gmail,88,2026-07-27 17:04 EDT,2026-07-27 21:04 UTC,2026-07-27 21:04 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,3153,3161,<haoBg_bkSECMHaAB2dVIsQ@geopod-ismtpd-0>
+android:0051,android,51,2026-07-27 17:18 EDT,2026-07-27 21:18 UTC,2026-07-27 17:18,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,635,642,
+android:0052,android,52,2026-07-27 17:23 EDT,2026-07-27 21:23 UTC,2026-07-27 17:23,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,646,658,
+gmail:0089,gmail,89,2026-07-27 17:23 EDT,2026-07-27 21:23 UTC,2026-07-27 21:23 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,3163,3180,<CAN6V4SXj-66yQj_LFuZ_NaPzaS3X78o+UPEROpsyyZHLmZRfgA@mail.gmail.com>
+android:0053,android,53,2026-07-27 17:26 EDT,2026-07-27 21:26 UTC,2026-07-27 17:26,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,662,673,
+gmail:0090,gmail,90,2026-07-27 18:00 EDT,2026-07-27 22:00 UTC,2026-07-27 22:00 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,3182,3202,<MN6PR10MB80944606520C710CCFD7EA12AACC2@MN6PR10MB8094.namprd10.prod.outlook.com>
+gmail:0091,gmail,91,2026-07-27 18:41 EDT,2026-07-27 22:41 UTC,2026-07-27 22:41 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,3204,3231,<CAN6V4SU9f27w7XabGRcy3KLnPHLsqTe8yskdZDyRu_yfUjg-vw@mail.gmail.com>
+gmail:0092,gmail,92,2026-07-27 18:42 EDT,2026-07-27 22:42 UTC,2026-07-27 22:42 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,3233,3263,<CAN6V4SUfmTMs9MDWzzcyrmvQzdKwK0=27mhBOFnaZ=i3UqCA0w@mail.gmail.com>
+gmail:0093,gmail,93,2026-07-27 18:42 EDT,2026-07-27 22:42 UTC,2026-07-27 22:42 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,3265,3284,<CAN6V4SWn6opeM55O7=U5SUJ7J-SwmYwaYS0oQv8sG7ubmwTLiA@mail.gmail.com>
+android:0054,android,54,2026-07-27 19:30 EDT,2026-07-27 23:30 UTC,2026-07-27 19:30,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,677,689,
+android:0055,android,55,2026-07-27 21:24 EDT,2026-07-28 01:24 UTC,2026-07-27 21:24,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,693,705,
+gmail:0094,gmail,94,2026-07-28 09:03 EDT,2026-07-28 13:03 UTC,2026-07-28 13:03 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,3286,3294,<BG6ZA2ckR5qD3t805pmb_g@geopod-ismtpd-2>
+android:0056,android,56,2026-07-28 09:25 EDT,2026-07-28 13:25 UTC,2026-07-28 09:25,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,709,718,
+android:0057,android,57,2026-07-28 09:48 EDT,2026-07-28 13:48 UTC,2026-07-28 09:48,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,722,729,
+android:0058,android,58,2026-07-28 09:48 EDT,2026-07-28 13:48 UTC,2026-07-28 09:48,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,733,742,
+gmail:0095,gmail,95,2026-07-28 10:12 EDT,2026-07-28 14:12 UTC,2026-07-28 14:12 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,3296,3319,<CAEh3-K6bQwfH+yJn8smpLEu-KkayZZZCnWiD1T4ufdHmE5TZHw@mail.gmail.com>
+android:0059,android,59,2026-07-28 10:29 EDT,2026-07-28 14:29 UTC,2026-07-28 10:29,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,746,753,
+android:0060,android,60,2026-07-28 10:29 EDT,2026-07-28 14:29 UTC,2026-07-28 10:29,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,757,764,
+android:0061,android,61,2026-07-28 10:29 EDT,2026-07-28 14:29 UTC,2026-07-28 10:29,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,768,775,
+android:0062,android,62,2026-07-28 10:44 EDT,2026-07-28 14:44 UTC,2026-07-28 10:44,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,779,786,
+gmail:0096,gmail,96,2026-07-28 11:25 EDT,2026-07-28 15:25 UTC,2026-07-28 15:25 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,3321,3351,<CAN6V4SVdQaL+_76Kuy0H=3sUC4qTzbQcdqXm9ssr-Jw-f99Xaw@mail.gmail.com>
+android:0063,android,63,2026-07-28 11:28 EDT,2026-07-28 15:28 UTC,2026-07-28 11:28,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,790,797,
+gmail:0097,gmail,97,2026-07-28 12:50 EDT,2026-07-28 16:50 UTC,2026-07-28 16:50 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,3353,3390,<BL1PR12MB53041217FEFF84140E0D22FBD2CB2@BL1PR12MB5304.namprd12.prod.outlook.com>
+gmail:0098,gmail,98,2026-07-28 12:55 EDT,2026-07-28 16:55 UTC,2026-07-28 16:55 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,3392,3417,<BL1PR12MB5304B16A7511CFBC63B13BF7D2CB2@BL1PR12MB5304.namprd12.prod.outlook.com>
+gmail:0099,gmail,99,2026-07-28 13:00 EDT,2026-07-28 17:00 UTC,2026-07-28 17:00 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,3419,3454,<MN6PR10MB8094C701C2F558142D900CD7AACB2@MN6PR10MB8094.namprd10.prod.outlook.com>
+gmail:0100,gmail,100,2026-07-28 13:07 EDT,2026-07-28 17:07 UTC,2026-07-28 17:07 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,3456,3482,<CAN6V4SVREyhUYvppzPxiOLW_Hfqm=rbUScVD-WT_DA2MVNEEBg@mail.gmail.com>
+android:0064,android,64,2026-07-28 13:11 EDT,2026-07-28 17:11 UTC,2026-07-28 13:11,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,801,809,
+android:0065,android,65,2026-07-28 13:31 EDT,2026-07-28 17:31 UTC,2026-07-28 13:31,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,813,820,
+android:0066,android,66,2026-07-28 13:51 EDT,2026-07-28 17:51 UTC,2026-07-28 13:51,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,824,831,
+android:0067,android,67,2026-07-28 13:54 EDT,2026-07-28 17:54 UTC,2026-07-28 13:54,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,835,842,
+gmail:0101,gmail,101,2026-07-28 14:34 EDT,2026-07-28 18:34 UTC,2026-07-28 18:34 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,3484,3492,<MW4PR06MB8251E2467D52E979D0DB0CC1D0CB2@MW4PR06MB8251.namprd06.prod.outlook.com>
+android:0068,android,68,2026-07-28 15:27 EDT,2026-07-28 19:27 UTC,2026-07-28 15:27,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,846,860,
+android:0069,android,69,2026-07-28 16:39 EDT,2026-07-28 20:39 UTC,2026-07-28 16:39,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,864,871,
+android:0070,android,70,2026-07-28 17:24 EDT,2026-07-28 21:24 UTC,2026-07-28 17:24,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,875,882,
+android:0071,android,71,2026-07-28 17:38 EDT,2026-07-28 21:38 UTC,2026-07-28 17:38,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,886,893,
+gmail:0102,gmail,102,2026-07-28 17:38 EDT,2026-07-28 21:38 UTC,2026-07-28 21:38 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,3494,3524,<CAJWRwcFjDbJ6Jr7-D9B05o28crxrxxNC+LPA-MMP=P0JXMXdpw@mail.gmail.com>
+android:0072,android,72,2026-07-28 17:52 EDT,2026-07-28 21:52 UTC,2026-07-28 17:52,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,897,904,
+android:0073,android,73,2026-07-28 18:05 EDT,2026-07-28 22:05 UTC,2026-07-28 18:05,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,908,915,
+gmail:0103,gmail,103,2026-07-28 18:10 EDT,2026-07-28 22:10 UTC,2026-07-28 22:10 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,3526,3532,<L5g9LrhHQuehDXl9N0filg@geopod-ismtpd-10>
+gmail:0104,gmail,104,2026-07-29 12:14 EDT,2026-07-29 16:14 UTC,2026-07-29 16:14 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,3534,3566,<CAPNfwmJ8HhvE63Y1Niss4s7P+9QZpX6bqc4PLyWTV-87FPD18g@mail.gmail.com>
+gmail:0105,gmail,105,2026-07-29 12:28 EDT,2026-07-29 16:28 UTC,2026-07-29 16:28 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,3568,3611,<BL1PR12MB53043D34BFDF6603B9CFA0C9D2CA2@BL1PR12MB5304.namprd12.prod.outlook.com>
+gmail:0106,gmail,106,2026-07-29 13:38 EDT,2026-07-29 17:38 UTC,2026-07-29 17:38 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,3613,3663,<MN6PR10MB8094776A05C831FA950CB2DCAACA2@MN6PR10MB8094.namprd10.prod.outlook.com>
+gmail:0107,gmail,107,2026-07-29 14:54 EDT,2026-07-29 18:54 UTC,2026-07-29 18:54 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,3665,3721,<BL1PR12MB53043B5BBF8519AC919A4411D2CA2@BL1PR12MB5304.namprd12.prod.outlook.com>
+gmail:0108,gmail,108,2026-07-29 15:36 EDT,2026-07-29 19:36 UTC,2026-07-29 19:36 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,3723,3777,<CAPNfwmLTb0x1Xz+TBhfh3DMT4ChdxjVOpjHHjAQOruHnyDsimg@mail.gmail.com>
+gmail:0109,gmail,109,2026-07-29 15:40 EDT,2026-07-29 19:40 UTC,2026-07-29 19:40 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,3779,3860,<BL1PR12MB5304345969FA07629768E0ACD2CA2@BL1PR12MB5304.namprd12.prod.outlook.com>
+gmail:0110,gmail,110,2026-07-29 15:45 EDT,2026-07-29 19:45 UTC,2026-07-29 19:45 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,3862,3930,<CAPNfwmKx5Sf5XpBpZ_CXq8h0_FUkGcjzMTihXTULurgT3v9nGg@mail.gmail.com>
+android:0074,android,74,2026-07-29 16:01 EDT,2026-07-29 20:01 UTC,2026-07-29 16:01,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,919,926,
+android:0075,android,75,2026-07-29 16:02 EDT,2026-07-29 20:02 UTC,2026-07-29 16:02,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,930,937,
+gmail:0111,gmail,111,2026-07-29 17:28 EDT,2026-07-29 21:28 UTC,2026-07-29 21:28 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,3932,4016,<CAN6V4SX-rL+dj7qRSnKUyvj5yjbb6AyW-ri4Bsr9cbsyJC8ZtA@mail.gmail.com>
+gmail:0112,gmail,112,2026-07-30 14:23 EDT,2026-07-30 18:23 UTC,2026-07-30 18:23 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,4018,4110,<CAEh3-K6CjJbKXvCMAHagj0jcFigtxqfZNCn0r=Y_RF6+gjWZwQ@mail.gmail.com>
+iphone:0250,iphone,250,2026-07-30 15:47 EDT,2026-07-30 19:47 UTC,2026-07-30 15:47,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,2377,2382,
+iphone:0251,iphone,251,2026-07-30 15:47 EDT,2026-07-30 19:47 UTC,2026-07-30 15:47,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,2386,2391,
+gmail:0113,gmail,113,2026-07-30 16:58 EDT,2026-07-30 20:58 UTC,2026-07-30 20:58 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,4112,4228,<CAN6V4SVePa52xB7FvLyPXw2HoRmxB=o6-vkqzYvG1eaNRFmOuQ@mail.gmail.com>
+gmail:0114,gmail,114,2026-07-30 17:05 EDT,2026-07-30 21:05 UTC,2026-07-30 21:05 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,4230,4266,<CAPNfwmLvDDH-vzyQ38mRa7yikBV1PFqVNjDhTZ2P0Qvc_H5Lng@mail.gmail.com>
+gmail:0115,gmail,115,2026-07-30 17:06 EDT,2026-07-30 21:06 UTC,2026-07-30 21:06 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,4268,4288,<CAPNfwm+9P2uz_zrU=adUxTexwphr3Zh4=osTxVWUc9tL9xysiQ@mail.gmail.com>
+gmail:0116,gmail,116,2026-07-30 18:19 EDT,2026-07-30 22:19 UTC,2026-07-30 22:19 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,4290,4316,<CAN6V4SVfvZ5KcDwSzCUugLSQwtd1E6L4N2Zn8FwDY+vDRf+eTA@mail.gmail.com>
+gmail:0117,gmail,117,2026-07-30 18:19 EDT,2026-07-30 22:19 UTC,2026-07-30 22:19 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,4318,4345,<CAN6V4SV2fDMeKFoCjSHsfi+vhds-icJxcTzmRpEc6aROG59uZQ@mail.gmail.com>
+gmail:0118,gmail,118,2026-07-31 08:51 EDT,2026-07-31 12:51 UTC,2026-07-31 12:51 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,4347,4412,<MN6PR10MB80949769DA3890E87D824459AAC82@MN6PR10MB8094.namprd10.prod.outlook.com>
+gmail:0119,gmail,119,2026-07-31 10:44 EDT,2026-07-31 14:44 UTC,2026-07-31 14:44 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,4414,4420,<ThgHWz8GR3-WahHNSZkCug@geopod-ismtpd-3>
+gmail:0120,gmail,120,2026-07-31 11:37 EDT,2026-07-31 15:37 UTC,2026-07-31 15:37 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,4422,4554,<BL1PR12MB53049DA35BFF6A1294F63B12D2C82@BL1PR12MB5304.namprd12.prod.outlook.com>
+gmail:0121,gmail,121,2026-07-31 11:38 EDT,2026-07-31 15:38 UTC,2026-07-31 15:38 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,4556,4670,<CAEh3-K5OHuQoFd5NtGmD9HTz4QUT0vq+zEdLo=1BEUeqMCwh0Q@mail.gmail.com>
+gmail:0122,gmail,122,2026-07-31 11:42 EDT,2026-07-31 15:42 UTC,2026-07-31 15:42 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,4672,4816,<BL1PR12MB5304073327B1841783B00CA5D2C82@BL1PR12MB5304.namprd12.prod.outlook.com>
+gmail:0123,gmail,123,2026-07-31 11:46 EDT,2026-07-31 15:46 UTC,2026-07-31 15:46 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,4818,4971,<BL1PR12MB53049F69A9DE3355CC33ABECD2C82@BL1PR12MB5304.namprd12.prod.outlook.com>
+android:0076,android,76,2026-07-31 12:02 EDT,2026-07-31 16:02 UTC,2026-07-31 12:02,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,941,950,
+android:0077,android,77,2026-07-31 12:21 EDT,2026-07-31 16:21 UTC,2026-07-31 12:21,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,954,961,
+android:0078,android,78,2026-07-31 12:37 EDT,2026-07-31 16:37 UTC,2026-07-31 12:37,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,965,974,
+gmail:0124,gmail,124,2026-07-31 12:49 EDT,2026-07-31 16:49 UTC,2026-07-31 16:49 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,4973,5020,<CAJWRwcGd9Jibz2y7XjCngQxTzoAckiyGq_DkKX8fZ-SyYxqgwg@mail.gmail.com>
+gmail:0125,gmail,125,2026-07-31 13:14 EDT,2026-07-31 17:14 UTC,2026-07-31 17:14 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,5022,5069,<CAJWRwcHS3KNtOvfMKnWjCJKeeaPOXUqJTJ2-BdjmCsdDMiHx2Q@mail.gmail.com>
+android:0079,android,79,2026-07-31 13:27 EDT,2026-07-31 17:27 UTC,2026-07-31 13:27,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,978,985,
+android:0080,android,80,2026-07-31 13:27 EDT,2026-07-31 17:27 UTC,2026-07-31 13:27,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,989,998,
+android:0081,android,81,2026-07-31 13:27 EDT,2026-07-31 17:27 UTC,2026-07-31 13:27,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1002,1009,
+gmail:0126,gmail,126,2026-07-31 14:04 EDT,2026-07-31 18:04 UTC,2026-07-31 18:04 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,5071,5079,<l_uIJRvES-eygolUMP_xgA@geopod-ismtpd-106>
+gmail:0127,gmail,127,2026-07-31 14:19 EDT,2026-07-31 18:19 UTC,2026-07-31 18:19 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,5081,5087,<N64d5ySEQtyjx3tmGZVFcg@geopod-ismtpd-52>
+android:0082,android,82,2026-07-31 14:20 EDT,2026-07-31 18:20 UTC,2026-07-31 14:20,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1013,1020,
+gmail:0128,gmail,128,2026-07-31 15:36 EDT,2026-07-31 19:36 UTC,2026-07-31 19:36 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,5089,5108,<CAEh3-K4mqzF1C43EG-vALWeaEkFXfSn2x90czViSufZrnL3Y5Q@mail.gmail.com>
+gmail:0129,gmail,129,2026-07-31 17:46 EDT,2026-07-31 21:46 UTC,2026-07-31 21:46 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,5110,5126,<CAN6V4SX3SoGYnZ6tTxjG4+-yyzVQWMa-qDa4Gxpam9YkMZGX6A@mail.gmail.com>
+gmail:0130,gmail,130,2026-07-31 17:47 EDT,2026-07-31 21:47 UTC,2026-07-31 21:47 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,5128,5155,<CAN6V4SV8wNjqE1OaGiKZLtY3A16xJvK46ESVoj=0CAqwbY3gHg@mail.gmail.com>
+android:0083,android,83,2026-08-01 10:05 EDT,2026-08-01 14:05 UTC,2026-08-01 10:05,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1024,1031,
+android:0084,android,84,2026-08-01 10:12 EDT,2026-08-01 14:12 UTC,2026-08-01 10:12,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1035,1044,
+android:0085,android,85,2026-08-01 10:32 EDT,2026-08-01 14:32 UTC,2026-08-01 10:32,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1048,1058,
+android:0086,android,86,2026-08-01 10:32 EDT,2026-08-01 14:32 UTC,2026-08-01 10:32,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1062,1071,
+android:0087,android,87,2026-08-01 10:40 EDT,2026-08-01 14:40 UTC,2026-08-01 10:40,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1075,1086,
+android:0088,android,88,2026-08-01 10:42 EDT,2026-08-01 14:42 UTC,2026-08-01 10:42,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1090,1099,
+android:0089,android,89,2026-08-01 11:00 EDT,2026-08-01 15:00 UTC,2026-08-01 11:00,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1103,1111,
+android:0090,android,90,2026-08-01 11:02 EDT,2026-08-01 15:02 UTC,2026-08-01 11:02,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1115,1126,
+android:0091,android,91,2026-08-01 11:03 EDT,2026-08-01 15:03 UTC,2026-08-01 11:03,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1130,1139,
+android:0092,android,92,2026-08-01 11:10 EDT,2026-08-01 15:10 UTC,2026-08-01 11:10,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1143,1152,
+android:0093,android,93,2026-08-01 11:16 EDT,2026-08-01 15:16 UTC,2026-08-01 11:16,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1156,1163,
+android:0094,android,94,2026-08-01 11:19 EDT,2026-08-01 15:19 UTC,2026-08-01 11:19,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1167,1174,
+android:0095,android,95,2026-08-01 11:20 EDT,2026-08-01 15:20 UTC,2026-08-01 11:20,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1178,1187,
+android:0096,android,96,2026-08-01 11:21 EDT,2026-08-01 15:21 UTC,2026-08-01 11:21,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1191,1198,
+android:0097,android,97,2026-08-01 11:23 EDT,2026-08-01 15:23 UTC,2026-08-01 11:23,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1202,1209,
+android:0098,android,98,2026-08-01 11:31 EDT,2026-08-01 15:31 UTC,2026-08-01 11:31,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1213,1222,
+android:0099,android,99,2026-08-01 11:35 EDT,2026-08-01 15:35 UTC,2026-08-01 11:35,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1226,1233,
+android:0100,android,100,2026-08-01 11:36 EDT,2026-08-01 15:36 UTC,2026-08-01 11:36,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1237,1244,
+android:0101,android,101,2026-08-01 11:50 EDT,2026-08-01 15:50 UTC,2026-08-01 11:50,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1248,1256,
+android:0102,android,102,2026-08-01 11:50 EDT,2026-08-01 15:50 UTC,2026-08-01 11:50,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1260,1267,
+android:0103,android,103,2026-08-01 11:51 EDT,2026-08-01 15:51 UTC,2026-08-01 11:51,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1271,1279,
+android:0104,android,104,2026-08-01 11:52 EDT,2026-08-01 15:52 UTC,2026-08-01 11:52,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1283,1292,
+android:0105,android,105,2026-08-01 11:53 EDT,2026-08-01 15:53 UTC,2026-08-01 11:53,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1296,1303,
+android:0106,android,106,2026-08-01 13:21 EDT,2026-08-01 17:21 UTC,2026-08-01 13:21,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1307,1314,
+android:0107,android,107,2026-08-01 13:21 EDT,2026-08-01 17:21 UTC,2026-08-01 13:21,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1318,1327,
+android:0108,android,108,2026-08-01 13:22 EDT,2026-08-01 17:22 UTC,2026-08-01 13:22,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1331,1338,
+android:0109,android,109,2026-08-01 14:11 EDT,2026-08-01 18:11 UTC,2026-08-01 14:11,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1342,1349,
+android:0110,android,110,2026-08-01 15:51 EDT,2026-08-01 19:51 UTC,2026-08-01 15:51,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1353,1360,
+android:0111,android,111,2026-08-01 16:00 EDT,2026-08-01 20:00 UTC,2026-08-01 16:00,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1364,1372,
+android:0112,android,112,2026-08-01 16:11 EDT,2026-08-01 20:11 UTC,2026-08-01 16:11,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1376,1387,
+android:0113,android,113,2026-08-01 17:13 EDT,2026-08-01 21:13 UTC,2026-08-01 17:13,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1391,1398,
+android:0114,android,114,2026-08-01 17:16 EDT,2026-08-01 21:16 UTC,2026-08-01 17:16,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1402,1409,
+gmail:0131,gmail,131,2026-08-02 11:45 EDT,2026-08-02 15:45 UTC,2026-08-02 15:45 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,5157,5221,<CAEh3-K7znQt1qU-kWJpHvvr0ovc=L=ftco7qvOij6B31rLT66Q@mail.gmail.com>
+gmail:0132,gmail,132,2026-08-02 11:51 EDT,2026-08-02 15:51 UTC,2026-08-02 15:51 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,5223,5253,<CAEh3-K4jjkz8ofvsixp5JmBZjXaJ25c_kR97pwGU_=wiQt2yYA@mail.gmail.com>
+gmail:0133,gmail,133,2026-08-02 11:51 EDT,2026-08-02 15:51 UTC,2026-08-02 15:51 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,5255,5337,<CAN6V4SVJd2MZOvdmZJ2KZt3rgmEx=hpCGAsV6uj8rvm8gjoNMQ@mail.gmail.com>
+gmail:0134,gmail,134,2026-08-02 11:51 EDT,2026-08-02 15:51 UTC,2026-08-02 15:51 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,5339,5345,<abfb3fb51d154c10af458cf19f3d6915@MN6PR10MB8094.namprd10.prod.outlook.com>
+gmail:0135,gmail,135,2026-08-02 14:50 EDT,2026-08-02 18:50 UTC,2026-08-02 18:50 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,5347,5435,<MN6PR10MB80942E9E267152A4E37A524BAAD62@MN6PR10MB8094.namprd10.prod.outlook.com>
+android:0115,android,115,2026-08-02 15:00 EDT,2026-08-02 19:00 UTC,2026-08-02 15:00,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1413,1420,
+android:0116,android,116,2026-08-02 15:32 EDT,2026-08-02 19:32 UTC,2026-08-02 15:32,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1424,1433,
+android:0117,android,117,2026-08-02 15:33 EDT,2026-08-02 19:33 UTC,2026-08-02 15:33,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1437,1444,
+gmail:0136,gmail,136,2026-08-03 06:53 EDT,2026-08-03 10:53 UTC,2026-08-03 10:53 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,5437,5471,<CAEh3-K74=wCZ0c+nyF2Y5720pCXHNpq8y=NrSEO6xJdDg-e4Ow@mail.gmail.com>
+android:0118,android,118,2026-08-03 09:41 EDT,2026-08-03 13:41 UTC,2026-08-03 09:41,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1448,1457,
+android:0119,android,119,2026-08-03 09:42 EDT,2026-08-03 13:42 UTC,2026-08-03 09:42,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1461,1468,
+gmail:0137,gmail,137,2026-08-03 09:44 EDT,2026-08-03 13:44 UTC,2026-08-03 13:44 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,5473,5515,<CAPNfwmKMb77D0thxy16+VZE7e7DoN+j1zzkT8vu5AGEygKu7-Q@mail.gmail.com>
+gmail:0138,gmail,138,2026-08-03 10:07 EDT,2026-08-03 14:07 UTC,2026-08-03 14:07 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,5517,5558,<CY4PR2201MB11411B7DF9ECA1DBFC2F9669ACD52@CY4PR2201MB1141.namprd22.prod.outlook.com>
+android:0120,android,120,2026-08-03 10:59 EDT,2026-08-03 14:59 UTC,2026-08-03 10:59,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1472,1480,
+android:0121,android,121,2026-08-03 11:03 EDT,2026-08-03 15:03 UTC,2026-08-03 11:03,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1484,1493,
+android:0122,android,122,2026-08-03 11:34 EDT,2026-08-03 15:34 UTC,2026-08-03 11:34,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1497,1506,
+android:0123,android,123,2026-08-03 11:34 EDT,2026-08-03 15:34 UTC,2026-08-03 11:34,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1510,1517,
+android:0124,android,124,2026-08-03 11:45 EDT,2026-08-03 15:45 UTC,2026-08-03 11:45,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1521,1528,
+android:0125,android,125,2026-08-03 11:45 EDT,2026-08-03 15:45 UTC,2026-08-03 11:45,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1532,1541,
+android:0126,android,126,2026-08-03 11:45 EDT,2026-08-03 15:45 UTC,2026-08-03 11:45,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1545,1552,
+android:0127,android,127,2026-08-03 12:09 EDT,2026-08-03 16:09 UTC,2026-08-03 12:09,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1556,1563,
+android:0128,android,128,2026-08-03 12:09 EDT,2026-08-03 16:09 UTC,2026-08-03 12:09,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1567,1576,
+gmail:0139,gmail,139,2026-08-03 15:10 EDT,2026-08-03 19:10 UTC,2026-08-03 19:10 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,5560,5611,<CAPNfwmKK=N7gg7044adpw=Ax6+JTs1rfcmbJXefXQQCn702TFw@mail.gmail.com>
+gmail:0140,gmail,140,2026-08-03 15:28 EDT,2026-08-03 19:28 UTC,2026-08-03 19:28 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,5613,5660,<BL1PR12MB5304FB507170DEF21EB9C75FD2D52@BL1PR12MB5304.namprd12.prod.outlook.com>
+gmail:0141,gmail,141,2026-08-03 15:43 EDT,2026-08-03 19:43 UTC,2026-08-03 19:43 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,5662,5717,<BL1PR12MB53045EE601683F324ECF0EF2D2D52@BL1PR12MB5304.namprd12.prod.outlook.com>
+android:0129,android,129,2026-08-03 15:51 EDT,2026-08-03 19:51 UTC,2026-08-03 15:51,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1580,1589,
+android:0130,android,130,2026-08-03 15:51 EDT,2026-08-03 19:51 UTC,2026-08-03 15:51,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1593,1602,
+android:0131,android,131,2026-08-03 15:52 EDT,2026-08-03 19:52 UTC,2026-08-03 15:52,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1606,1615,
+gmail:0142,gmail,142,2026-08-03 16:00 EDT,2026-08-03 20:00 UTC,2026-08-03 20:00 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,5719,5753,<CAEh3-K5DBVfBb-f4OoecJKd9naOwxO=d3tXX-gvsyiiujBaW_Q@mail.gmail.com>
+android:0132,android,132,2026-08-03 16:01 EDT,2026-08-03 20:01 UTC,2026-08-03 16:01,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1619,1627,
+gmail:0143,gmail,143,2026-08-03 16:18 EDT,2026-08-03 20:18 UTC,2026-08-03 20:18 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,5755,5787,<BL1PR12MB53044D307BA080CEC320C71BD2D52@BL1PR12MB5304.namprd12.prod.outlook.com>
+gmail:0144,gmail,144,2026-08-03 16:33 EDT,2026-08-03 20:33 UTC,2026-08-03 20:33 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,5789,5807,<CAEh3-K7hLBsbUg2BnUEqtY41Ba5wYQBsytF7yrnR0F-gCHcxCA@mail.gmail.com>
+gmail:0145,gmail,145,2026-08-03 16:40 EDT,2026-08-03 20:40 UTC,2026-08-03 20:40 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,5809,5834,<BL1PR12MB5304E2F28D5B21FC99E3EEA1D2D52@BL1PR12MB5304.namprd12.prod.outlook.com>
+gmail:0146,gmail,146,2026-08-03 16:57 EDT,2026-08-03 20:57 UTC,2026-08-03 20:57 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,5836,5850,<CAPNfwmK7aG8RRnbsz7oqczNuHXD2vTGzV30Ajt7zwbSjNk5xiQ@mail.gmail.com>
+gmail:0147,gmail,147,2026-08-03 17:03 EDT,2026-08-03 21:03 UTC,2026-08-03 21:03 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,5852,5891,<BL1PR12MB53042F710F23517DB1A5F442D2D52@BL1PR12MB5304.namprd12.prod.outlook.com>
+gmail:0148,gmail,148,2026-08-03 17:05 EDT,2026-08-03 21:05 UTC,2026-08-03 21:05 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,5893,5917,<CAEh3-K7L0XrBefxzcpwEyMEDmbNwZRjWTufweiKb=LbZV8H4ng@mail.gmail.com>
+gmail:0149,gmail,149,2026-08-03 17:14 EDT,2026-08-03 21:14 UTC,2026-08-03 21:14 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,5919,5969,<BL1PR12MB53044EF439BEB58534AD3AF8D2D52@BL1PR12MB5304.namprd12.prod.outlook.com>
+android:0133,android,133,2026-08-04 09:37 EDT,2026-08-04 13:37 UTC,2026-08-04 09:37,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1631,1638,
+android:0134,android,134,2026-08-04 09:37 EDT,2026-08-04 13:37 UTC,2026-08-04 09:37,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1642,1651,
+gmail:0150,gmail,150,2026-08-04 09:40 EDT,2026-08-04 13:40 UTC,2026-08-04 13:40 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,5971,6023,<BL1PR12MB530492D4668B9F845FBB3C59D2D42@BL1PR12MB5304.namprd12.prod.outlook.com>
+android:0135,android,135,2026-08-04 09:50 EDT,2026-08-04 13:50 UTC,2026-08-04 09:50,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1655,1664,
+gmail:0151,gmail,151,2026-08-04 09:59 EDT,2026-08-04 13:59 UTC,2026-08-04 13:59 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,6025,6066,<CAPNfwm+BWPoJ_fXvbdnH_WtS9MjcF7CtOz03H5=0bx3XfBwBdA@mail.gmail.com>
+gmail:0152,gmail,152,2026-08-04 10:16 EDT,2026-08-04 14:16 UTC,2026-08-04 14:16 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,6068,6075,<4fsecwa097-1@snappapppfpt003.corp.firstam.com>
+gmail:0153,gmail,153,2026-08-04 10:42 EDT,2026-08-04 14:42 UTC,2026-08-04 14:42 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,6077,6146,<BL1PR12MB5304E4BB72B6BDB02E71BA5ED2D42@BL1PR12MB5304.namprd12.prod.outlook.com>
+gmail:0154,gmail,154,2026-08-04 11:13 EDT,2026-08-04 15:13 UTC,2026-08-04 15:13 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,6148,6186,<srkwVo6zQmqGPb46zxbxmg@geopod-ismtpd-canary-0>
+android:0136,android,136,2026-08-04 13:22 EDT,2026-08-04 17:22 UTC,2026-08-04 13:22,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1668,1676,
+gmail:0155,gmail,155,2026-08-04 13:27 EDT,2026-08-04 17:27 UTC,2026-08-04 17:27 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,6188,6266,<BL1PR12MB5304FF4C9021EB4AD94C6C8AD2D42@BL1PR12MB5304.namprd12.prod.outlook.com>
+android:0137,android,137,2026-08-04 13:28 EDT,2026-08-04 17:28 UTC,2026-08-04 13:28,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1680,1689,
+gmail:0156,gmail,156,2026-08-04 14:07 EDT,2026-08-04 18:07 UTC,2026-08-04 18:07 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,6268,6309,<CAPNfwmJ3cTExL=CwUa4CvNdThm0O=Ta2g4fp6P6tqh50WXyi5A@mail.gmail.com>
+gmail:0157,gmail,157,2026-08-04 14:34 EDT,2026-08-04 18:34 UTC,2026-08-04 18:34 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,6311,6399,<BL1PR12MB53042619BA98BED741620B9FD2D42@BL1PR12MB5304.namprd12.prod.outlook.com>
+gmail:0158,gmail,158,2026-08-04 15:20 EDT,2026-08-04 19:20 UTC,2026-08-04 19:20 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,6401,6502,<BL1PR12MB5304170342701A976B2369E6D2D42@BL1PR12MB5304.namprd12.prod.outlook.com>
+gmail:0159,gmail,159,2026-08-04 15:32 EDT,2026-08-04 19:32 UTC,2026-08-04 19:32 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,6504,6565,<CAEh3-K6zS7+tEKQUWxbdPiDP2qDfvTrQKh=b1wx__vhsJqoxbg@mail.gmail.com>
+android:0138,android,138,2026-08-04 15:51 EDT,2026-08-04 19:51 UTC,2026-08-04 15:51,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1693,1702,
+android:0139,android,139,2026-08-04 15:51 EDT,2026-08-04 19:51 UTC,2026-08-04 15:51,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1706,1713,
+gmail:0160,gmail,160,2026-08-04 15:52 EDT,2026-08-04 19:52 UTC,2026-08-04 19:52 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,6567,6635,<CAN6V4SVh78-7VYJdLNR=+ER3Nx6k7dJG+DcyDDjyZw=AnP-H=w@mail.gmail.com>
+gmail:0161,gmail,161,2026-08-04 15:53 EDT,2026-08-04 19:53 UTC,2026-08-04 19:53 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,6637,6755,<BL1PR12MB530439CD7675D6D343908DB4D2D42@BL1PR12MB5304.namprd12.prod.outlook.com>
+gmail:0162,gmail,162,2026-08-05 08:18 EDT,2026-08-05 12:18 UTC,2026-08-05 12:18 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,6757,6867,<MN6PR10MB8165A8021334E84647927AABBDD32@MN6PR10MB8165.namprd10.prod.outlook.com>
+android:0140,android,140,2026-08-05 09:38 EDT,2026-08-05 13:38 UTC,2026-08-05 09:38,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1717,1724,
+android:0141,android,141,2026-08-05 09:38 EDT,2026-08-05 13:38 UTC,2026-08-05 09:38,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1728,1737,
+iphone:0252,iphone,252,2026-08-05 09:38 EDT,2026-08-05 13:38 UTC,2026-08-05 09:38,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,2395,2400,
+gmail:0163,gmail,163,2026-08-05 09:54 EDT,2026-08-05 13:54 UTC,2026-08-05 13:54 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,6869,6944,<CAEh3-K4y4DABWHjFk8XrR6LCRCKTLvVVXQ3eMVhBFaOu0-rrXg@mail.gmail.com>
+android:0142,android,142,2026-08-05 09:58 EDT,2026-08-05 13:58 UTC,2026-08-05 09:58,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1741,1750,
+iphone:0253,iphone,253,2026-08-05 12:16 EDT,2026-08-05 16:16 UTC,2026-08-05 12:16,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,2404,2409,
+iphone:0254,iphone,254,2026-08-05 12:16 EDT,2026-08-05 16:16 UTC,2026-08-05 12:16,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,2413,2418,
+gmail:0164,gmail,164,2026-08-05 12:23 EDT,2026-08-05 16:23 UTC,2026-08-05 16:23 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,6946,7013,<CAPNfwm+UVieR1gHhEzBqekcZnvv9ehVoSzWrZUVo9D7Xzc1e2g@mail.gmail.com>
+gmail:0165,gmail,165,2026-08-05 12:27 EDT,2026-08-05 16:27 UTC,2026-08-05 16:27 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,7015,7091,<CAPNfwmLJnbLh5coYrMjOFyob+2rzGLHyRXpiL5MxeqtHEYCmew@mail.gmail.com>
+android:0143,android,143,2026-08-05 12:29 EDT,2026-08-05 16:29 UTC,2026-08-05 12:29,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1754,1761,
+android:0144,android,144,2026-08-05 12:32 EDT,2026-08-05 16:32 UTC,2026-08-05 12:32,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1765,1773,
+android:0145,android,145,2026-08-05 12:42 EDT,2026-08-05 16:42 UTC,2026-08-05 12:42,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1777,1784,
+gmail:0166,gmail,166,2026-08-05 12:51 EDT,2026-08-05 16:51 UTC,2026-08-05 16:51 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,7093,7230,<BL1PR12MB5304FCAFB5C239B158E8A7D4D2D32@BL1PR12MB5304.namprd12.prod.outlook.com>
+gmail:0167,gmail,167,2026-08-05 13:13 EDT,2026-08-05 17:13 UTC,2026-08-05 17:13 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,7232,7333,<CAPNfwmJzWV-15peQ+MGN5KEHu18ToLXLhcW88w3caLu7_Knv9Q@mail.gmail.com>
+gmail:0168,gmail,168,2026-08-05 13:26 EDT,2026-08-05 17:26 UTC,2026-08-05 17:26 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,7335,7491,<BL1PR12MB530406C72F7B59FD75078909D2D32@BL1PR12MB5304.namprd12.prod.outlook.com>
+gmail:0169,gmail,169,2026-08-05 14:00 EDT,2026-08-05 18:00 UTC,2026-08-05 18:00 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,7493,7557,<CAEh3-K5adNw281e6bsHq+h-aCoEFG0DnD1_JBVYz-npA_BXjWA@mail.gmail.com>
+android:0146,android,146,2026-08-05 14:05 EDT,2026-08-05 18:05 UTC,2026-08-05 14:05,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1788,1797,
+android:0147,android,147,2026-08-05 14:20 EDT,2026-08-05 18:20 UTC,2026-08-05 14:20,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1801,1816,
+android:0148,android,148,2026-08-05 14:23 EDT,2026-08-05 18:23 UTC,2026-08-05 14:23,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1820,1829,
+gmail:0170,gmail,170,2026-08-05 14:26 EDT,2026-08-05 18:26 UTC,2026-08-05 18:26 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,7559,7666,<CAPNfwmJX78nO7gG-4=qnOHob4-8giNTo7yqWkV=b9+d7mHAcPQ@mail.gmail.com>
+android:0149,android,149,2026-08-05 14:28 EDT,2026-08-05 18:28 UTC,2026-08-05 14:28,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1833,1840,
+gmail:0171,gmail,171,2026-08-05 14:47 EDT,2026-08-05 18:47 UTC,2026-08-05 18:47 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,7668,7845,<BL1PR12MB5304962D3E5E867489F5A2F5D2D32@BL1PR12MB5304.namprd12.prod.outlook.com>
+android:0150,android,150,2026-08-05 14:49 EDT,2026-08-05 18:49 UTC,2026-08-05 14:49,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1844,1853,
+android:0151,android,151,2026-08-05 14:49 EDT,2026-08-05 18:49 UTC,2026-08-05 14:49,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1857,1864,
+android:0152,android,152,2026-08-05 14:50 EDT,2026-08-05 18:50 UTC,2026-08-05 14:50,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1868,1875,
+android:0153,android,153,2026-08-05 14:50 EDT,2026-08-05 18:50 UTC,2026-08-05 14:50,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1879,1886,
+android:0154,android,154,2026-08-05 14:50 EDT,2026-08-05 18:50 UTC,2026-08-05 14:50,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1890,1897,
+gmail:0172,gmail,172,2026-08-05 14:54 EDT,2026-08-05 18:54 UTC,2026-08-05 18:54 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,7847,7854,<7FaXeQS8TFGaTvszvNPhNg@geopod-ismtpd-78>
+gmail:0173,gmail,173,2026-08-05 15:02 EDT,2026-08-05 19:02 UTC,2026-08-05 19:02 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,7856,7864,<Notf2uteQfaD8mVLz1rf0g@geopod-ismtpd-13>
+android:0155,android,155,2026-08-05 15:16 EDT,2026-08-05 19:16 UTC,2026-08-05 15:16,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1901,1910,
+android:0156,android,156,2026-08-05 15:16 EDT,2026-08-05 19:16 UTC,2026-08-05 15:16,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1914,1921,
+gmail:0174,gmail,174,2026-08-05 18:45 EDT,2026-08-05 22:45 UTC,2026-08-05 22:45 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,7866,7881,<CAEh3-K6VHD_V00vxSZzS9fpUX04hfPSXEDcM0PW5EJaz1HybQA@mail.gmail.com>
+gmail:0175,gmail,175,2026-08-05 18:48 EDT,2026-08-05 22:48 UTC,2026-08-05 22:48 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,7883,7901,<CAPNfwmLS8zM=y1XcyXEhheessUWaOFyphqqT9uyOEOLCnB-vtg@mail.gmail.com>
+gmail:0176,gmail,176,2026-08-05 18:49 EDT,2026-08-05 22:49 UTC,2026-08-05 22:49 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,7903,7924,<CAEh3-K7RCh6vipbmnbcAWbCjhHKKR1hO3_tVsFF_ST9zAd+bfQ@mail.gmail.com>
+gmail:0177,gmail,177,2026-08-05 18:52 EDT,2026-08-05 22:52 UTC,2026-08-05 22:52 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,7926,7953,<CAPNfwm+O68zQW2fGky-ZgXgAEZKG06JCFPPdCiHmZ3HB7ECXAg@mail.gmail.com>
+gmail:0178,gmail,178,2026-08-05 19:05 EDT,2026-08-05 23:05 UTC,2026-08-05 23:05 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,7955,7989,<CAEh3-K4H9wSK3_52VA9MUqYZPFx2opxyX1r=hU3TcsH9HDi8MQ@mail.gmail.com>
+gmail:0179,gmail,179,2026-08-05 19:06 EDT,2026-08-05 23:06 UTC,2026-08-05 23:06 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,7991,8030,<CAPNfwmJpCr_hG65ZyKy29oQAks96Ne6bxtbeUe5hNWCuTi6ayw@mail.gmail.com>
+gmail:0180,gmail,180,2026-08-06 09:40 EDT,2026-08-06 13:40 UTC,2026-08-06 13:40 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,8032,8064,<4fsfry9e9u-1@snappapppfpt002.corp.firstam.com>
+android:0157,android,157,2026-08-06 10:38 EDT,2026-08-06 14:38 UTC,2026-08-06 10:38,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1925,1934,
+android:0158,android,158,2026-08-06 11:11 EDT,2026-08-06 15:11 UTC,2026-08-06 11:11,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1938,1945,
+gmail:0181,gmail,181,2026-08-06 11:17 EDT,2026-08-06 15:17 UTC,2026-08-06 15:17 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,8066,8126,<CAEh3-K6ddHqXbb2FNDeKxLk-Hx6R5vpiKX3DOoCp9rcJ79Kxcg@mail.gmail.com>
+gmail:0182,gmail,182,2026-08-06 11:32 EDT,2026-08-06 15:32 UTC,2026-08-06 15:32 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,8128,8137,<CAN6V4SU=AncZK_reTZ+ytmpaQ6pnkE6U_RWUL6Kv8KTvtahq1A@mail.gmail.com>
+android:0159,android,159,2026-08-06 12:21 EDT,2026-08-06 16:21 UTC,2026-08-06 12:21,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1949,1958,
+android:0160,android,160,2026-08-06 12:21 EDT,2026-08-06 16:21 UTC,2026-08-06 12:21,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1962,1969,
+android:0161,android,161,2026-08-06 12:23 EDT,2026-08-06 16:23 UTC,2026-08-06 12:23,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1973,1980,
+android:0162,android,162,2026-08-06 12:23 EDT,2026-08-06 16:23 UTC,2026-08-06 12:23,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1984,1993,
+gmail:0183,gmail,183,2026-08-06 12:30 EDT,2026-08-06 16:30 UTC,2026-08-06 16:30 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,8139,8146,<IA0PPF04E6FBBA6F35E8856FB77779D6AB5B0D22@IA0PPF04E6FBBA6.namprd16.prod.outlook.com>
+android:0163,android,163,2026-08-06 12:37 EDT,2026-08-06 16:37 UTC,2026-08-06 12:37,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,1997,2006,
+gmail:0184,gmail,184,2026-08-06 12:54 EDT,2026-08-06 16:54 UTC,2026-08-06 16:54 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,8148,8155,<SA2PR16MB4187AD281226C0BA6BB4BC37AED22@SA2PR16MB4187.namprd16.prod.outlook.com>
+gmail:0185,gmail,185,2026-08-06 12:56 EDT,2026-08-06 16:56 UTC,2026-08-06 16:56 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,8157,8304,<CAN6V4SXv1GP4q7y1zKLfeR2AA0zvjVB3xivPody=d2j17SdVwA@mail.gmail.com>
+gmail:0186,gmail,186,2026-08-06 13:00 EDT,2026-08-06 17:00 UTC,2026-08-06 17:00 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,8306,8313,<CAN6V4SVjPQnCNpva7K3KWFz+nCsEBodJyxbqP7VT=6-qXL3-aA@mail.gmail.com>
+gmail:0187,gmail,187,2026-08-06 13:01 EDT,2026-08-06 17:01 UTC,2026-08-06 17:01 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,8315,8322,<SA2PR16MB4187BF3F2B44F6F8BB247375AED22@SA2PR16MB4187.namprd16.prod.outlook.com>
+gmail:0188,gmail,188,2026-08-06 13:26 EDT,2026-08-06 17:26 UTC,2026-08-06 17:26 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,8324,8462,<MN6PR10MB809401FA0F9A37CC75CA7FADAAD22@MN6PR10MB8094.namprd10.prod.outlook.com>
+android:0164,android,164,2026-08-06 14:00 EDT,2026-08-06 18:00 UTC,2026-08-06 14:00,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,2010,2017,
+gmail:0189,gmail,189,2026-08-06 14:00 EDT,2026-08-06 18:00 UTC,2026-08-06 18:00 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,8464,8471,<IA0PPF04E6FBBA6648FAD3B07102215C9C3B0D22@IA0PPF04E6FBBA6.namprd16.prod.outlook.com>
+gmail:0190,gmail,190,2026-08-06 15:45 EDT,2026-08-06 19:45 UTC,2026-08-06 19:45 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,8473,8620,<CAN6V4SUAz17_o0TtcQG267kUao+XaQD_Sfz1XtV24RTj5BA1tA@mail.gmail.com>
+gmail:0191,gmail,191,2026-08-06 15:49 EDT,2026-08-06 19:49 UTC,2026-08-06 19:49 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,8622,8780,<MN6PR10MB809442A25C5891E68D16FD67AAD22@MN6PR10MB8094.namprd10.prod.outlook.com>
+gmail:0192,gmail,192,2026-08-06 16:29 EDT,2026-08-06 20:29 UTC,2026-08-06 20:29 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,8782,8791,<4Z7YnOJISbyE0HEUhX2GmQ@geopod-ismtpd-21>
+gmail:0193,gmail,193,2026-08-06 16:30 EDT,2026-08-06 20:30 UTC,2026-08-06 20:30 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,8793,8802,<AfdblJx8QQS5oauKX3LV3w@geopod-ismtpd-4>
+gmail:0194,gmail,194,2026-08-06 16:31 EDT,2026-08-06 20:31 UTC,2026-08-06 20:31 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,8804,8828,<CAN6V4SUFgCdBcwqvKgYVH-iU+vXMr5P6u-riBHmuJ6wLMNX_gg@mail.gmail.com>
+gmail:0195,gmail,195,2026-08-06 16:51 EDT,2026-08-06 20:51 UTC,2026-08-06 20:51 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,8830,8837,<CAN6V4SVovhDeSAN_x7SjErka6qAJRja67faNOvMKSk6U+k8qeg@mail.gmail.com>
+gmail:0196,gmail,196,2026-08-06 16:55 EDT,2026-08-06 20:55 UTC,2026-08-06 20:55 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,8839,9000,<MN6PR10MB8165F495A7B084389C73D3C1BDD22@MN6PR10MB8165.namprd10.prod.outlook.com>
+gmail:0197,gmail,197,2026-08-06 16:57 EDT,2026-08-06 20:57 UTC,2026-08-06 20:57 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,9002,9182,<CAN6V4SXWwY2VQhZhtzmc+ecsQTOsri6P5sBJ84nghypgYLY41w@mail.gmail.com>
+gmail:0198,gmail,198,2026-08-06 16:57 EDT,2026-08-06 20:57 UTC,2026-08-06 20:57 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,9184,9191,<DS1PR16MB6739B0A8E993C1A636CFA992CBD22@DS1PR16MB6739.namprd16.prod.outlook.com>
+gmail:0199,gmail,199,2026-08-06 16:59 EDT,2026-08-06 20:59 UTC,2026-08-06 20:59 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,9193,9200,<CAN6V4SXfX+iXW8_oWVxTjq86UYryfnnbphaxjpuCyYeEhdomSg@mail.gmail.com>
+gmail:0200,gmail,200,2026-08-06 17:01 EDT,2026-08-06 21:01 UTC,2026-08-06 21:01 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,9202,9209,<IA0PPF04E6FBBA61D9ECCCB10296C73E14FB0D22@IA0PPF04E6FBBA6.namprd16.prod.outlook.com>
+android:0165,android,165,2026-08-07 07:36 EDT,2026-08-07 11:36 UTC,2026-08-07 07:36,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,2021,2033,
+android:0166,android,166,2026-08-07 07:39 EDT,2026-08-07 11:39 UTC,2026-08-07 07:39,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,2037,2044,
+gmail:0201,gmail,201,2026-08-07 09:11 EDT,2026-08-07 13:11 UTC,2026-08-07 13:11 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,9211,9403,<CAN6V4SUhg4zcYLDr=Z-HF9GAcTqkKe_T-aLAKWyL596G2Pf3bg@mail.gmail.com>
+android:0167,android,167,2026-08-07 09:27 EDT,2026-08-07 13:27 UTC,2026-08-07 09:27,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,2048,2057,
+gmail:0202,gmail,202,2026-08-07 09:39 EDT,2026-08-07 13:39 UTC,2026-08-07 13:39 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,9405,9602,<MN6PR10MB8165DB98332C05658C1FA275BDD12@MN6PR10MB8165.namprd10.prod.outlook.com>
+gmail:0203,gmail,203,2026-08-07 09:43 EDT,2026-08-07 13:43 UTC,2026-08-07 13:43 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,9604,9831,<CAN6V4SX+R0tzGd21YaR=SjohzXoLu-mYG75ijyo0CkaM+HxpyQ@mail.gmail.com>
+android:0168,android,168,2026-08-07 09:54 EDT,2026-08-07 13:54 UTC,2026-08-07 09:54,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,2061,2070,
+android:0169,android,169,2026-08-07 09:55 EDT,2026-08-07 13:55 UTC,2026-08-07 09:55,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,2074,2083,
+android:0170,android,170,2026-08-07 09:55 EDT,2026-08-07 13:55 UTC,2026-08-07 09:55,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,2087,2096,
+android:0171,android,171,2026-08-07 09:58 EDT,2026-08-07 13:58 UTC,2026-08-07 09:58,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,2100,2107,
+gmail:0204,gmail,204,2026-08-07 10:00 EDT,2026-08-07 14:00 UTC,2026-08-07 14:00 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,9833,10035,<MN6PR10MB81656DABE667D01732E513DCBDD12@MN6PR10MB8165.namprd10.prod.outlook.com>
+android:0172,android,172,2026-08-07 10:01 EDT,2026-08-07 14:01 UTC,2026-08-07 10:01,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,2111,2118,
+android:0173,android,173,2026-08-07 10:03 EDT,2026-08-07 14:03 UTC,2026-08-07 10:03,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,2122,2129,
+android:0174,android,174,2026-08-07 10:03 EDT,2026-08-07 14:03 UTC,2026-08-07 10:03,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,2133,2140,
+android:0175,android,175,2026-08-07 10:06 EDT,2026-08-07 14:06 UTC,2026-08-07 10:06,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,2144,2151,
+android:0176,android,176,2026-08-07 10:06 EDT,2026-08-07 14:06 UTC,2026-08-07 10:06,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,2155,2162,
+gmail:0205,gmail,205,2026-08-07 10:12 EDT,2026-08-07 14:12 UTC,2026-08-07 14:12 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,10037,10274,<CAN6V4SXgjemDNmw3ozoNw4rUCLcLoxfZAn2uRpywvYrED=ZT1g@mail.gmail.com>
+android:0177,android,177,2026-08-07 10:16 EDT,2026-08-07 14:16 UTC,2026-08-07 10:16,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,2166,2173,
+android:0178,android,178,2026-08-07 10:21 EDT,2026-08-07 14:21 UTC,2026-08-07 10:21,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,2177,2185,
+android:0179,android,179,2026-08-07 10:23 EDT,2026-08-07 14:23 UTC,2026-08-07 10:23,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,2189,2200,
+android:0180,android,180,2026-08-07 10:29 EDT,2026-08-07 14:29 UTC,2026-08-07 10:29,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,2204,2211,
+android:0181,android,181,2026-08-07 10:29 EDT,2026-08-07 14:29 UTC,2026-08-07 10:29,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,2215,2228,
+android:0182,android,182,2026-08-07 10:31 EDT,2026-08-07 14:31 UTC,2026-08-07 10:31,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,2232,2240,
+android:0183,android,183,2026-08-07 10:31 EDT,2026-08-07 14:31 UTC,2026-08-07 10:31,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,2244,2251,
+gmail:0206,gmail,206,2026-08-07 10:52 EDT,2026-08-07 14:52 UTC,2026-08-07 14:52 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,10276,10282,<VAYF42ZJZTU4.3HY75IQB0XJ4@docusign.net>
+android:0184,android,184,2026-08-07 10:54 EDT,2026-08-07 14:54 UTC,2026-08-07 10:54,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,2255,2262,
+android:0185,android,185,2026-08-07 11:11 EDT,2026-08-07 15:11 UTC,2026-08-07 11:11,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,2266,2273,
+gmail:0207,gmail,207,2026-08-07 11:11 EDT,2026-08-07 15:11 UTC,2026-08-07 15:11 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,10284,10290,<010f019fdcc75a66-db45a4cc-a91b-4e8b-921f-5b153c007519-000000@us-east-2.amazonses.com>
+android:0186,android,186,2026-08-07 11:15 EDT,2026-08-07 15:15 UTC,2026-08-07 11:15,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,2277,2284,
+gmail:0208,gmail,208,2026-08-07 11:21 EDT,2026-08-07 15:21 UTC,2026-08-07 15:21 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,10292,10299,<SA0PR22MB21748860FB19234EC017908BD1D12@SA0PR22MB2174.namprd22.prod.outlook.com>
+android:0187,android,187,2026-08-07 11:25 EDT,2026-08-07 15:25 UTC,2026-08-07 11:25,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,2288,2295,
+android:0188,android,188,2026-08-07 11:25 EDT,2026-08-07 15:25 UTC,2026-08-07 11:25,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,2299,2306,
+android:0189,android,189,2026-08-07 11:26 EDT,2026-08-07 15:26 UTC,2026-08-07 11:26,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,2310,2319,
+android:0190,android,190,2026-08-07 11:26 EDT,2026-08-07 15:26 UTC,2026-08-07 11:26,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,2323,2331,
+android:0191,android,191,2026-08-07 11:28 EDT,2026-08-07 15:28 UTC,2026-08-07 11:28,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,2335,2342,
+android:0192,android,192,2026-08-07 11:28 EDT,2026-08-07 15:28 UTC,2026-08-07 11:28,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,2346,2353,
+android:0193,android,193,2026-08-07 11:28 EDT,2026-08-07 15:28 UTC,2026-08-07 11:28,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,2357,2364,
+android:0194,android,194,2026-08-07 11:28 EDT,2026-08-07 15:28 UTC,2026-08-07 11:28,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,2368,2376,
+android:0195,android,195,2026-08-07 11:29 EDT,2026-08-07 15:29 UTC,2026-08-07 11:29,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,2380,2388,
+android:0196,android,196,2026-08-07 11:29 EDT,2026-08-07 15:29 UTC,2026-08-07 11:29,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,2392,2399,
+android:0197,android,197,2026-08-07 11:29 EDT,2026-08-07 15:29 UTC,2026-08-07 11:29,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,2403,2410,
+android:0198,android,198,2026-08-07 12:44 EDT,2026-08-07 16:44 UTC,2026-08-07 12:44,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,2414,2421,
+android:0199,android,199,2026-08-07 12:47 EDT,2026-08-07 16:47 UTC,2026-08-07 12:47,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,2425,2432,
+android:0200,android,200,2026-08-07 12:52 EDT,2026-08-07 16:52 UTC,2026-08-07 12:52,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,2436,2444,
+android:0201,android,201,2026-08-07 12:55 EDT,2026-08-07 16:55 UTC,2026-08-07 12:55,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,2448,2456,
+android:0202,android,202,2026-08-07 12:56 EDT,2026-08-07 16:56 UTC,2026-08-07 12:56,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,2460,2468,
+android:0203,android,203,2026-08-07 12:58 EDT,2026-08-07 16:58 UTC,2026-08-07 12:58,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,2472,2479,
+gmail:0209,gmail,209,2026-08-07 13:01 EDT,2026-08-07 17:01 UTC,2026-08-07 17:01 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,10301,10325,<SA0PR22MB217449D980F4EA9B7033B5A7D1D12@SA0PR22MB2174.namprd22.prod.outlook.com>
+gmail:0210,gmail,210,2026-08-07 13:05 EDT,2026-08-07 17:05 UTC,2026-08-07 17:05 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,10327,10366,<CAN6V4SURY1Pk3iToiaMPCAo379+vhwnB5=C7UHo+yFd06SYi3w@mail.gmail.com>
+android:0204,android,204,2026-08-07 13:10 EDT,2026-08-07 17:10 UTC,2026-08-07 13:10,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,2483,2490,
+gmail:0211,gmail,211,2026-08-07 13:13 EDT,2026-08-07 17:13 UTC,2026-08-07 17:13 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,10368,10412,<CAEh3-K6T6BEUg_rnNdnukJdg2_KdOBsNq68XS2EfEmB3zm6p3A@mail.gmail.com>
+android:0205,android,205,2026-08-07 13:14 EDT,2026-08-07 17:14 UTC,2026-08-07 13:14,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,2494,2505,
+android:0206,android,206,2026-08-07 13:16 EDT,2026-08-07 17:16 UTC,2026-08-07 13:16,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,2509,2518,
+android:0207,android,207,2026-08-07 13:16 EDT,2026-08-07 17:16 UTC,2026-08-07 13:16,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,2522,2529,
+android:0208,android,208,2026-08-07 13:16 EDT,2026-08-07 17:16 UTC,2026-08-07 13:16,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,2533,2542,
+android:0209,android,209,2026-08-07 13:17 EDT,2026-08-07 17:17 UTC,2026-08-07 13:17,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,2546,2553,
+gmail:0212,gmail,212,2026-08-07 17:25 EDT,2026-08-07 21:25 UTC,2026-08-07 21:25 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,10414,10421,<SJ2PR13MB64279CBE5DF9F48D2C40861CF1D12@SJ2PR13MB6427.namprd13.prod.outlook.com>
+android:0210,android,210,2026-08-07 17:46 EDT,2026-08-07 21:46 UTC,2026-08-07 17:46,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,2557,2567,
+android:0211,android,211,2026-08-07 17:46 EDT,2026-08-07 21:46 UTC,2026-08-07 17:46,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,2571,2580,
+android:0212,android,212,2026-08-07 17:51 EDT,2026-08-07 21:51 UTC,2026-08-07 17:51,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,2584,2593,
+android:0213,android,213,2026-08-07 17:51 EDT,2026-08-07 21:51 UTC,2026-08-07 17:51,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,2597,2604,
+gmail:0213,gmail,213,2026-08-07 18:06 EDT,2026-08-07 22:06 UTC,2026-08-07 22:06 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,10423,10445,<CAN6V4SVkrF49VH=DPbH77+jhXHPHstSMHNNuEBu8ufkHUQLXzw@mail.gmail.com>
+gmail:0214,gmail,214,2026-08-07 18:17 EDT,2026-08-07 22:17 UTC,2026-08-07 22:17 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,10447,10511,<SJ2PR13MB642762E46E2DA861F8A42293F1D12@SJ2PR13MB6427.namprd13.prod.outlook.com>
+gmail:0215,gmail,215,2026-08-07 18:21 EDT,2026-08-07 22:21 UTC,2026-08-07 22:21 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,10513,10623,<CAN6V4SVhdjQ2Hr6Ey6OuEqfMw648H5pjWq0zBvKXErY6GKb+1A@mail.gmail.com>
+gmail:0216,gmail,216,2026-08-08 09:03 EDT,2026-08-08 13:03 UTC,2026-08-08 13:03 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,10625,10738,<CAN6V4SVaV1PmcSZZzAq35QFALvGPBv3v0c5KSMeozRdkKqm74w@mail.gmail.com>
+gmail:0217,gmail,217,2026-08-08 12:48 EDT,2026-08-08 16:48 UTC,2026-08-08 16:48 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,10740,10860,<CAPUsk-THhc3-RjMa6vgxNPDyp-wrJwjrkzE-+15Rd10uX+mVWA@mail.gmail.com>
+gmail:0218,gmail,218,2026-08-08 18:23 EDT,2026-08-08 22:23 UTC,2026-08-08 22:23 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,10862,10990,<CAPUsk-RxdLAwEsbOCbxxfD1LC41s5aB-y=0GWwWV9PQiKpLrxA@mail.gmail.com>
+gmail:0219,gmail,219,2026-08-08 19:00 EDT,2026-08-08 23:00 UTC,2026-08-08 23:00 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,10992,11126,<CAN6V4SW8FmGDu2-Pz8hFmN6UZU9md+PLX5muNLiLTgmvkkaEtg@mail.gmail.com>
+android:0214,android,214,2026-08-09 15:45 EDT,2026-08-09 19:45 UTC,2026-08-09 15:45,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,2608,2615,
+android:0215,android,215,2026-08-09 16:15 EDT,2026-08-09 20:15 UTC,2026-08-09 16:15,User-supplied America/New_York,../data/archives/android/android_darcy_group_messages.md,2619,2626,
+gmail:0220,gmail,220,2026-08-10 11:03 EDT,2026-08-10 15:03 UTC,2026-08-10 15:03 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,11128,11134,<CAJWRwcFu3iNFf-DkuB2q3gNksoWE2zoUbFQH3HMjNEyKPWUUCQ@mail.gmail.com>
+gmail:0221,gmail,221,2026-08-10 11:03 EDT,2026-08-10 15:03 UTC,2026-08-10 15:03 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,11136,11192,<CAJWRwcE8GSZkT+wkDmEfyqiWmGMoon+YnUKBSdh+zG2Vg2czfg@mail.gmail.com>
+gmail:0222,gmail,222,2026-08-11 10:52 EDT,2026-08-11 14:52 UTC,2026-08-11 14:52 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,11194,11443,<CAN6V4SVFtrsH2k8OBnimLerCs7sx3kGcOzinD6Z-7akJMsOArg@mail.gmail.com>
+gmail:0223,gmail,223,2026-08-11 10:59 EDT,2026-08-11 14:59 UTC,2026-08-11 14:59 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,11445,11683,<MN6PR10MB816538191EABF88C07CF4B42BDDD2@MN6PR10MB8165.namprd10.prod.outlook.com>
+gmail:0224,gmail,224,2026-08-11 11:08 EDT,2026-08-11 15:08 UTC,2026-08-11 15:08 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,11685,11728,<SJ2PR16MB5872A3C1D21C1019B482B12BE4DD2@SJ2PR16MB5872.namprd16.prod.outlook.com>
+gmail:0225,gmail,225,2026-08-11 12:00 EDT,2026-08-11 16:00 UTC,2026-08-11 16:00 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,11730,11884,<CAN6V4SX4qVmEx1ZB32qPLtj9kzWPyhEJaynBAF6e649EDrcCXQ@mail.gmail.com>
+gmail:0226,gmail,226,2026-08-11 12:08 EDT,2026-08-11 16:08 UTC,2026-08-11 16:08 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,11886,12053,<CAPUsk-SApgFHvS7JQbmBCT65cNSiC+SBAgrTLpjqyHyu6=iQ6Q@mail.gmail.com>
+gmail:0227,gmail,227,2026-08-11 12:23 EDT,2026-08-11 16:23 UTC,2026-08-11 16:23 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,12055,12229,<CAN6V4SV8OCVP_Q2t_ZPrf+SPQ98cubuuhx0xHC7H74m00BTU3Q@mail.gmail.com>
+iphone:0255,iphone,255,2026-08-11 15:50 EDT,2026-08-11 19:50 UTC,2026-08-11 15:50,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,2422,2427,
+iphone:0256,iphone,256,2026-08-11 20:40 EDT,2026-08-12 00:40 UTC,2026-08-11 20:40,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,2431,2436,
+gmail:0228,gmail,228,2026-08-12 12:07 EDT,2026-08-12 16:07 UTC,2026-08-12 16:07 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,12231,12253,<CAPUsk-Tk83HUcYxdr16i2Y9NRMPh0U0rGWVK_u4=9FGT9m916w@mail.gmail.com>
+gmail:0229,gmail,229,2026-08-12 12:35 EDT,2026-08-12 16:35 UTC,2026-08-12 16:35 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,12255,12284,<CAN6V4SURTP23F5bnB=cZt96JRGOG2erNXLcPsXC97MbXX96YkQ@mail.gmail.com>
+iphone:0257,iphone,257,2026-08-13 19:10 EDT,2026-08-13 23:10 UTC,2026-08-13 19:10,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,2440,2445,
+iphone:0258,iphone,258,2026-08-13 19:10 EDT,2026-08-13 23:10 UTC,2026-08-13 19:10,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,2449,2454,
+iphone:0259,iphone,259,2026-08-13 19:10 EDT,2026-08-13 23:10 UTC,2026-08-13 19:10,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,2458,2463,
+gmail:0230,gmail,230,2026-08-16 11:45 EDT,2026-08-16 15:45 UTC,2026-08-16 15:45 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,12286,12296,<CAN6V4SWXViuks=qhwfm_vqXW2xdTkSqmK8rDn2E9nLZNd8S7_Q@mail.gmail.com>
+gmail:0231,gmail,231,2026-08-17 06:56 EDT,2026-08-17 10:56 UTC,2026-08-17 10:56 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,12298,12320,<CAPUsk-Rz3E8grmEwnujL2hJAafrHUf1VUrUi0LQRCr0GxiFNSg@mail.gmail.com>
+gmail:0232,gmail,232,2026-08-17 14:14 EDT,2026-08-17 18:14 UTC,2026-08-17 18:14 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,12322,12384,<CAEh3-K61iUSwH19cSw8_34by2Cj9hGY8ndhV4U155__xbxbPAg@mail.gmail.com>
+gmail:0233,gmail,233,2026-08-17 14:17 EDT,2026-08-17 18:17 UTC,2026-08-17 18:17 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,12386,12413,<CAEh3-K5cD5QEXkcO4Xz_PoLOy2JTr_E61YWQP=bXPdcptq8pWA@mail.gmail.com>
+gmail:0234,gmail,234,2026-08-17 15:00 EDT,2026-08-17 19:00 UTC,2026-08-17 19:00 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,12415,12488,<CAN6V4SWBOHXvN-7a-XioDh1Nwpw=CE7ewLw8nievvnS7JHNRWg@mail.gmail.com>
+gmail:0235,gmail,235,2026-08-17 15:35 EDT,2026-08-17 19:35 UTC,2026-08-17 19:35 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,12490,12557,<CAN6V4SU2bvv1UPsY9Mx1GZpqfB3qsZrV7L487oANkdcV86gxBQ@mail.gmail.com>
+gmail:0236,gmail,236,2026-08-17 15:37 EDT,2026-08-17 19:37 UTC,2026-08-17 19:37 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,12559,12633,<CAN6V4SXd=ccjPq0fZ2di5JUq1ok_gpzSXrfVxaWcS6G6bd7x_A@mail.gmail.com>
+gmail:0237,gmail,237,2026-08-18 09:11 EDT,2026-08-18 13:11 UTC,2026-08-18 13:11 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,12635,12741,<CAEh3-K5mcoP6R-_=AjG1zb5qUu_ASmuc2Wjf6xNTr9a97mPPWw@mail.gmail.com>
+gmail:0238,gmail,238,2026-08-18 10:58 EDT,2026-08-18 14:58 UTC,2026-08-18 14:58 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,12743,12837,<BL1PR12MB53043A95BA39F887EDD0BC9DD2A62@BL1PR12MB5304.namprd12.prod.outlook.com>
+gmail:0239,gmail,239,2026-08-18 12:41 EDT,2026-08-18 16:41 UTC,2026-08-18 16:41 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,12839,12941,<BL1PR12MB53049ACE9B5A480AA855D01BD2A62@BL1PR12MB5304.namprd12.prod.outlook.com>
+gmail:0240,gmail,240,2026-08-18 12:43 EDT,2026-08-18 16:43 UTC,2026-08-18 16:43 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,12943,13042,<CAPNfwmKj_b2=y=4jzqApQLJoBnWZAffjesQ5OS5rEB823j2LhQ@mail.gmail.com>
+gmail:0241,gmail,241,2026-08-18 12:46 EDT,2026-08-18 16:46 UTC,2026-08-18 16:46 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,13044,13163,<BL1PR12MB530441C8C955F3143C03678BD2A62@BL1PR12MB5304.namprd12.prod.outlook.com>
+gmail:0242,gmail,242,2026-08-18 20:40 EDT,2026-08-19 00:40 UTC,2026-08-19 00:40 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,13165,13178,<CAPUsk-RFrXS=C7nheBca7mQUFRwvqTOiBTu1tG4hyD=u3kQL8A@mail.gmail.com>
+gmail:0243,gmail,243,2026-08-18 20:42 EDT,2026-08-19 00:42 UTC,2026-08-19 00:42 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,13180,13199,<CAN6V4SWXQ0J_Lv1=aXf8SsGgBTDMp7_0yWK-uJ47nK6fZY66xQ@mail.gmail.com>
+gmail:0244,gmail,244,2026-08-19 15:10 EDT,2026-08-19 19:10 UTC,2026-08-19 19:10 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,13201,13306,<CAPNfwm+z34LL3OfBedJ5Rhqa2f6Aw6Wbj1=fqHFNNKZF_q6kWQ@mail.gmail.com>
+iphone:0260,iphone,260,2026-08-20 19:34 EDT,2026-08-20 23:34 UTC,2026-08-20 19:34,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,2467,2472,
+iphone:0261,iphone,261,2026-08-20 19:34 EDT,2026-08-20 23:34 UTC,2026-08-20 19:34,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,2476,2483,
+iphone:0262,iphone,262,2026-08-21 11:47 EDT,2026-08-21 15:47 UTC,2026-08-21 11:47,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,2487,2492,
+iphone:0263,iphone,263,2026-08-21 11:47 EDT,2026-08-21 15:47 UTC,2026-08-21 11:47,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,2496,2501,
+iphone:0264,iphone,264,2026-08-21 11:47 EDT,2026-08-21 15:47 UTC,2026-08-21 11:47,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,2505,2510,
+iphone:0265,iphone,265,2026-08-21 11:47 EDT,2026-08-21 15:47 UTC,2026-08-21 11:47,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,2514,2521,
+iphone:0266,iphone,266,2026-08-21 11:47 EDT,2026-08-21 15:47 UTC,2026-08-21 11:47,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,2525,2530,
+gmail:0245,gmail,245,2026-08-21 12:44 EDT,2026-08-21 16:44 UTC,2026-08-21 16:44 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,13308,13447,<BL1PR12MB53040048270C20A8DD8AC8DDD2A32@BL1PR12MB5304.namprd12.prod.outlook.com>
+gmail:0246,gmail,246,2026-08-22 11:24 EDT,2026-08-22 15:24 UTC,2026-08-22 15:24 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,13449,13454,<CAPUsk-QT4p-639KiDwDj8f4Vd6u=BOx60cpC8ERMHBEaEhjksg@mail.gmail.com>
+gmail:0247,gmail,247,2026-08-22 13:22 EDT,2026-08-22 17:22 UTC,2026-08-22 17:22 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,13456,13466,<CAN6V4SVAJNh6K+dfDHz1Q54kyXTMCewvB9YJ1tZpb1kC8_bgRw@mail.gmail.com>
+iphone:0267,iphone,267,2026-08-22 14:13 EDT,2026-08-22 18:13 UTC,2026-08-22 14:13,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,2534,2539,
+iphone:0268,iphone,268,2026-08-22 14:13 EDT,2026-08-22 18:13 UTC,2026-08-22 14:13,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,2543,2548,
+iphone:0269,iphone,269,2026-08-22 14:13 EDT,2026-08-22 18:13 UTC,2026-08-22 14:13,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,2552,2557,
+iphone:0270,iphone,270,2026-08-22 14:13 EDT,2026-08-22 18:13 UTC,2026-08-22 14:13,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,2561,2566,
+iphone:0271,iphone,271,2026-08-22 20:51 EDT,2026-08-23 00:51 UTC,2026-08-22 20:51,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,2570,2575,
+iphone:0272,iphone,272,2026-08-22 20:51 EDT,2026-08-23 00:51 UTC,2026-08-22 20:51,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,2579,2584,
+gmail:0248,gmail,248,2026-08-23 19:30 EDT,2026-08-23 23:30 UTC,2026-08-23 23:30 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,13468,13588,<CAPNfwmKLpd71tNo6-c23Cv90vEpfvwqeug6awq+MMp46=a3Bxw@mail.gmail.com>
+gmail:0249,gmail,249,2026-08-23 19:45 EDT,2026-08-23 23:45 UTC,2026-08-23 23:45 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,13590,13617,<CAPNfwmL31XQ6-k6_81FV+BgWgQiui4neKuELHQpdwvquiBXRBQ@mail.gmail.com>
+gmail:0250,gmail,250,2026-08-24 12:11 EDT,2026-08-24 16:11 UTC,2026-08-24 16:11 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,13619,13627,<calendar-f301fda0-6d83-4963-86c6-b45a7c1d804e@google.com>
+gmail:0251,gmail,251,2026-08-24 15:16 EDT,2026-08-24 19:16 UTC,2026-08-24 19:16 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,13629,13637,<CAJWRwcEVm96xo5Z8AbGchQDxomiFc8fjCf6JYq-sU_hW8E4jdw@mail.gmail.com>
+gmail:0252,gmail,252,2026-08-24 15:16 EDT,2026-08-24 19:16 UTC,2026-08-24 19:16 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,13639,13666,<CAJWRwcGAR1GT44GwonUVgGOGhwSa7Y2WAT-1GjwxwFF88JRa_w@mail.gmail.com>
+gmail:0253,gmail,253,2026-08-24 16:33 EDT,2026-08-24 20:33 UTC,2026-08-24 20:33 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,13668,13718,<CAAHVAGZ2ovikwzCp_JpYyr3+yET9REpFERthdLncEaR-VF25Wg@mail.gmail.com>
+gmail:0254,gmail,254,2026-08-24 17:00 EDT,2026-08-24 21:00 UTC,2026-08-24 21:00 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,13720,13875,<BL1PR12MB5304A6DCCE5ED334C7FF4296D2A02@BL1PR12MB5304.namprd12.prod.outlook.com>
+gmail:0255,gmail,255,2026-08-24 18:40 EDT,2026-08-24 22:40 UTC,2026-08-24 22:40 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,13877,13938,<CAPNfwmLG1zbYT-Fc-VbJwrsw8mu4rUJ9BOvcqA8Vf3QeTn=saw@mail.gmail.com>
+gmail:0256,gmail,256,2026-08-24 19:20 EDT,2026-08-24 23:20 UTC,2026-08-24 23:20 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,13940,14010,<CAPNfwmLC1uqL0Po7bf7Z=7MbX3Hn165UJ5poQy46EFOHwRBdRQ@mail.gmail.com>
+gmail:0257,gmail,257,2026-08-25 08:32 EDT,2026-08-25 12:32 UTC,2026-08-25 12:32 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,14012,14033,<CAJWRwcGTiiBdm+08N_xJJKhuEihLSU3Xf65DHns-Xm1fxOd=KA@mail.gmail.com>
+gmail:0258,gmail,258,2026-08-25 12:05 EDT,2026-08-25 16:05 UTC,2026-08-25 16:05 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,14035,14164,<CAPNfwmLse0DVtjQPisO=Oeo2MDGqN5=h8jLiQcUkwok8C=Xk5g@mail.gmail.com>
+iphone:0273,iphone,273,2026-08-25 13:14 EDT,2026-08-25 17:14 UTC,2026-08-25 13:14,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,2588,2599,
+gmail:0259,gmail,259,2026-08-25 14:15 EDT,2026-08-25 18:15 UTC,2026-08-25 18:15 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,14166,14191,<CAJWRwcFXDteny52oQB+B5OSfiPn_EPvP-oSk1bP5D_Sak=mzOg@mail.gmail.com>
+gmail:0260,gmail,260,2026-08-25 17:13 EDT,2026-08-25 21:13 UTC,2026-08-25 21:13 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,14193,14230,<CAJWRwcFufdoC35NMJ_GNEJdaAZVaKYhztAk23=vuzB75oO0d_Q@mail.gmail.com>
+gmail:0261,gmail,261,2026-08-26 08:10 EDT,2026-08-26 12:10 UTC,2026-08-26 12:10 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,14232,14255,<CAPNfwmJLeRyT2n71_k-qBcEw6=2H4x2rniRgnq843dKs1S4H-A@mail.gmail.com>
+gmail:0262,gmail,262,2026-08-26 16:10 EDT,2026-08-26 20:10 UTC,2026-08-26 20:10 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,14257,14337,<CAAHVAGaM=r+0CSF2Vdt=JhCyGg0sSSs10HEhnb2T+6UCgoh=hw@mail.gmail.com>
+iphone:0274,iphone,274,2026-08-26 18:38 EDT,2026-08-26 22:38 UTC,2026-08-26 18:38,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,2603,2608,
+iphone:0275,iphone,275,2026-08-26 18:38 EDT,2026-08-26 22:38 UTC,2026-08-26 18:38,User-supplied America/New_York,../data/archives/iphone/iphone_darcy_messages.md,2612,2619,
+gmail:0263,gmail,263,2026-08-26 20:55 EDT,2026-08-27 00:55 UTC,2026-08-27 00:55 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,14339,14347,<CAJWRwcFE6S_HCG3NRQRLVDO+qywdF=Bdm7d_guNhv2kXUg_==A@mail.gmail.com>
+gmail:0264,gmail,264,2026-08-27 11:00 EDT,2026-08-27 15:00 UTC,2026-08-27 15:00 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,14349,14374,<CAJWRwcHiX-e4b4k=jPKaVk-DhdP8gwh=WUa-QRrYowSED3JtXQ@mail.gmail.com>
+gmail:0265,gmail,265,2026-08-27 15:24 EDT,2026-08-27 19:24 UTC,2026-08-27 19:24 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,14376,14396,<CAPNfwmLy_G-HxfCs-xsBJuWwC7F7b75NoAaP_uKTTZc3wsmbiQ@mail.gmail.com>
+gmail:0266,gmail,266,2026-08-31 12:06 EDT,2026-08-31 16:06 UTC,2026-08-31 16:06 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,14398,14493,<CAN6V4SWwbmP2knh7Nkg8K9tPpWwZJ=1zQCTwgQ6tMKe4Jna5uQ@mail.gmail.com>
+gmail:0267,gmail,267,2026-09-01 12:13 EDT,2026-09-01 16:13 UTC,2026-09-01 16:13 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,14495,14671,<BL1PR12MB5304AB5467C44B0E59E5E438D2A82@BL1PR12MB5304.namprd12.prod.outlook.com>
+gmail:0268,gmail,268,2026-09-01 12:15 EDT,2026-09-01 16:15 UTC,2026-09-01 16:15 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,14673,14801,<CAPNfwm+UyCd2DBAQ_WBLmXv-gVJFuHVWZfWGqjKuNzb_vCmdQQ@mail.gmail.com>
+gmail:0269,gmail,269,2026-09-03 15:08 EDT,2026-09-03 19:08 UTC,2026-09-03 19:08 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,14803,14921,<CAAHVAGZrFGoz=m_+yYLOMCRbgvyKqUmh72VBX1Oa+mSC8AHzqA@mail.gmail.com>
+gmail:0270,gmail,270,2026-09-03 15:32 EDT,2026-09-03 19:32 UTC,2026-09-03 19:32 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,14923,15054,<CAPNfwmJsxNK-r-UCa4DRyuA-oY2Sop2rMGiK84Hi=NFO1CJDGg@mail.gmail.com>
+gmail:0271,gmail,271,2026-09-03 16:09 EDT,2026-09-03 20:09 UTC,2026-09-03 20:09 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,15056,15199,<CAAHVAGZ8pXvbYEx6SOrociJK8yVFJf1+RoyE9RmND7+EOx9yPA@mail.gmail.com>
+gmail:0272,gmail,272,2026-09-05 13:01 EDT,2026-09-05 17:01 UTC,2026-09-05 17:01 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,15201,15369,<CAP2vTbhxtJa=jMDRyFbtOGwLaY6fen8G27m_GXSWsbb=TxEKDA@mail.gmail.com>
+gmail:0273,gmail,273,2026-09-05 14:35 EDT,2026-09-05 18:35 UTC,2026-09-05 18:35 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,15371,15548,<CAAHVAGafJ-DMfKm2QMfCmMyqsCYvXTY1po1_z=skgQthaA--Cg@mail.gmail.com>
+gmail:0274,gmail,274,2026-09-16 14:37 EDT,2026-09-16 18:37 UTC,2026-09-16 18:37 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,15550,15643,<CAEnoHYufAsmYnOOEjd_Y-=nw+hfqbazrhCfkL+UXOigCdRBdbA@mail.gmail.com>
+gmail:0275,gmail,275,2026-09-16 15:31 EDT,2026-09-16 19:31 UTC,2026-09-16 19:31 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,15645,15744,<CAPNfwmJeTe8X7WcP-S-qPqc9UcYdv6VnKijStJ9mVtnRS5oGpA@mail.gmail.com>
+gmail:0276,gmail,276,2026-09-16 15:38 EDT,2026-09-16 19:38 UTC,2026-09-16 19:38 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,15746,15859,<CAEnoHYvVB7urEq=PK3U0iEnFgtc8gAVq4N-5FJPySW+bn=AHXQ@mail.gmail.com>
+gmail:0277,gmail,277,2026-09-29 16:25 EDT,2026-09-29 20:25 UTC,2026-09-29 20:25 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,15861,15869,<CAJWRwcELtudx6EtMNEiw9CADA4Z+GRHYwfnzm1vX-v_qNUt1Kw@mail.gmail.com>
+gmail:0278,gmail,278,2026-10-06 17:11 EDT,2026-10-06 21:11 UTC,2026-10-06 21:11 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,15871,15892,<BLAPR16MB3681BC9B22AE3AEB05FA42AFC2952@BLAPR16MB3681.namprd16.prod.outlook.com>
+gmail:0279,gmail,279,2026-10-07 10:49 EDT,2026-10-07 14:49 UTC,2026-10-07 14:49 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,15894,15964,<CAN6V4SV24_XEDXNXQrS48CQ1Kei5=vymAqDvVOsC-_LAo9WnNg@mail.gmail.com>
+gmail:0280,gmail,280,2026-10-07 10:50 EDT,2026-10-07 14:50 UTC,2026-10-07 14:50 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,15966,16067,<CAPNfwmKzmUG5_u+gnQ+P+2w7-oQdvoFEPf6aE2=PGKvE+knRJw@mail.gmail.com>
+gmail:0281,gmail,281,2026-10-07 10:50 EDT,2026-10-07 14:50 UTC,2026-10-07 14:50 UTC,UTC in email archive,../data/archives/gmail/property_emails_compact.md,16069,16098,<CAPNfwmJyXthw2s4d4nHWxFV22fdMOkuCiqPZoGGcvBrWAusu2A@mail.gmail.com>

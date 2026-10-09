@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "property-timeline"
+version = "0.1.0"
+description = "Compile curated property correspondence into an offline timeline and PDF"
+requires-python = ">=3.11"
+dependencies = ["PyMuPDF", "Pillow", "tzdata"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"property_timeline.resources" = ["*.html", "*.css", "*.json"]
