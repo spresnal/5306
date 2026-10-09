@@ -1,0 +1,279 @@
+{
+  "recoveries": [
+    {
+      "reference_id": "gmail:0023",
+      "message_id": "<CAN6V4SXSpcFr02eJAQnnfv8DXCzyhXy9VTH8jq5QNLTOdNu5Xg@mail.gmail.com>",
+      "recovered_blocks": [
+        "> On Tue, Jul 7, 2026 at 1:29 PM Garrett Lawton <glawton@mcneelylaw.com>\n> wrote:\n\n> You should have received the fee agreement from Julianna earlier. Hollie\n> was pulled away to work on some other matters."
+      ],
+      "recovered_sha256": "10b38f855bc318d4c8b307cd6365082e69258f98f2ec41299fc9bbc81f8bb980"
+    },
+    {
+      "reference_id": "gmail:0026",
+      "message_id": "<CAN6V4SWke7EjeE781d1+jz+s1szpCDM9VZXVr5VoiYV1jJd_aw@mail.gmail.com>",
+      "recovered_blocks": [
+        ">> On Tue, Jul 7, 2026 at 1:29 PM Garrett Lawton <glawton@mcneelylaw.com>\n>> wrote:\n\n>> You should have received the fee agreement from Julianna earlier. Hollie\n>> was pulled away to work on some other matters."
+      ],
+      "recovered_sha256": "a86e20020b252c467ee6ee21d31109ca577960dd08d6f2d795a5b582e8e14d62"
+    },
+    {
+      "reference_id": "gmail:0027",
+      "message_id": "<CAPNfwm+uc88f3r-aXkuMc-G8dyOt530PCQL9bL6jtaHJQEeDsw@mail.gmail.com>",
+      "recovered_blocks": [
+        "> On Tue, Jul 7, 2026 at 1:52 PM Garrett Lawton <glawton@mcneelylaw.com>\n> wrote:\n\n> Yeah we should be fine. I haven’t received the confirmation that it’s been\n> signed yet. Julianna, could you please look into that and let me know?\n\n> On Tue, Jul 7, 2026 at 1:29 PM Garrett Lawton <glawton@mcneelylaw.com>\n> wrote:\n\n> You should have received the fee agreement from Julianna earlier. Hollie\n> was pulled away to work on some other matters."
+      ],
+      "recovered_sha256": "8de4e6f360a4e2017e78fbc580ea02d8cb4d13077ea914ab78d85bd03dfff844"
+    },
+    {
+      "reference_id": "gmail:0029",
+      "message_id": "<CAN6V4SV6ok6yMfXvU7pmVVZjGxkU4wVMz0FH_mi4=uFSNbAaVw@mail.gmail.com>",
+      "recovered_blocks": [
+        "> On Tue, Jul 7, 2026 at 2:03 PM Garrett Lawton <glawton@mcneelylaw.com>\n> wrote:\n\n> Thanks. Looks like we’re just waiting on that retainer payment now.\n\n> On Tue, Jul 7, 2026 at 1:52 PM Garrett Lawton <glawton@mcneelylaw.com>\n> wrote:\n\n> Yeah we should be fine. I haven’t received the confirmation that it’s been\n> signed yet. Julianna, could you please look into that and let me know?\n\n> On Tue, Jul 7, 2026 at 1:29 PM Garrett Lawton <glawton@mcneelylaw.com>\n> wrote:\n\n> You should have received the fee agreement from Julianna earlier. Hollie\n> was pulled away to work on some other matters."
+      ],
+      "recovered_sha256": "e161de9bb26da7fe5fe2b139a61cf8c8bed79881a4a6cd7fb0014b74d05bff5d"
+    },
+    {
+      "reference_id": "gmail:0032",
+      "message_id": "<CAN6V4SWJz5Uy-WF3cw-5Gggs49cptrUg+03T+i2LmsJ+kyMfHg@mail.gmail.com>",
+      "recovered_blocks": [
+        "> On Tue, Jul 7, 2026 at 2:05 PM Garrett Lawton <glawton@mcneelylaw.com>\n> wrote:\n\n> You should have received a payment link from Julianna.\n\n> On Tue, Jul 7, 2026 at 2:03 PM Garrett Lawton <glawton@mcneelylaw.com>\n> wrote:\n\n> Thanks. Looks like we’re just waiting on that retainer payment now.\n\n> On Tue, Jul 7, 2026 at 1:52 PM Garrett Lawton <glawton@mcneelylaw.com>\n> wrote:\n\n> Yeah we should be fine. I haven’t received the confirmation that it’s been\n> signed yet. Julianna, could you please look into that and let me know?\n\n> On Tue, Jul 7, 2026 at 1:29 PM Garrett Lawton <glawton@mcneelylaw.com>\n> wrote:\n\n> You should have received the fee agreement from Julianna earlier. Hollie\n> was pulled away to work on some other matters."
+      ],
+      "recovered_sha256": "8fcdcebb2c1810c9d46b1153d98135678ab07d34e368c3cb4d9bb993072e78ba"
+    },
+    {
+      "reference_id": "gmail:0033",
+      "message_id": "<CAEh3-K4jEArQS1Sk6K-B0aN=zhDH+=D9bOUa7hbVP+VgN5f3kQ@mail.gmail.com>",
+      "recovered_blocks": [
+        ">> On Tue, Jul 7, 2026 at 2:05 PM Garrett Lawton <glawton@mcneelylaw.com>\n>> wrote:\n\n>> You should have received a payment link from Julianna.\n\n>> On Tue, Jul 7, 2026 at 2:03 PM Garrett Lawton <glawton@mcneelylaw.com>\n>> wrote:\n\n>> Thanks. Looks like we’re just waiting on that retainer payment now.\n\n>> On Tue, Jul 7, 2026 at 1:52 PM Garrett Lawton <glawton@mcneelylaw.com>\n>> wrote:\n\n>> Yeah we should be fine. I haven’t received the confirmation that it’s\n>> been signed yet. Julianna, could you please look into that and let me know?\n\n>> On Tue, Jul 7, 2026 at 1:29 PM Garrett Lawton <glawton@mcneelylaw.com>\n>> wrote:\n\n>> You should have received the fee agreement from Julianna earlier. Hollie\n>> was pulled away to work on some other matters."
+      ],
+      "recovered_sha256": "c254df2c4e774e4ff573bd998942e23b022a357d87560ce28dd258d7b83ebe15"
+    },
+    {
+      "reference_id": "gmail:0035",
+      "message_id": "<CAN6V4SXY=DJgPU+62QpNo1ysFgkaoxp__e-eZPFUuSB1TM24OQ@mail.gmail.com>",
+      "recovered_blocks": [
+        "> On Tue, Jul 7, 2026 at 2:42 PM Garrett Lawton <glawton@mcneelylaw.com>\n> wrote:\n\n> Darcy sent me the plat and covenants. Does anyone happen to have the\n> bylaws?\n\n> I’ll just note that having a full-on HOA for just two lots is a little\n> bizarre and might lead to some restrictions that you don’t want or hadn’t\n> planned on, but we can discuss that in more detail shortly.\n\n> On Tue, Jul 7, 2026 at 2:05 PM Garrett Lawton <glawton@mcneelylaw.com>\n> wrote:\n\n> You should have received a payment link from Julianna.\n\n> On Tue, Jul 7, 2026 at 2:03 PM Garrett Lawton <glawton@mcneelylaw.com>\n> wrote:\n\n> Thanks. Looks like we’re just waiting on that retainer payment now.\n\n> On Tue, Jul 7, 2026 at 1:52 PM Garrett Lawton <glawton@mcneelylaw.com>\n> wrote:\n\n> Yeah we should be fine. I haven’t received the confirmation that it’s been\n> signed yet. Julianna, could you please look into that and let me know?\n\n> On Tue, Jul 7, 2026 at 1:29 PM Garrett Lawton <glawton@mcneelylaw.com>\n> wrote:\n\n> You should have received the fee agreement from Julianna earlier. Hollie\n> was pulled away to work on some other matters."
+      ],
+      "recovered_sha256": "444f8c6924eac1b309dd224bbddc87bd3d9c165877c9eff09d4be6d6bbb23e27"
+    },
+    {
+      "reference_id": "gmail:0036",
+      "message_id": "<CAN6V4SX=omx-=vs9h4wBgzYkzqvzR6MXhgU4LsOWoi2zktgDrw@mail.gmail.com>",
+      "recovered_blocks": [
+        ">> On Tue, Jul 7, 2026 at 2:42 PM Garrett Lawton <glawton@mcneelylaw.com>\n>> wrote:\n\n>> Darcy sent me the plat and covenants. Does anyone happen to have the\n>> bylaws?\n\n>> I’ll just note that having a full-on HOA for just two lots is a little\n>> bizarre and might lead to some restrictions that you don’t want or hadn’t\n>> planned on, but we can discuss that in more detail shortly.\n\n>> On Tue, Jul 7, 2026 at 2:05 PM Garrett Lawton <glawton@mcneelylaw.com>\n>> wrote:\n\n>> You should have received a payment link from Julianna.\n\n>> On Tue, Jul 7, 2026 at 2:03 PM Garrett Lawton <glawton@mcneelylaw.com>\n>> wrote:\n\n>> Thanks. Looks like we’re just waiting on that retainer payment now.\n\n>> On Tue, Jul 7, 2026 at 1:52 PM Garrett Lawton <glawton@mcneelylaw.com>\n>> wrote:\n\n>> Yeah we should be fine. I haven’t received the confirmation that it’s\n>> been signed yet. Julianna, could you please look into that and let me know?\n\n>> On Tue, Jul 7, 2026 at 1:29 PM Garrett Lawton <glawton@mcneelylaw.com>\n>> wrote:\n\n>> You should have received the fee agreement from Julianna earlier. Hollie\n>> was pulled away to work on some other matters."
+      ],
+      "recovered_sha256": "2e214ff9f28d80d4249326daa8c64e2734df74cc6f726b31ec8cb246cea6445f"
+    },
+    {
+      "reference_id": "gmail:0108",
+      "message_id": "<CAPNfwmLTb0x1Xz+TBhfh3DMT4ChdxjVOpjHHjAQOruHnyDsimg@mail.gmail.com>",
+      "recovered_blocks": [
+        "> On Tue, Jul 28, 2026 at 12:55 PM Garrett Lawton <glawton@mcneelylaw.com>\n> wrote:\n\n> Received. I’ll review this shortly."
+      ],
+      "recovered_sha256": "e07b3990ccdef8a18014f4474f79e04ebbe9046818af9098c979801b212cccb2"
+    },
+    {
+      "reference_id": "gmail:0110",
+      "message_id": "<CAPNfwmKx5Sf5XpBpZ_CXq8h0_FUkGcjzMTihXTULurgT3v9nGg@mail.gmail.com>",
+      "recovered_blocks": [
+        "> On Wed, Jul 29, 2026 at 2:55 PM Garrett Lawton <glawton@mcneelylaw.com>\n> wrote:\n\n> Good afternoon,\n\n> Attached are my edits in both redline and a clean format. I think this\n> covers everything we discussed. I did want to call out the limitation\n> requiring them to stick to the inlet rather than the whole lake, which is\n> in paragraph 1 when referring to the Exhibit 3B. I also made sure to add\n> the fishing provision and the permitted users as signatories.\n\n> If you see anything that doesn’t look correct or think of anything else\n> that you would like to add, please let me know. I have good availability\n> for edits and/or a phone call tomorrow and Friday, except for a hearing\n> tomorrow 1:30-2:30pm, and meetings on Friday from 11am-12pm and 12:30-1pm.\n\n> On Tue, Jul 28, 2026 at 12:55 PM Garrett Lawton <glawton@mcneelylaw.com>\n> wrote:\n\n> Received. I’ll review this shortly."
+      ],
+      "recovered_sha256": "7e29ce3bdb54a0b46257fc8c3cf567ae73fd96cc07a9f5dff519c905351019c8"
+    },
+    {
+      "reference_id": "gmail:0111",
+      "message_id": "<CAN6V4SX-rL+dj7qRSnKUyvj5yjbb6AyW-ri4Bsr9cbsyJC8ZtA@mail.gmail.com>",
+      "recovered_blocks": [
+        ">> On Wed, Jul 29, 2026 at 2:55 PM Garrett Lawton <glawton@mcneelylaw.com>\n>> wrote:\n\n>> Good afternoon,\n\n>> Attached are my edits in both redline and a clean format. I think this\n>> covers everything we discussed. I did want to call out the limitation\n>> requiring them to stick to the inlet rather than the whole lake, which is\n>> in paragraph 1 when referring to the Exhibit 3B. I also made sure to add\n>> the fishing provision and the permitted users as signatories.\n\n>> If you see anything that doesn’t look correct or think of anything else\n>> that you would like to add, please let me know. I have good availability\n>> for edits and/or a phone call tomorrow and Friday, except for a hearing\n>> tomorrow 1:30-2:30pm, and meetings on Friday from 11am-12pm and 12:30-1pm.\n\n>> On Tue, Jul 28, 2026 at 12:55 PM Garrett Lawton <glawton@mcneelylaw.com>\n>> wrote:\n\n>> Received. I’ll review this shortly."
+      ],
+      "recovered_sha256": "7fa028c40b12c44f8ac81853295d007ccec890c54a899975e1e930d17c7d704d"
+    },
+    {
+      "reference_id": "gmail:0112",
+      "message_id": "<CAEh3-K6CjJbKXvCMAHagj0jcFigtxqfZNCn0r=Y_RF6+gjWZwQ@mail.gmail.com>",
+      "recovered_blocks": [
+        ">>> On Wed, Jul 29, 2026 at 2:55 PM Garrett Lawton <glawton@mcneelylaw.com>\n>>> wrote:\n\n>>> Good afternoon,\n\n>>> Attached are my edits in both redline and a clean format. I think this\n>>> covers everything we discussed. I did want to call out the limitation\n>>> requiring them to stick to the inlet rather than the whole lake, which is\n>>> in paragraph 1 when referring to the Exhibit 3B. I also made sure to add\n>>> the fishing provision and the permitted users as signatories.\n\n>>> If you see anything that doesn’t look correct or think of anything else\n>>> that you would like to add, please let me know. I have good availability\n>>> for edits and/or a phone call tomorrow and Friday, except for a hearing\n>>> tomorrow 1:30-2:30pm, and meetings on Friday from 11am-12pm and 12:30-1pm.\n\n>>> On Tue, Jul 28, 2026 at 12:55 PM Garrett Lawton <glawton@mcneelylaw.com>\n>>> wrote:\n\n>>> Received. I’ll review this shortly."
+      ],
+      "recovered_sha256": "81abfc38cb401bd8fe9433c2bae66466ab125d8750c5d30fb7efaf4a498c11d6"
+    },
+    {
+      "reference_id": "gmail:0113",
+      "message_id": "<CAN6V4SVePa52xB7FvLyPXw2HoRmxB=o6-vkqzYvG1eaNRFmOuQ@mail.gmail.com>",
+      "recovered_blocks": [
+        ">>>> On Wed, Jul 29, 2026 at 2:55 PM Garrett Lawton <glawton@mcneelylaw.com>\n>>>> wrote:\n\n>>>> Good afternoon,\n\n>>>> Attached are my edits in both redline and a clean format. I think this\n>>>> covers everything we discussed. I did want to call out the limitation\n>>>> requiring them to stick to the inlet rather than the whole lake, which is\n>>>> in paragraph 1 when referring to the Exhibit 3B. I also made sure to add\n>>>> the fishing provision and the permitted users as signatories.\n\n>>>> If you see anything that doesn’t look correct or think of anything else\n>>>> that you would like to add, please let me know. I have good availability\n>>>> for edits and/or a phone call tomorrow and Friday, except for a hearing\n>>>> tomorrow 1:30-2:30pm, and meetings on Friday from 11am-12pm and 12:30-1pm.\n\n>>>> On Tue, Jul 28, 2026 at 12:55 PM Garrett Lawton <glawton@mcneelylaw.com>\n>>>> wrote:\n\n>>>> Received. I’ll review this shortly."
+      ],
+      "recovered_sha256": "8a0d7d403e9e311a317238ea6a5c711fcc2146de9d3c181c33b0b5810d73f6d4"
+    },
+    {
+      "reference_id": "gmail:0121",
+      "message_id": "<CAEh3-K5OHuQoFd5NtGmD9HTz4QUT0vq+zEdLo=1BEUeqMCwh0Q@mail.gmail.com>",
+      "recovered_blocks": [
+        "> On Wed, Jul 29, 2026 at 2:55 PM Garrett Lawton <glawton@mcneelylaw.com>\n> wrote:\n\n> Good afternoon,\n\n> Attached are my edits in both redline and a clean format. I think this\n> covers everything we discussed. I did want to call out the limitation\n> requiring them to stick to the inlet rather than the whole lake, which is\n> in paragraph 1 when referring to the Exhibit 3B. I also made sure to add\n> the fishing provision and the permitted users as signatories.\n\n> If you see anything that doesn’t look correct or think of anything else\n> that you would like to add, please let me know. I have good availability\n> for edits and/or a phone call tomorrow and Friday, except for a hearing\n> tomorrow 1:30-2:30pm, and meetings on Friday from 11am-12pm and 12:30-1pm.\n\n> On Tue, Jul 28, 2026 at 12:55 PM Garrett Lawton <glawton@mcneelylaw.com>\n> wrote:\n\n> Received. I’ll review this shortly."
+      ],
+      "recovered_sha256": "7e29ce3bdb54a0b46257fc8c3cf567ae73fd96cc07a9f5dff519c905351019c8"
+    },
+    {
+      "reference_id": "gmail:0133",
+      "message_id": "<CAN6V4SVJd2MZOvdmZJ2KZt3rgmEx=hpCGAsV6uj8rvm8gjoNMQ@mail.gmail.com>",
+      "recovered_blocks": [
+        "> On Wed, Jul 29, 2026, 1:39 PM Leslie Appel Maher <LAppel@gregoryappel.com>\n> wrote:\n\n> Hi Sam,\n\n> We have two quotes back so far. The Chubb quote is fully approved with no\n> additional coverage required. Cincinnati is our most competitive market,\n> but they would need the auto coverage placed with them as well, and both\n> Cincinnati and PURE need details on the loss before they can fully approve.\n> PURE won't release rates at all until we provide that information.\n\n> Whenever you have a chance, could you send over the details on the losses?\n> That will let us get fully approved quotes from the remaining carriers so\n> we can compare everything side by side.\n\n> In the meantime, I've included the premium comparison below between\n> Cincinnati and Chubb."
+      ],
+      "recovered_sha256": "9d953a631cdb4314e07fa131003a7d7c6ba9ca74eb00ac547ca4962007169385"
+    },
+    {
+      "reference_id": "gmail:0148",
+      "message_id": "<CAEh3-K7L0XrBefxzcpwEyMEDmbNwZRjWTufweiKb=LbZV8H4ng@mail.gmail.com>",
+      "recovered_blocks": [
+        "> On Mon, Aug 3, 2026 at 4:40 PM Garrett Lawton <glawton@mcneelylaw.com>\n> wrote:\n\n> Thank you. Could you please send the commitment as an attachment? Our\n> security filter isn’t letting me open that email."
+      ],
+      "recovered_sha256": "5063184e5a3f61e4c348759091337e40a7b67d863c707b9145694b83e6ecd6c2"
+    },
+    {
+      "reference_id": "gmail:0151",
+      "message_id": "<CAPNfwm+BWPoJ_fXvbdnH_WtS9MjcF7CtOz03H5=0bx3XfBwBdA@mail.gmail.com>",
+      "recovered_blocks": [
+        "> On Mon, Aug 3, 2026 at 5:03 PM Garrett Lawton <glawton@mcneelylaw.com>\n> wrote:\n\n> Our security filter won’t let me open the email attachment. If I could get\n> the pdf of the title commitment that would be helpful.\n\n> I also just got off the phone with the seller’s attorney and have some\n> more info. I’ll call you in a moment.\n\n> On Mon, Aug 3, 2026 at 4:40 PM Garrett Lawton <glawton@mcneelylaw.com>\n> wrote:\n\n> Thank you. Could you please send the commitment as an attachment? Our\n> security filter isn’t letting me open that email."
+      ],
+      "recovered_sha256": "79ce583558de1f281cf4b5489f3340f7ee62e697cbc989bd94c6924ce2d42a70"
+    },
+    {
+      "reference_id": "gmail:0156",
+      "message_id": "<CAPNfwmJ3cTExL=CwUa4CvNdThm0O=Ta2g4fp6P6tqh50WXyi5A@mail.gmail.com>",
+      "recovered_blocks": [
+        "> On Tue, Aug 4, 2026 at 9:41 AM Garrett Lawton <glawton@mcneelylaw.com>\n> wrote:\n\n> Good morning,\n\n> I heard back from the seller’s attorney, and they’ve agreed to quiet hours\n> from 10pm-8am and no *lake* activity from 12am-6am. Let me know if this\n> is acceptable, or if you want me to respond with no easement use at all\n> from 12am-6am.\n\n> On Mon, Aug 3, 2026 at 5:03 PM Garrett Lawton <glawton@mcneelylaw.com>\n> wrote:\n\n> Our security filter won’t let me open the email attachment. If I could get\n> the pdf of the title commitment that would be helpful.\n\n> I also just got off the phone with the seller’s attorney and have some\n> more info. I’ll call you in a moment.\n\n> On Mon, Aug 3, 2026 at 4:40 PM Garrett Lawton <glawton@mcneelylaw.com>\n> wrote:\n\n> Thank you. Could you please send the commitment as an attachment? Our\n> security filter isn’t letting me open that email."
+      ],
+      "recovered_sha256": "4178a512ed7bada6a5f015fda4ccb3473554b22a023a38f94ca54363a5d62950"
+    },
+    {
+      "reference_id": "gmail:0159",
+      "message_id": "<CAEh3-K6zS7+tEKQUWxbdPiDP2qDfvTrQKh=b1wx__vhsJqoxbg@mail.gmail.com>",
+      "recovered_blocks": [
+        "> On Tue, Aug 4, 2026 at 2:35 PM Garrett Lawton <glawton@mcneelylaw.com>\n> wrote:\n\n> That works. Call whenever.\n\n> On Tue, Aug 4, 2026 at 1:27 PM Garrett Lawton <glawton@mcneelylaw.com>\n> wrote:\n\n> Their attorney said that they would accept this term, pending approval of\n> my edits to the easement agreement. I’ve attached those edits, and they can\n> be found on page 8. Please review and let me know if I can send this over\n> to their attorney, or if you have any questions/suggested revisions.\n\n> On Tue, Aug 4, 2026 at 9:41 AM Garrett Lawton <glawton@mcneelylaw.com>\n> wrote:\n\n> Good morning,\n\n> I heard back from the seller’s attorney, and they’ve agreed to quiet hours\n> from 10pm-8am and no *lake* activity from 12am-6am. Let me know if this\n> is acceptable, or if you want me to respond with no easement use at all\n> from 12am-6am.\n\n> On Mon, Aug 3, 2026 at 5:03 PM Garrett Lawton <glawton@mcneelylaw.com>\n> wrote:\n\n> Our security filter won’t let me open the email attachment. If I could get\n> the pdf of the title commitment that would be helpful.\n\n> I also just got off the phone with the seller’s attorney and have some\n> more info. I’ll call you in a moment.\n\n> On Mon, Aug 3, 2026 at 4:40 PM Garrett Lawton <glawton@mcneelylaw.com>\n> wrote:\n\n> Thank you. Could you please send the commitment as an attachment? Our\n> security filter isn’t letting me open that email."
+      ],
+      "recovered_sha256": "4c8885904d4e54bbdf5f9fcc43b9bc00ec49a543a9ca7ad00792ebbdbef0c452"
+    },
+    {
+      "reference_id": "gmail:0160",
+      "message_id": "<CAN6V4SVh78-7VYJdLNR=+ER3Nx6k7dJG+DcyDDjyZw=AnP-H=w@mail.gmail.com>",
+      "recovered_blocks": [
+        ">> On Tue, Aug 4, 2026 at 2:35 PM Garrett Lawton <glawton@mcneelylaw.com>\n>> wrote:\n\n>> That works. Call whenever.\n\n>> On Tue, Aug 4, 2026 at 1:27 PM Garrett Lawton <glawton@mcneelylaw.com>\n>> wrote:\n\n>> Their attorney said that they would accept this term, pending approval of\n>> my edits to the easement agreement. I’ve attached those edits, and they can\n>> be found on page 8. Please review and let me know if I can send this over\n>> to their attorney, or if you have any questions/suggested revisions.\n\n>> On Tue, Aug 4, 2026 at 9:41 AM Garrett Lawton <glawton@mcneelylaw.com>\n>> wrote:\n\n>> Good morning,\n\n>> I heard back from the seller’s attorney, and they’ve agreed to quiet\n>> hours from 10pm-8am and no *lake* activity from 12am-6am. Let me know if\n>> this is acceptable, or if you want me to respond with no easement use at\n>> all from 12am-6am.\n\n>> On Mon, Aug 3, 2026 at 5:03 PM Garrett Lawton <glawton@mcneelylaw.com>\n>> wrote:\n\n>> Our security filter won’t let me open the email attachment. If I could\n>> get the pdf of the title commitment that would be helpful.\n\n>> I also just got off the phone with the seller’s attorney and have some\n>> more info. I’ll call you in a moment.\n\n>> On Mon, Aug 3, 2026 at 4:40 PM Garrett Lawton <glawton@mcneelylaw.com>\n>> wrote:\n\n>> Thank you. Could you please send the commitment as an attachment? Our\n>> security filter isn’t letting me open that email."
+      ],
+      "recovered_sha256": "6e4d8d344f8e4f8d9ebb82d008c82ec33a51c49103032234373d72582f2e8221"
+    },
+    {
+      "reference_id": "gmail:0163",
+      "message_id": "<CAEh3-K4y4DABWHjFk8XrR6LCRCKTLvVVXQ3eMVhBFaOu0-rrXg@mail.gmail.com>",
+      "recovered_blocks": [
+        "> On Tue, Aug 4, 2026 at 2:35 PM Garrett Lawton <glawton@mcneelylaw.com>\n> wrote:\n\n> That works. Call whenever.\n\n> On Tue, Aug 4, 2026 at 1:27 PM Garrett Lawton <glawton@mcneelylaw.com>\n> wrote:\n\n> Their attorney said that they would accept this term, pending approval of\n> my edits to the easement agreement. I’ve attached those edits, and they can\n> be found on page 8. Please review and let me know if I can send this over\n> to their attorney, or if you have any questions/suggested revisions.\n\n> On Tue, Aug 4, 2026 at 9:41 AM Garrett Lawton <glawton@mcneelylaw.com>\n> wrote:\n\n> Good morning,\n\n> I heard back from the seller’s attorney, and they’ve agreed to quiet hours\n> from 10pm-8am and no *lake* activity from 12am-6am. Let me know if this\n> is acceptable, or if you want me to respond with no easement use at all\n> from 12am-6am.\n\n> On Mon, Aug 3, 2026 at 5:03 PM Garrett Lawton <glawton@mcneelylaw.com>\n> wrote:\n\n> Our security filter won’t let me open the email attachment. If I could get\n> the pdf of the title commitment that would be helpful.\n\n> I also just got off the phone with the seller’s attorney and have some\n> more info. I’ll call you in a moment.\n\n> On Mon, Aug 3, 2026 at 4:40 PM Garrett Lawton <glawton@mcneelylaw.com>\n> wrote:\n\n> Thank you. Could you please send the commitment as an attachment? Our\n> security filter isn’t letting me open that email."
+      ],
+      "recovered_sha256": "4c8885904d4e54bbdf5f9fcc43b9bc00ec49a543a9ca7ad00792ebbdbef0c452"
+    },
+    {
+      "reference_id": "gmail:0167",
+      "message_id": "<CAPNfwmJzWV-15peQ+MGN5KEHu18ToLXLhcW88w3caLu7_Knv9Q@mail.gmail.com>",
+      "recovered_blocks": [
+        "> On Tue, Aug 4, 2026 at 3:53 PM Garrett Lawton <glawton@mcneelylaw.com>\n> wrote:\n\n> Thanks for confirming. I’m sending to their attorney now.",
+        "> On Tue, Aug 4, 2026 at 2:35 PM Garrett Lawton <glawton@mcneelylaw.com>\n> wrote:\n\n> That works. Call whenever.\n\n> On Tue, Aug 4, 2026 at 1:27 PM Garrett Lawton <glawton@mcneelylaw.com>\n> wrote:\n\n> Their attorney said that they would accept this term, pending approval of\n> my edits to the easement agreement. I’ve attached those edits, and they can\n> be found on page 8. Please review and let me know if I can send this over\n> to their attorney, or if you have any questions/suggested revisions.\n\n> On Tue, Aug 4, 2026 at 9:41 AM Garrett Lawton <glawton@mcneelylaw.com>\n> wrote:\n\n> Good morning,\n\n> I heard back from the seller’s attorney, and they’ve agreed to quiet hours\n> from 10pm-8am and no *lake* activity from 12am-6am. Let me know if this\n> is acceptable, or if you want me to respond with no easement use at all\n> from 12am-6am.\n\n> On Mon, Aug 3, 2026 at 5:03 PM Garrett Lawton <glawton@mcneelylaw.com>\n> wrote:\n\n> Our security filter won’t let me open the email attachment. If I could get\n> the pdf of the title commitment that would be helpful.\n\n> I also just got off the phone with the seller’s attorney and have some\n> more info. I’ll call you in a moment.\n\n> On Mon, Aug 3, 2026 at 4:40 PM Garrett Lawton <glawton@mcneelylaw.com>\n> wrote:\n\n> Thank you. Could you please send the commitment as an attachment? Our\n> security filter isn’t letting me open that email."
+      ],
+      "recovered_sha256": "a0f0c68491308ec74f1568535ed6ee1a094da14f636a75bfe684b095872cbb60"
+    },
+    {
+      "reference_id": "gmail:0170",
+      "message_id": "<CAPNfwmJX78nO7gG-4=qnOHob4-8giNTo7yqWkV=b9+d7mHAcPQ@mail.gmail.com>",
+      "recovered_blocks": [
+        "> On Wed, Aug 5, 2026 at 12:51 PM Garrett Lawton <glawton@mcneelylaw.com>\n> wrote:\n\n> Good afternoon,\n\n> I just exchanged emails with the sellers’ attorney, and Regina was right\n> to ask us for confirmation on their intended use regarding the lake. The\n> sellers still intend to use essentially the entire lake except for what\n> goes right up to buyers’ property. They do not intend to restrict\n> themselves to just the inlet. The agreement is pretty clear on what buyers\n> wanted here, and has been for a few iterations now, so I’m disappointed\n> that it took us inquiring for them to bring this up.\n\n> Regina and Sam, please let me know what you think or if you want to do a\n> brief call to discuss. I’m sorry that this is coming about in the 11th\n> hour, but again, better to confirm now than after closing.\n\n> On Tue, Aug 4, 2026 at 3:53 PM Garrett Lawton <glawton@mcneelylaw.com>\n> wrote:\n\n> Thanks for confirming. I’m sending to their attorney now.",
+        "> On Tue, Aug 4, 2026 at 2:35 PM Garrett Lawton <glawton@mcneelylaw.com>\n> wrote:\n\n> That works. Call whenever.\n\n> On Tue, Aug 4, 2026 at 1:27 PM Garrett Lawton <glawton@mcneelylaw.com>\n> wrote:\n\n> Their attorney said that they would accept this term, pending approval of\n> my edits to the easement agreement. I’ve attached those edits, and they can\n> be found on page 8. Please review and let me know if I can send this over\n> to their attorney, or if you have any questions/suggested revisions.\n\n> On Tue, Aug 4, 2026 at 9:41 AM Garrett Lawton <glawton@mcneelylaw.com>\n> wrote:\n\n> Good morning,\n\n> I heard back from the seller’s attorney, and they’ve agreed to quiet hours\n> from 10pm-8am and no *lake* activity from 12am-6am. Let me know if this\n> is acceptable, or if you want me to respond with no easement use at all\n> from 12am-6am.\n\n> On Mon, Aug 3, 2026 at 5:03 PM Garrett Lawton <glawton@mcneelylaw.com>\n> wrote:\n\n> Our security filter won’t let me open the email attachment. If I could get\n> the pdf of the title commitment that would be helpful.\n\n> I also just got off the phone with the seller’s attorney and have some\n> more info. I’ll call you in a moment.\n\n> On Mon, Aug 3, 2026 at 4:40 PM Garrett Lawton <glawton@mcneelylaw.com>\n> wrote:\n\n> Thank you. Could you please send the commitment as an attachment? Our\n> security filter isn’t letting me open that email."
+      ],
+      "recovered_sha256": "f3a39341ec9fba78be7043d245b6585a5df311459c5b76d1ba6f7f2cabcf1d57"
+    },
+    {
+      "reference_id": "gmail:0185",
+      "message_id": "<CAN6V4SXv1GP4q7y1zKLfeR2AA0zvjVB3xivPody=d2j17SdVwA@mail.gmail.com>",
+      "recovered_blocks": [
+        "> On Wed, Jul 29, 2026, 1:39 PM Leslie Appel Maher <LAppel@gregoryappel.com>\n> wrote:\n\n> Hi Sam,\n\n> We have two quotes back so far. The Chubb quote is fully approved with no\n> additional coverage required. Cincinnati is our most competitive market,\n> but they would need the auto coverage placed with them as well, and both\n> Cincinnati and PURE need details on the loss before they can fully approve.\n> PURE won't release rates at all until we provide that information.\n\n> Whenever you have a chance, could you send over the details on the losses?\n> That will let us get fully approved quotes from the remaining carriers so\n> we can compare everything side by side.\n\n> In the meantime, I've included the premium comparison below between\n> Cincinnati and Chubb."
+      ],
+      "recovered_sha256": "9d953a631cdb4314e07fa131003a7d7c6ba9ca74eb00ac547ca4962007169385"
+    },
+    {
+      "reference_id": "gmail:0190",
+      "message_id": "<CAN6V4SUAz17_o0TtcQG267kUao+XaQD_Sfz1XtV24RTj5BA1tA@mail.gmail.com>",
+      "recovered_blocks": [
+        "> On Wed, Jul 29, 2026, 1:39 PM Leslie Appel Maher <LAppel@gregoryappel.com>\n> wrote:\n\n> Hi Sam,\n\n> We have two quotes back so far. The Chubb quote is fully approved with no\n> additional coverage required. Cincinnati is our most competitive market,\n> but they would need the auto coverage placed with them as well, and both\n> Cincinnati and PURE need details on the loss before they can fully approve.\n> PURE won't release rates at all until we provide that information.\n\n> Whenever you have a chance, could you send over the details on the losses?\n> That will let us get fully approved quotes from the remaining carriers so\n> we can compare everything side by side.\n\n> In the meantime, I've included the premium comparison below between\n> Cincinnati and Chubb."
+      ],
+      "recovered_sha256": "9d953a631cdb4314e07fa131003a7d7c6ba9ca74eb00ac547ca4962007169385"
+    },
+    {
+      "reference_id": "gmail:0197",
+      "message_id": "<CAN6V4SXWwY2VQhZhtzmc+ecsQTOsri6P5sBJ84nghypgYLY41w@mail.gmail.com>",
+      "recovered_blocks": [
+        "> On Wed, Jul 29, 2026, 1:39 PM Leslie Appel Maher <LAppel@gregoryappel.com>\n> wrote:\n\n> Hi Sam,\n\n> We have two quotes back so far. The Chubb quote is fully approved with no\n> additional coverage required. Cincinnati is our most competitive market,\n> but they would need the auto coverage placed with them as well, and both\n> Cincinnati and PURE need details on the loss before they can fully approve.\n> PURE won't release rates at all until we provide that information.\n\n> Whenever you have a chance, could you send over the details on the losses?\n> That will let us get fully approved quotes from the remaining carriers so\n> we can compare everything side by side.\n\n> In the meantime, I've included the premium comparison below between\n> Cincinnati and Chubb."
+      ],
+      "recovered_sha256": "9d953a631cdb4314e07fa131003a7d7c6ba9ca74eb00ac547ca4962007169385"
+    },
+    {
+      "reference_id": "gmail:0201",
+      "message_id": "<CAN6V4SUhg4zcYLDr=Z-HF9GAcTqkKe_T-aLAKWyL596G2Pf3bg@mail.gmail.com>",
+      "recovered_blocks": [
+        ">> On Wed, Jul 29, 2026, 1:39 PM Leslie Appel Maher <LAppel@gregoryappel.com>\n>> wrote:\n\n>> Hi Sam,\n\n>> We have two quotes back so far. The Chubb quote is fully approved with no\n>> additional coverage required. Cincinnati is our most competitive market,\n>> but they would need the auto coverage placed with them as well, and both\n>> Cincinnati and PURE need details on the loss before they can fully approve.\n>> PURE won't release rates at all until we provide that information.\n\n>> Whenever you have a chance, could you send over the details on the\n>> losses? That will let us get fully approved quotes from the remaining\n>> carriers so we can compare everything side by side.\n\n>> In the meantime, I've included the premium comparison below between\n>> Cincinnati and Chubb."
+      ],
+      "recovered_sha256": "03fb468bdddf1d4804c2fbb2b87dfd9b75b991c80ff826f8c36f971c76204f66"
+    },
+    {
+      "reference_id": "gmail:0203",
+      "message_id": "<CAN6V4SX+R0tzGd21YaR=SjohzXoLu-mYG75ijyo0CkaM+HxpyQ@mail.gmail.com>",
+      "recovered_blocks": [
+        "> On Wed, Jul 29, 2026, 1:39 PM Leslie Appel Maher <LAppel@gregoryappel.com>\n> wrote:\n\n> Hi Sam,\n\n> We have two quotes back so far. The Chubb quote is fully approved with no\n> additional coverage required. Cincinnati is our most competitive market,\n> but they would need the auto coverage placed with them as well, and both\n> Cincinnati and PURE need details on the loss before they can fully approve.\n> PURE won't release rates at all until we provide that information.\n\n> Whenever you have a chance, could you send over the details on the losses?\n> That will let us get fully approved quotes from the remaining carriers so\n> we can compare everything side by side.\n\n> In the meantime, I've included the premium comparison below between\n> Cincinnati and Chubb."
+      ],
+      "recovered_sha256": "9d953a631cdb4314e07fa131003a7d7c6ba9ca74eb00ac547ca4962007169385"
+    },
+    {
+      "reference_id": "gmail:0205",
+      "message_id": "<CAN6V4SXgjemDNmw3ozoNw4rUCLcLoxfZAn2uRpywvYrED=ZT1g@mail.gmail.com>",
+      "recovered_blocks": [
+        "> On Wed, Jul 29, 2026, 1:39 PM Leslie Appel Maher <LAppel@gregoryappel.com>\n> wrote:\n\n> Hi Sam,\n\n> We have two quotes back so far. The Chubb quote is fully approved with no\n> additional coverage required. Cincinnati is our most competitive market,\n> but they would need the auto coverage placed with them as well, and both\n> Cincinnati and PURE need details on the loss before they can fully approve.\n> PURE won't release rates at all until we provide that information.\n\n> Whenever you have a chance, could you send over the details on the losses?\n> That will let us get fully approved quotes from the remaining carriers so\n> we can compare everything side by side.\n\n> In the meantime, I've included the premium comparison below between\n> Cincinnati and Chubb."
+      ],
+      "recovered_sha256": "9d953a631cdb4314e07fa131003a7d7c6ba9ca74eb00ac547ca4962007169385"
+    },
+    {
+      "reference_id": "gmail:0222",
+      "message_id": "<CAN6V4SVFtrsH2k8OBnimLerCs7sx3kGcOzinD6Z-7akJMsOArg@mail.gmail.com>",
+      "recovered_blocks": [
+        ">> On Wed, Jul 29, 2026, 1:39 PM Leslie Appel Maher <LAppel@gregoryappel.com>\n>> wrote:\n\n>> Hi Sam,\n\n>> We have two quotes back so far. The Chubb quote is fully approved with no\n>> additional coverage required. Cincinnati is our most competitive market,\n>> but they would need the auto coverage placed with them as well, and both\n>> Cincinnati and PURE need details on the loss before they can fully approve.\n>> PURE won't release rates at all until we provide that information.\n\n>> Whenever you have a chance, could you send over the details on the\n>> losses? That will let us get fully approved quotes from the remaining\n>> carriers so we can compare everything side by side.\n\n>> In the meantime, I've included the premium comparison below between\n>> Cincinnati and Chubb."
+      ],
+      "recovered_sha256": "03fb468bdddf1d4804c2fbb2b87dfd9b75b991c80ff826f8c36f971c76204f66"
+    },
+    {
+      "reference_id": "gmail:0244",
+      "message_id": "<CAPNfwm+z34LL3OfBedJ5Rhqa2f6Aw6Wbj1=fqHFNNKZF_q6kWQ@mail.gmail.com>",
+      "recovered_blocks": [
+        "> On Tue, Aug 18, 2026 at 12:41 PM Garrett Lawton <glawton@mcneelylaw.com>\n> wrote:\n\n> What address do I need to type into google maps to pull these properties\n> up again? Sorry, I can’t remember and none of the properties in the\n> easement are pulling up correctly for me. I want to get a visual on this\n> again."
+      ],
+      "recovered_sha256": "2b4b16fab63a9d3ba199b4add6a697ace5c7ae02f013c6dfb50cafce27f14287"
+    },
+    {
+      "reference_id": "gmail:0248",
+      "message_id": "<CAPNfwmKLpd71tNo6-c23Cv90vEpfvwqeug6awq+MMp46=a3Bxw@mail.gmail.com>",
+      "recovered_blocks": [
+        "> On Tue, Aug 18, 2026 at 12:46 PM Garrett Lawton <glawton@mcneelylaw.com>\n> wrote:\n\n> Perfect, thank you.\n\n> On Tue, Aug 18, 2026 at 12:41 PM Garrett Lawton <glawton@mcneelylaw.com>\n> wrote:\n\n> What address do I need to type into google maps to pull these properties\n> up again? Sorry, I can’t remember and none of the properties in the\n> easement are pulling up correctly for me. I want to get a visual on this\n> again."
+      ],
+      "recovered_sha256": "8ce5ea8edd2b8efc1a9654fc1fc9be4a5938cf71950b456797550e32b3417132"
+    },
+    {
+      "reference_id": "gmail:0258",
+      "message_id": "<CAPNfwmLse0DVtjQPisO=Oeo2MDGqN5=h8jLiQcUkwok8C=Xk5g@mail.gmail.com>",
+      "recovered_blocks": [
+        "> On Fri, Aug 21, 2026 at 12:44 PM Garrett Lawton <glawton@mcneelylaw.com>\n> wrote:\n\n> Good afternoon,\n\n> I’ve had a chance to review and this all looks good to me. As you noted,\n> the only major changes are 1) that the Norris property now officially has a\n> right to access their property via the road connecting to 144 and 2) that\n> the maintenance and upkeep of the common area driveway/gate is now the\n> responsibility of all three property owners. Also, they’ll obviously need\n> to update this to remove the Hasenours and add you in their place.\n\n> Please let me know if you have any questions.\n\n> On Tue, Aug 18, 2026 at 12:46 PM Garrett Lawton <glawton@mcneelylaw.com>\n> wrote:\n\n> Perfect, thank you.\n\n> On Tue, Aug 18, 2026 at 12:41 PM Garrett Lawton <glawton@mcneelylaw.com>\n> wrote:\n\n> What address do I need to type into google maps to pull these properties\n> up again? Sorry, I can’t remember and none of the properties in the\n> easement are pulling up correctly for me. I want to get a visual on this\n> again."
+      ],
+      "recovered_sha256": "fd9ed167f5c29e9090e653e39e6689feb112a9c5133085c3d4b198d0ce00eef8"
+    },
+    {
+      "reference_id": "gmail:0268",
+      "message_id": "<CAPNfwm+UyCd2DBAQ_WBLmXv-gVJFuHVWZfWGqjKuNzb_vCmdQQ@mail.gmail.com>",
+      "recovered_blocks": [
+        "> On Mon, Aug 24, 2026 at 5:00 PM Garrett Lawton <glawton@mcneelylaw.com>\n> wrote:\n\n> That’s correct. The deeded property owner is who should be referenced on\n> that document. So the trust, in this case.\n\n> On Fri, Aug 21, 2026 at 12:44 PM Garrett Lawton <glawton@mcneelylaw.com>\n> wrote:\n\n> Good afternoon,\n\n> I’ve had a chance to review and this all looks good to me. As you noted,\n> the only major changes are 1) that the Norris property now officially has a\n> right to access their property via the road connecting to 144 and 2) that\n> the maintenance and upkeep of the common area driveway/gate is now the\n> responsibility of all three property owners. Also, they’ll obviously need\n> to update this to remove the Hasenours and add you in their place.\n\n> Please let me know if you have any questions.\n\n> On Tue, Aug 18, 2026 at 12:46 PM Garrett Lawton <glawton@mcneelylaw.com>\n> wrote:\n\n> Perfect, thank you.\n\n> On Tue, Aug 18, 2026 at 12:41 PM Garrett Lawton <glawton@mcneelylaw.com>\n> wrote:\n\n> What address do I need to type into google maps to pull these properties\n> up again? Sorry, I can’t remember and none of the properties in the\n> easement are pulling up correctly for me. I want to get a visual on this\n> again."
+      ],
+      "recovered_sha256": "a10789efd146f7197541b9039e2e4605b397ec3208e9175138f8b19fb77e07e3"
+    }
+  ],
+  "mbox_sha256": "10afb164da4336d03bc90613062cc6f030e5864f1a59c44c008aec0a739a33ed"
+}

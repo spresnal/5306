@@ -1,0 +1,174 @@
+/* Applied after the viewer CSS: keep the HTML's visual language on Letter pages. */
+@media print {
+  @page { size: letter; margin: 15mm 14mm 19mm; }
+  :root, body {
+    background: white;
+    color: #243341;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .wrap { max-width: none; padding: 0; }
+  .controls, .status, .print-note, #attachment-dialog { display: none !important; }
+  .eyebrow { font-size: 8pt; color: #657785; }
+  h1 { font-size: 25pt; margin: 9pt 0 12pt; color: #243341; }
+  p.intro { font-size: 9pt; line-height: 1.5; color: #536575; }
+  .stats {
+    margin: 14pt 0;
+    padding: 10pt 0;
+    font-size: 9pt;
+    border-color: #cad3da;
+    color: #596b7b;
+  }
+  .stats strong { font-size: 15pt; }
+  details.intro {
+    padding: 11pt 13pt;
+    margin: 14pt 0 20pt;
+    border: 1px solid #d5dfe6;
+    border-radius: 6pt;
+    background: #f5f7f9;
+    font-size: 8.5pt;
+    line-height: 1.5;
+  }
+  details.intro > summary { font-weight: 600; list-style: none; color: #344e63; }
+  details.intro p { margin: 8pt 0 0; }
+  summary::-webkit-details-marker { display: none; }
+
+  .timeline {
+    border-left: 1.5pt solid #ccd6dd;
+    margin-left: 5pt;
+    padding-left: 15pt;
+  }
+  .day { margin: 22pt 0 11pt; break-inside: avoid; break-after: avoid; }
+  .day:before {
+    display: block;
+    left: -21.5pt;
+    top: 6pt;
+    width: 11pt;
+    height: 11pt;
+    border: 2pt solid white;
+    background: #657e90;
+  }
+  .day h2 { font-size: 16pt; line-height: 1.3; color: #243341; }
+  .day-count { font-size: 8pt; margin-top: 3pt; color: #657785; }
+  .section {
+    background: #e6ebef;
+    border: 1px solid #d5dfe6;
+    border-radius: 5pt;
+    padding: 12pt;
+  }
+
+  .conversation {
+    margin: 12pt 0 17pt;
+    padding: 12pt;
+    background: #e9eef2;
+    border: 1px solid #d5dfe6;
+    border-radius: 6pt;
+    break-inside: auto;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+  }
+  .email-conversation { background: #f0eeeb; }
+  .conversation-title {
+    font-size: 10pt;
+    line-height: 1.4;
+    margin-bottom: 10pt;
+    color: #4b6476;
+    break-after: avoid;
+  }
+  .conversation-title span { font-size: 8pt; color: #657785; }
+  .card, .conversation .card, .email-conversation .card {
+    background: white !important;
+    border: 1px solid #d6dfe5;
+    border-radius: 7pt;
+    padding: 11pt 13pt;
+    margin: 10pt 0;
+    break-inside: avoid;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+  }
+  .conversation .card { max-width: 92%; border-radius: 9pt 9pt 9pt 2pt; }
+  .email-conversation .card { max-width: 96%; }
+  .conversation .speaker-sam {
+    margin-left: auto;
+    background: #e3edf8 !important;
+    border-color: #c8d8e8;
+    border-radius: 9pt 9pt 2pt 9pt;
+  }
+  .conversation .speaker-regina {
+    margin-left: auto;
+    background: #e9f2e9 !important;
+    border-color: #cddfcd;
+    border-radius: 9pt 9pt 2pt 9pt;
+  }
+  .record-top { font-size: 8pt; line-height: 1.4; color: #536575; }
+  .gmail .record-top .id { font-size: 8pt; font-weight: 600; }
+  .record-top time { margin-left: auto; }
+  a { color: #456b87; }
+  .badge { background: #f4f7f9; border-color: #d6dfe5; font-size: 7pt; }
+  .card h3 { font-size: 13pt; margin: 8pt 0; color: #344e63; }
+  .sms-participants, .email-details > summary.email-participants {
+    font: 9pt/1.5 system-ui, -apple-system, "Segoe UI", sans-serif;
+    color: #536575;
+    padding: 0;
+    margin: 7pt 0;
+    break-after: avoid;
+  }
+  .email-details { margin: 5pt 0 10pt; }
+  .email-details[open] > summary.email-participants { padding-bottom: 5pt; border-color: #dce4ea; }
+  .email-cc { font-size: 8pt; margin-top: 2pt; color: #536575; }
+  .email-details .email-people { font-size: 7.5pt; line-height: 1.4; margin: 5pt 0; padding: 0; }
+  .email-details .email-people strong { font-size: inherit; font-weight: 500; }
+  .email-details .email-people span { color: #657785; margin-top: 2pt; }
+  dl { font-size: 8pt; margin: 8pt 0; padding-bottom: 8pt; }
+  .body, .conversation .body, .email-conversation .body, .gmail .email-opening .body {
+    font-size: 10.5pt !important;
+    line-height: 1.5 !important;
+    color: #243341;
+    orphans: 3;
+    widows: 3;
+  }
+  footer, .conversation footer, .gmail footer, .source-details {
+    font-size: 7.5pt;
+    line-height: 1.4;
+    color: #657785;
+    margin-top: 9pt;
+    padding-top: 6pt;
+    border-color: #dce4ea;
+  }
+  .email-utilities { margin-top: 10pt; border-top: 1px solid #dce4ea; padding-top: 7pt; }
+  .email-history, .gmail .email-history { margin-top: 0; padding-top: 0; border: 0; }
+  .email-history > summary { font-size: 8.5pt; color: #456b87; break-after: avoid; }
+  .quoted-passage {
+    background: #f5f7f9;
+    border-left: 2pt solid #cad7e2;
+    padding: 10pt 12pt;
+    margin: 9pt 0;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+  }
+  .quoted-passage .body { font-size: 10pt !important; color: #536575; }
+  .quoted-passage > .speaker-label { font-size: 9pt; padding-bottom: 6pt; margin-top: 0; }
+  .quoted-metadata { font-size: 8pt; line-height: 1.5; margin: 6pt 0; }
+  .history-note, .repeat-reference { font-size: 8pt; line-height: 1.5; color: #536575; }
+  .repeat-reference { background: #f5f7f9; padding: 7pt 9pt; margin: 7pt 0; }
+  .pdf-preview, .original-headers { display: none !important; }
+
+  .attachment-links {
+    background: #f2f5f8;
+    border: 1px solid #d8e1e8;
+    border-radius: 5pt;
+    padding: 9pt;
+    margin: 10pt 0;
+    font-size: 8.5pt;
+  }
+  .attachment-links > summary { break-after: avoid; list-style: none; }
+  .attachment-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8pt; margin-top: 8pt; }
+  .attachment-preview { background: white; border-radius: 5pt; padding: 8pt; margin: 0; break-inside: avoid; }
+  .file-link { font-size: 8pt; line-height: 1.4; gap: 8pt; align-items: center; }
+  .file-link > span { min-width: 0; }
+  .file-link small { font-size: 7pt; line-height: 1.4; color: #657785; }
+  .attachment-thumb { width: 48pt; height: 57pt; flex-shrink: 0; background: #f0f3f5; object-fit: contain; }
+  .file-icon { width: 40pt; height: 47pt; font-size: 8pt; background: #edf1f5; }
+  .referenced-files { margin: 9pt 0; }
+  .referenced-files .attachment-preview, .sms-attachments .attachment-preview { margin-top: 7pt; }
+}
