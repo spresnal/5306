@@ -17,6 +17,40 @@ from property_timeline.pdf_attachments import collect_files, tokenize_file_links
 
 @unittest.skipIf(fitz is None, 'PyMuPDF not installed in this interpreter')
 class PDFIntegrationTests(unittest.TestCase):
+    def test_iphone_named_speakers_and_contact_display_name(self):
+        with tempfile.TemporaryDirectory() as directory:
+            source = Path(directory) / 'phone.pdf'
+            document = fitz.open()
+            page = document.new_page()
+            lines = [
+                'Messages exported from: Regina', 'With: Darcy Carmel',
+                'Regina · May 1, 2026 at 10:00 AM', 'Outgoing named message.',
+                'Darcy Carmel · May 1, 2026 at 10:01 AM', 'Incoming message.',
+                'May 1, 2026 at 10:02 AM', 'Legacy outgoing message.',
+            ]
+            for index, line in enumerate(lines):
+                page.insert_text((60, 60 + index * 25), line)
+            document.save(source)
+            document.close()
+            original = source.read_bytes()
+            for display_name in ('Darcy', 'Darcy Carmel'):
+                command = [sys.executable, '-m', 'property_timeline.iphone_pdf_to_markdown',
+                           str(source), '--me', 'Regina']
+                if display_name == 'Darcy':
+                    command += ['--other', display_name]
+                result = subprocess.run(command, capture_output=True, text=True)
+                self.assertEqual(result.returncode, 0, result.stderr)
+                with source.with_name('phone_index.csv').open(encoding='utf-8-sig', newline='') as stream:
+                    rows = list(csv.DictReader(stream))
+                self.assertEqual([(row['sender'], row['recipient']) for row in rows],
+                                 [('Regina', display_name), (display_name, 'Regina'),
+                                  ('Regina', display_name)])
+                archive = source.with_name('phone_messages.md').read_text(encoding='utf-8')
+                self.assertNotIn('Messages exported from:', archive)
+                self.assertIn('Outgoing named message.', archive)
+                self.assertIn('Incoming message.', archive)
+                self.assertEqual(source.read_bytes(), original)
+
     def test_iphone_extraction_registers_actual_image_and_guards_source(self):
         from PIL import Image
         from property_timeline.attachment_inventory import validate_attachment

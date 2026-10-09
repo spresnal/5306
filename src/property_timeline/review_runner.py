@@ -92,7 +92,7 @@ SCHEMA = obj({'entries': {'type': 'array', 'items': ENTRY}})
 FINDING = obj({'title': STRING, 'analysis': STRING, 'kind': {'type': 'string', 'enum':
                ['sequence', 'conflict', 'support', 'challenge', 'context', 'uncertain']},
                'entry_ids': STRINGS, 'quotes': {'type': 'array', 'items': QUOTE},
-               'questions': STRINGS})
+               'questions': STRINGS, 'contextual_priority': {'type': 'string', 'enum': PRIORITIES}})
 CROSS_SCHEMA = obj({'findings': {'type': 'array', 'items': FINDING}})
 
 
@@ -335,17 +335,23 @@ class Workspace:
     def coverage(self):
         current = [r for r in self.records if self.current(r)]
         known = {r['id'] for r in self.records}
+        snapshot = self.snapshot()
+        plan = self.state.get('cross_plan', {})
         return {'total': len(self.records), 'reviewed': len(current),
                 'remaining': len(self.records) - len(current),
                 'stale': sum(r['id'] in self.state['assessments'] and not self.current(r) for r in self.records),
                 'orphaned': len(set(self.state['assessments']) - known),
                 'failed': sum(r['id'] in self.state['failures'] and not self.current(r) for r in self.records),
                 'attachment_incomplete': sum(bool(self.state['assessments'][r['id']]['review_gaps']) for r in current),
+                'cross_tasks_total': plan.get('total_tasks', 0) if plan.get('snapshot') == snapshot else 0,
+                'cross_tasks_completed': sum(review.get('snapshot') == snapshot
+                                             for review in self.state['cross_reviews'].values()),
                 'cross_review_complete': len(current) == len(self.records) and
-                    self.state.get('cross_complete_snapshot') == self.snapshot()}
+                    self.state.get('cross_complete_snapshot') == snapshot}
 
     def checkpoint(self):
         self.state['updated_at'] = stamp()
+        self.state['contextual_review'] = self.contextual_review()
         self.save_json(self.state_path, self.state)
         # State is authoritative; this summary can always be regenerated after interruption.
         self.save_json(self.folder / 'review_progress.json', {
@@ -353,8 +359,22 @@ class Workspace:
             'pending_ids': [r['id'] for r in self.records if not self.current(r)]})
 
     def snapshot(self):
-        return hashed({'criteria': self.criteria_hash,
+        return hashed({'criteria': self.criteria_hash, 'cross_algorithm': 2,
                        'assessments': [self.state['assessments'].get(r['id']) for r in self.records]})
+
+    def contextual_review(self):
+        snapshot = self.snapshot()
+        findings = {}
+        if all(self.current(record) for record in self.records):
+            for review in self.state['cross_reviews'].values():
+                if review.get('snapshot') == snapshot:
+                    for finding in review['findings']:
+                        identifier = 'finding:' + hashed(finding)[:16]
+                        findings[identifier] = {**finding, 'id': identifier}
+        return {'version': 2, 'complete': self.state.get('cross_complete_snapshot') == snapshot,
+                'criteria_hash': self.criteria_hash,
+                'entry_hashes': {r['id']: {'source_hash': r['source_hash'], 'review_hash': r['review_hash']}
+                                 for r in self.records}, 'findings': list(findings.values())}
 
     def prepare(self, record, attachment_chars):
         evidence = {record['id']: record['text']}
@@ -485,69 +505,115 @@ def run(work, args):
     print(json.dumps(work.coverage(), indent=2))
 
 
-def cross_review(work, args):
-    """Compare assessments across entry batches, grouped by shared topics."""
-    records = {r['id']: r for r in work.records}
-    snapshot = work.snapshot()
-    calls = 0
-    for topic in TOPICS:
-        members = [work.state['assessments'][r['id']] for r in work.records
-                   if topic in work.state['assessments'][r['id']]['topics']]
-        if len(members) < 2 or topic == 'routine':
-            continue
-        # Compare every pair of bounded blocks, including their internal sequences.
-        # This avoids silently omitting comparisons at chunk boundaries.
-        blocks, block, size = [], [], 0
-        limit = (args.max_chars - len(work.brief) - len(work.instructions) - 2000) // 2
-        for assessment in members:
-            item = {k: assessment[k] for k in ('id', 'summary', 'relevance', 'assertion', 'stance', 'quotes', 'uncertainty')}
-            item['date'] = records[item['id']]['date']
-            length = len(json.dumps(item, ensure_ascii=False))
-            if length > limit:
-                raise ValueError('Cross-review assessment exceeds limit; increase --max-chars')
-            if block and size + length > limit:
-                blocks.append(block)
-                block, size = [], 0
-            block.append(item)
-            size += length
-        if block:
-            blocks.append(block)
-        for i, first in enumerate(blocks):
-            for j in range(i, len(blocks)):
-                supplied = first if i == j else first + blocks[j]
-                task_hash = hashed({'topic': topic, 'entries': supplied, 'snapshot': snapshot,
-                                    'reviews': [work.state['assessments'][a['id']]['review_hash'] for a in supplied]})
-                if task_hash in work.state['cross_reviews']:
+def cross_evidence_units(work, limit):
+    """Retain every readable source character; split large evidence into bounded parts."""
+    units = []
+    for record in work.records:
+        prepared = work.prepare(record, 2**63 - 1)
+        assessment = work.state['assessments'][record['id']]
+        base = {'id': record['id'], 'date': record['date'],
+                'first_pass': {k: assessment[k] for k in
+                              ('summary', 'relevance', 'assertion', 'stance', 'priority', 'topics', 'uncertainty')},
+                'review_gaps': prepared['review_gaps'], 'evidence': {}}
+        if len(json.dumps(base, ensure_ascii=False)) + 100 >= limit:
+            raise ValueError('Cross-review context exceeds --max-chars; increase the limit')
+        unit = {**base, 'evidence': {}}
+        for source_id, text in prepared['evidence'].items():
+            position = 0
+            while position < len(text):
+                # Try the remaining section, then halve until it fits the JSON budget.
+                length = len(text) - position
+                while length:
+                    candidate = {**unit, 'evidence': {**unit['evidence'], source_id: text[position:position + length]}}
+                    if len(json.dumps(candidate, ensure_ascii=False)) <= limit:
+                        break
+                    length //= 2
+                if length == 0 or source_id in unit['evidence']:
+                    if not unit['evidence']:
+                        raise ValueError('Cross-review evidence cannot fit --max-chars')
+                    units.append(unit)
+                    unit = {**base, 'evidence': {}}
                     continue
-                if args.max_cross_calls is not None and calls >= args.max_cross_calls:
-                    print('Cross-review call limit reached; resume to continue.', flush=True)
-                    return
-                print(f'Cross-review {topic}: blocks {i + 1}/{j + 1} of {len(blocks)}', flush=True)
-                evidence = {q['source_id']: [] for a in supplied for q in a['quotes']}
-                for a in supplied:
-                    for q in a['quotes']:
-                        evidence[q['source_id']].append(q['text'])
-                def validate(result):
-                    validate_shape(result, CROSS_SCHEMA)
-                    valid_ids = {a['id'] for a in supplied}
-                    for finding in result['findings']:
-                        if len(set(finding['entry_ids'])) < 2 or not set(finding['entry_ids']) <= valid_ids:
-                            raise ValueError('Cross finding must cite at least two supplied entries')
-                        if not finding['quotes']:
-                            raise ValueError('Cross finding must include evidence quotations')
-                        for q in finding['quotes']:
-                            if q['source_id'].split('/')[0] not in finding['entry_ids'] or not q['text'].strip() or not any(
-                                    q['text'] in passage for passage in evidence.get(q['source_id'], [])):
-                                raise ValueError('Cross quotation does not match supplied evidence')
-                result, usage = ask(args, work.instructions + '\nCompare supplied assessments for sequences, conflicts, '
-                                    'and alternative explanations. Assessments are provisional inferences. '
-                                    'Return only findings supported by the supplied quotations; an empty list is valid.',
-                                    {'case_brief': work.brief, 'topic': topic, 'assessments': supplied}, CROSS_SCHEMA, validate)
-                work.state['cross_reviews'][task_hash] = {'topic': topic, 'entries': [a['id'] for a in supplied],
-                                                         'snapshot': snapshot, 'findings': result['findings']}
-                work.state['calls'].append({'at': stamp(), 'phase': 'cross', 'model': args.model or 'codex-default', 'backend': 'codex-chatgpt', 'usage': usage})
-                work.checkpoint()
+                unit = candidate
+                position += length
+                if position < len(text):
+                    units.append(unit)
+                    unit = {**base, 'evidence': {}}
+        if unit['evidence']:
+            units.append(unit)
+    return units
+
+
+def cross_review(work, args):
+    """Reread full source evidence and compare every chronology block pair across topics."""
+    snapshot = work.snapshot()
+    limit = (args.max_chars - len(work.brief) - len(work.instructions) - 4000) // 2
+    if limit <= 0:
+        raise ValueError('Cross-review --max-chars is too small for the case brief and instructions')
+    blocks, block, size = [], [], 0
+    for unit in cross_evidence_units(work, limit):
+        length = len(json.dumps(unit, ensure_ascii=False)) + 2
+        if block and size + length > limit:
+            blocks.append(block)
+            block, size = [], 0
+        block.append(unit)
+        size += length
+    if block:
+        blocks.append(block)
+    work.state['cross_plan'] = {'snapshot': snapshot, 'blocks': len(blocks),
+                                'total_tasks': len(blocks) * (len(blocks) + 1) // 2}
+    work.checkpoint()
+    print(f"Cross-review plan: {len(blocks)} chronology blocks, {work.state['cross_plan']['total_tasks']} comparison tasks", flush=True)
+    calls = 0
+    for i, first in enumerate(blocks):
+        for j in range(i, len(blocks)):
+            supplied = first if i == j else first + blocks[j]
+            task_hash = hashed({'algorithm': 2, 'entries': supplied, 'snapshot': snapshot})
+            if task_hash in work.state['cross_reviews']:
+                continue
+            if args.max_cross_calls is not None and calls >= args.max_cross_calls:
+                print('Cross-review call limit reached; resume to continue.', flush=True)
+                return
+            print(f'Cross-review chronology: blocks {i + 1}/{j + 1} of {len(blocks)}', flush=True)
+            evidence = {}
+            for unit in supplied:
+                for source_id, passage in unit['evidence'].items():
+                    evidence.setdefault(source_id, []).append(passage)
+            def validate(result):
+                validate_shape(result, CROSS_SCHEMA)
+                valid_ids = {unit['id'] for unit in supplied}
+                for finding in result['findings']:
+                    linked = set(finding['entry_ids'])
+                    if len(linked) < 2 or not linked <= valid_ids:
+                        raise ValueError('Cross finding must cite at least two supplied entries')
+                    quoted_ids = set()
+                    for q in finding['quotes']:
+                        quoted_id = q['source_id'].split('/')[0]
+                        if quoted_id not in linked or not q['text'].strip() or not any(
+                                q['text'] in passage for passage in evidence.get(q['source_id'], [])):
+                            raise ValueError('Cross quotation does not match supplied evidence')
+                        quoted_ids.add(quoted_id)
+                    if len(quoted_ids) < 2:
+                        raise ValueError('Cross finding requires evidence quotations from at least two entries')
+            if len({unit['id'] for unit in supplied}) < 2:
+                result, usage = {'findings': []}, {}
+            else:
+                result, usage = ask(args, work.instructions + '\nThis is pass two: reread the supplied '
+                    'source evidence, not just the provisional first-pass summaries. Compare earlier knowledge '
+                    'with later statements and events, across participants and topic categories. Include routine '
+                    'and low-priority entries when context changes their significance. Seek supporting and '
+                    'unfavorable connections and alternative explanations. Give each finding a contextual_priority '
+                    'and explain its significance in analysis, without rewriting first-pass assessments. '
+                    'Some entries have evidence parts spread across requests; do not infer omitted context. '
+                    'Every finding must cite exact evidence quotations from at least two distinct entries. '
+                    'An empty findings list is valid.',
+                    {'case_brief': work.brief, 'entries': supplied}, CROSS_SCHEMA, validate)
                 calls += 1
+                work.state['calls'].append({'at': stamp(), 'phase': 'cross',
+                    'model': args.model or 'codex-default', 'backend': 'codex-chatgpt', 'usage': usage})
+            work.state['cross_reviews'][task_hash] = {'algorithm': 2, 'entries': sorted({u['id'] for u in supplied}),
+                                                     'snapshot': snapshot, 'findings': result['findings']}
+            work.checkpoint()
     work.state['cross_complete_snapshot'] = snapshot
     work.checkpoint()
 
@@ -561,13 +627,21 @@ def report(work):
              f"{coverage['attachment_incomplete']} with attachment review gaps.", '']
     rows = {r['id']: r for r in work.records}
     current = [work.state['assessments'][r['id']] for r in work.records if work.current(r)]
-    current.sort(key=lambda a: ['high', 'medium', 'uncertain', 'low'].index(a['priority']))
+    contextual = work.contextual_review()['findings']
+    ranks = ['high', 'medium', 'uncertain', 'low']
+    def effective_priority(entry):
+        linked = [f['contextual_priority'] for f in contextual if entry['id'] in f['entry_ids']]
+        return min([entry['priority'], *linked], key=ranks.index)
+    current.sort(key=lambda a: ranks.index(effective_priority(a)))
     lines += ['## Priority shortlist', '', 'High-priority entries for human review:', '']
-    high = [entry for entry in current if entry['priority'] == 'high']
+    high = [entry for entry in current if effective_priority(entry) == 'high']
     if not high:
         lines += ['No current high-priority assessments.', '']
     for entry in high:
-        lines += [f"- [{entry['id']}](master_timeline.html#{entry['id']}): {entry['relevance']}"]
+        lines += [f"- [{entry['id']}](master_timeline.html#{entry['id']}): {entry['relevance']} (effective priority: {effective_priority(entry)}; first pass: {entry['priority']})"]
+        for finding in contextual:
+            if entry['id'] in finding['entry_ids']:
+                lines += ['  Context: ' + finding['title'] + ' — ' + finding['analysis']]
     lines += ['', '## Detailed assessments', '']
     for entry in current:
         record = rows[entry['id']]
@@ -578,6 +652,8 @@ def report(work):
                   '**Relevance:** ' + entry['relevance'], '',
                   f"**Assertion / stance:** {entry['assertion']} / {entry['stance']}", '',
                   '**Uncertainty:** ' + entry['uncertainty'], '']
+        if effective_priority(entry) != entry['priority']:
+            lines += ['**Effective priority after contextual review:** ' + effective_priority(entry), '']
         for quote in entry['quotes']:
             lines += ['> ' + quote['text'].replace('\n', '\n> '), '', 'Source: `' + quote['source_id'] + '`', '']
         for question in entry['questions']:
@@ -586,7 +662,7 @@ def report(work):
             lines += ['- Review gap: ' + gap]
         lines += ['']
     lines += ['## Cross-entry findings', '',
-              'Comparisons use shared topics and quoted evidence from current assessments; '
+              'Comparisons reread source evidence across topics and chronology blocks; '
               'they do not establish that all possible relationships were found.', '']
     if coverage['remaining'] or work.state.get('cross_complete_snapshot') != work.snapshot():
         lines += ['Cross-entry pass is incomplete; resume the runner to finish it.', '']
@@ -601,7 +677,7 @@ def report(work):
                 if fingerprint in seen:
                     continue
                 seen.add(fingerprint)
-                lines += ['### ' + finding['title'], '', finding['analysis'], '',
+                lines += ['### ' + finding['title'], '', '**Contextual priority:** ' + finding['contextual_priority'], '', finding['analysis'], '',
                           'Entries: ' + ', '.join(finding['entry_ids']), '']
                 for q in finding['quotes']:
                     lines += ['> ' + q['text'].replace('\n', '\n> '), '', 'Source: `' + q['source_id'] + '`', '']

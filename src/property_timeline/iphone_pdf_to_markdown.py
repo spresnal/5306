@@ -84,6 +84,17 @@ def normalized_time(original):
         return original
 
 
+def message_participants(speaker, me, contact, exported_owner, exported_contact):
+    """Resolve both named-speaker and legacy timestamp-only TextPort headers."""
+    if speaker is None or speaker.casefold() in {
+            me.casefold(), exported_owner.casefold()}:
+        return me, contact
+    if speaker.casefold() in {contact.casefold(), exported_contact.casefold()}:
+        return contact, me
+    # Preserve unfamiliar labels rather than silently attributing their words.
+    return speaker, me
+
+
 def layout_rows(page, page_no, min_image_width):
     """Use text glyph coordinates to restore interleaved emoji/text order."""
     spans = []
@@ -186,7 +197,7 @@ def main():
                                      formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("pdf", type=Path, help="TextPort conversation PDF")
     parser.add_argument("--me", default="You", help='Outgoing speaker name; e.g. "Regina"')
-    parser.add_argument("--other", help="Incoming contact name (default: PDF contact)")
+    parser.add_argument("--other", help="Display name for the PDF contact (default: PDF contact)")
     parser.add_argument("--output", type=Path, help="Markdown output path")
     parser.add_argument("--index", type=Path, help="CSV index output path")
     parser.add_argument("--min-image-size", type=int, default=300,
@@ -212,10 +223,15 @@ def main():
     if len(pdf) == 0:
         parser.error("Empty PDF.")
 
-    contact = args.other
-    if not contact:
-        m = re.search(r"(?m)^With:\s*(.+)$", pdf[0].get_text())
-        contact = m.group(1).strip() if m else "Contact"
+    first_page = pdf[0].get_text()
+    m = re.search(r"(?m)^With:[ \t]*(.+)$", first_page)
+    exported_contact = normalize_whitespace(m.group(1)) if m else "Contact"
+    m = re.search(r"(?m)^Messages exported from:[ \t]*(.+)$", first_page)
+    exported_owner = normalize_whitespace(m.group(1)) if m else args.me
+    contact = normalize_whitespace(args.other or exported_contact)
+    args.me = normalize_whitespace(args.me)
+    if args.me.casefold() == contact.casefold():
+        parser.error("--me and --other must identify different participants.")
     messages = []
     unassigned = []
     skipped = []
@@ -227,7 +243,9 @@ def main():
         for row in layout_rows(page, pno, args.min_image_size):
             txt = normalize_whitespace(row.text)
             if row.kind == "text":
-                if not txt or txt == "With: " + contact or txt.startswith("PDF generated on "):
+                if (not txt or txt == "With: " + exported_contact
+                        or txt.startswith("PDF generated on ")
+                        or txt.startswith("Messages exported from:")):
                     continue
                 if FOOTER.fullmatch(txt) or DAY_HEADING.fullmatch(txt):
                     continue
@@ -236,8 +254,9 @@ def main():
                 incoming = INCOMING.fullmatch(txt)
                 outgoing = OUTGOING.fullmatch(txt) if not incoming else None
                 if incoming or outgoing:
-                    sender = incoming.group(1) if incoming else args.me
-                    recipient = args.me if incoming else contact
+                    speaker = normalize_whitespace(incoming.group(1)) if incoming else None
+                    sender, recipient = message_participants(
+                        speaker, args.me, contact, exported_owner, exported_contact)
                     ts = normalize_whitespace(incoming.group(2) if incoming else outgoing.group(1))
                     current = Message(len(messages) + 1, sender, recipient, ts,
                                       normalized_time(ts), pno, pno)

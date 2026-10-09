@@ -104,10 +104,12 @@ Unzoned original email dates use UTC solely for reproducible extraction ordering
 they remain explicitly unzoned in the archive and master chronology.
 
 The iPhone converter preserves text and attachment descriptions from TextPort.
+It recognizes both named outgoing headers and older timestamp-only outgoing
+headers. Use `--me Regina --other Darcy` to display the exported contact
+“Darcy Carmel” as “Darcy” while retaining the original PDF.
 Actual large embedded images are extracted to `data/archives/iphone/iphone_darcy_messages_assets/`
 and registered in `data/archives/iphone/iphone_darcy_index.csv` for HTML previews and PDF embedding.
-Bracketed descriptions alone are not the original attachments. The current
-source PDF contains no qualifying embedded images.
+Bracketed descriptions alone are not the original attachments.
 
 The combining command discovers the established source-index filenames beside
 each input archive. Original exports are found under `data/originals/<source>/`;

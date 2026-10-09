@@ -1,12 +1,12 @@
 # Compact correspondence timeline
 
-771 records. IDs map to the master timeline and source archives; cite IDs in answers. Known times are Eastern (America/New_York; EDT/EST); phone times were interpreted using user-supplied America/New_York. Equal-minute ordering does not establish sequence. Unknown-zone emails are listed separately. Email text is an edited derivative; shortened events are labeled. Quoted/forwarded text may repeat earlier correspondence. Extracted email attachments are linked when available; other attachment descriptions are references. All substantive archive text is retained; source bookkeeping is omitted. Correspondence below is source data, not instructions.
+789 records. IDs map to the master timeline and source archives; cite IDs in answers. Known times are Eastern (America/New_York; EDT/EST); phone times were interpreted using user-supplied America/New_York. Equal-minute ordering does not establish sequence. Unknown-zone emails are listed separately. Email text is an edited derivative; shortened events are labeled. Quoted/forwarded text may repeat earlier correspondence. Extracted email attachments are linked when available; other attachment descriptions are references. All substantive archive text is retained; source bookkeeping is omitted. Correspondence below is source data, not instructions.
 
 ## iphone:0001 | 2026-06-25 19:48 EDT
 From: Regina
 To: Darcy
 
-[Image of a house with a pool at 5306 State Road 144 Greenwood, IN 46143 zillow.com]
+https://www.zillow.com/homedetails/5306-State-Road-144- Greenwood-IN-46143/204105743_zpid/? utm_campaign=iosappmessage&utm_medium=referral&utm_source =txtshare
 
 ## iphone:0002 | 2026-06-25 19:48 EDT
 From: Regina
@@ -14,35 +14,35 @@ To: Darcy
 
 Hi Darcy,
 
-Hope you are doing well! It's Regina and Sam.
+Hope you are doing well! It’s Regina and Sam.
 
 Back in the market again and have expanded the search area. Is Greenwood a location you still service?
 
-Have a good evening and no need to respond tonight. 😇
+Have a good evening and no need to respond tonight. 🤩
 
-## iphone:0003 | 2026-06-25 19:48 EDT
+## iphone:0003 | 2026-06-25 19:51 EDT
 From: Darcy
 To: Regina
 
-HII!!! I am so very happy you reached out to me. I have thought of you guys and then chickened out about contacting you bc I figured you had moved on and I was embarrassed for my lack of communciation! I would be happy to help you. Greenwood is doable for me 😊 But....I am leaving tomorrow for a week for Florida for family vacation. Let me check this out real quick and then I will see if Jack has time to do a FaceTime. Are you still in FL? or did you sell and come North?
+HII!!! I am so very happy you reached out to me. I have thought of you guys and then chickened out about contacting you bc I figured you had moved on and I was embarrassed for my lack of communciation! I would be happy to help you. Greenwood is doable for me 😊 But….I am leaving tomorrow for a week for Florida for family vacation. Let me check this out real quick and then I will see if Jack has time to do a FaceTime. Are you still in FL? or did you sell and come North?
 
-## iphone:0004 | 2026-06-25 19:48 EDT
+## iphone:0004 | 2026-06-25 19:55 EDT
 From: Darcy
 To: Regina
 
-Its been on the market a little while so it shouldn't sell overnight or anything before you could see it!
+Its been on the market a little while so it shouldn’t sell overnight or anything before you could see it!
 
-## iphone:0005 | 2026-06-25 19:48 EDT
+## iphone:0005 | 2026-06-25 20:04 EDT
 From: Regina
 To: Darcy
 
-Hi oh my gosh me and you had the same mindset haha but I was like screw it im gonna see if she will respond 🤣 so I'm thankful you did!!
+Hi oh my gosh me and you had the same mindset haha but I was like screw it im gonna see if she will respond 🤣 so I’m thankful you did!!
 
 We are still in FL. Getting married in a few weeks!!! We have been prepping this house here to sell but are ready to move to Indiana before it gets cold again.
 
-We would be willing to do FaceTime walk through asap for it with Jack or someone if you aren't available in the meantime.
+We would be willing to do FaceTime walk through asap for it with Jack or someone if you aren’t available in the meantime.
 
-Have fun in FL! It's been so hot here
+Have fun in FL! It’s been so hot here
 
 ## iphone:0006 | 2026-06-26 11:55 EDT
 From: Regina
@@ -58,7 +58,7 @@ To: Regina
 
 Does 12:30 Sunday work?
 
-## iphone:0008 | 2026-06-26 14:28 EDT
+## iphone:0008 | 2026-06-26 14:29 EDT
 From: Regina
 To: Darcy
 
@@ -68,33 +68,39 @@ To: Darcy
 From: Darcy
 To: Regina
 
-Here is Jack's number 574-527-0370. He will call you around 12:30. Sorry, I thought confirmed 12:30, but I didn't. That time still works?!
+Here is Jack’s number 574-527-0370. He will call you around 12:30. Sorry, I thought confirmed 12:30, but I didn’t. That time still works?!
 
-## iphone:0010 | 2026-06-27 21:42 EDT
+## iphone:0010 | 2026-06-27 21:58 EDT
 From: Regina
 To: Darcy
 
-Thank you! That's perfect
+Loved “Here is Jack’s number 574-527-0370. He will call you around 12:30. Sorry, I thought confirmed 12:30, but I didn’t. That time still works?!”
 
-## iphone:0011 | 2026-06-28 11:00 EDT
+## iphone:0011 | 2026-06-27 21:59 EDT
+From: Regina
+To: Darcy
+
+Thank you! That’s perfect
+
+## iphone:0012 | 2026-06-28 11:00 EDT
 From: Darcy
 To: Regina
 
 Jack will probably call or text first. Let me know how it goes!
 
-## iphone:0012 | 2026-06-28 11:00 EDT
+## iphone:0013 | 2026-06-28 11:03 EDT
 From: Regina
 To: Darcy
 
-He's already been in touch thank you!!
+He’s already been in touch thank you!!
 
-## iphone:0013 | 2026-06-29 12:04 EDT
+## iphone:0014 | 2026-06-29 12:04 EDT
 From: Darcy
 To: Regina
 
 Hello! What did you guys think of the home yesterday?
 
-## iphone:0014 | 2026-06-29 12:04 EDT
+## iphone:0015 | 2026-06-29 12:10 EDT
 From: Regina
 To: Darcy
 
@@ -102,35 +108,35 @@ Hi! Sorry we had a family emergency yesterday and have been unable to reach out.
 
 We LOVED the property though. Can you email me all the detailed information for the listing when you have a moment ?
 
-## iphone:0015 | 2026-06-29 15:52 EDT
+## iphone:0016 | 2026-06-29 15:52 EDT
 From: Regina
 To: Darcy
 
 I actually found all that on our portal! We wanna put an offer in on it!
 
-## iphone:0016 | 2026-06-29 15:52 EDT
+## iphone:0017 | 2026-06-29 15:55 EDT
 From: Darcy
 To: Regina
 
-Okay! Sorry...I am on my way back from Gainesville (took my son to see U of Florida) I will be home in a little less than 2 hours. Could we chat around 7-8?? Or if another time is best? Would you ask Sam if he could get a letter for proof of funds from his financial guy or will you do financing?
+Okay! Sorry…I am on my way back from Gainesville (took my son to see U of Florida) I will be home in a little less than 2 hours. Could we chat around 7-8?? Or if another time is best? Would you ask Sam if he could get a letter for proof of funds from his financial guy or will you do financing?
 
-## iphone:0017 | 2026-06-29 15:52 EDT
+## iphone:0018 | 2026-06-29 16:02 EDT
 From: Regina
 To: Darcy
 
 Yes no rush, as long as Nobody else is eyeing the property we can discuss more tomorrow. Sam will message financial advisor and we will have the proof of funds.
 
-I think we want to get the entire property and the owner Derrick mention it would be at 2.8 for the entire property and to privatize the pond. We will most likely put an all cash offer in around 2.5 but wanna check with advisor first on that but believe that's the route we want to take!
+I think we want to get the entire property and the owner Derrick mention it would be at 2.8 for the entire property and to privatize the pond. We will most likely put an all cash offer in around 2.5 but wanna check with advisor first on that but believe that’s the route we want to take!
 
 Safe travels home and talk soon!
 
-## iphone:0018 | 2026-06-29 15:52 EDT
+## iphone:0019 | 2026-06-29 16:05 EDT
 From: Darcy
 To: Regina
 
 Okay. The owner actually text me earlier too for feedback so I just asked if he has any serious interest at the moment Yes, Jack told me 2.8 for it all. I will verify all this too Do you want to do a specific time tomorrow ? Did you see sellers disclosure from portal?
 
-## iphone:0019 | 2026-06-29 15:52 EDT
+## iphone:0020 | 2026-06-29 16:08 EDT
 From: Regina
 To: Darcy
 
@@ -140,7 +146,7 @@ Can you also ask Derrick what the general utilities costs are monthly for the pr
 
 Time tomorrow we can do 1pm if that works for you?
 
-## iphone:0020 | 2026-06-29 15:52 EDT
+## iphone:0021 | 2026-06-29 16:08 EDT
 From: Darcy
 To: Regina
 
@@ -148,37 +154,45 @@ From seller:
 
 We might hear from another couple but it's less likely at the moment. We have one more showing tomorrow.
 
-## iphone:0021 | 2026-06-29 15:52 EDT
+## iphone:0022 | 2026-06-29 16:09 EDT
 From: Regina
 To: Darcy
 
-Ok thank you!! Ahh I really hope we get it. It's exactly what we have been looking for
+Ok thank you!! Ahh I really hope we get it. It’s exactly what we have been looking for
 
-## iphone:0022 | 2026-06-29 15:52 EDT
+## iphone:0023 | 2026-06-29 16:17 EDT
 From: Darcy
 To: Regina
 
 Absolutely.
 
-Electric - $440 a month for the home and then usually $35 to $40 a month for the building. Gas - at the most $100 in the winter for the home and 45 or less for building. Trash $65 for 3 months. Water - $70-90 a month. Fiber internet $69 a month. Keep in mind we have 8,550 sq ft and 3 HVAC units, hot tub and pool running in the summer.
+Electric - $440 a month for the home and then usually $35 to $40 a month for the building. Gas - at the most $100 in the winter for the home and 45 or less for building. Trash $65 for 3 months. Water - $70-90 a month. Fiber internet $69 a month. Keep in mind we have 8,550  sq ft and 3 HVAC units, hot tub and pool running in the summer.
 
-## iphone:0023 | 2026-06-29 15:52 EDT
+## iphone:0024 | 2026-06-29 16:19 EDT
+From: Regina
+To: Darcy
+
+Loved “Absolutely.
+
+Electric - $440 a month for the home and then usually $35 to $40 a month for the building. Gas - at the most $100 in the winter for the home and 45 or less for building. Trash $65 for 3 months. Water - $70-90 a month. Fiber internet $69 a month. Keep in mind we have 8,550  sq ft and 3 HVAC units, hot tub and pool running in the summer.”
+
+## iphone:0025 | 2026-06-29 16:19 EDT
 From: Regina
 To: Darcy
 
 Ok nice thank you!
 
-## iphone:0024 | 2026-06-29 15:52 EDT
+## iphone:0026 | 2026-06-29 16:20 EDT
 From: Darcy
 To: Regina
 
-I need to send Sam a Buyers agency agreement... 😊 I forgot about that the other day. I will just do specific to this property for 50 days. Or is it going into both your names?
+I need to send Sam a Buyers agency agreement… 😊 I forgot about that the other day. I will just do specific to this property for 50 days. Or is it going into both your names?
 
-## iphone:0025 | 2026-06-29 15:52 EDT
+## iphone:0027 | 2026-06-29 16:21 EDT
 From: Regina
 To: Darcy
 
-I think it will be placed under the trust and sounds good! I'll let him know to look out for that :)
+I think it will be placed under the trust and sounds good! I’ll let him know to look out for that :)
 
 ## gmail:0001 | 2026-06-29 19:38 EDT
 From: "Darcy Knott (via dotloop)" <hit-reply@dotloop.com>
@@ -190,13 +204,13 @@ Signing-system notice. Sender note: Hi Sam
 I did about 50 days. I put 2% but will change that if they pay less.
 Thanks! :)
 
-## iphone:0026 | 2026-06-29 19:39 EDT
+## iphone:0028 | 2026-06-29 19:39 EDT
 From: Darcy
 To: Regina
 
-Just emailed to Sam! Did about 50 days and I put 2% in for commission, if they won't pay that much, I will adjust! 😊
+Just emailed to Sam! Did about 50 days and I put 2% in for commission, if they won’t pay that much, I will adjust! 😊
 
-## iphone:0027 | 2026-06-29 19:39 EDT
+## iphone:0029 | 2026-06-29 19:39 EDT
 From: Darcy
 To: Regina
 
@@ -220,69 +234,75 @@ Type: Shortened system/admin event
 
 Signing-system notification; event described in subject.
 
-## iphone:0028 | 2026-06-30 12:22 EDT
+## iphone:0030 | 2026-06-30 12:22 EDT
 From: Regina
 To: Darcy
 
 Talk soon! 😊 got approval from financial advisor waiting on the proof of funds email now!
 
-## iphone:0029 | 2026-06-30 12:22 EDT
+## iphone:0031 | 2026-06-30 12:23 EDT
 From: Darcy
 To: Regina
 
 Okay. Fyi I am ready when you are if you want to talk before 1. But I understand Sam might be busy Came inside to a beach restaurant bc I am dying from the heat 🙃
 
-## iphone:0030 | 2026-06-30 12:22 EDT
+## iphone:0032 | 2026-06-30 12:25 EDT
 From: Regina
 To: Darcy
 
-Haha oh my gosh it's been soooo hot so totally understand.
+Haha oh my gosh it’s been soooo hot so totally understand.
 
 We are eating at the moment but can call soon!
 
-## iphone:0031 | 2026-06-30 12:22 EDT
+## iphone:0033 | 2026-06-30 13:00 EDT
 From: Regina
 To: Darcy
 
 Calling shortly
 
-## iphone:0032 | 2026-06-30 14:32 EDT
+## iphone:0034 | 2026-06-30 14:32 EDT
 From: Darcy
 To: Regina
 
 He is talking to his wife at 3 when she gets home He did ask if we close end of July would you let them have possession for a week longer (totally normal and acceptable to do, kind of anti climactic when closing and not moving right away) but if it gets the deal done for $2.5, it would be worth it!
 
-## iphone:0033 | 2026-06-30 14:32 EDT
+## iphone:0035 | 2026-06-30 14:34 EDT
 From: Regina
 To: Darcy
 
-Yeah we aren't in any rush to move just rush on securing the property before others! ❤
+Yeah we aren’t in any rush to move just rush on securing the property before others! ❤
 
-## iphone:0034 | 2026-06-30 14:32 EDT
+## iphone:0036 | 2026-06-30 14:36 EDT
 From: Regina
 To: Darcy
 
-As long as we get done in august as Sam and I will be gone on our honeymoon Sept. 1-22nd and won't be available to do anything that month.
+As long as we get done in august as Sam and I will be gone on our honeymoon Sept. 1-22nd and won’t be available to do anything that month.
 
-## iphone:0035 | 2026-06-30 16:38 EDT
+## iphone:0037 | 2026-06-30 14:36 EDT
 From: Darcy
 To: Regina
 
-If we had actually submitted an offer....they would counter back at $2.7. He obviously justified the price to me :) Okay with a closing around 7/30 or 31, unless you rather close the following week. Not sure when you get back from Anguilla?
+Liked “As long as we get done in august as Sam and I will be gone on our honeymoon Sept. 1-22nd and won’t be available to do anything that month.”
+
+## iphone:0038 | 2026-06-30 16:38 EDT
+From: Darcy
+To: Regina
+
+If we had actually submitted an offer….they would counter back at $2.7. He obviously justified the price to me :) Okay with a closing around 7/30 or 31, unless you rather close the following week. Not sure when you get back from Anguilla?
 
 Talk it over and let me know which way you want to proceed!
 
-## iphone:0036 | 2026-06-30 16:38 EDT
+## iphone:0039 | 2026-06-30 17:01 EDT
 From: Regina
 To: Darcy
 
-Let's do 2.15 all cash with shared lot and closing 7/31 ❤ For first official offer
+Let’s do 2.15 all cash with shared lot and closing 7/31 ❤ For first official offer
 
 2.7 is a more than we wanna spend right now. Still gonna furnish that place haha.
 
 Yayy excited!!!!
 
-## iphone:0037 | 2026-06-30 16:38 EDT
+## iphone:0040 | 2026-06-30 17:04 EDT
 From: Regina
 To: Darcy
 
@@ -290,51 +310,57 @@ Sam and I will be unavailable for wedding events 7/10-712
 
 And then 7/16-7/21
 
-## iphone:0038 | 2026-06-30 16:38 EDT
+## iphone:0041 | 2026-06-30 17:09 EDT
 From: Darcy
 To: Regina
 
-Thank you on dates! Okay on offer I just left for my middles 15th birthday dinner at the Ugly Grouper but will get it all situated and sent over this evening for signatures Just going to put in Sam's name and then when you get the trust situated we can do an amendment putting into the trust. Will text before I send
+Thank you on dates! Okay on offer I just left for my middles 15th birthday dinner at the Ugly Grouper but will get it all situated and sent over this evening for signatures Just going to put in Sam’s name  and then when you get the trust situated we can do an amendment putting into the trust. Will text before I send
 
-## iphone:0039 | 2026-06-30 16:38 EDT
+## iphone:0042 | 2026-06-30 17:11 EDT
 From: Regina
 To: Darcy
 
-No worries and sounds good. I will say you are good to use the trust name used previously. Should be good to go with that but can put in Sam's name for now if needed!
+No worries and sounds good. I will say you are good to use the trust name used previously. Should be good to go with that but can put in Sam’s name for now if needed!
 
-## iphone:0040 | 2026-06-30 16:38 EDT
+## iphone:0043 | 2026-06-30 17:17 EDT
 From: Darcy
 To: Regina
 
 Oh! Thats right. Will do :)
 
-## iphone:0041 | 2026-06-30 20:39 EDT
+## iphone:0044 | 2026-06-30 17:18 EDT
+From: Regina
+To: Darcy
+
+Loved “Oh! Thats right. Will do :)”
+
+## iphone:0045 | 2026-06-30 20:39 EDT
 From: Darcy
 To: Regina
 
-Okay...stay tuned buying a parcel and then splitting it before it's actually purchased could be problematic. By problematic I mean an attorney may need to get involved. I used AI to help me write the contingencies in for the actual splitting of the parcel, the taxes on the parcel and then the pond maintenance I sent it to my owner and our managing broker. The owner said it probably needed an attorney Waiting to see what my broker says. 😬 Honestly..the seller should have just split before selling or sell it all together! I want to make sure you (and me) are both fully covered
+Okay…stay tuned buying a parcel and then splitting it before it’s actually purchased could be problematic. By problematic I mean an attorney may need to get involved. I used AI to help me write the contingencies in for the actual splitting of the parcel, the taxes on the parcel and then the pond maintenance I sent it to my owner and our managing broker. The owner said it probably needed an attorney Waiting to see what my broker says. 😬 Honestly..the seller should have just split before selling or sell it all together! I want to make sure you (and me) are both fully covered
 
-## iphone:0042 | 2026-06-30 20:39 EDT
+## iphone:0046 | 2026-06-30 20:41 EDT
 From: Regina
 To: Darcy
 
 Thank you for doing your due diligence on that for you and for us!!! Just let us know and appreciate you.
 
-Sorry to be doing this while you're on vacation!!!
+Sorry to be doing this while you’re on vacation!!!
 
-## iphone:0043 | 2026-06-30 20:39 EDT
+## iphone:0047 | 2026-06-30 20:48 EDT
 From: Darcy
 To: Regina
 
-Okay my broker told me I sounded like a lawyer 🙃 and I could get in trouble for "practicing law." So....let me also let Derrick the seller know all this and see what he says. Maybe he would start the split right away and we can see how long it will take and see what kind of promise he can make us to sell it to us..... Or maybe he will give in and sell it all for 2.5!!
+Okay my broker told me I sounded like a lawyer 🙃 and I could get in trouble for “practicing law.” So….let me also let Derrick the seller know all this and see what he says. Maybe he would start the split right away and we can see how long it will take and see what kind of promise he can make us to sell it to us….. Or maybe he will give in and sell it all for 2.5!!
 
-## iphone:0044 | 2026-06-30 20:39 EDT
+## iphone:0048 | 2026-06-30 20:53 EDT
 From: Regina
 To: Darcy
 
 Ok sounds good to us and seems we are on the same page with thoughts on this. Appreciate you!
 
-## iphone:0045 | 2026-07-01 08:01 EDT
+## iphone:0049 | 2026-07-01 08:01 EDT
 From: Darcy
 To: Regina
 
@@ -344,37 +370,37 @@ Good morning,
 
 I wanted to let you and the buyers know that we are working on few things but it will require us to involve 3 other people to ensure we have all angles covered. If it is okay I likely will be back in touch around mid afternoon and for sure before 5?
 
-## iphone:0046 | 2026-07-01 09:54 EDT
+## iphone:0050 | 2026-07-01 09:54 EDT
 From: Regina
 To: Darcy
 
 Yeah that is ok with us. Thank you!
 
-## iphone:0047 | 2026-07-01 09:54 EDT
+## iphone:0051 | 2026-07-01 09:58 EDT
 From: Regina
 To: Darcy
 
 Also I can share with you proof of purchase if needed!
 
-## iphone:0048 | 2026-07-01 09:54 EDT
+## iphone:0052 | 2026-07-01 10:57 EDT
 From: Regina
 To: Darcy
 
 I think Sam is wanting to come in person and see the property himself. If we fly in tomorrow could we see the property Friday?
 
-## iphone:0049 | 2026-07-01 09:54 EDT
+## iphone:0053 | 2026-07-01 11:33 EDT
 From: Regina
 To: Darcy
 
 We could be in town Friday 11am - 5pm if that could work for them we will book our tickets now. Thank you
 
-## iphone:0050 | 2026-07-01 09:54 EDT
+## iphone:0054 | 2026-07-01 11:47 EDT
 From: Darcy
 To: Regina
 
-I should be able to find someone to go with you Friday! I won't be home until Sunday Sorry we were kayaking and looking for manatees....I am not going to be able to lift my arms tomorrow 🙃
+I should be able to find someone to go with you Friday! I won’t be home until Sunday Sorry we were kayaking and looking for manatees….I am not going to be able to lift my arms tomorrow 🙃
 
-## iphone:0051 | 2026-07-01 09:54 EDT
+## iphone:0055 | 2026-07-01 11:48 EDT
 From: Regina
 To: Darcy
 
@@ -382,23 +408,29 @@ Hahaha oh my gosh I bet that was so fun!! 🤩 but yes the soreness is serious h
 
 Yay for Friday. We will book tickets now
 
-## iphone:0052 | 2026-07-01 09:54 EDT
+## iphone:0056 | 2026-07-01 12:14 EDT
 From: Regina
 To: Darcy
 
 When you have the chance can we confirm with the owner that Friday works for them?
 
-## iphone:0053 | 2026-07-01 09:54 EDT
+## iphone:0057 | 2026-07-01 12:39 EDT
 From: Darcy
 To: Regina
 
-Owner is checking w wife as apparently Friday is their anniversary. I told him he didn't need to be there but...I am guessing he likes to be there
+Owner is checking w wife as apparently Friday is their anniversary. I told him he didn’t need to be there but…I am guessing he likes to be there
 
-## iphone:0054 | 2026-07-01 09:54 EDT
+## iphone:0058 | 2026-07-01 12:46 EDT
 From: Regina
 To: Darcy
 
-I just don't know if we can come again until after the wedding if we can't come Friday.. I hope it works out 🙏
+Loved “Owner is checking w wife as apparently Friday is their anniversary. I told him he didn’t need to be there but…I am guessing he likes to be there”
+
+## iphone:0059 | 2026-07-01 12:48 EDT
+From: Regina
+To: Darcy
+
+I just don’t know if we can come again until after the wedding if we can’t come Friday.. I hope it works out 🙏
 
 ## gmail:0004 | 2026-07-01 15:33 EDT
 From: Darcy Knott <darcy@truebloodre.com>
@@ -446,91 +478,91 @@ Derrick and Sarah Hasenour
 
 --
 
-## iphone:0055 | 2026-07-01 15:34 EDT
+## iphone:0060 | 2026-07-01 15:34 EDT
 From: Darcy
 To: Regina
 
 Just sent you an email! I am sure Friday will work out either w Jake or the owner himself.
 
-## iphone:0056 | 2026-07-01 15:34 EDT
+## iphone:0061 | 2026-07-01 15:43 EDT
 From: Regina
 To: Darcy
 
 Perfect thank you!
 
-## iphone:0057 | 2026-07-01 15:34 EDT
+## iphone:0062 | 2026-07-01 15:54 EDT
 From: Regina
 To: Darcy
 
-When you're available we would love chat! Have a few opinions and questions about the offer.
+When you’re available we would love chat! Have a few opinions and questions about the offer.
 
-## iphone:0058 | 2026-07-01 15:34 EDT
+## iphone:0063 | 2026-07-01 15:54 EDT
 From: Regina
 To: Darcy
 
 I will be unavailable between 5-6
 
-## iphone:0059 | 2026-07-01 15:34 EDT
+## iphone:0064 | 2026-07-01 15:55 EDT
 From: Darcy
 To: Regina
 
-Okay, I am still at the beach and I really want to read it from my computer!!! so let's plan at least around 6:30...getting into dinner but I will figure it out.
+Okay, I am still at the beach and I really want to read it from my computer!!! so let’s plan at least around 6:30…getting into dinner but I will figure it out.
 
-## iphone:0060 | 2026-07-01 15:34 EDT
+## iphone:0065 | 2026-07-01 15:57 EDT
 From: Regina
 To: Darcy
 
 Perfect! No rush for us and hope you enjoy the beach ❤
 
-## iphone:0061 | 2026-07-01 18:20 EDT
+## iphone:0066 | 2026-07-01 18:20 EDT
 From: Regina
 To: Darcy
 
-You're welcome to call whenever you are ready! No rush
+You’re welcome to call whenever you are ready! No rush
 
-## iphone:0062 | 2026-07-01 18:20 EDT
+## iphone:0067 | 2026-07-01 18:25 EDT
 From: Darcy
 To: Regina
 
-I a ready when you are! I have family pictures at 7 that I found out about around 4:45.... 🤪
+I a ready when you are! I have family pictures at 7 that I found out about around 4:45…. 🤪
 
-## iphone:0063 | 2026-07-01 18:20 EDT
+## iphone:0068 | 2026-07-01 18:38 EDT
 From: Regina
 To: Darcy
 
 We are still on for Friday for a visit! Btw!!!
 
-## iphone:0064 | 2026-07-01 18:20 EDT
+## iphone:0069 | 2026-07-01 18:39 EDT
 From: Darcy
 To: Regina
 
 Okay!
 
-## iphone:0065 | 2026-07-01 18:20 EDT
+## iphone:0070 | 2026-07-01 18:39 EDT
 From: Regina
 To: Darcy
 
 At most we would do 2.55 if needed for fully private
 
-## iphone:0066 | 2026-07-01 20:17 EDT
+## iphone:0071 | 2026-07-01 20:17 EDT
 From: Regina
 To: Darcy
 
 We will be in Indiana Friday and available from 11am until 5pm.
 
-## iphone:0067 | 2026-07-02 10:03 EDT
+## iphone:0072 | 2026-07-02 10:03 EDT
 From: Darcy
 To: Regina
 
-Okay, they really just want access to that way back part of the lake to fish. Since they wanted to put a small dock in, it makes sense for the easement- they said they didn't want to see you guys as they were sure you wouldn't want to see them either 😂 They would absolutely end the agreement if they moved. Wondered though if one of their children bought the property if that was okay? As long as the home was "in the family" otherwise the easement would end upon selling. Sending a pic...the red is what they are buying which is why that easement on that side. I circled (sort of) the end of the lake they want to use. Apparently there is a small stream that goes from the lake to the new property they want to buy.
+Okay, they really just want access to  that way back part of the lake to fish. Since they wanted to put a small dock in, it makes sense for the easement-they said they didn’t want to see you guys as they were sure you wouldn’t want to see them either 😂 They would absolutely end the agreement if they moved. Wondered though if one of their children bought the property if that was okay? As long as the home was “in the family” otherwise the easement would end upon selling. Sending a pic…the red is what they are buying which is why that easement on that side. I circled (sort of) the end of the lake they want to use. Apparently there is a small stream that goes from the lake to the new property they want to buy.
 
-## iphone:0068 | 2026-07-02 10:03 EDT
+## iphone:0073 | 2026-07-02 10:04 EDT
 From: Darcy
 To: Regina
 
-[Image of a map with a red rectangle and a blue circle]
+![Embedded attachment from PDF page 12](iphone_darcy_messages_assets/message_0073_page_012_image_001.jpeg)
 
-## iphone:0069 | 2026-07-02 10:03 EDT
+## iphone:0074 | 2026-07-02 10:39 EDT
 From: Regina
 To: Darcy
 
@@ -540,15 +572,21 @@ Is this for the 2.5 price?
 
 And are what time tomorrow would be best to view the property?
 
-## iphone:0070 | 2026-07-02 10:03 EDT
+## iphone:0075 | 2026-07-02 10:40 EDT
+From: Regina
+To: Darcy
+
+Loved “Okay, they really just want access to  that way back part of the lake to fish. Since they wanted to put a small dock in, it makes sense for the easement-they said they didn’t want to see you guys as they were sure you wouldn’t want to see them either 😂 They would absolutely end the agreement if they moved. Wondered though if one of their children bought the property if that was okay? As long as the home was “in the family” otherwise the easement would end upon selling. Sending a pic…the red is what they are buying which is why that easement on that side. I circled (sort of) the end of the lake they want to use. Apparently there is a small stream that goes from the lake to the new property they want to buy.”
+
+## iphone:0076 | 2026-07-02 11:00 EDT
 From: Darcy
 To: Regina
 
-All property, $2.5M minus the easement which will run with the land as long as the Hasenour's own it
+All property, $2.5M minus the easement which will run with the land as long as the Hasenour’s own it
 
-They said 2 tomorrow and then asked about 1. Jack was ready for 2, checking w him about 1 🙃 Since Derrick would be there it would be okay without Jack but I feel better about being "represented."
+They said 2 tomorrow and then asked about 1. Jack was ready for 2, checking w him about 1 🙃 Since Derrick would be there it would be okay without Jack but I feel better about being “represented.”
 
-## iphone:0071 | 2026-07-02 10:03 EDT
+## iphone:0077 | 2026-07-02 11:03 EDT
 From: Regina
 To: Darcy
 
@@ -558,55 +596,61 @@ Thank you so much Darcy!!
 
 Hopefully third times a charm for us hahaha
 
-## iphone:0072 | 2026-07-02 10:03 EDT
+## iphone:0078 | 2026-07-02 11:22 EDT
 From: Darcy
 To: Regina
 
 Okay, 1 pm works for Jack and owner Does that work for you?
 
-## iphone:0073 | 2026-07-02 10:03 EDT
+## iphone:0079 | 2026-07-02 11:25 EDT
 From: Regina
 To: Darcy
 
 That works for us! We will see them there.
 
-## iphone:0074 | 2026-07-03 11:22 EDT
+## iphone:0080 | 2026-07-02 11:25 EDT
+From: Darcy
+To: Regina
+
+Liked “That works for us! We will see them there. ”
+
+## iphone:0081 | 2026-07-03 11:22 EDT
 From: Darcy
 To: Regina
 
 Still good for 1? Just double checking :)
 
-## iphone:0075 | 2026-07-03 11:22 EDT
+## iphone:0082 | 2026-07-03 11:23 EDT
 From: Regina
 To: Darcy
 
 Yes we are!! Made it to Indy about not long ago
 
-## iphone:0076 | 2026-07-03 14:26 EDT
+## iphone:0083 | 2026-07-03 14:26 EDT
 From: Regina
 To: Darcy
 
 We want to put an offer in at 2.5!
 
-## iphone:0077 | 2026-07-03 14:26 EDT
+## iphone:0084 | 2026-07-03 14:26 EDT
 From: Darcy
 To: Regina
 
 Okay, so 2.5 and allow an easement?
 
-## iphone:0078 | 2026-07-03 14:26 EDT
+## iphone:0085 | 2026-07-03 14:27 EDT
 From: Regina
 To: Darcy
 
 We are gonna debrief but it seems likely we are gonna move forward. And yes. Text you shortly!
 
-## iphone:0079 | 2026-07-03 14:26 EDT
+## iphone:0086 | 2026-07-03 14:27 EDT
 From: Darcy
 To: Regina
 
 Okay.
 
-## iphone:0080 | 2026-07-03 14:26 EDT
+## iphone:0087 | 2026-07-03 14:44 EDT
 From: Regina
 To: Darcy
 
@@ -616,145 +660,77 @@ We talked about buying the pool table and possible other furnishings. Not sure h
 
 Loved the house so much
 
-## iphone:0081 | 2026-07-03 14:26 EDT
+## iphone:0088 | 2026-07-03 14:56 EDT
 From: Darcy
 To: Regina
 
-Okay. I will get it typed up and send as pdf first so you can view it. Technically in a cash offer we can put all that in our offer (personal property) so....if you know what you want we can add it and a price or we can just wait until we get the deal done and do a personal property agreement. Depending on how much stuff you want...or how soon you want me to get the offer written!!
+Okay. I will get it typed up and send as pdf first so you can view it. Technically in a cash offer we can put all that in our offer (personal property) so….if you know what you want we can add it and a price or we can just wait until we get the deal done and do a personal property agreement. Depending on how much stuff you want…or how soon you want me to get the offer written!!
 
-## iphone:0082 | 2026-07-03 14:26 EDT
+## iphone:0089 | 2026-07-03 15:00 EDT
 From: Regina
 To: Darcy
 
-Let's do the personal property agreement after! Thank you!!
+Let’s do the personal property agreement after! Thank you!!
 
-## iphone:0083 | 2026-07-03 14:26 EDT
+## iphone:0090 | 2026-07-03 15:05 EDT
 From: Darcy
 To: Regina
 
-I for some reason am not finding my email w Sam's Trust name from last year...can you tell me what it is if you know off the top of your head?
+I for some reason am not finding my email w Sam’s Trust name from last year…can you tell me what it is if you know off the top of your head?
 
-## iphone:0084 | 2026-07-03 14:26 EDT
+## iphone:0091 | 2026-07-03 15:06 EDT
 From: Darcy
 To: Regina
 
 Email me proof of funds too when you have a moment t
 
-## iphone:0085 | 2026-07-03 14:26 EDT
+## iphone:0092 | 2026-07-03 15:10 EDT
 From: Regina
 To: Darcy
 
-[Presnal.Sam - Ltr for Indiana home purchase_06.30.... PDF Document · 215 KB]
+[Attachment unavailable]
 
-## iphone:0086 | 2026-07-03 14:26 EDT
+## iphone:0093 | 2026-07-03 15:12 EDT
 From: Regina
 To: Darcy
 
 Samuel G. Presnal Trust
 
-## iphone:0087 | 2026-07-03 14:26 EDT
+## iphone:0094 | 2026-07-03 15:12 EDT
 From: Regina
 To: Darcy
 
 Do we need to get a new proof of funds that reflects the 2.5?
 
-## iphone:0088 | 2026-07-03 14:26 EDT
+## iphone:0095 | 2026-07-03 15:12 EDT
 From: Regina
 To: Darcy
 
 Oh sorry just saw where you said email proof.. I can do that if needed
 
-## iphone:0089 | 2026-07-03 14:26 EDT
+## iphone:0096 | 2026-07-03 15:12 EDT
 From: Darcy
 To: Regina
 
 I will send that one first and put in the out agreement we have one business day to get. That way if he wants a 2.5 we can do on Monday
 
-## iphone:0090 | 2026-07-03 14:26 EDT
+## iphone:0097 | 2026-07-03 15:12 EDT
 From: Darcy
 To: Regina
 
 Nope! I got from text :)
 
-## iphone:0091 | 2026-07-03 14:26 EDT
+## iphone:0098 | 2026-07-03 15:13 EDT
 From: Regina
 To: Darcy
 
-Perfect! Sounds good 💞
+Perfect! Sounds good 💕
 
-## iphone:0092 | 2026-07-03 14:26 EDT
+## iphone:0099 | 2026-07-03 15:13 EDT
 From: Regina
 To: Darcy
 
 Thank you
-
-## iphone:0093 | 2026-07-03 14:26 EDT
-From: Darcy
-To: Regina
-
-If close 7/31 is a move out date for them of 8/7 okay? Since they need the $ to buy the other place but some time to move out. But you can also start moving in they said 🙃 they just won't be out all the way We will do a post closing possession that is a legal document for if something were to happen.
-
-## iphone:0094 | 2026-07-03 14:26 EDT
-From: Darcy
-To: Regina
-
-I sent an email w purchase agreement draft to look over
-
-## iphone:0095 | 2026-07-03 14:26 EDT
-From: Regina
-To: Darcy
-
-I would say all looks good to us!! We won't need to move in immediately. Probably mid august before we even get started with moving and then will be gone until end of sept.
-
-## iphone:0096 | 2026-07-03 14:26 EDT
-From: Darcy
-To: Regina
-
-Okay, sounds good!
-
-## iphone:0097 | 2026-07-03 14:26 EDT
-From: Darcy
-To: Regina
-
-Are you flying home tonight?
-
-## iphone:0098 | 2026-07-03 14:26 EDT
-From: Regina
-To: Darcy
-
-We fly back out at 7 and land at 10pm.
-
-## iphone:0099 | 2026-07-03 14:26 EDT
-From: Darcy
-To: Regina
-
-Allegiant? If so...I am coming in on the flight from Sarasota! 😅
-
-## iphone:0100 | 2026-07-03 14:26 EDT
-From: Regina
-To: Darcy
-
-Oh my gosh haha 🤣 that's so funny.
-
-Sam said keep are seats warm for us 🤣
-
-## iphone:0101 | 2026-07-03 14:26 EDT
-From: Regina
-To: Darcy
-
-Also safe travels!
-
-## iphone:0102 | 2026-07-03 14:26 EDT
-From: Darcy
-To: Regina
-
-Thanks, you too! I did send those docs before I got on the plane but I won't send until I land so just sign whenever. If you have questions just wait for me to land! :)
-
-## iphone:0103 | 2026-07-03 14:26 EDT
-From: Regina
-To: Darcy
-
-Thank you, sounds good!
 
 ## gmail:0005 | 2026-07-03 15:32 EDT
 From: Darcy Knott <darcy@truebloodre.com>
@@ -780,6 +756,30 @@ Is a 7/31 closing date okay?
 
 I think thats it....
 
+## iphone:0100 | 2026-07-03 15:48 EDT
+From: Darcy
+To: Regina
+
+If close 7/31 is a move out date for them of 8/7 okay? Since they need the $ to buy the other place but some time to move out. But you can also start moving in they said 🙃 they just won’t be out all the way We will do a post closing possession that is a legal document for if something were to happen.
+
+## iphone:0101 | 2026-07-03 15:48 EDT
+From: Darcy
+To: Regina
+
+I sent an email w purchase agreement draft to look over
+
+## iphone:0102 | 2026-07-03 15:55 EDT
+From: Regina
+To: Darcy
+
+I would say all looks good to us!! We won’t need to move in immediately. Probably mid august before we even get started with moving and then will be gone until end of sept.
+
+## iphone:0103 | 2026-07-03 15:56 EDT
+From: Darcy
+To: Regina
+
+Okay, sounds good!
+
 ## gmail:0006 | 2026-07-03 16:00 EDT
 From: "Darcy Knott (via dotloop)" <hit-reply@dotloop.com>
 To: Samuel G Presnal Trust <samgpresnal@gmail.com>
@@ -791,61 +791,111 @@ Sellers disclosure
 a Lead based paint (even though it isn't applicable...he had it so we are signing!
 the post close possession
 
-## iphone:0104 | 2026-07-03 18:48 EDT
-From: Regina
-To: Darcy
-
-Sam has a few questions
-
-## iphone:0105 | 2026-07-03 18:48 EDT
-From: Regina
-To: Darcy
-
-I think we missed you
-
-## iphone:0106 | 2026-07-03 18:48 EDT
+## iphone:0104 | 2026-07-03 16:14 EDT
 From: Darcy
 To: Regina
 
-I was looking for you but didn't see you guys 🫤 My best friend is on the flight down there too to her parents.
+Are you flying home tonight?
 
-## iphone:0107 | 2026-07-03 18:48 EDT
+## iphone:0105 | 2026-07-03 16:15 EDT
 From: Regina
 To: Darcy
 
-I saw you I just couldn't get our eyes to meet 😟 and oh how fun! Sam has a few things to ask about before we sign
+We fly back out at 7 and land at 10pm.
 
-## iphone:0108 | 2026-07-03 18:48 EDT
+## iphone:0106 | 2026-07-03 16:15 EDT
 From: Darcy
 To: Regina
 
-I am sure we are okay to just submit tomorrow morning, I can rescind the PA and change the dates to tomorrow Or you can text me the questions?
+Allegiant? If so…I am coming in on the flight from Sarasota! 😁
 
-## iphone:0109 | 2026-07-03 18:48 EDT
-From: Darcy
-To: Regina
-
-Or we can talk later or now!? :)
-
-## iphone:0110 | 2026-07-03 18:48 EDT
-From: Darcy
-To: Regina
-
-Shoot sorry
-
-## iphone:0111 | 2026-07-03 18:48 EDT
+## iphone:0107 | 2026-07-03 16:19 EDT
 From: Regina
 To: Darcy
 
-I'm gonna have Sam email you
+Oh my gosh haha 🤣 that’s so funny.
+
+Sam said keep are seats warm for us 🤣
+
+## iphone:0108 | 2026-07-03 16:24 EDT
+From: Regina
+To: Darcy
+
+Also safe travels!
+
+## iphone:0109 | 2026-07-03 16:25 EDT
+From: Darcy
+To: Regina
+
+Thanks, you too! I did send those docs before I got on the plane but I won’t send until I land so just sign whenever. If you have questions just wait for me to land! :)
+
+## iphone:0110 | 2026-07-03 16:29 EDT
+From: Regina
+To: Darcy
+
+Loved “Thanks, you too! I did send those docs before I got on the plane but I won’t send until I land so just sign whenever. If you have questions just wait for me to land! :)”
+
+## iphone:0111 | 2026-07-03 16:29 EDT
+From: Regina
+To: Darcy
+
+Thank you, sounds good!
 
 ## iphone:0112 | 2026-07-03 18:48 EDT
 From: Regina
 To: Darcy
 
-It won't be tonight..
+Sam has a few questions
 
-## iphone:0113 | 2026-07-03 18:48 EDT
+## iphone:0113 | 2026-07-03 19:08 EDT
+From: Regina
+To: Darcy
+
+I think we missed you
+
+## iphone:0114 | 2026-07-03 19:10 EDT
+From: Darcy
+To: Regina
+
+I was looking for you but didn’t see you guys 🫤 My best friend is on the flight down there too to her parents.
+
+## iphone:0115 | 2026-07-03 19:11 EDT
+From: Regina
+To: Darcy
+
+I saw you I just couldn’t get our eyes to meet 😥 and oh how fun! Sam has a few things to ask about before we sign
+
+## iphone:0116 | 2026-07-03 19:11 EDT
+From: Darcy
+To: Regina
+
+I am sure we are okay to just submit tomorrow morning, I can rescind the PA and change the dates to tomorrow Or you can text me the questions?
+
+## iphone:0117 | 2026-07-03 19:12 EDT
+From: Darcy
+To: Regina
+
+Or we can talk later or now!? :)
+
+## iphone:0118 | 2026-07-03 19:12 EDT
+From: Darcy
+To: Regina
+
+Shoot sorry
+
+## iphone:0119 | 2026-07-03 19:22 EDT
+From: Regina
+To: Darcy
+
+I’m gonna have Sam email you
+
+## iphone:0120 | 2026-07-03 19:23 EDT
+From: Regina
+To: Darcy
+
+It won’t be tonight..
+
+## iphone:0121 | 2026-07-03 19:41 EDT
 From: Regina
 To: Darcy
 
@@ -889,17 +939,17 @@ Let me know if you have more questions. We can hop on a call as well.
 Thanks
 Darcy
 
-## iphone:0114 | 2026-07-04 11:40 EDT
+## iphone:0122 | 2026-07-04 11:40 EDT
 From: Regina
 To: Darcy
 
 Hi! Are you available for a phone call sometime today or now?
 
-## iphone:0115 | 2026-07-04 11:40 EDT
+## iphone:0123 | 2026-07-04 11:41 EDT
 From: Darcy
 To: Regina
 
-Yes, let's do it now?!
+Yes, let’s do it now?!
 
 ## gmail:0009 | 2026-07-05 08:21 EDT
 From: Darcy Knott <darcy@truebloodre.com>
@@ -1025,49 +1075,49 @@ They were good with closing date of 7/31, possession to 8/7
 Thanks
 Darcy
 
-## iphone:0116 | 2026-07-05 16:48 EDT
+## iphone:0124 | 2026-07-05 16:48 EDT
 From: Regina
 To: Darcy
 
-Hi! Thoughts on getting survey done... with the last one being in 2009 and lots of updates being made with that other lot we think it's best but want your opinion.
+Hi! Thoughts on getting survey done… with the last one being in 2009 and lots of updates being made with that other lot we think it’s best but want your opinion.
 
 We really thought a more recent one was done. Also the document with the current surveys are too blurry to read any of the smaller print.
 
-## iphone:0117 | 2026-07-05 16:48 EDT
+## iphone:0125 | 2026-07-05 17:26 EDT
 From: Regina
 To: Darcy
 
 after we decide on this we are ready to sign purchase agreement.
 
-## iphone:0118 | 2026-07-05 16:48 EDT
+## iphone:0126 | 2026-07-05 17:31 EDT
 From: Darcy
 To: Regina
 
-Sorry! I am digging around online. The survey is from 2009 because that is when they made Lots 1/2 a Subdivision. I am trying to find all the deeds since then to see if they all have the exact legal description. I don't see why it would be a problem to get a survey other than it not being done on time for a 7/31 close...and I doubt the seller will pay for it.
+Sorry! I am digging around online. The survey is from 2009 because that is when they made Lots 1/2 a Subdivision. I am trying to find all the deeds since then to see if they all have the exact legal description. I don’t see why it would be a problem to get a survey other than it not being done on time for a 7/31 close…and I doubt the seller will pay for it.
 
-## iphone:0119 | 2026-07-05 16:48 EDT
+## iphone:0127 | 2026-07-05 17:49 EDT
 From: Regina
 To: Darcy
 
 Ok. Sam said he is good with paying for the first survey option on purchase agreement and good to sign. How long do you think it would take to get done if we do it?
 
-If closing date needs to be extended we don't have issues with that.. do you think they will? We will be away all of September until the 22nd but if all could get done before last week of August that would be preferred..
+If closing date needs to be extended we don’t have issues with that.. do you think they will? We will be away all of September until the 22nd but if all could get done before last week of August that would be preferred..
 
 Sorry, really not trying to be complicated!!
 
-## iphone:0120 | 2026-07-05 16:48 EDT
+## iphone:0128 | 2026-07-05 17:59 EDT
 From: Darcy
 To: Regina
 
-Its okay! It's an expensive piece of property!!! So....a Survey location report is usually only for small tracts of land. For this amount of acreage, I am fairly certain it would be a Boundary survey. 😬 This won't be cheap for 20 acres. I do think it will be tough to get it done by 7/31 but I don't know for sure. I think the sellers want to close so they can close on the other property.
+Its okay! It’s an expensive piece of property!!! So….a Survey location report is usually only for small tracts of land. For this amount of acreage, I am fairly certain it would be a Boundary survey. 😬 This won’t be cheap for 20 acres. I do think it will be tough to get it done by 7/31 but I don’t know for sure. I think the sellers want to close  so they can close on the other property.
 
-## iphone:0121 | 2026-07-05 16:48 EDT
+## iphone:0129 | 2026-07-05 18:09 EDT
 From: Regina
 To: Darcy
 
 Can you setup the appointment with the lawyer for tomorrow and Sam and them can discuss that and the purchase agreement
 
-## iphone:0122 | 2026-07-06 09:32 EDT
+## iphone:0130 | 2026-07-06 09:32 EDT
 From: Darcy
 To: Regina
 
@@ -1139,25 +1189,17 @@ On Mon, Jul 6, 2026, 1:10 PM Darcy Knott <darcy@truebloodre.com> wrote:
 > Truebloodre.com
 > <[long link omitted]
 
-## iphone:0123 | 2026-07-06 13:26 EDT
+## iphone:0131 | 2026-07-06 13:26 EDT
 From: Darcy
 To: Regina
 
 I sent an email w as much detail as I could but he will probably still have questions!! His cell is 317-410-8851 but might call from an office number
 
-## iphone:0124 | 2026-07-06 13:26 EDT
+## iphone:0132 | 2026-07-06 13:30 EDT
 From: Regina
 To: Darcy
 
 Ok thank you
-
-## iphone:0125 | 2026-07-06 13:26 EDT
-From: Regina
-To: Darcy
-
-Ok just spoke with lawyer and we are going to obtain him today and he said he will be able to start his review tomorrow.
-
-Do you have a second to chat?
 
 ## gmail:0016 | 2026-07-06 13:39 EDT
 From: Garrett Lawton <glawton@mcneelylaw.com>
@@ -1169,6 +1211,14 @@ Good afternoon,
 
 Thanks for taking the time to chat just now. When you have a moment, please send over your full names, phone numbers, and current mailing address. We'll get going on that engagement letter and will be able to send that over for signature once we receive this information.
 
+## iphone:0133 | 2026-07-06 13:41 EDT
+From: Regina
+To: Darcy
+
+Ok just spoke with lawyer and we are going to obtain him today and he said he will be able to start his review tomorrow.
+
+Do you have a second to chat?
+
 ## gmail:0017 | 2026-07-06 13:42 EDT
 From: Sam <samgpresnal@gmail.com>
 To: Garrett Lawton <glawton@mcneelylaw.com>
@@ -1179,25 +1229,25 @@ Type: Shortened system/admin event
 
 Provided contact information to retained counsel (personal phone numbers and address omitted).
 
-## iphone:0126 | 2026-07-06 15:41 EDT
+## iphone:0134 | 2026-07-06 15:41 EDT
 From: Darcy
 To: Regina
 
 Yes! Sorry
 
-## iphone:0127 | 2026-07-06 15:41 EDT
+## iphone:0135 | 2026-07-06 16:04 EDT
 From: Regina
 To: Darcy
 
 Do you have time in the next 30?
 
-## iphone:0128 | 2026-07-06 15:41 EDT
+## iphone:0136 | 2026-07-06 16:14 EDT
 From: Regina
 To: Darcy
 
 Or you can call when you are free. Sam and I are available :)
 
-## iphone:0129 | 2026-07-06 19:55 EDT
+## iphone:0137 | 2026-07-06 19:55 EDT
 From: Darcy
 To: Regina
 
@@ -1207,13 +1257,21 @@ Garrett said in his legal opinion, a new(er) survey needs done for the easement.
 
 Does that sum it up correctly?
 
-## iphone:0130 | 2026-07-06 19:55 EDT
+## iphone:0138 | 2026-07-06 20:04 EDT
 From: Regina
 To: Darcy
 
 Our take away was he highly recommends doing the survey especially since there is an easement involved. I don't know what exact words he said though. So that seems correct to us.
 
-We haven't heard back from Garrett today but hoping tomorrow morning we can get things going.
+We haven’t heard back from Garrett today but hoping tomorrow morning we can get things going.
+
+## iphone:0139 | 2026-07-06 20:05 EDT
+From: Darcy
+To: Regina
+
+Liked “Our take away was he highly recommends doing the survey especially since there is an easement involved. I don't know what exact words he said though. So that seems correct to us.
+
+We haven’t heard back from Garrett today but hoping tomorrow morning we can get things going.”
 
 ## gmail:0018 | 2026-07-07 09:42 EDT
 From: Sam <samgpresnal@gmail.com>
@@ -1292,25 +1350,31 @@ Good afternoon,
 
 Thanks for taking the time to chat just now. When you have a moment, please send over your full names, phone numbers, and current mailing address. We’ll get going on that engagement letter and will be able to send that over for signature once we receive this information.
 
-## iphone:0131 | 2026-07-07 10:28 EDT
+## iphone:0140 | 2026-07-07 10:28 EDT
 From: Darcy
 To: Regina
 
 Have you gotten anything from Garrett yet this am?
 
-## iphone:0132 | 2026-07-07 10:28 EDT
+## iphone:0141 | 2026-07-07 10:31 EDT
 From: Regina
 To: Darcy
 
-He just messaged and said he would send over stuff shortly... we are still waiting on him to send over contract for us to work with him.
+He just messaged and said he would send over stuff shortly… we are still waiting on him to send over contract for us to work with him.
 
-## iphone:0133 | 2026-07-07 11:45 EDT
+## iphone:0142 | 2026-07-07 10:35 EDT
+From: Darcy
+To: Regina
+
+Liked “He just messaged and said he would send over stuff shortly… we are still waiting on him to send over contract for us to work with him. ”
+
+## iphone:0143 | 2026-07-07 11:45 EDT
 From: Regina
 To: Darcy
 
 Agreement with lawyer has been signed.
 
-## iphone:0134 | 2026-07-07 11:45 EDT
+## iphone:0144 | 2026-07-07 11:47 EDT
 From: Regina
 To: Darcy
 
@@ -1965,11 +2029,11 @@ Good afternoon,
 
 Thanks for taking the time to chat just now. When you have a moment, please send over your full names, phone numbers, and current mailing address. We’ll get going on that engagement letter and will be able to send that over for signature once we receive this information.
 
-## iphone:0135 | 2026-07-07 14:23 EDT
+## iphone:0145 | 2026-07-07 14:23 EDT
 From: Regina
 To: Darcy
 
-He's reviewing now and will be in touch shortly
+He’s reviewing now and will be in touch shortly
 
 ## gmail:0031 | 2026-07-07 14:42 EDT
 From: Garrett Lawton <glawton@mcneelylaw.com>
@@ -2617,71 +2681,17 @@ On Tue, Jul 7, 2026 at 4:25 PM Sam <samgpresnal@gmail.com> wrote:
 >> You should have received the fee agreement from Julianna earlier. Hollie
 >> was pulled away to work on some other matters.
 
-## iphone:0136 | 2026-07-07 16:46 EDT
+## iphone:0146 | 2026-07-07 16:46 EDT
 From: Regina
 To: Darcy
 
 Hi are you available for a quick phone call? We just spoke to Garrett! 😊
 
-## iphone:0137 | 2026-07-07 16:46 EDT
+## iphone:0147 | 2026-07-07 16:47 EDT
 From: Darcy
 To: Regina
 
 Yes!
-
-## iphone:0138 | 2026-07-07 16:46 EDT
-From: Darcy
-To: Regina
-
-Oh! Will you call your inspector friend about doing an inspection?? If he can do 7/14 that would be super duper ideal for me!! :) Or later afternoon on the 13th!
-
-## iphone:0139 | 2026-07-07 16:46 EDT
-From: Darcy
-To: Regina
-
-Just to pencil him in
-
-## iphone:0140 | 2026-07-07 16:46 EDT
-From: Regina
-To: Darcy
-
-I'll ask him!!
-
-## iphone:0141 | 2026-07-07 16:46 EDT
-From: Regina
-To: Darcy
-
-I went to send him the Zillow link for the property and it shows it was taken off today 😂
-
-## iphone:0142 | 2026-07-07 16:46 EDT
-From: Darcy
-To: Regina
-
-His contract w the realtor ended yesterday technically. But I still need to put his name on the PA on my end bc we did all this while he was still listing agent and I honestly have no idea what arrangement they actually had.... Do you need me to send it to you?
-
-## iphone:0143 | 2026-07-07 16:46 EDT
-From: Regina
-To: Darcy
-
-No it's ok! Thank you for clarifying that!
-
-## iphone:0144 | 2026-07-07 16:46 EDT
-From: Regina
-To: Darcy
-
-Bill said he is available either day for inspection :)
-
-## iphone:0145 | 2026-07-07 16:46 EDT
-From: Darcy
-To: Regina
-
-Perfect, give me until tomorrow and I will tell you which day for sure! I just don't know if am taking my oldest to camp Monday am or not.... 🤪
-
-## iphone:0146 | 2026-07-07 16:46 EDT
-From: Regina
-To: Darcy
-
-No worries! We are excited. 😇
 
 ## gmail:0037 | 2026-07-07 16:48 EDT
 From: Garrett Lawton <glawton@mcneelylaw.com>
@@ -2845,6 +2855,66 @@ Good afternoon,
 
 Thanks for taking the time to chat just now. When you have a moment, please send over your full names, phone numbers, and current mailing address. We’ll get going on that engagement letter and will be able to send that over for signature once we receive this information.
 
+## iphone:0148 | 2026-07-07 16:59 EDT
+From: Darcy
+To: Regina
+
+Oh! Will you call your inspector friend about doing an inspection?? If he can do 7/14 that would be super duper ideal for me!! :) Or later afternoon on the 13th!
+
+## iphone:0149 | 2026-07-07 16:59 EDT
+From: Darcy
+To: Regina
+
+Just to pencil him in
+
+## iphone:0150 | 2026-07-07 17:02 EDT
+From: Regina
+To: Darcy
+
+Loved “Oh! Will you call your inspector friend about doing an inspection?? If he can do 7/14 that would be super duper ideal for me!! :) Or later afternoon on the 13th!”
+
+## iphone:0151 | 2026-07-07 17:02 EDT
+From: Regina
+To: Darcy
+
+I’ll ask him!!
+
+## iphone:0152 | 2026-07-07 17:07 EDT
+From: Regina
+To: Darcy
+
+I went to send him the Zillow link for the property and it shows it was taken off today 😂
+
+## iphone:0153 | 2026-07-07 17:08 EDT
+From: Darcy
+To: Regina
+
+His contract w the realtor ended yesterday technically. But I still need to put his name on the PA on my end bc we did all this while he was still listing agent and I honestly have no idea what arrangement they actually had…. Do you need me to send it to you?
+
+## iphone:0154 | 2026-07-07 17:15 EDT
+From: Regina
+To: Darcy
+
+No it’s ok! Thank you for clarifying that!
+
+## iphone:0155 | 2026-07-07 17:16 EDT
+From: Regina
+To: Darcy
+
+Bill said he is available either day for inspection :)
+
+## iphone:0156 | 2026-07-07 17:16 EDT
+From: Darcy
+To: Regina
+
+Perfect, give me until tomorrow and I will tell you which day for sure! I just don’t know if am taking my oldest to camp Monday am or not…. 🤪
+
+## iphone:0157 | 2026-07-07 17:17 EDT
+From: Regina
+To: Darcy
+
+No worries! We are excited. 😆
+
 ## gmail:0038 | 2026-07-07 20:16 EDT
 From: Darcy Knott <darcy@truebloodre.com>
 To: Sam <samgpresnal@gmail.com>, Regina Gray <graylregina@gmail.com>
@@ -2989,53 +3059,35 @@ Type: Shortened system/admin event
 
 Signing-system notification; event described in subject.
 
-## iphone:0147 | 2026-07-07 22:00 EDT
+## iphone:0158 | 2026-07-07 22:00 EDT
 From: Darcy
 To: Regina
 
 Everything has been submitted! I did say we could get an updated Proof of funds if he needed. He said for peace of mind he would like one. So can you reach out in the am and get that updated to $2.5? Thank you!! Will let you know what he says tomorrow!
 
-## iphone:0148 | 2026-07-07 22:00 EDT
+## iphone:0159 | 2026-07-07 22:01 EDT
 From: Regina
 To: Darcy
 
 All sounds good and we can do that. Thank you for your help!!! We appreciate it all.
 
-## iphone:0149 | 2026-07-08 10:26 EDT
+## iphone:0160 | 2026-07-08 10:26 EDT
 From: Regina
 To: Darcy
 
-[Presnal.Sam - Ltr for Indiana home purchase_07.08.2... PDF Document · 214 KB]
+📎 Presnal.Sam - Ltr for Indiana home purchase_07.08.26-1290efc2e37e99642798c2bda86cd35993192b8 d1de7ca4fb5e243117dce9529.pdf
 
-## iphone:0150 | 2026-07-08 10:26 EDT
+## iphone:0161 | 2026-07-08 10:32 EDT
 From: Darcy
 To: Regina
 
 Got it and sent!
 
-## iphone:0151 | 2026-07-08 14:12 EDT
+## iphone:0162 | 2026-07-08 14:12 EDT
 From: Regina
 To: Darcy
 
 Thank you
-
-## iphone:0152 | 2026-07-08 14:12 EDT
-From: Darcy
-To: Regina
-
-Just sent a counter offer 🙃
-
-## iphone:0153 | 2026-07-08 14:12 EDT
-From: Regina
-To: Darcy
-
-Thank you for sending that over. I am gonna be home in the next 40 minutes. Do you wanna schedule a call around 4:30 and we can discuss it?
-
-## iphone:0154 | 2026-07-08 14:12 EDT
-From: Darcy
-To: Regina
-
-Yes 4:30 works
 
 ## gmail:0044 | 2026-07-08 14:38 EDT
 From: Darcy Knott <darcy@truebloodre.com>
@@ -3079,6 +3131,30 @@ Thanks,
 Sarah and Derrick Hasenour
 
 --
+
+## iphone:0163 | 2026-07-08 14:39 EDT
+From: Darcy
+To: Regina
+
+Just sent a counter offer 🙃
+
+## iphone:0164 | 2026-07-08 15:25 EDT
+From: Regina
+To: Darcy
+
+Thank you for sending that over. I am gonna be home in the next 40 minutes. Do you wanna schedule a call around 4:30 and we can discuss it?
+
+## iphone:0165 | 2026-07-08 15:35 EDT
+From: Darcy
+To: Regina
+
+Yes 4:30 works
+
+## iphone:0166 | 2026-07-08 15:47 EDT
+From: Regina
+To: Darcy
+
+Liked “Yes 4:30 works”
 
 ## gmail:0045 | 2026-07-08 17:55 EDT
 From: Sam <samgpresnal@gmail.com>
@@ -3137,91 +3213,73 @@ requested by us thus no further wasted time or lawyer fees. Just throwing
 it out there. The big concern is when we can finalize the easement. Andrew
 said all are busy and maybe 3 to 4 weeks after he is done.
 
-## iphone:0155 | 2026-07-09 09:10 EDT
+## iphone:0167 | 2026-07-09 09:10 EDT
 From: Regina
 To: Darcy
 
 Hi Darcy,
 
-Received your email this morning.... We aren’t trying to standstill anything.. and think it’s definitely best (especially with how he’s being now) that we handle this with the lawyer and wait on his review.
+Received your email this morning…. We aren’t trying to standstill anything.. and think it’s definitely best (especially with how he’s being now) that we handle this with the lawyer and wait on his review.
 
 Sam and I have wedding meetings today at 11. Unsure when that will end but hopefully we will hear back from Garrett soon and then can move forward.
 
-And just to note..: we never wanted the property for 2.8 or for the full property. We wanted to the 2.25 for the 13 but they didn’t have that available to sell to us... also we are requesting the easement paperwork be submitted for review prior to closing? Idk why they are making it seem so bad..
+And just to note..: we never wanted the property for 2.8 or for the full property. We wanted to the 2.25 for the 13 but they didn’t have that available to sell to us… also we are requesting the easement paperwork be submitted for review prior to closing? Idk why they are making it seem so bad..
 
 I don’t think he’s doing a good job representing themselves.
 
-## iphone:0156 | 2026-07-09 09:10 EDT
+## iphone:0168 | 2026-07-09 09:16 EDT
 From: Darcy
 To: Regina
 
 I agree. I “assume” he meant a standstill because of the easement holding us up?! Honestly, once we see what Garrett says, it will be best to just write another offer and make it as clean as possible with everything we have talked about and they just accept instead of countering.
 
-## iphone:0157 | 2026-07-09 09:10 EDT
+## iphone:0169 | 2026-07-09 09:17 EDT
 From: Darcy
 To: Regina
 
 I know courthouse tomorrow. When do you leave for Anguilla?
 
-## iphone:0158 | 2026-07-09 09:10 EDT
+## iphone:0170 | 2026-07-09 09:23 EDT
 From: Regina
 To: Darcy
 
 We leave on the 16-22 for Anguilla
 
-## iphone:0159 | 2026-07-09 09:10 EDT
+## iphone:0171 | 2026-07-09 09:23 EDT
+From: Regina
+To: Darcy
+
+Loved “I agree. I “assume” he meant a standstill because of the easement holding us up?! Honestly, once we see what Garrett says, it will be best to just write another offer and make it as clean as possible with everything we have talked about and they just accept instead of countering.”
+
+## iphone:0172 | 2026-07-09 09:25 EDT
 From: Darcy
 To: Regina
 
-Thank you, I could have scrolled up....but that was easier 😊
+Thank you, I could have scrolled up….but that was easier 😊
 
-## iphone:0160 | 2026-07-09 12:18 EDT
+## iphone:0173 | 2026-07-09 09:47 EDT
+From: Regina
+To: Darcy
+
+Loved “Thank you, I could have scrolled up….but that was easier 😊”
+
+## iphone:0174 | 2026-07-09 12:18 EDT
 From: Regina
 To: Darcy
 
 You up for a call?
 
-## iphone:0161 | 2026-07-09 12:18 EDT
+## iphone:0175 | 2026-07-09 12:19 EDT
 From: Darcy
 To: Regina
 
 Give me 15-20 ish. I am taking my middle and some friends to the fields so easier to not have anyone with me in the car!
 
-## iphone:0162 | 2026-07-09 12:18 EDT
+## iphone:0176 | 2026-07-09 12:21 EDT
 From: Regina
 To: Darcy
 
 No worries and sounds good thank you.
-
-## iphone:0163 | 2026-07-09 12:18 EDT
-From: Regina
-To: Darcy
-
-Ok Sam and I have come up with two options. Should I email or go over on the phone with you?
-
-## iphone:0164 | 2026-07-09 12:18 EDT
-From: Darcy
-To: Regina
-
-I like both! Email first and then we can talk!
-
-## iphone:0165 | 2026-07-09 12:18 EDT
-From: Regina
-To: Darcy
-
-Sounds good!
-
-## iphone:0166 | 2026-07-09 12:18 EDT
-From: Regina
-To: Darcy
-
-Sending now
-
-## iphone:0167 | 2026-07-09 12:18 EDT
-From: Regina
-To: Darcy
-
-Lmk when you review and feel free to call whenever you are available
 
 ## gmail:0047 | 2026-07-09 12:58 EDT
 From: Garrett Lawton <glawton@mcneelylaw.com>
@@ -3249,6 +3307,24 @@ We are most concerned with Section 4, which states the easement may not be avail
 
 Thanks!
 Sam and Regina
+
+## iphone:0177 | 2026-07-09 13:19 EDT
+From: Regina
+To: Darcy
+
+Ok Sam and I have come up with two options. Should I email or go over on the phone with you?
+
+## iphone:0178 | 2026-07-09 13:21 EDT
+From: Darcy
+To: Regina
+
+I like both! Email first and then we can talk!
+
+## iphone:0179 | 2026-07-09 13:26 EDT
+From: Regina
+To: Darcy
+
+Sounds good!
 
 ## gmail:0048 | 2026-07-09 14:08 EDT
 From: Regina Gray <graylregina@gmail.com>
@@ -3303,6 +3379,18 @@ On Thu, Jul 9, 2026 at 7:59 AM Darcy Knott <darcy@truebloodre.com> wrote:
 > throwing it out there. The big concern is when we can finalize the
 > easement. Andrew said all are busy and maybe 3 to 4 weeks after he is done.
 
+## iphone:0180 | 2026-07-09 14:08 EDT
+From: Regina
+To: Darcy
+
+Sending now
+
+## iphone:0181 | 2026-07-09 14:08 EDT
+From: Regina
+To: Darcy
+
+Lmk when you review and feel free to call whenever you are available
+
 ## gmail:0049 | 2026-07-09 15:31 EDT
 From: Darcy Knott <darcy@truebloodre.com>
 To: Regina Gray <graylregina@gmail.com>, Sam <samgpresnal@gmail.com>
@@ -3333,11 +3421,17 @@ Then they pick from options below: (but tell me before I write the PA)
    - *Option 2*: We remove the easement contingency from the contract
    entirely. After closing we could then grant one if time is a concern
 
-## iphone:0168 | 2026-07-09 15:32 EDT
+## iphone:0182 | 2026-07-09 15:32 EDT
 From: Darcy
 To: Regina
 
 Just sent an email back with a highlights of a new offer
+
+## iphone:0183 | 2026-07-09 15:34 EDT
+From: Regina
+To: Darcy
+
+Loved “Just sent an email back with a highlights of a new offer”
 
 ## gmail:0050 | 2026-07-09 16:21 EDT
 From: Regina Gray <graylregina@gmail.com>
@@ -3459,35 +3553,11 @@ On Thu, Jul 9, 2026 at 6:02 PM Darcy Knott <darcy@truebloodre.com> wrote:
 >>>    - *Option 2*: We remove the easement contingency from the contract
 >>>    entirely. After closing we could then grant one if time is a concern
 
-## iphone:0169 | 2026-07-10 15:09 EDT
+## iphone:0184 | 2026-07-10 15:09 EDT
 From: Regina
 To: Darcy
 
-[Image of a Zillow listing for a property at $2,700,000]
-
-## iphone:0170 | 2026-07-10 15:09 EDT
-From: Regina
-To: Darcy
-
-This is so sad to see 😢
-
-## iphone:0171 | 2026-07-10 15:09 EDT
-From: Darcy
-To: Regina
-
-He put back on Zillow because he kept getting expired listing calls from Agents....this way they only call if they are interested 😊 He is still willing to do our deal.
-
-## iphone:0172 | 2026-07-10 15:09 EDT
-From: Darcy
-To: Regina
-
-I sent you an email but was trying not to bother you today! And they are out of town through Sunday with limited access to phones.....I am trying to decipher his email. So will need to ask him more questions on the part of seeing it on paper and deadline expectation....we are just agreeing to the easement NOT writing it up.
-
-## iphone:0173 | 2026-07-10 15:09 EDT
-From: Regina
-To: Darcy
-
-Ahhh okay let’s handle Monday then!!
+This is so sad to see 😥
 
 ## gmail:0053 | 2026-07-10 15:10 EDT
 From: Darcy Knott <darcy@truebloodre.com>
@@ -3558,6 +3628,18 @@ wrote:
 
 > Thank you
 > Darcy
+
+## iphone:0185 | 2026-07-10 15:11 EDT
+From: Darcy
+To: Regina
+
+He put back on Zillow because he kept getting expired listing calls from Agents….this way they only call if they are interested 😊 He is still willing to do our deal.
+
+## iphone:0186 | 2026-07-10 15:12 EDT
+From: Darcy
+To: Regina
+
+I sent you an email but was trying not to bother you today! And they are out of town through Sunday with limited access to phones…..I am trying to decipher his email. So will need to ask him more questions on the part of seeing it on paper and deadline expectation….we are just agreeing to the easement NOT writing it up.
 
 ## gmail:0054 | 2026-07-10 15:15 EDT
 From: Regina Gray <graylregina@gmail.com>
@@ -3636,7 +3718,13 @@ On Fri, Jul 10, 2026 at 3:10 PM Darcy Knott <darcy@truebloodre.com> wrote:
 >> Thank you
 >> Darcy
 
-## iphone:0174 | 2026-07-11 13:33 EDT
+## iphone:0187 | 2026-07-10 15:15 EDT
+From: Regina
+To: Darcy
+
+Ahhh okay let’s handle Monday then!!
+
+## iphone:0188 | 2026-07-11 13:33 EDT
 From: Regina
 To: Darcy
 
@@ -3644,19 +3732,19 @@ Hi! Do you have any free time today to go over a discrepancy in options sent ove
 
 Thank you!
 
-## iphone:0175 | 2026-07-13 08:24 EDT
+## iphone:0189 | 2026-07-13 08:24 EDT
 From: Regina
 To: Darcy
 
 Good morning just wanted to check in and touch base with previous message. Thank you.
 
-## iphone:0176 | 2026-07-13 08:24 EDT
+## iphone:0190 | 2026-07-13 08:50 EDT
 From: Regina
 To: Darcy
 
 Sam stepped away for a second. Can I call you back in 5?
 
-## iphone:0177 | 2026-07-13 08:24 EDT
+## iphone:0191 | 2026-07-13 08:50 EDT
 From: Darcy
 To: Regina
 
@@ -3798,31 +3886,31 @@ On Mon, Jul 13, 2026 at 9:40 AM Sam <samgpresnal@gmail.com> wrote:
 >> Darcy shoot me a text and I will take a look. I’ll have time here and there
 >> to assist.
 
-## iphone:0178 | 2026-07-13 10:30 EDT
+## iphone:0192 | 2026-07-13 10:30 EDT
 From: Darcy
 To: Regina
 
 Just sent an email that the surveyor should have legal description for easement done tomorrow
 
-## iphone:0179 | 2026-07-13 19:51 EDT
+## iphone:0193 | 2026-07-13 19:51 EDT
 From: Regina
 To: Darcy
 
 Thank you!!
 
-## iphone:0180 | 2026-07-14 14:30 EDT
+## iphone:0194 | 2026-07-14 14:30 EDT
 From: Regina
 To: Darcy
 
 We still haven’t heard anything from Garrett. Just checking in to see if you’ve had any updates on your end.
 
-## iphone:0181 | 2026-07-14 15:39 EDT
+## iphone:0195 | 2026-07-14 15:39 EDT
 From: Darcy
 To: Regina
 
 I have not about the easement! He did ask again about buying their stuff (exercise, hot tub?, some furniture) Do you know what you wanted? Should I have them do a list? Do you want to go direct to them and then I can do a personal property addendum? Sorry, lots of questions there
 
-## iphone:0182 | 2026-07-14 15:39 EDT
+## iphone:0196 | 2026-07-14 15:53 EDT
 From: Regina
 To: Darcy
 
@@ -3830,11 +3918,17 @@ Hi! I know we are interested in the hot tub, pool table, and lounge sets outside
 
 Other than that if they wanted to make a list we would be happy to look through it and see but ok with just the above or nothing as well if they don’t wanna do that.
 
-## iphone:0183 | 2026-07-14 15:39 EDT
+## iphone:0197 | 2026-07-14 16:28 EDT
 From: Darcy
 To: Regina
 
 Okay, thanks! Will tell him this
+
+## iphone:0198 | 2026-07-14 17:07 EDT
+From: Regina
+To: Darcy
+
+Loved “Okay, thanks! Will tell him this ”
 
 ## gmail:0058 | 2026-07-14 18:14 EDT
 From: Darcy Knott <darcy@truebloodre.com>
@@ -3883,13 +3977,13 @@ Derrick
 
 --
 
-## iphone:0184 | 2026-07-14 18:15 EDT
+## iphone:0199 | 2026-07-14 18:15 EDT
 From: Darcy
 To: Regina
 
-Sent the email with description. I went ahead and included Garrett to see if he can answer us....I didn’t realize he was gone for a week, I thought it was just last weekend. 😬
+Sent the email with description. I went ahead and included Garrett to see if he can answer us….I didn’t realize he was gone for a week, I thought it was just last weekend. 😬
 
-## iphone:0185 | 2026-07-14 18:15 EDT
+## iphone:0200 | 2026-07-14 18:42 EDT
 From: Regina
 To: Darcy
 
@@ -3897,87 +3991,101 @@ Sam and I have had the worst luck hiring lawyers lately just for them to go out 
 
 No worries. Thank you for this!
 
-## iphone:0186 | 2026-07-16 14:15 EDT
+## iphone:0201 | 2026-07-14 19:24 EDT
+From: Darcy
+To: Regina
+
+Emphasized “Sam and I have had the worst luck hiring lawyers lately just for them to go out of office 😂
+
+No worries. Thank you for this! ”
+
+## iphone:0202 | 2026-07-16 14:15 EDT
 From: Regina
 To: Darcy
 
-He’s gotta be back in the office today right...? 😭
+He’s gotta be back in the office today right…? 😭
 
-## iphone:0187 | 2026-07-16 14:15 EDT
+## iphone:0203 | 2026-07-16 14:18 EDT
 From: Darcy
 To: Regina
 
-I emailed him separately too just to ask.... 🤨
+I emailed him separately too just to ask…. 🙃
 
-## iphone:0188 | 2026-07-17 09:50 EDT
+## iphone:0204 | 2026-07-17 09:50 EDT
 From: Darcy
 To: Regina
 
-Derick asking me if he should meet with attorney today about doing the easement. I want to tell him yes but need to make sure you guys still want to move forward as soon as Garrett responds to us...
+Derick asking me if he should meet with attorney today about doing the easement. I want to tell him yes but need to make sure you guys still want to move forward as soon as Garrett responds to us…
 
-## iphone:0189 | 2026-07-17 09:50 EDT
+## iphone:0205 | 2026-07-17 09:53 EDT
 From: Regina
 To: Darcy
 
 Yes 🙌
 
-## iphone:0190 | 2026-07-17 11:36 EDT
+## iphone:0206 | 2026-07-17 10:10 EDT
 From: Darcy
 To: Regina
 
-From Derrick: Our lawyer believes it will be done at least the 1st draft on the 28th. It would then be finalized and recorded by the title company. Can we sign the purchase agreement now? We can adjust the easement terms if needed before the actual closing date. The lawyer is on vacation this coming week. Can send you over a "counter offer" with additional information and exhibits. The other property owner wants a purchase agreement signed as well. We have settled on a price and was waiting on this one.
+Liked “Yes 🙌 ”
 
-## iphone:0191 | 2026-07-17 11:36 EDT
+## iphone:0207 | 2026-07-17 11:36 EDT
 From: Darcy
 To: Regina
 
-With this info we can put something in about the easement in further conditions. I am open and okay to put a clause in further conditions about easement but it doesn't seem like Garrett is being super helpful at the moment (which I apologize for.....) Working on some wording
+From Derrick: Our lawyer believes it will be done at least the 1st draft on the 28th. It would then be finalized and recorded by the title company. Can we sign the purchase agreement now?  We can adjust the easement terms if needed before the actual closing date. The lawyer is on vacation this coming week. Can send you over a "counter offer" with additional information and exhibits. The other property owner wants a purchase agreement signed as well. We have settled on a price and was waiting on this one.
 
-## iphone:0192 | 2026-07-17 11:36 EDT
+## iphone:0208 | 2026-07-17 11:38 EDT
+From: Darcy
+To: Regina
+
+With this info we can put something in about the easement in further conditions. I am open and okay to put a clause in further conditions about easement but it doesn’t seem like Garrett is being super helpful at the moment (which I apologize for…..) Working on some wording
+
+## iphone:0209 | 2026-07-17 11:53 EDT
 From: Regina
 To: Darcy
 
-I'm sorry he's feeling like a time crunch on this but I will say it's his added stipulations to the sale after the fact that is prolonging this. We are just making sure we have the facts down. We've never done this before.. we thought we would have a good lawyer to fall back on (he's kinda failed us)
+I’m sorry he’s feeling like a time crunch on this but I will say it’s his added stipulations to the sale after the fact that is prolonging this. We are just making sure we have the facts down. We’ve never done this before.. we thought we would have a good lawyer to fall back on (he’s kinda failed us)
 
-At the moment I don't have an answer.
+At the moment I don’t have an answer.
 
-For the purchase agreement we want to sign it but don't understand why they won't sign without having the easement in the agreement. As of right now that's the last thing we were advised by Garrett not to do and just wanna buy the house for 2.5 and handle easement on the side outside of the purchase agreement.
+For the purchase agreement we want to sign it but don’t understand why they won’t sign without having the easement in the agreement. As of right now that’s the last thing we were advised by Garrett not to do and just wanna buy the house for 2.5 and handle easement on the side outside of the purchase agreement.
 
-We don't wanna rush into signing something because of their arrangements with the other sellers if that makes sense.
+We don’t wanna rush into signing something because of their arrangements with the other sellers if that makes sense.
 
-And I'm sorry to you as I know this has to be so annoying
+And I’m sorry to you as I know this has to be so annoying
 
-## iphone:0193 | 2026-07-17 11:36 EDT
+## iphone:0210 | 2026-07-17 11:55 EDT
 From: Darcy
 To: Regina
 
 Nope, I get it. I just wanted to send you the info as I had it!!!
 
-## iphone:0194 | 2026-07-17 11:36 EDT
+## iphone:0211 | 2026-07-17 11:55 EDT
 From: Regina
 To: Darcy
 
 We truly appreciate you Darcy, thank you.
 
-## iphone:0195 | 2026-07-17 11:36 EDT
+## iphone:0212 | 2026-07-17 12:00 EDT
 From: Darcy
 To: Regina
 
 I think I left him a VM 🙃 was a generic one (Garrett)
 
-## iphone:0196 | 2026-07-17 11:36 EDT
+## iphone:0213 | 2026-07-17 12:02 EDT
 From: Regina
 To: Darcy
 
-Sam doesn't have anything
+Sam doesn’t have anything
 
-## iphone:0197 | 2026-07-17 14:37 EDT
+## iphone:0214 | 2026-07-17 14:37 EDT
 From: Darcy
 To: Regina
 
-From Garrett: which is kind of what I thought he would say but....sounds like we could be good to go. I will type up the further condition and send to you and him to review and then maybe sign!?? Sorry I missed your call. Just got back late yesterday and have been catching up on things. Happy to assist with this. If the easement will be done by 7/28 for an 8/7 close, I think that will be plenty of time to review and approve the easement. I would just word the PA to reflect that the seller shall provide a draft of the easement by 7/28 and that the purchase is contingent on buyers' approval of the easement, in their sole discretion. If you need more formal language than that, let me know. Happy to review whatever you put together prior to sending it over to make sure.
+From Garrett: which is kind of what I thought he would say but….sounds like we could be good to go. I will type up the further condition and send to you and him to review and then maybe sign!?? Sorry I missed your call. Just got back late yesterday and have been catching up on things. Happy to assist with this. If the easement will be done by 7/28 for an 8/7 close, I think that will be plenty of time to review and approve the easement. I would just word the PA to reflect that the seller shall deliver the final draft of the easement by 7/28 and that the purchase is contingent on buyers’ approval of the easement, at their sole discretion. If you need more formal language than that, let me know. Happy to review whatever you put together prior to sending it over if you’d like.
 
-## iphone:0198 | 2026-07-17 14:37 EDT
+## iphone:0215 | 2026-07-17 14:41 EDT
 From: Regina
 To: Darcy
 
@@ -4045,23 +4153,23 @@ Darcy
 
 [Image removed by sender.]
 
-## iphone:0199 | 2026-07-17 17:32 EDT
+## iphone:0216 | 2026-07-17 17:32 EDT
 From: Darcy
 To: Regina
 
-I have Garrett's edits in the PA and ready to send. BUT he says final draft and it's going to be first/rough draft so varifying that language is acceptable. However, I did not reply all so it only went to him...sorry.
+I have Garrett’s edits in the PA and ready to send. BUT he says final draft and it’s going to be first/rough draft so varifying that language is acceptable. However, I did not reply all so it only went to him… sorry.
 
-## iphone:0200 | 2026-07-17 17:32 EDT
+## iphone:0217 | 2026-07-17 17:34 EDT
 From: Darcy
 To: Regina
 
-My daughter's game is in a lightning delay so I left the fields to find WiFi at a Starbucks. So sitting here "patiently." 🙃
+My daughter’s game is in a lightning delay so I left the fields to find WiFI at a Starbucks. So sitting here “patiently.” 🙃
 
-## iphone:0201 | 2026-07-17 17:32 EDT
+## iphone:0218 | 2026-07-17 18:07 EDT
 From: Darcy
 To: Regina
 
-[Image of a computer screen showing an iMessage conversation]
+![Embedded attachment from PDF page 32](iphone_darcy_messages_assets/message_0218_page_032_image_002.jpeg)
 
 ## gmail:0062 | 2026-07-17 18:20 EDT
 From: Darcy Knott <darcy@truebloodre.com>
@@ -4073,43 +4181,43 @@ Attachment files: [PA updated wording .pdf](../data/archives/gmail/property_emai
 Changed the final date to 7/31 that way we get the rough draft before
 (hopefully the 28th) and its done 7/31.
 
-## iphone:0202 | 2026-07-18 09:49 EDT
+## iphone:0219 | 2026-07-18 09:49 EDT
 From: Regina
 To: Darcy
 
 Sounds good. I think we are ready to have contract signed! Sorry events started right at this time!
 
-## iphone:0203 | 2026-07-18 09:49 EDT
+## iphone:0220 | 2026-07-18 09:52 EDT
 From: Darcy
 To: Regina
 
-I understand!!! I am not sure what day it is when I go out of town for sports. 🙃 Did you see the email with copy of PA with Garrett's words?
+I understand!!! I am not sure what day it is when I go out of town for sports. 🙃 Did you see the email with copy of PA with Garrett’s words?
 
-## iphone:0204 | 2026-07-18 09:49 EDT
+## iphone:0221 | 2026-07-18 09:52 EDT
 From: Darcy
 To: Regina
 
 Wording
 
-## iphone:0205 | 2026-07-18 09:49 EDT
+## iphone:0222 | 2026-07-18 09:54 EDT
 From: Regina
 To: Darcy
 
 Looking over soon. So sorry.
 
-## iphone:0206 | 2026-07-18 13:09 EDT
+## iphone:0223 | 2026-07-18 13:09 EDT
 From: Darcy
 To: Regina
 
 I know you are doing important wedding things! Will you just let me know if you want to proceed today or if we just wait until Monday? I am going to be unable to much in a couple hours, for a couple of hours, so just want to gauge the rest of the afternoon if possible. Thanks!
 
-## iphone:0207 | 2026-07-20 11:58 EDT
+## iphone:0224 | 2026-07-20 11:58 EDT
 From: Darcy
 To: Regina
 
 Good morning! Hope you all had a great wedding weekend. Let me know if you want to move forward still?!
 
-## iphone:0208 | 2026-07-20 11:58 EDT
+## iphone:0225 | 2026-07-20 12:03 EDT
 From: Regina
 To: Darcy
 
@@ -4117,35 +4225,31 @@ Hi. Thank you,
 
 We are reviewing it and will reply shortly
 
-## iphone:0209 | 2026-07-20 11:58 EDT
+## iphone:0226 | 2026-07-20 12:05 EDT
+From: Darcy
+To: Regina
+
+Liked “ Hi. Thank you,
+
+We are reviewing it and will reply shortly ”
+
+## iphone:0227 | 2026-07-20 12:12 EDT
 From: Regina
 To: Darcy
 
 Everything looks good. Can we push earnest money deadline till Wednesday so we can get that situated?
 
-## iphone:0210 | 2026-07-20 11:58 EDT
+## iphone:0228 | 2026-07-20 12:22 EDT
 From: Darcy
 To: Regina
 
-Double checking the final date with Garrett if we move it back a couple days (past 7/28-bc that is just the rough draft) to make sure he can review it but still close on 8/7. I know he said 2 weeks before but we don't have that luxury at this point! And yes to the EM, might do Thursday to be safe!
+Double checking the final date with Garrett if we move it back a couple days (past 7/28-bc that is just the rough draft) to make sure he can review it but still close on 8/7. I know he said 2 weeks before but we don’t have that luxury at this point! And yes to the EM, might do Thursday to be safe!
 
-## iphone:0211 | 2026-07-20 11:58 EDT
+## iphone:0229 | 2026-07-20 12:32 EDT
 From: Regina
 To: Darcy
 
 Ok that sounds great
-
-## iphone:0212 | 2026-07-20 11:58 EDT
-From: Darcy
-To: Regina
-
-Okay sent! With Garrett's approval of dates 😊 There are 3 docs, the purchase agreement, post closing addendum and a FSBO form for them to pay commission.
-
-## iphone:0213 | 2026-07-20 11:58 EDT
-From: Regina
-To: Darcy
-
-Thank you! 🙏
 
 ## gmail:0063 | 2026-07-20 12:37 EDT
 From: "Darcy Knott (via dotloop)" <hit-reply@dotloop.com>
@@ -4158,6 +4262,18 @@ Signing-system notice. Sender note: Hi!
 Purchase agreement, post closing possession and then a FSBO (for sale by owner) document for the commission piece.
 Thank you!
 Darcy
+
+## iphone:0230 | 2026-07-20 12:38 EDT
+From: Darcy
+To: Regina
+
+Okay sent! With Garrett’s approval of dates 😊 There are 3 docs, the purchase agreement, post closing addendum and a FSBO form for them to pay commission.
+
+## iphone:0231 | 2026-07-20 12:40 EDT
+From: Regina
+To: Darcy
+
+Thank you! 🙏
 
 ## gmail:0064 | 2026-07-20 13:40 EDT
 From: "Darcy Knott (via dotloop)" <hit-reply@dotloop.com>
@@ -4177,31 +4293,31 @@ Type: Shortened system/admin event
 
 Signing-system notification; event described in subject.
 
-## iphone:0214 | 2026-07-20 18:56 EDT
+## iphone:0232 | 2026-07-20 18:56 EDT
 From: Darcy
 To: Regina
 
 Derick has not responded to my text or email yet! 🙃
 
-## iphone:0215 | 2026-07-20 18:56 EDT
+## iphone:0233 | 2026-07-20 18:57 EDT
 From: Regina
 To: Darcy
 
 Of course lol
 
-## iphone:0216 | 2026-07-21 10:06 EDT
+## iphone:0234 | 2026-07-21 10:06 EDT
 From: Darcy
 To: Regina
 
-Good morning! I knew the Attorney language would throw them off!! 😂 They called to ask me if what you have all spoken about (the day you were here) and then I believe they emailed some “expectations” of the easement they want....they were questioning whether you had changes already! I said not to my knowledge. The attorney for the easement is out of town...so they were trying to track her down for the exact dates. At any rate...they are out of town and cannot sign and send back the Purchase agreement. So....I am either going to do an amendment and amend the response time. Or we can just let the PA expire at noon and I can retype it with todays date and change the response time to one they can do..... so Sam will need to sign something later today FYI.
+Good morning! I knew the Attorney language would throw them off!! 😂 They called to ask me if what you have all spoken about (the day you were here) and then I believe they emailed some “expectations” of the easement they want….they were questioning whether you had changes already! I said not to my knowledge. The attorney for the easement is out of town…so they were trying to track her down for the exact dates. At any rate…they are out of town and cannot sign and send back the Purchase agreement. So….I am either going to do an amendment and amend the response time. Or we can just let the PA expire at noon and I can retype it with todays date and change the response time to one they can do….. so Sam will need to sign something later today FYI.
 
-## iphone:0217 | 2026-07-21 10:06 EDT
+## iphone:0235 | 2026-07-21 10:07 EDT
 From: Darcy
 To: Regina
 
 That was long, sorry!
 
-## iphone:0218 | 2026-07-21 10:06 EDT
+## iphone:0236 | 2026-07-21 10:09 EDT
 From: Regina
 To: Darcy
 
@@ -4211,19 +4327,19 @@ And I mean we are out of town to but that didn’t stop us..
 
 And I’m not sure what changes they are referring to.
 
-## iphone:0219 | 2026-07-21 10:06 EDT
+## iphone:0237 | 2026-07-21 10:11 EDT
 From: Regina
 To: Darcy
 
 I think I just didn’t process your message correctly lol
 
-## iphone:0220 | 2026-07-21 10:06 EDT
+## iphone:0238 | 2026-07-21 10:14 EDT
 From: Darcy
 To: Regina
 
-Sorry. The part from Garrett is just a lot and it does lean in your favor but somehow they read it as you already didn’t agree with the easement.... The attorney for the easement is who they are referencing, and wanted to make sure they could fulfill the dates in that clause. Last-they hand sign and scan back....and they are at Holiday World so just don’t have access. I am trying to find out if I can send to them electronically for digital signatures out of my file..but I also don’t want to do something I am not supposed to do! 😊
+Sorry. The part from Garrett is just a lot and it does lean in your favor but somehow they read it as you already didn’t agree with the easement…. The attorney for the easement is who they are referencing, and wanted to make sure they could fulfill the dates in that clause. Last-they hand sign and scan back….and they are at Holiday World so just don’t have access. I am trying to find out if I can send to them electronically for digital signatures out of my file..but I also don’t want to do something I am not supposed to do! 😊
 
-## iphone:0221 | 2026-07-21 10:06 EDT
+## iphone:0239 | 2026-07-21 10:28 EDT
 From: Regina
 To: Darcy
 
@@ -4231,25 +4347,25 @@ Ok thank you for explaining that. Sounds good and we will wait for updates.
 
 Will be traveling starting at 1:50-9pm
 
-## iphone:0222 | 2026-07-21 10:06 EDT
+## iphone:0240 | 2026-07-21 10:30 EDT
 From: Darcy
 To: Regina
 
-Okay thank you for that update on your travels!
+Okay, thank you for that update on your travels!
 
-## iphone:0223 | 2026-07-21 10:06 EDT
+## iphone:0241 | 2026-07-21 10:32 EDT
 From: Regina
 To: Darcy
 
 We will be in car from 5:30-9:30 most likely so if anything we can stop and sign if needed in the evening when we charge the car
 
-## iphone:0224 | 2026-07-21 10:06 EDT
+## iphone:0242 | 2026-07-21 10:33 EDT
 From: Darcy
 To: Regina
 
 Okay!
 
-## iphone:0225 | 2026-07-21 11:36 EDT
+## iphone:0243 | 2026-07-21 11:36 EDT
 From: Darcy
 To: Regina
 
@@ -4263,7 +4379,7 @@ Type: Shortened system/admin event
 
 Signing-system notice. Sender note: Sorry!!  I should have sent to you awhile ago but forgot. Just sign when you can! I changed the fee to $199 which all goes to the real estate company
 
-## iphone:0226 | 2026-07-21 12:51 EDT
+## iphone:0244 | 2026-07-21 12:51 EDT
 From: Regina
 To: Darcy
 
@@ -4271,19 +4387,19 @@ Ahhhh ok!!! Let me text the inspector. Any specific time and day?
 
 Wooohoo and I’m sure I can have someone go to the inspection
 
-## iphone:0227 | 2026-07-21 12:51 EDT
+## iphone:0245 | 2026-07-21 12:55 EDT
 From: Darcy
 To: Regina
 
 They said anytime
 
-## iphone:0228 | 2026-07-21 12:51 EDT
+## iphone:0246 | 2026-07-21 12:58 EDT
 From: Regina
 To: Darcy
 
 Ok I messaged him!!
 
-## iphone:0229 | 2026-07-21 12:51 EDT
+## iphone:0247 | 2026-07-21 13:29 EDT
 From: Regina
 To: Darcy
 
@@ -4314,19 +4430,19 @@ I assume you will want to remotely close or will you Fly up for the closing?
 Thanks!
 Darcy
 
-## iphone:0230 | 2026-07-21 14:41 EDT
+## iphone:0248 | 2026-07-21 14:41 EDT
 From: Regina
 To: Darcy
 
 The inspector said he can do Thursday morning
 
-## iphone:0231 | 2026-07-21 14:41 EDT
+## iphone:0249 | 2026-07-21 14:49 EDT
 From: Regina
 To: Darcy
 
 Ok saw your email and sent inspector derricks number
 
-## iphone:0232 | 2026-07-21 14:41 EDT
+## iphone:0250 | 2026-07-21 14:59 EDT
 From: Regina
 To: Darcy
 
@@ -4334,49 +4450,11 @@ Also Sam has a question regarding the doc you sent for him to sign.
 
 We thought the seller was using first American title company. Is that what that is referring to?
 
-## iphone:0233 | 2026-07-21 14:41 EDT
+## iphone:0251 | 2026-07-21 14:59 EDT
 From: Regina
 To: Darcy
 
-[Image of a document snippet showing title insurance options]
-
-## iphone:0234 | 2026-07-21 14:41 EDT
-From: Darcy
-To: Regina
-
-I sent him our office policy doc. It just states I am representing you! (He signed one last year too for Oakmont but I can’t use one from over a year ago) First American is the title company. I spoke to Derick a long time ago about using them bc they would be able to do the work quickly, they have an office in Greenwood and if he then wanted to do a back to back closing for his other property, they can do.
-
-## iphone:0235 | 2026-07-21 14:41 EDT
-From: Regina
-To: Darcy
-
-Sounds good and all signed
-
-## iphone:0236 | 2026-07-21 14:41 EDT
-From: Regina
-To: Darcy
-
-[Screenshot of a text conversation with Bill]
-
-## iphone:0237 | 2026-07-21 14:41 EDT
-From: Darcy
-To: Regina
-
-Thanks! Will give Derrick time to respond before I double check w him that he received!
-
-## iphone:0238 | 2026-07-21 14:41 EDT
-From: Regina
-To: Darcy
-
-I told bill they were at holiday world and would hopefully return his call soon and to text me tomorrow if he hasn’t heard anything!
-
-Messaged septic company and waiting on response
-
-## iphone:0239 | 2026-07-21 14:41 EDT
-From: Regina
-To: Darcy
-
-Sam's dad can be at inspection Thursday morning if it gets scheduled.
+[No readable message body in PDF]
 
 ## gmail:0068 | 2026-07-21 15:02 EDT
 From: "Darcy Knott (via dotloop)" <hit-reply@dotloop.com>
@@ -4388,57 +4466,95 @@ Type: Shortened system/admin event
 
 Signing-system notification; event described in subject.
 
-## iphone:0240 | 2026-07-22 10:06 EDT
+## iphone:0252 | 2026-07-21 15:25 EDT
+From: Darcy
+To: Regina
+
+I sent him our office policy doc. It just states I am representing you! (He signed one last year too for Oakmont but I can’t use one from over a year ago) First American is the title company. I spoke to Derick  a long time ago about  using them bc they would be able to do the work quickly, they have an office in Greenwood and if he then wanted to do a back to back closing for his other property, they can do.
+
+## iphone:0253 | 2026-07-21 15:38 EDT
+From: Regina
+To: Darcy
+
+Sounds good and all signed
+
+## iphone:0254 | 2026-07-21 15:38 EDT
+From: Regina
+To: Darcy
+
+[No readable message body in PDF]
+
+## iphone:0255 | 2026-07-21 15:40 EDT
+From: Darcy
+To: Regina
+
+Thanks! Will give Derrick time to respond before I double check w him that he received!
+
+## iphone:0256 | 2026-07-21 15:40 EDT
+From: Regina
+To: Darcy
+
+I told bill they were at holiday world and would hopefully return his call soon and to text me tomorrow if he hasn’t heard anything!
+
+Messaged septic company and waiting on response
+
+## iphone:0257 | 2026-07-21 15:41 EDT
+From: Regina
+To: Darcy
+
+Sam’s dad can be at inspection Thursday morning if it gets scheduled.
+
+## iphone:0258 | 2026-07-22 10:06 EDT
 From: Regina
 To: Darcy
 
 Do we have any updates?
 
-## iphone:0241 | 2026-07-22 10:06 EDT
+## iphone:0259 | 2026-07-22 10:20 EDT
 From: Darcy
 To: Regina
 
 Derick just text me that it is 9 am tomorrow.
 
-## iphone:0242 | 2026-07-22 10:06 EDT
+## iphone:0260 | 2026-07-22 10:23 EDT
 From: Regina
 To: Darcy
 
 On phone with Bill right now
 
-## iphone:0243 | 2026-07-22 10:06 EDT
+## iphone:0261 | 2026-07-22 10:23 EDT
 From: Darcy
 To: Regina
 
 Also..as soon as I can update, I need to send a new Buyers agency agreement to Sam stating the seller is paying $25k commission
 
-## iphone:0244 | 2026-07-22 10:06 EDT
+## iphone:0262 | 2026-07-22 10:34 EDT
 From: Regina
 To: Darcy
 
 Ok.
 
-Confirmed inspection for tomorrow from 9-3 Sam's dad will be there around 10 with one of his friends.
+Confirmed inspection for tomorrow from 9-3 Sam’s dad will be there around 10 with one of his friends.
 
-## iphone:0245 | 2026-07-22 10:06 EDT
+## iphone:0263 | 2026-07-22 10:56 EDT
 From: Regina
 To: Darcy
 
-It's too late now but I'm wondering why they are able to have possession of the property for two weeks after closing when we agreed to only one week I thought. Correct me if I'm wrong but I never saw the purchase agreement until now and Sam missed that when signing yesterday
+It’s too late now but I’m wondering why they are able to have possession of the property for two weeks after closing when we agreed to only one week I thought. Correct me if I’m wrong but I never saw the purchase agreement until now and Sam missed that when signing yesterday
 
-## iphone:0246 | 2026-07-22 10:06 EDT
+## iphone:0264 | 2026-07-22 10:58 EDT
 From: Darcy
 To: Regina
 
-He asked about the extension at least a week ago.....I will have to scroll through texts and emails to find it
+He asked about the extension at least a week ago…..I will have to scroll through texts and emails to find it
 
-## iphone:0247 | 2026-07-22 10:06 EDT
+## iphone:0265 | 2026-07-22 11:00 EDT
 From: Regina
 To: Darcy
 
-It's fine. There's been so much back and forth I'm lost in everything at this point lol
+It’s fine. There’s been so much back and forth I’m lost in everything at this point lol
 
-## iphone:0248 | 2026-07-22 10:06 EDT
+## iphone:0266 | 2026-07-22 11:52 EDT
 From: Regina
 To: Darcy
 
@@ -4450,7 +4566,7 @@ Regarding septic inspection - we received a quote and have a couple questions:
 
 3. Does tomorrow (Thurs) around 3pm work? I know Derrick may not be there but I think other inspections are likely to still be ongoing at that time so it may be most preferable for him
 
-## iphone:0249 | 2026-07-22 10:06 EDT
+## iphone:0267 | 2026-07-22 11:52 EDT
 From: Regina
 To: Darcy
 
@@ -6261,13 +6377,13 @@ On Wed, Jul 29, 2026 at 5:28 PM Sam <samgpresnal@gmail.com> wrote:
 
 >>> Received. I’ll review this shortly.
 
-## iphone:0250 | 2026-07-30 15:47 EDT
+## iphone:0268 | 2026-07-30 15:47 EDT
 From: Regina
 To: Darcy
 
 Are you available for a phone call
 
-## iphone:0251 | 2026-07-30 15:47 EDT
+## iphone:0269 | 2026-07-30 16:09 EDT
 From: Darcy
 To: Regina
 
@@ -9490,7 +9606,7 @@ Attachment files: [Screenshot 2026-08-05 at 9.38.28 AM.png](../data/originals/
 
 📄 Screenshot 2026-08-05 at 9.38.28 AM.png
 
-## iphone:0252 | 2026-08-05 09:38 EDT
+## iphone:0270 | 2026-08-05 09:38 EDT
 From: Regina
 To: Darcy
 
@@ -9580,17 +9696,11 @@ Attachment files: [Screenshot 2026-08-05 at 9.58.07 AM.png](../data/originals/
 
 📄 Screenshot 2026-08-05 at 9.58.07 AM.png
 
-## iphone:0253 | 2026-08-05 12:16 EDT
+## iphone:0271 | 2026-08-05 12:16 EDT
 From: Regina
 To: Darcy
 
 Sending over now sorry.
-
-## iphone:0254 | 2026-08-05 12:16 EDT
-From: Regina
-To: Darcy
-
-Ok gotta change those offers
 
 ## gmail:0164 | 2026-08-05 12:23 EDT
 From: Regina Gray <graylregina@gmail.com>
@@ -9896,6 +10006,12 @@ Let me know if I can help any further!
 Darcy
 
 [Image removed by sender.]
+
+## iphone:0272 | 2026-08-05 12:57 EDT
+From: Regina
+To: Darcy
+
+Ok gotta change those offers
 
 ## gmail:0167 | 2026-08-05 13:13 EDT
 From: Regina Gray <graylregina@gmail.com>
@@ -15385,13 +15501,13 @@ wrote:
 >>>>>>> Derrick 317-292-1883
 >>>>>>> Sarah 317-292-1884
 
-## iphone:0255 | 2026-08-11 15:50 EDT
+## iphone:0273 | 2026-08-11 15:50 EDT
 From: Regina
 To: Darcy
 
 Hope all is well with you and your family. That storm looked NASTY
 
-## iphone:0256 | 2026-08-11 20:40 EDT
+## iphone:0274 | 2026-08-11 20:40 EDT
 From: Darcy
 To: Regina
 
@@ -15452,23 +15568,23 @@ wrote:
 
 > [long link omitted]
 
-## iphone:0257 | 2026-08-13 19:10 EDT
+## iphone:0275 | 2026-08-13 19:10 EDT
 From: Regina
 To: Darcy
 
-Girl... what is happening in Indiana right now holy crap.
+Girl… what is happening in Indiana right now holy crap.
 
-## iphone:0258 | 2026-08-13 19:10 EDT
+## iphone:0276 | 2026-08-13 19:12 EDT
 From: Darcy
 To: Regina
 
-It's been crazy! So much rain!
+It’s been crazy! So much rain!
 
-## iphone:0259 | 2026-08-13 19:10 EDT
+## iphone:0277 | 2026-08-13 19:15 EDT
 From: Regina
 To: Darcy
 
-So much!!! I'm like... 👀 this would happen when we close on a house with a lake.. I'm nervous haha
+So much!!! I’m like… 👀 this would happen when we close on a house with a lake.. I’m nervous haha
 
 ## gmail:0230 | 2026-08-16 11:45 EDT
 From: Sam <samgpresnal@gmail.com>
@@ -16492,39 +16608,39 @@ wrote:
 > easement are pulling up correctly for me. I want to get a visual on this
 > again.
 
-## iphone:0260 | 2026-08-20 19:34 EDT
+## iphone:0278 | 2026-08-20 19:34 EDT
 From: Darcy
 To: Regina
 
-See you tomorrow! Did Derick tell you the gate code? Maybe it will just be open?! I gave Garrett more detail yesterday. I know he was in court though.... Maybe he has gotten back to you though? I am calling the other agent on my drive down tomorrow to see what else he can tell me, if anything. But I don't want him to then go run to his seller who then calls Derrick. Just interested to see how Derrick spins this story but want info from the other side first!! Safe travels!
+See you tomorrow! Did Derick tell you the gate code? Maybe it will just be open?! I gave Garrett more detail yesterday. I know he was in court though…. Maybe he has gotten back to you though? I am calling the other agent on my drive down tomorrow to see what else he can tell me, if anything. But I don’t want him to then go run to his seller who then calls Derrick. Just interested to see how Derrick spins this story but want info from the other side first!! Safe travels!
 
-## iphone:0261 | 2026-08-20 19:34 EDT
+## iphone:0279 | 2026-08-20 19:37 EDT
 From: Regina
 To: Darcy
 
-Hi and yess see you tomorrow! We haven't heard anything further from Garrett or Derrick.
+Hi and yess see you tomorrow! We haven’t heard anything further from Garrett or Derrick.
 
 Sounds good on other agent! Definitely frustrating 🙃
 
-## iphone:0262 | 2026-08-21 11:47 EDT
+## iphone:0280 | 2026-08-21 11:47 EDT
 From: Regina
 To: Darcy
 
 We are here.
 
-## iphone:0263 | 2026-08-21 11:47 EDT
+## iphone:0281 | 2026-08-21 11:49 EDT
 From: Darcy
 To: Regina
 
 Gate open?
 
-## iphone:0264 | 2026-08-21 11:47 EDT
+## iphone:0282 | 2026-08-21 11:49 EDT
 From: Darcy
 To: Regina
 
 I am 8 minutes
 
-## iphone:0265 | 2026-08-21 11:47 EDT
+## iphone:0283 | 2026-08-21 11:49 EDT
 From: Regina
 To: Darcy
 
@@ -16532,7 +16648,7 @@ Yes mam.
 
 They have a big truck here picking up a pod. You can park in grass in front of the white jeep
 
-## iphone:0266 | 2026-08-21 11:47 EDT
+## iphone:0284 | 2026-08-21 11:54 EDT
 From: Regina
 To: Darcy
 
@@ -16698,41 +16814,41 @@ wrote:
 
 > Pool cover code is 1234 check mark and door codes are 2122.
 
-## iphone:0267 | 2026-08-22 14:13 EDT
+## iphone:0285 | 2026-08-22 14:13 EDT
 From: Regina
 To: Darcy
 
-We should have put in the contact they had to hire move out cleaners... they should be embarrassed by us seeing the filth they were ok living in. Most disgusting house I've ever moved into.
+We should have put in the contact they had to hire move out cleaners… they should be embarrassed by us seeing the filth they were ok living in. Most disgusting house I’ve ever moved into.
 
-## iphone:0268 | 2026-08-22 14:13 EDT
+## iphone:0286 | 2026-08-22 14:16 EDT
 From: Darcy
 To: Regina
 
-Eek, I'm sorry. For the most part people do leave homes fairly clean. Because it is embarrassing when they aren't Did you find something else?
+Eek, I’m sorry. For the most part people do leave homes fairly clean. Because it is embarrassing when they aren’t Did you find something else?
 
-## iphone:0269 | 2026-08-22 14:13 EDT
+## iphone:0287 | 2026-08-22 14:17 EDT
 From: Regina
 To: Darcy
 
 I swear they have never deep cleaned this property once. Also they lied about the square footage by 1000 square feet
 
-## iphone:0270 | 2026-08-22 14:13 EDT
+## iphone:0288 | 2026-08-22 14:28 EDT
 From: Regina
 To: Darcy
 
-[Image of a floor plan document]
+![Embedded attachment from PDF page 42](iphone_darcy_messages_assets/message_0288_page_042_image_003.jpeg)
 
-## iphone:0271 | 2026-08-22 20:51 EDT
+## iphone:0289 | 2026-08-22 20:51 EDT
 From: Darcy
 To: Regina
 
 Does any of that footage NOT include any finished areas. For example, the home was built and it was that square footage for 2nd floor BUT the space beyond the master bath was not included bc it was finished later??? Per the Johnson County Assessor and what you are taxed on it is 8,555 finished square feet. 2672 main and 2672 for the basement and 3211 for the 2nd floor.
 
-## iphone:0272 | 2026-08-22 20:51 EDT
+## iphone:0290 | 2026-08-22 21:09 EDT
 From: Regina
 To: Darcy
 
-I think the tax assessor includes the attic space unfinished!! It's ok we talked to Derrick and Sarah again today.
+I think the tax assessor includes the attic space unfinished!! It’s ok we talked to Derrick and Sarah again today.
 
 ## gmail:0248 | 2026-08-23 19:30 EDT
 From: Regina Gray <graylregina@gmail.com>
@@ -17432,17 +17548,17 @@ wrote:
 > easement are pulling up correctly for me. I want to get a visual on this
 > again.
 
-## iphone:0273 | 2026-08-25 13:14 EDT
+## iphone:0291 | 2026-08-25 13:14 EDT
 From: Regina
 To: Darcy
 
-I spoke too soon... 😭 pretty sure we got screwed over by Derrick and Sarah on square footage.. "top the of line appliances"
+I spoke too soon… 😭 pretty sure we got screwed over by Derrick and Sarah on square footage.. “top the of line appliances”
 
 Hvac upstairs went out Saturday and we had to get the condenser replaced.
 
-Bat droppings everywhere and remediation wasn't done properly.. so wondering what they did with that 25k.
+Bat droppings everywhere and remediation wasn’t done properly.. so wondering what they did with that 25k.
 
-Ugh I'm so annoyed. Idk if doing "as is" at the very end screwed Sam and I from being able to take action especially if our square footage was wrong but Derrick had access to everything we requested documents wise and never shared that and lied saying he didn't have it.
+Ugh I’m so annoyed. Idk if doing “as is” at the very end screwed Sam and I from being able to take action especially if our square footage was wrong but Derrick had access to everything we requested documents wise and never shared that and lied saying he didn’t have it.
 
 ## gmail:0259 | 2026-08-25 14:15 EDT
 From: Regina Presnal <reginalpresnal@gmail.com>
@@ -17617,19 +17733,19 @@ On Mon, Aug 24, 2026 at 7:20 PM Regina Gray <graylregina@gmail.com> wrote:
 >>>> Thank you,
 >>>> Regina and Sam
 
-## iphone:0274 | 2026-08-26 18:38 EDT
+## iphone:0292 | 2026-08-26 18:38 EDT
 From: Regina
 To: Darcy
 
-We are getting a new lawyer and gonna see what our options are. We met the neighbors and..... wow. Derrick and Sarah lied about water intrusion and bat remediation and we plan on suing
+We are getting a new lawyer and gonna see what our options are. We met the neighbors and….. wow. Derrick and Sarah lied about water intrusion and bat remediation and we plan on suing
 
-## iphone:0275 | 2026-08-26 18:38 EDT
+## iphone:0293 | 2026-08-26 19:19 EDT
 From: Darcy
 To: Regina
 
-Okay..a lot to ask here. Do you think they filed for insurance claims and then didn't do the work? Do the neighbors not seem to like Derrick either? I assume these are the ones at the front of the neighborhood? Flooding water intrusion?
+Okay..a lot to ask here. Do you think they filed for insurance claims and then didn’t do the work? Do the neighbors not seem to like Derrick either? I assume these are the ones at the front of the neighborhood? Flooding water intrusion?
 
-I am so sorry. ☹ I feel sick to my stomach about this. Let me know if the attorney needs anything from me
+I am so sorry. 🙁 I feel sick to my stomach about this. Let me know if the attorney needs anything from me
 
 ## gmail:0263 | 2026-08-26 20:55 EDT
 From: Regina Presnal <reginalpresnal@gmail.com>

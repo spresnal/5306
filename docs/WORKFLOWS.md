@@ -62,7 +62,7 @@ python -m pip install -e .
 
 ```powershell
 python -m property_timeline.gmail_archive "data/originals/gmail/property_emails.mbox" --output data/archives/gmail/property_emails_compact.md --index data/archives/gmail/property_email_source_index.csv --attachments-dir data/archives/gmail/property_emails_compact_attachments
-python -m property_timeline.iphone_pdf_to_markdown "data/originals/iphone/iphone_darcy.pdf" --me Regina --output data/archives/iphone/iphone_darcy_messages.md --index data/archives/iphone/iphone_darcy_index.csv
+python -m property_timeline.iphone_pdf_to_markdown "data/originals/iphone/iphone_darcy.pdf" --me Regina --other Darcy --output data/archives/iphone/iphone_darcy_messages.md --index data/archives/iphone/iphone_darcy_index.csv
 python -m property_timeline.android_txt_to_markdown data/originals/android/android_darcy_group.html --me Sam --wife Regina --contact Darcy --conversation-id android_darcy_group --output data/archives/android/android_darcy_group_messages.md --index data/archives/android/android_darcy_group_index.csv
 
 # Pause here to compare archives and reapply any manual edits.
@@ -159,3 +159,8 @@ The runner requires Codex CLI signed in with ChatGPT; no API key is needed.
 After completing review, rebuild the timeline to refresh its evidence/criteria
 fingerprints, then use **Load review** in the HTML viewer to open
 `data/reviews/entry_review.json`. **Clear review** removes the optional overlay.
+
+The second pass rereads source evidence across topics, including routine entries.
+Its linked findings and contextual priorities appear in the report and loaded
+website review. Resume with `run --unattended` to run the expanded pass while
+preserving unchanged first-pass assessments.

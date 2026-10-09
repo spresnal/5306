@@ -60,6 +60,28 @@ async function load(value) {controls['review-file'].files=[{name:'entry_review.j
   assert.equal(cards[0].querySelector('.review-panel'),null);
   assert.equal(controls['review-priority'].disabled,true);
   assert.equal(cards[2].hidden,false);
+  const finding={id:'finding:'+'e'.repeat(16),title:'Related later statement',analysis:'Context matters.',kind:'context',
+    entry_ids:['gmail:0001','gmail:0002'],contextual_priority:'high',questions:['Check timing?'],
+    quotes:[{source_id:'gmail:0001',text:'First statement'},{source_id:'gmail:0002',text:'Later statement'}]};
+  const manifest={version:2,complete:true,criteria_hash:criteria,findings:[finding],
+    entry_hashes:Object.fromEntries(cards.map(card=>[card.id,{source_hash:hash,review_hash:hash}]))};
+  await load({schema_version:1,assessments:{'gmail:0001':entry('gmail:0001',{priority:'low'}),
+    'gmail:0002':entry('gmail:0002',{priority:'low'})},contextual_review:manifest});
+  assert.match(cards[0].querySelector('.review-panel').textContent,/contextual priority: high/);
+  assert.match(cards[0].querySelector('.review-panel').textContent,/Related later statement/);
+  controls['review-priority'].value='high';controls['review-priority'].listeners.input();
+  assert.equal(cards[0].hidden,false);
+  assert.equal(cards[1].hidden,false);
+  assert.equal(cards[2].hidden,true);
+  // A changed third entry invalidates contextual priorities even for unchanged linked entries.
+  cards[2].dataset.reviewHash=changed;
+  await load({schema_version:1,assessments:{'gmail:0001':entry('gmail:0001',{priority:'low'})},contextual_review:manifest});
+  assert.match(controls['review-status'].textContent,/Second-pass findings outdated/);
+  assert.doesNotMatch(cards[0].querySelector('.review-panel').textContent,/contextual priority/);
+  controls['review-priority'].value='high';controls['review-priority'].listeners.input();
+  assert.equal(cards[0].hidden,true);
+  cards[2].dataset.reviewHash=hash;
+  controls['review-clear'].listeners.click();
   assert.equal(vm.runInContext("reviewState({source_hash:'a'.repeat(64),review_hash:'a'.repeat(64),criteria_hash:'c'.repeat(64)},cards[0],'')",context),'unverified');
   assert.equal(vm.runInContext("reviewState({source_hash:'a'.repeat(64),review_hash:'a'.repeat(64),criteria_hash:'c'.repeat(64)},cards[0],'d'.repeat(64))",context),'stale');
   console.log('Review overlay tests passed');

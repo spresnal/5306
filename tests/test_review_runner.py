@@ -229,11 +229,11 @@ class ReviewRunnerTests(unittest.TestCase):
             runner.run(self.work(), self.args)
         self.args.pilot = None
         self.args.approve_pilot = True
-        self.args.max_chars = 6000
+        self.args.max_chars = 10000
         self.args.max_cross_calls = 2
         supplied = []
         def fake(model, instructions, payload, schema, executable, timeout):
-            supplied.append({r['id'] for r in payload['assessments']})
+            supplied.append({r['id'] for r in payload['entries']})
             return self.fake_model(model, instructions, payload, schema, executable, timeout)
         with patch.object(runner, 'model_request', side_effect=fake):
             runner.run(self.work(), self.args)
@@ -255,8 +255,9 @@ class ReviewRunnerTests(unittest.TestCase):
         self.args.approve_pilot = True
         finding = {'title': 'Multiple reports', 'analysis': 'Two entries mention a leak; timing needs review.',
                    'kind': 'context', 'entry_ids': ['gmail:0001', 'gmail:0002'],
-                   'quotes': [{'source_id': 'gmail:0001', 'text': 'The basement leaked.'}],
-                   'questions': ['Same incident?']}
+                   'quotes': [{'source_id': 'gmail:0001', 'text': 'The basement leaked.'},
+                              {'source_id': 'gmail:0002', 'text': 'The basement leaked.'}],
+                   'questions': ['Same incident?'], 'contextual_priority': 'high'}
         invalid = {**finding, 'quotes': [{'source_id': 'gmail:0001', 'text': 'Invented quotation.'}]}
         with patch.object(runner, 'model_request', return_value=({'findings': [invalid]}, {})):
             with self.assertRaisesRegex(ValueError, 'Cross quotation'):
@@ -269,6 +270,55 @@ class ReviewRunnerTests(unittest.TestCase):
         path.write_text(path.read_text().replace('The basement leaked.', 'The basement flooded.', 1))
         runner.report(self.work())
         self.assertNotIn('Multiple reports', report.read_text())
+
+    def test_cross_pass_reads_unselected_evidence_across_topics_and_promotes_context(self):
+        self.args.pilot = None
+        self.args.unattended = True
+        seen_ids = set()
+        def fake(model, instructions, payload, schema, executable, timeout):
+            if schema == runner.SCHEMA:
+                entries = [assessment(item['id']) for item in payload['entries']]
+                for item in entries:
+                    item['priority'] = 'low'
+                    item['topics'] = ['routine'] if item['id'] != 'gmail:0002' else ['inspection']
+                return {'entries': entries}, {}
+            seen_ids.update(item['id'] for item in payload['entries'])
+            by_id = {item['id']: item for item in payload['entries']}
+            if not {'gmail:0001', 'gmail:0002'} <= set(by_id):
+                return {'findings': []}, {}
+            self.assertIn('**From:** Fixture', by_id['gmail:0001']['evidence']['gmail:0001'])
+            return {'findings': [{'title': 'Context changes importance', 'analysis': 'Review these entries together.',
+                'kind': 'context', 'entry_ids': ['gmail:0001', 'gmail:0002'], 'contextual_priority': 'high',
+                'quotes': [{'source_id': id, 'text': '**From:** Fixture'} for id in ('gmail:0001', 'gmail:0002')],
+                'questions': ['Does this context affect the claim?']}]}, {}
+        with patch.object(runner, 'model_request', side_effect=fake):
+            runner.run(self.work(), self.args)
+        work = self.work()
+        self.assertEqual(seen_ids, {record['id'] for record in work.records})
+        self.assertEqual(work.state['assessments']['gmail:0001']['priority'], 'low')
+        context = work.state['contextual_review']
+        self.assertTrue(context['complete'])
+        self.assertEqual(context['findings'][0]['contextual_priority'], 'high')
+        self.assertEqual(set(context['entry_hashes']), seen_ids)
+        self.assertIn('effective priority: high; first pass: low', (self.root / 'output/counsel_review.md').read_text())
+
+    def test_cross_evidence_parts_keep_all_attachment_text(self):
+        work = self.work()
+        work.state['assessments'] = {r['id']: assessment(r['id']) for r in work.records}
+        record = work.records[0]
+        path = self.root / 'data/archives/gmail/large.txt'
+        text = 'First section\n' + 'Long attachment evidence.\n' * 1000 + 'Last section.'
+        path.write_text(text, encoding='utf-8', newline='')
+        record['attachments'] = [{'source_id': record['id'] + '/attachment:0001', 'path': path,
+            'metadata': {'sha256': hashlib.sha256(path.read_bytes()).hexdigest(), 'original_filename': 'large.txt'},
+            'excluded': False}]
+        units = runner.cross_evidence_units(work, 1500)
+        sections = [unit['evidence'][record['id'] + '/attachment:0001'] for unit in units
+                    if record['id'] + '/attachment:0001' in unit['evidence']]
+        self.assertGreater(len(sections), 1)
+        self.assertIn('Last section.', ''.join(sections))
+        self.assertEqual(''.join(sections), 'File text\n' + text)
+        self.assertTrue(all(len(json.dumps(unit, ensure_ascii=False)) <= 1500 for unit in units))
 
     def codex_process(self, command, **kwargs):
         import subprocess

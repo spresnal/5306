@@ -165,28 +165,45 @@ Other controls: `--attachment-chars`, `--codex-timeout`, `--codex-bin`,
 folder. From WSL, prefix Python commands with `cmd.exe /c` if using Windows Python;
 the invoked Codex executable must be signed in with ChatGPT in that environment.
 
-After entry review finishes, the runner automatically compares assessments
-sharing a topic. It partitions long topic groups into bounded blocks and compares
-every block pair, including internal comparisons. This can require many requests:
-a topic with B blocks takes B × (B + 1) / 2 calls. `--max-cross-calls` limits new
-cross-entry requests per invocation; resume to finish. Cross-entry results are
-checkpointed individually. Changing request bounds may create new task partitions.
+After entry review finishes, pass two rereads the source correspondence, source
+metadata, and all locally extractable attachment text. It includes every entry,
+including routine entries, and compares across topics. Long evidence sections are
+split into bounded parts with the same source ID; readable text is not truncated
+in pass two. Parts remain in chronological entry order and are packed into blocks.
+
+Every block pair is compared, including internal comparisons. A run with B blocks
+has B × (B + 1) / 2 comparison tasks, so the source-based pass may use substantially
+more Codex allowance than the previous summary-based pass. Its plan is printed at
+startup and saved in `cross_plan`. `--max-cross-calls` limits new second-pass calls
+per invocation. Each accepted comparison is saved; resume to finish. Changing
+request bounds can create new task partitions.
+
+Findings carry a `contextual_priority`, an explanation, linked entry IDs, exact
+source quotations, and counsel questions. First-pass priorities remain intact.
+The report and viewer use the higher importance of the original assessment and
+its applicable contextual findings as the **effective priority**. This can bring
+an initially low-priority entry into the high-priority shortlist.
+
+The new second-pass algorithm invalidates older summary-only completion markers
+and findings, but preserves unchanged first-pass assessments. Repeat
+`run --unattended` to continue any pending entry review and run the expanded
+second pass. There is no need to delete the saved review workspace.
 
 ## What is checked and what remains for counsel
 
 Each response must assess every requested ID exactly once, use valid categories,
 and quote exact contiguous supplied text. High-priority assessments require
 quotations. Related IDs must have been supplied as entries or boundary context.
-Cross-entry findings require at least two supplied entry IDs and matching evidence
-quotations. These checks do not establish that the model's interpretation is correct.
+Cross-entry findings require exact evidence quotations from at least two distinct
+supplied entries. These checks do not establish that the model's interpretation is correct.
 
 Attachments are validated against extraction hashes/sizes before review. Missing
 required files or changed bytes stop the run. Unavailable files, extraction
 failures, partial text, truncation, and visual-review limitations remain explicit.
-No OCR is performed. Original attachment files stay unchanged. Cross-entry review
-uses the initial assessments and their selected quotations, so it cannot recover
-an important fact missed in that first pass. Relationships across different topics
-and material present only in images still need human review.
+No OCR is performed. Original attachment files stay unchanged. The second pass
+can use readable source passages that the first pass did not select. Material
+present only in images, complex relationships requiring more than a block pair,
+and model interpretations still need human review.
 
 Changing a brief or instructions invalidates all previous assessments and pilot
 approval. Changing an entry or its indexed evidence invalidates its assessment;
@@ -208,7 +225,10 @@ Open `output/master_timeline.html`, choose **Load review**, and select
 `data/reviews/entry_review.json`. The file is read locally by the browser. It is
 not uploaded or saved in browser storage. Expand a card's **AI review** panel for
 its priority, topics, relevance, evidence quotations, related entries, uncertainty,
-questions for counsel, and attachment gaps. Use the priority/topic/status filters
+questions for counsel, and attachment gaps. Linked **Pass two** findings show
+contextual importance, explanations, quotations, and links to the other evidence
+entries. Priority filters use effective priority while displaying the original
+first-pass priority separately. Use the priority/topic/status filters
 alongside the existing correspondence search, source, and date filters.
 
 Entries whose text, indexed evidence, or criteria fingerprints differ are marked
@@ -234,3 +254,11 @@ can leave `data/reviews/.runner.lock`; remove it only after confirming that no
 runner is active. `entry_review.json` is authoritative if an interruption occurred
 between its atomic replacement and the progress-file replacement; the next run
 recomputes coverage from saved assessments.
+
+Second-pass findings are exported into `contextual_review` inside
+`entry_review.json`, with the complete source/evidence fingerprint manifest.
+If any entry in that snapshot differs from the viewer, or its criteria are
+unchecked, the viewer disables contextual priorities and findings rather than
+applying a connection from an outdated chronology. Partial second-pass results
+can be loaded while review continues; the viewer labels the pass in progress.
+Reload the JSON file to see new checkpoints.
