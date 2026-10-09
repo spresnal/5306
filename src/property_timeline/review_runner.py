@@ -283,8 +283,7 @@ class Workspace:
         archives = {}
         indexes = {}
         names = {'gmail': ('property_email_source_index.csv', 'source_email_number'),
-                 'android': ('android_darcy_group_index.csv', 'message_number'),
-                 'iphone': ('iphone_darcy_index.csv', 'message_number')}
+                 'android': ('android_darcy_group_index.csv', 'message_number')}
         for row in rows:
             path = (csv_path.parent / row['archive_file']).resolve()
             if not path.is_relative_to(self.root / 'data/archives'):
@@ -294,9 +293,11 @@ class Workspace:
             if key not in archives:
                 records, _ = parse_archive(path, origin, ZoneInfo('America/New_York'))
                 archives[key] = {record['id']: record for record in records}
-                index_name, number_field = names[origin]
                 if origin == 'iphone':
                     index_name = path.stem.removesuffix('_messages') + '_index.csv'
+                    number_field = 'message_number'
+                else:
+                    index_name, number_field = names[origin]
                 index_path = path.parent / index_name
                 with index_path.open(encoding='utf-8-sig', newline='') as stream:
                     index_rows = list(csv.DictReader(stream))

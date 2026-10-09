@@ -43,7 +43,7 @@ python -m pip install -e .
    | Source | Files to replace together |
    | --- | --- |
    | Gmail | `data/originals/gmail/property_emails.mbox` from the updated Gmail export |
-   | iPhone | `data/originals/iphone/iphone_darcy.pdf` and `iphone_derrick.pdf`, the TextPort conversation PDFs |
+   | iPhone | `data/originals/iphone/iphone_darcy.pdf`, `iphone_derrick.pdf`, and `iphone_sarah.pdf`, the TextPort conversation PDFs |
    | Android | `data/originals/android/android_darcy_group.html` and its matching `data/originals/android/group_conversation_966_Attachments/` folder; retain the matching `data/originals/android/android_darcy_group.smsbackup` as the native original |
 
    Keep the Android HTML and attachment folder from the same export together;
@@ -64,6 +64,7 @@ python -m pip install -e .
 python -m property_timeline.gmail_archive "data/originals/gmail/property_emails.mbox" --output data/archives/gmail/property_emails_compact.md --index data/archives/gmail/property_email_source_index.csv --attachments-dir data/archives/gmail/property_emails_compact_attachments
 python -m property_timeline.iphone_pdf_to_markdown "data/originals/iphone/iphone_darcy.pdf" --me Regina --other Darcy --output data/archives/iphone/iphone_darcy_messages.md --index data/archives/iphone/iphone_darcy_index.csv
 python -m property_timeline.iphone_pdf_to_markdown "data/originals/iphone/iphone_derrick.pdf" --me Regina --other Derrick --output data/archives/iphone/iphone_derrick_messages.md --index data/archives/iphone/iphone_derrick_index.csv
+python -m property_timeline.iphone_pdf_to_markdown "data/originals/iphone/iphone_sarah.pdf" --me Regina --other Sarah --output data/archives/iphone/iphone_sarah_messages.md --index data/archives/iphone/iphone_sarah_index.csv
 python -m property_timeline.android_txt_to_markdown data/originals/android/android_darcy_group.html --me Sam --wife Regina --contact Darcy --conversation-id android_darcy_group --output data/archives/android/android_darcy_group_messages.md --index data/archives/android/android_darcy_group_index.csv
 
 # Pause here to compare archives and reapply any manual edits.

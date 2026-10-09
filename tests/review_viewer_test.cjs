@@ -20,7 +20,7 @@ class Element {
 }
 const hash='a'.repeat(64), changed='b'.repeat(64), criteria='c'.repeat(64);
 const controls=Object.fromEntries(['review-file','review-priority','review-topic','review-state','review-status','review-clear','reset'].map(id=>[id,new Element()]));
-const cards=['gmail:0001','gmail:0002','iphone:0001'].map(id=>{
+const cards=['gmail:0001','gmail:0002','iphone_darcy:0001'].map(id=>{
   const card=new Element(); card.id=id; card.dataset={sourceHash:hash,reviewHash:hash};
   const header=new Element(); header.className='record-top'; card.append(header); return card;
 });

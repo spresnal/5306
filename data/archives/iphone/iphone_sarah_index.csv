@@ -1,0 +1,15 @@
+﻿message_number,timestamp_as_printed,datetime_no_timezone,sender,recipient,pdf_page_start,pdf_page_end,attachment_references,body_characters,attachment_files_json
+1,"Aug 23, 2026 at 11:07 AM",2026-08-23 11:07,Sarah,Regina,1,1,,674,[]
+2,"Aug 23, 2026 at 11:18 AM",2026-08-23 11:18,Regina,Sarah,1,1,,480,[]
+3,"Aug 23, 2026 at 12:06 PM",2026-08-23 12:06,Regina,Sarah,1,1,,167,[]
+4,"Aug 23, 2026 at 12:25 PM",2026-08-23 12:25,Sarah,Regina,2,2,,1211,[]
+5,"Aug 23, 2026 at 1:31 PM",2026-08-23 13:31,Sarah,Regina,2,2,,120,[]
+6,"Aug 23, 2026 at 2:59 PM",2026-08-23 14:59,Regina,Sarah,2,2,,359,[]
+7,"Aug 24, 2026 at 11:03 AM",2026-08-24 11:03,Regina,Sarah,2,2,,43,[]
+8,"Aug 24, 2026 at 11:05 AM",2026-08-24 11:05,Sarah,Regina,3,3,,16,[]
+9,"Aug 24, 2026 at 11:05 AM",2026-08-24 11:05,Regina,Sarah,3,3,,24,[]
+10,"Aug 24, 2026 at 11:06 AM",2026-08-24 11:06,Sarah,Regina,3,3,,8,[]
+11,"Aug 24, 2026 at 11:12 AM",2026-08-24 11:12,Regina,Sarah,3,3,Embedded image: iphone_sarah_messages_assets/message_0011_page_003_image_001.jpeg,105,"[{""relative_path"": ""iphone_sarah_messages_assets/message_0011_page_003_image_001.jpeg"", ""original_filename"": ""message_0011_page_003_image_001.jpeg"", ""content_type"": ""image/jpeg"", ""byte_size"": 52090, ""sha256"": ""4345b2cd962b6f899b9c28b2ab98a174e1f24da803b7a5ebdcf75f4a6ee4d3ff"", ""available"": true}]"
+12,"Aug 24, 2026 at 11:12 AM",2026-08-24 11:12,Regina,Sarah,3,3,,64,[]
+13,"Aug 24, 2026 at 4:58 PM",2026-08-24 16:58,Regina,Sarah,3,3,,64,[]
+14,"Sep 29, 2026 at 9:33 AM",2026-09-29 09:33,Sarah,Regina,4,4,,459,[]

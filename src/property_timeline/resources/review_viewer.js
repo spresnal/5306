@@ -8,7 +8,7 @@ function validateReview(documentValue) {
   }
   const entries = new Map();
   for (const [id, entry] of Object.entries(documentValue.assessments)) {
-    if (!/^(gmail|android|iphone(?:_[a-z0-9_]+)?):\d+$/.test(id) || !object(entry) || entry.id !== id ||
+    if (!/^(gmail|android|iphone_[a-z0-9_]+):\d+$/.test(id) || !object(entry) || entry.id !== id ||
         !['high', 'medium', 'low', 'uncertain'].includes(entry.priority) ||
         !['supports', 'challenges', 'context', 'unclear'].includes(entry.stance) ||
         !hash(entry.source_hash) || !hash(entry.review_hash) || !hash(entry.criteria_hash) ||

@@ -80,7 +80,7 @@ class ProjectLayoutTests(unittest.TestCase):
                              {original.resolve(), derrick_file.resolve()})
             html = output.read_text(encoding='utf-8')
             self.assertIn('id="iphone_derrick:0001"', html)
-            darcy_card = html.split('<article id="iphone:0001"', 1)[1].split('</article>', 1)[0]
+            darcy_card = html.split('<article id="iphone_darcy:0001"', 1)[1].split('</article>', 1)[0]
             derrick_card = html.split('<article id="iphone_derrick:0001"', 1)[1].split('</article>', 1)[0]
             self.assertNotIn('derrick.txt', darcy_card)
             self.assertIn('derrick.txt', derrick_card)
@@ -88,7 +88,7 @@ class ProjectLayoutTests(unittest.TestCase):
                 rows = list(csv.DictReader(stream))
             self.assertEqual(len(rows), 4)
             self.assertEqual({row['reference_id'] for row in rows},
-                             {'gmail:0001', 'android:0001', 'iphone:0001', 'iphone_derrick:0001'})
+                             {'gmail:0001', 'android:0001', 'iphone_darcy:0001', 'iphone_derrick:0001'})
             for row in rows:
                 self.assertTrue((output.parent / row['archive_file']).is_file())
             compact = output.with_name('master_timeline_compact.md')

@@ -18,7 +18,8 @@ class ReviewViewerTests(unittest.TestCase):
             for row in work.records:
                 from property_timeline.combine_timeline import parse_archive
                 from zoneinfo import ZoneInfo
-                parsed, _ = parse_archive(fixture.root / row['archive'], row['id'].split(':')[0], ZoneInfo('America/New_York'))
+                origin = 'iphone' if row['id'].startswith('iphone_') else row['id'].split(':')[0]
+                parsed, _ = parse_archive(fixture.root / row['archive'], origin, ZoneInfo('America/New_York'))
                 records.extend(record for record in parsed if record['id'] == row['id'])
             from property_timeline.review_runner import INSTRUCTIONS
             (work.folder / 'REVIEW_INSTRUCTIONS.md').write_text(INSTRUCTIONS)
@@ -28,7 +29,8 @@ class ReviewViewerTests(unittest.TestCase):
                     ('android', 'android_darcy_group_index.csv', 'message_number'),
                     ('iphone', 'iphone_darcy_index.csv', 'message_number')):
                 with (fixture.root / 'data/archives' / origin / filename).open(newline='') as stream:
-                    indexes[origin] = {int(row[column]): row for row in csv.DictReader(stream)}
+                    indexes[origin] = {(f"iphone_darcy:{int(row[column]):04d}" if origin == 'iphone'
+                                        else int(row[column])): row for row in csv.DictReader(stream)}
             destination = fixture.root / 'output/master_timeline.html'
             write_html(records, indexes['gmail'], 'America/New_York', destination, compact_record,
                        android_index=indexes['android'], iphone_index=indexes['iphone'])

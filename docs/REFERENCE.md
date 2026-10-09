@@ -40,7 +40,7 @@ stay with the original HTML export. `output/` can be rebuilt from those archives
 Raw export filenames use lowercase words separated by underscores, descriptive
 source or conversation names, and their original file extensions:
 `property_emails.mbox`, `android_darcy_group.html`,
-`android_darcy_group.smsbackup`, `iphone_darcy.pdf`, and `iphone_derrick.pdf`. The Gmail export was
+`android_darcy_group.smsbackup`, `iphone_darcy.pdf`, `iphone_derrick.pdf`, and `iphone_sarah.pdf`. The Gmail export was
 originally named `5306 House.mbox`; the Android exports were originally
 `group_conversation_966.html` and `group_conversation_966.smsbackup`. Renaming
 changed no original file contents. Keep the Android export's
@@ -108,9 +108,11 @@ It recognizes both named outgoing headers and older timestamp-only outgoing
 headers. Use `--me Regina --other Darcy` to display the exported contact
 “Darcy Carmel” as “Darcy” while retaining the original PDF.
 For Derrick, use `--me Regina --other Derrick` with `iphone_derrick.pdf`.
+For Sarah, use `--me Regina --other Sarah` with `iphone_sarah.pdf`.
 Combining discovers all `data/archives/iphone/iphone_*_messages.md` archives;
-repeat `--iphone PATH` to select specific conversations. Existing Darcy IDs
-remain `iphone:0001`, while Derrick IDs use `iphone_derrick:0001`. Both appear
+repeat `--iphone PATH` to select specific conversations. Darcy IDs use
+`iphone_darcy:0001`, Derrick IDs use `iphone_derrick:0001`, and Sarah IDs use
+`iphone_sarah:0001`. All appear
 under the website's iPhone source filter and are included in the review harness.
 Actual large embedded images are extracted to `data/archives/iphone/iphone_darcy_messages_assets/`
 and registered in `data/archives/iphone/iphone_darcy_index.csv` for HTML previews and PDF embedding.

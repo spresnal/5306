@@ -167,7 +167,7 @@ def main():
                "Timeline headings use Eastern time (America/New_York), labeled EDT or EST as applicable. Original archive timestamps remain in source references. Email headings explicitly marked UTC are converted; emails with unspecified zones appear in a separate section, ordered by displayed time only. Entries are sorted by converted UTC minute; seconds are not inferred. "
                "Equal-minute records are ordered by origin then source number for reproducibility, not as evidence of sequence. "
                "Any incorrect phone-zone assumption will affect cross-source ordering.", "",
-               "Reference entries by their stable origin/source-number ID (for example, `iphone:0001`). "
+               "Reference entries by their stable source/source-number ID (for example, `iphone_darcy:0001`). "
                "IDs retain the source archive numbers and do not depend on timeline position. Source line ranges refer to the listed Markdown versions. "
                "PDF pages, TXT lines, email Message-IDs, and other available source metadata are retained below.", "",
                "The email archive contains shortened events and edited correspondence; its text must not be described as verbatim original email. "
@@ -176,17 +176,17 @@ def main():
                "## Source manifest", "",
                "SHA-256 hashes identify file versions; they do not authenticate authorship or establish a chain of custody.", ""]
     companions = {"android": ["android_darcy_group.html", "android_darcy_group.smsbackup", "android_darcy_group_index.csv"],
-                  "iphone": ["iphone_darcy.pdf", "iphone_darcy_index.csv"],
                   "gmail": ["property_emails.mbox", "property_email_source_index.csv", "property_emails_compact_attachment_manifest.csv", "email_quote_recovery_manifest.json"]}
     email_index = {}
     android_index = {}
     iphone_index = {}
     for origin, path in paths:
         archive += [f"- **{origin} archive:** {link(path)} — SHA-256 `{digest(path)}`"]
-        names = companions[origin]
         if origin == 'iphone':
             stem = path.stem.removesuffix('_messages')
             names = [stem + '.pdf', stem + '_index.csv']
+        else:
+            names = companions[origin]
         for name in names:
             companion = path.parent / name
             # Indexes/manifests stay beside their archives. Original exports

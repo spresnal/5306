@@ -13,9 +13,9 @@ No current high-priority assessments.
 
 ## Detailed assessments
 
-### iphone:0003 — medium — 2026-06-25 19:48 EDT
+### iphone_darcy:0003 — medium — 2026-06-25 19:48 EDT
 
-[Timeline entry](master_timeline.html#iphone:0003) · Source: `data\archives\iphone\iphone_darcy_messages.md` lines 38–43
+[Timeline entry](master_timeline.html#iphone_darcy:0003) · Source: `data\archives\iphone\iphone_darcy_messages.md` lines 38–43
 
 **Topics:** agent_conduct, transaction_timing
 
@@ -29,19 +29,19 @@ On June 25, Darcy said Greenwood was serviceable, disclosed that she was leaving
 
 > Greenwood is doable for me 😊 But....I am leaving tomorrow for a week for Florida for family vacation.
 
-Source: `iphone:0003`
+Source: `iphone_darcy:0003`
 
 > Let me check this out real quick and then I will see if Jack has time to do a FaceTime.
 
-Source: `iphone:0003`
+Source: `iphone_darcy:0003`
 
 - Counsel question: Who was Jack, what brokerage role did he have, and what information did he report from the showing?
 - Counsel question: Did Darcy personally inspect or visit the property at any later point before closing?
 - Counsel question: What coverage or supervision arrangements existed during Darcy's vacation?
 
-### iphone:0004 — medium — 2026-06-25 19:48 EDT
+### iphone_darcy:0004 — medium — 2026-06-25 19:48 EDT
 
-[Timeline entry](master_timeline.html#iphone:0004) · Source: `data\archives\iphone\iphone_darcy_messages.md` lines 47–52
+[Timeline entry](master_timeline.html#iphone_darcy:0004) · Source: `data\archives\iphone\iphone_darcy_messages.md` lines 47–52
 
 **Topics:** transaction_timing, agent_conduct
 
@@ -55,14 +55,14 @@ On June 25, Darcy opined that the property had been listed for some time and pro
 
 > Its been on the market a little while so it shouldn't sell overnight or anything before you could see it!
 
-Source: `iphone:0004`
+Source: `iphone_darcy:0004`
 
 - Counsel question: What listing history or market information supported Darcy's statement?
 - Counsel question: Did later statements about other interest create pressure that affected inspection or negotiation decisions?
 
-### iphone:0005 — medium — 2026-06-25 19:48 EDT
+### iphone_darcy:0005 — medium — 2026-06-25 19:48 EDT
 
-[Timeline entry](master_timeline.html#iphone:0005) · Source: `data\archives\iphone\iphone_darcy_messages.md` lines 56–67
+[Timeline entry](master_timeline.html#iphone_darcy:0005) · Source: `data\archives\iphone\iphone_darcy_messages.md` lines 56–67
 
 **Topics:** agent_conduct, inspection, transaction_timing
 
@@ -76,19 +76,19 @@ On June 25, Regina said the buyers were still in Florida, wanted to move to Indi
 
 > We are still in FL.
 
-Source: `iphone:0005`
+Source: `iphone_darcy:0005`
 
 > We would be willing to do FaceTime walk through asap for it with Jack or someone if you aren't available in the meantime.
 
-Source: `iphone:0005`
+Source: `iphone_darcy:0005`
 
 - Counsel question: Was the FaceTime walkthrough recorded or documented?
 - Counsel question: What conditions or questions arose during the walkthrough?
 - Counsel question: Did the buyers expect Darcy to attend a later in-person visit?
 
-### iphone:0009 — medium — 2026-06-27 21:42 EDT
+### iphone_darcy:0009 — medium — 2026-06-27 21:42 EDT
 
-[Timeline entry](master_timeline.html#iphone:0009) · Source: `data\archives\iphone\iphone_darcy_messages.md` lines 100–105
+[Timeline entry](master_timeline.html#iphone_darcy:0009) · Source: `data\archives\iphone\iphone_darcy_messages.md` lines 100–105
 
 **Topics:** agent_conduct, transaction_timing
 
@@ -102,18 +102,18 @@ On June 27, Darcy provided Jack's number and said he would call around 12:30, wh
 
 > He will call you around 12:30. Sorry, I thought confirmed 12:30, but I didn't.
 
-Source: `iphone:0009`
+Source: `iphone_darcy:0009`
 
 > That time still works?!
 
-Source: `iphone:0009`
+Source: `iphone_darcy:0009`
 
 - Counsel question: Did the confirmation lapse alter the showing time or otherwise prejudice the buyers?
 - Counsel question: What instructions did Darcy give Jack concerning the walkthrough?
 
-### iphone:0014 — medium — 2026-06-29 12:04 EDT
+### iphone_darcy:0014 — medium — 2026-06-29 12:04 EDT
 
-[Timeline entry](master_timeline.html#iphone:0014) · Source: `data\archives\iphone\iphone_darcy_messages.md` lines 145–152
+[Timeline entry](master_timeline.html#iphone_darcy:0014) · Source: `data\archives\iphone\iphone_darcy_messages.md` lines 145–152
 
 **Topics:** disclosure, agent_conduct, transaction_timing
 
@@ -127,14 +127,14 @@ On June 29, Regina reported that the buyers “LOVED” the property after the p
 
 > We LOVED the property though. Can you email me all the detailed information for the listing when you have a moment ?
 
-Source: `iphone:0014`
+Source: `iphone_darcy:0014`
 
 - Counsel question: What information did the portal and Darcy provide in response, including square footage, disclosures, photographs, and listing remarks?
 - Counsel question: Did Darcy identify any limits in independently verifying listing information at this stage?
 
-### iphone:0015 — medium — 2026-06-29 15:52 EDT
+### iphone_darcy:0015 — medium — 2026-06-29 15:52 EDT
 
-[Timeline entry](master_timeline.html#iphone:0015) · Source: `data\archives\iphone\iphone_darcy_messages.md` lines 156–161
+[Timeline entry](master_timeline.html#iphone_darcy:0015) · Source: `data\archives\iphone\iphone_darcy_messages.md` lines 156–161
 
 **Topics:** transaction_timing, agent_conduct
 
@@ -148,14 +148,14 @@ Later on June 29, Regina said she had found the listing information on the buyer
 
 > I actually found all that on our portal! We wanna put an offer in on it!
 
-Source: `iphone:0015`
+Source: `iphone_darcy:0015`
 
 - Counsel question: Preserve the June 29 portal contents and identify every listing representation the buyers reviewed before deciding to offer.
 - Counsel question: Was the seller disclosure available and legible through the portal at that time?
 
-### iphone:0016 — medium — 2026-06-29 15:52 EDT
+### iphone_darcy:0016 — medium — 2026-06-29 15:52 EDT
 
-[Timeline entry](master_timeline.html#iphone:0016) · Source: `data\archives\iphone\iphone_darcy_messages.md` lines 165–170
+[Timeline entry](master_timeline.html#iphone_darcy:0016) · Source: `data\archives\iphone\iphone_darcy_messages.md` lines 165–170
 
 **Topics:** agent_conduct, transaction_timing, costs
 
@@ -169,22 +169,22 @@ On June 29, Darcy said she was returning from Gainesville, proposed discussing t
 
 > I am on my way back from Gainesville (took my son to see U of Florida) I will be home in a little less than 2 hours.
 
-Source: `iphone:0016`
+Source: `iphone_darcy:0016`
 
 > Could we chat around 7-8?? Or if another time is best?
 
-Source: `iphone:0016`
+Source: `iphone_darcy:0016`
 
 > Would you ask Sam if he could get a letter for proof of funds from his financial guy or will you do financing?
 
-Source: `iphone:0016`
+Source: `iphone_darcy:0016`
 
 - Counsel question: Did the proposed call occur, and are there notes or recordings of the advice given?
 - Counsel question: What due-diligence and contingency options did Darcy discuss before preparing the offer?
 
-### iphone:0017 — medium — 2026-06-29 15:52 EDT
+### iphone_darcy:0017 — medium — 2026-06-29 15:52 EDT
 
-[Timeline entry](master_timeline.html#iphone:0017) · Source: `data\archives\iphone\iphone_darcy_messages.md` lines 174–183
+[Timeline entry](master_timeline.html#iphone_darcy:0017) · Source: `data\archives\iphone\iphone_darcy_messages.md` lines 174–183
 
 **Topics:** transaction_timing, costs, property_condition
 
@@ -198,23 +198,23 @@ On June 29, Regina said the buyers could wait until the next day if no one else 
 
 > Yes no rush, as long as Nobody else is eyeing the property we can discuss more tomorrow.
 
-Source: `iphone:0017`
+Source: `iphone_darcy:0017`
 
 > I think we want to get the entire property and the owner Derrick mention it would be at 2.8 for the entire property and to privatize the pond.
 
-Source: `iphone:0017`
+Source: `iphone_darcy:0017`
 
 > We will most likely put an all cash offer in around 2.5 but wanna check with advisor first on that but believe that's the route we want to take!
 
-Source: `iphone:0017`
+Source: `iphone_darcy:0017`
 
 - Counsel question: What did Derrick mean by the entire property and privatizing the pond?
 - Counsel question: Was Derrick's reported $2.8 million statement made during the June 28 walkthrough, and is there direct evidence from Derrick or Jack?
 - Counsel question: How did competing-interest information affect the offer timetable or investigation decisions?
 
-### iphone:0018 — medium — 2026-06-29 15:52 EDT
+### iphone_darcy:0018 — medium — 2026-06-29 15:52 EDT
 
-[Timeline entry](master_timeline.html#iphone:0018) · Source: `data\archives\iphone\iphone_darcy_messages.md` lines 187–192
+[Timeline entry](master_timeline.html#iphone_darcy:0018) · Source: `data\archives\iphone\iphone_darcy_messages.md` lines 187–192
 
 **Topics:** disclosure, agent_conduct, transaction_timing
 
@@ -228,23 +228,23 @@ On June 29, Darcy said the owner had requested feedback, that she asked him abou
 
 > The owner actually text me earlier too for feedback so I just asked if he has any serious interest at the moment
 
-Source: `iphone:0018`
+Source: `iphone_darcy:0018`
 
 > Yes, Jack told me 2.8 for it all. I will verify all this too
 
-Source: `iphone:0018`
+Source: `iphone_darcy:0018`
 
 > Did you see sellers disclosure from portal?
 
-Source: `iphone:0018`
+Source: `iphone_darcy:0018`
 
 - Counsel question: What verification did Darcy perform concerning the $2.8 million terms, acreage, easement, and pond?
 - Counsel question: Obtain the exact disclosure version available through the portal on June 29 and confirm whether its checked responses were readable.
 - Counsel question: Preserve the owner's direct text requesting feedback and Darcy's inquiry about competing interest.
 
-### iphone:0019 — medium — 2026-06-29 15:52 EDT
+### iphone_darcy:0019 — medium — 2026-06-29 15:52 EDT
 
-[Timeline entry](master_timeline.html#iphone:0019) · Source: `data\archives\iphone\iphone_darcy_messages.md` lines 196–205
+[Timeline entry](master_timeline.html#iphone_darcy:0019) · Source: `data\archives\iphone\iphone_darcy_messages.md` lines 196–205
 
 **Topics:** disclosure, costs
 
@@ -258,19 +258,19 @@ On June 29, Regina said the buyers had viewed the seller disclosure and that it 
 
 > We do see sellers disclosure, looks good!
 
-Source: `iphone:0019`
+Source: `iphone_darcy:0019`
 
 > Can you also ask Derrick what the general utilities costs are monthly for the property if he is allowed to share that with us.
 
-Source: `iphone:0019`
+Source: `iphone_darcy:0019`
 
 - Counsel question: What exact version of the seller disclosure did Regina review, and were all checked answers and attachments legible?
 - Counsel question: What conditions, claims, or repairs were disclosed in that version?
 - Counsel question: Did Darcy obtain the requested utility information, and could it bear on occupancy or property-use representations?
 
-### iphone:0020 — medium — 2026-06-29 15:52 EDT
+### iphone_darcy:0020 — medium — 2026-06-29 15:52 EDT
 
-[Timeline entry](master_timeline.html#iphone:0020) · Source: `data\archives\iphone\iphone_darcy_messages.md` lines 209–216
+[Timeline entry](master_timeline.html#iphone_darcy:0020) · Source: `data\archives\iphone\iphone_darcy_messages.md` lines 209–216
 
 **Topics:** transaction_timing, agent_conduct
 
@@ -286,15 +286,15 @@ On June 29, Darcy relayed a statement attributed to the seller that another coup
 > 
 > We might hear from another couple but it's less likely at the moment. We have one more showing tomorrow.
 
-Source: `iphone:0020`
+Source: `iphone_darcy:0020`
 
 - Counsel question: Obtain the original seller communication and identify which seller authored it.
 - Counsel question: Did the June 30 showing occur, and was any offer or serious interest received?
 - Counsel question: Did Darcy present this information as a reason to accelerate the offer or limit due diligence?
 
-### iphone:0001 — low — 2026-06-25 19:48 EDT
+### iphone_darcy:0001 — low — 2026-06-25 19:48 EDT
 
-[Timeline entry](master_timeline.html#iphone:0001) · Source: `data\archives\iphone\iphone_darcy_messages.md` lines 14–19
+[Timeline entry](master_timeline.html#iphone_darcy:0001) · Source: `data\archives\iphone\iphone_darcy_messages.md` lines 14–19
 
 **Topics:** property_condition, routine
 
@@ -308,13 +308,13 @@ On June 25, 2026, Regina sent Darcy an embedded image/link concerning the subjec
 
 > [Image of a house with a pool at 5306 State Road 144 Greenwood, IN 46143 zillow.com]
 
-Source: `iphone:0001`
+Source: `iphone_darcy:0001`
 
 - Counsel question: Obtain and visually review the original image and contemporaneous linked listing if initial marketing representations are material.
 
-### iphone:0002 — low — 2026-06-25 19:48 EDT
+### iphone_darcy:0002 — low — 2026-06-25 19:48 EDT
 
-[Timeline entry](master_timeline.html#iphone:0002) · Source: `data\archives\iphone\iphone_darcy_messages.md` lines 23–34
+[Timeline entry](master_timeline.html#iphone_darcy:0002) · Source: `data\archives\iphone\iphone_darcy_messages.md` lines 23–34
 
 **Topics:** agent_conduct, transaction_timing, routine
 
@@ -328,13 +328,13 @@ On June 25, Regina told Darcy that she and Sam were again looking for a property
 
 > Back in the market again and have expanded the search area. Is Greenwood a location you still service?
 
-Source: `iphone:0002`
+Source: `iphone_darcy:0002`
 
 - Counsel question: When was the buyer-agency relationship formally established, and what duties were stated in the governing agreement?
 
-### iphone:0006 — low — 2026-06-26 11:55 EDT
+### iphone_darcy:0006 — low — 2026-06-26 11:55 EDT
 
-[Timeline entry](master_timeline.html#iphone:0006) · Source: `data\archives\iphone\iphone_darcy_messages.md` lines 71–78
+[Timeline entry](master_timeline.html#iphone_darcy:0006) · Source: `data\archives\iphone\iphone_darcy_messages.md` lines 71–78
 
 **Topics:** agent_conduct, transaction_timing, routine
 
@@ -348,17 +348,17 @@ On June 26, Regina followed up with Darcy about whether Jack could conduct the F
 
 > Hi just wanted to touch base and see if that FaceTime would be possible with Jack.
 
-Source: `iphone:0006`
+Source: `iphone_darcy:0006`
 
 > I know you are traveling to Florida today so no rush or anything but just wanted to see :)
 
-Source: `iphone:0006`
+Source: `iphone_darcy:0006`
 
 - Counsel question: When did Darcy contact Jack, and was the June 28 appointment the earliest available showing?
 
-### iphone:0007 — low — 2026-06-26 14:28 EDT
+### iphone_darcy:0007 — low — 2026-06-26 14:28 EDT
 
-[Timeline entry](master_timeline.html#iphone:0007) · Source: `data\archives\iphone\iphone_darcy_messages.md` lines 82–87
+[Timeline entry](master_timeline.html#iphone_darcy:0007) · Source: `data\archives\iphone\iphone_darcy_messages.md` lines 82–87
 
 **Topics:** inspection, transaction_timing, routine
 
@@ -372,13 +372,13 @@ On June 26, Darcy proposed 12:30 on Sunday for the remote showing.
 
 > Does 12:30 Sunday work?
 
-Source: `iphone:0007`
+Source: `iphone_darcy:0007`
 
 - Counsel question: Confirm that the scheduled showing occurred on June 28 and identify who attended.
 
-### iphone:0008 — low — 2026-06-26 14:28 EDT
+### iphone_darcy:0008 — low — 2026-06-26 14:28 EDT
 
-[Timeline entry](master_timeline.html#iphone:0008) · Source: `data\archives\iphone\iphone_darcy_messages.md` lines 91–96
+[Timeline entry](master_timeline.html#iphone_darcy:0008) · Source: `data\archives\iphone\iphone_darcy_messages.md` lines 91–96
 
 **Topics:** inspection, transaction_timing, routine
 
@@ -392,13 +392,13 @@ On June 26, Regina confirmed that 12:30 Sunday worked for the buyers.
 
 > 12:30 Sunday works for us!!
 
-Source: `iphone:0008`
+Source: `iphone_darcy:0008`
 
 - Counsel question: Did the buyers receive any explanation of the limitations of a remote walkthrough?
 
-### iphone:0010 — low — 2026-06-27 21:42 EDT
+### iphone_darcy:0010 — low — 2026-06-27 21:42 EDT
 
-[Timeline entry](master_timeline.html#iphone:0010) · Source: `data\archives\iphone\iphone_darcy_messages.md` lines 109–114
+[Timeline entry](master_timeline.html#iphone_darcy:0010) · Source: `data\archives\iphone\iphone_darcy_messages.md` lines 109–114
 
 **Topics:** transaction_timing, routine
 
@@ -412,12 +412,12 @@ On June 27, Regina confirmed that the arrangement was satisfactory.
 
 > Thank you! That's perfect
 
-Source: `iphone:0010`
+Source: `iphone_darcy:0010`
 
 
-### iphone:0011 — low — 2026-06-28 11:00 EDT
+### iphone_darcy:0011 — low — 2026-06-28 11:00 EDT
 
-[Timeline entry](master_timeline.html#iphone:0011) · Source: `data\archives\iphone\iphone_darcy_messages.md` lines 118–123
+[Timeline entry](master_timeline.html#iphone_darcy:0011) · Source: `data\archives\iphone\iphone_darcy_messages.md` lines 118–123
 
 **Topics:** agent_conduct, inspection, routine
 
@@ -431,13 +431,13 @@ On June 28, Darcy said Jack would probably call or text first and asked Regina t
 
 > Jack will probably call or text first. Let me know how it goes!
 
-Source: `iphone:0011`
+Source: `iphone_darcy:0011`
 
 - Counsel question: Did Darcy receive a substantive report from Jack after the walkthrough?
 
-### iphone:0012 — low — 2026-06-28 11:00 EDT
+### iphone_darcy:0012 — low — 2026-06-28 11:00 EDT
 
-[Timeline entry](master_timeline.html#iphone:0012) · Source: `data\archives\iphone\iphone_darcy_messages.md` lines 127–132
+[Timeline entry](master_timeline.html#iphone_darcy:0012) · Source: `data\archives\iphone\iphone_darcy_messages.md` lines 127–132
 
 **Topics:** agent_conduct, transaction_timing, routine
 
@@ -451,13 +451,13 @@ On June 28, Regina confirmed that Jack had already contacted the buyers.
 
 > He's already been in touch thank you!!
 
-Source: `iphone:0012`
+Source: `iphone_darcy:0012`
 
 - Counsel question: Obtain any direct correspondence, notes, photographs, or video from Jack's contact and walkthrough.
 
-### iphone:0013 — low — 2026-06-29 12:04 EDT
+### iphone_darcy:0013 — low — 2026-06-29 12:04 EDT
 
-[Timeline entry](master_timeline.html#iphone:0013) · Source: `data\archives\iphone\iphone_darcy_messages.md` lines 136–141
+[Timeline entry](master_timeline.html#iphone_darcy:0013) · Source: `data\archives\iphone\iphone_darcy_messages.md` lines 136–141
 
 **Topics:** agent_conduct, transaction_timing, routine
 
@@ -471,7 +471,7 @@ On June 29, Darcy asked what the buyers thought of the home the previous day, id
 
 > Hello! What did you guys think of the home yesterday?
 
-Source: `iphone:0013`
+Source: `iphone_darcy:0013`
 
 - Counsel question: What did Jack communicate separately to Darcy about the June 28 showing?
 

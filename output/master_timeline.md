@@ -1,12 +1,12 @@
 # Master correspondence timeline
 
-Records: 866 (iphone: 370, gmail: 281, android: 215).
+Records: 880 (iphone: 384, gmail: 281, android: 215).
 
 This is a combined reference copy of derivative archives. It is not a certified transcript or the original evidence. No records are deduplicated, summarized, or merged; quoted replies remain within their containing email.
 
 Phone time zone: `America/New_York`, supplied by the user; the phone exports do not specify a zone. Timeline headings use Eastern time (America/New_York), labeled EDT or EST as applicable. Original archive timestamps remain in source references. Email headings explicitly marked UTC are converted; emails with unspecified zones appear in a separate section, ordered by displayed time only. Entries are sorted by converted UTC minute; seconds are not inferred. Equal-minute records are ordered by origin then source number for reproducibility, not as evidence of sequence. Any incorrect phone-zone assumption will affect cross-source ordering.
 
-Reference entries by their stable origin/source-number ID (for example, `iphone:0001`). IDs retain the source archive numbers and do not depend on timeline position. Source line ranges refer to the listed Markdown versions. PDF pages, TXT lines, email Message-IDs, and other available source metadata are retained below.
+Reference entries by their stable source/source-number ID (for example, `iphone_darcy:0001`). IDs retain the source archive numbers and do not depend on timeline position. Source line ranges refer to the listed Markdown versions. PDF pages, TXT lines, email Message-IDs, and other available source metadata are retained below.
 
 The email archive contains shortened events and edited correspondence; its text must not be described as verbatim original email. Attachment descriptions are references; extracted email files, when available, are linked in the source archive. Retain the PDF, TXT, MBOX, attachments, and source indexes. The source email archive flags potential attorney-client privileged material; review that material before distributing this compilation.
 
@@ -24,6 +24,9 @@ SHA-256 hashes identify file versions; they do not authenticate authorship or es
 - **iphone archive:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md) — SHA-256 `b7d7982085d766b91981a69b927c7a125cc62d7da788910ff7c1d7446a6fdbeb`
 - **iphone supporting source:** [iphone_derrick.pdf](../data/originals/iphone/iphone_derrick.pdf) — SHA-256 `890343f2d6f4ca7ac2269fba9af487969fbea97308826a45520c2330d764486d`
 - **iphone supporting source:** [iphone_derrick_index.csv](../data/archives/iphone/iphone_derrick_index.csv) — SHA-256 `6e1122c376ffd2a665b5f0bfeba78febc3aaf727767d1f29abd837824a528c27`
+- **iphone archive:** [iphone_sarah_messages.md](../data/archives/iphone/iphone_sarah_messages.md) — SHA-256 `4ac1af1d0725fd77ef40a94efce814edd8e78be243190fd3c0743e12b6235b3a`
+- **iphone supporting source:** [iphone_sarah.pdf](../data/originals/iphone/iphone_sarah.pdf) — SHA-256 `0b3315ae7857abd40ae3be5ea98e25fd1bbad611a91f3e70f90e0d9d2bf30511`
+- **iphone supporting source:** [iphone_sarah_index.csv](../data/archives/iphone/iphone_sarah_index.csv) — SHA-256 `9afa5b8df6a3813541a2f0511412299ebab5208602702b5d3580319e955a2645`
 - **gmail archive:** [property_emails_compact.md](../data/archives/gmail/property_emails_compact.md) — SHA-256 `60ef5ba20dd9c4e1b3bcb58cec500d5e5fc6142b48b1d5ebc11c164d11af368f`
 - **gmail supporting source:** [property_emails.mbox](../data/originals/gmail/property_emails.mbox) — SHA-256 `10afb164da4336d03bc90613062cc6f030e5864f1a59c44c008aec0a739a33ed`
 - **gmail supporting source:** [property_email_source_index.csv](../data/archives/gmail/property_email_source_index.csv) — SHA-256 `8c3a00bd78d225df7c099d7218dbe0e417526c0390684ff9129f1034da14f64a`
@@ -32,7 +35,7 @@ SHA-256 hashes identify file versions; they do not authenticate authorship or es
 
 ## Timeline
 
-### iphone:0001 — 2026-06-25 19:48 EDT
+### iphone_darcy:0001 — 2026-06-25 19:48 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 14–19  
 **Timestamp as archived:** 2026-06-25 19:48  
@@ -49,7 +52,7 @@ Same sorting minute as other entries; within-minute sequence is not established.
 https://www.zillow.com/homedetails/5306-State-Road-144- Greenwood-IN-46143/204105743_zpid/? utm_campaign=iosappmessage&utm_medium=referral&utm_source =txtshare
 ```
 
-### iphone:0002 — 2026-06-25 19:48 EDT
+### iphone_darcy:0002 — 2026-06-25 19:48 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 23–34  
 **Timestamp as archived:** 2026-06-25 19:48  
@@ -72,7 +75,7 @@ Back in the market again and have expanded the search area. Is Greenwood a locat
 Have a good evening and no need to respond tonight. 🤩
 ```
 
-### iphone:0003 — 2026-06-25 19:51 EDT
+### iphone_darcy:0003 — 2026-06-25 19:51 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 38–43  
 **Timestamp as archived:** 2026-06-25 19:51  
@@ -87,7 +90,7 @@ Have a good evening and no need to respond tonight. 🤩
 HII!!! I am so very happy you reached out to me. I have thought of you guys and then chickened out about contacting you bc I figured you had moved on and I was embarrassed for my lack of communciation! I would be happy to help you. Greenwood is doable for me 😊 But….I am leaving tomorrow for a week for Florida for family vacation. Let me check this out real quick and then I will see if Jack has time to do a FaceTime. Are you still in FL? or did you sell and come North?
 ```
 
-### iphone:0004 — 2026-06-25 19:55 EDT
+### iphone_darcy:0004 — 2026-06-25 19:55 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 47–52  
 **Timestamp as archived:** 2026-06-25 19:55  
@@ -102,7 +105,7 @@ HII!!! I am so very happy you reached out to me. I have thought of you guys and 
 Its been on the market a little while so it shouldn’t sell overnight or anything before you could see it!
 ```
 
-### iphone:0005 — 2026-06-25 20:04 EDT
+### iphone_darcy:0005 — 2026-06-25 20:04 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 56–67  
 **Timestamp as archived:** 2026-06-25 20:04  
@@ -123,7 +126,7 @@ We would be willing to do FaceTime walk through asap for it with Jack or someone
 Have fun in FL! It’s been so hot here
 ```
 
-### iphone:0006 — 2026-06-26 11:55 EDT
+### iphone_darcy:0006 — 2026-06-26 11:55 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 71–78  
 **Timestamp as archived:** 2026-06-26 11:55  
@@ -140,7 +143,7 @@ Hi just wanted to touch base and see if that FaceTime would be possible with Jac
 I know you are traveling to Florida today so no rush or anything but just wanted to see :)
 ```
 
-### iphone:0007 — 2026-06-26 14:28 EDT
+### iphone_darcy:0007 — 2026-06-26 14:28 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 82–87  
 **Timestamp as archived:** 2026-06-26 14:28  
@@ -155,7 +158,7 @@ I know you are traveling to Florida today so no rush or anything but just wanted
 Does 12:30 Sunday work?
 ```
 
-### iphone:0008 — 2026-06-26 14:29 EDT
+### iphone_darcy:0008 — 2026-06-26 14:29 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 91–96  
 **Timestamp as archived:** 2026-06-26 14:29  
@@ -170,7 +173,7 @@ Does 12:30 Sunday work?
 12:30 Sunday works for us!!
 ```
 
-### iphone:0009 — 2026-06-27 21:42 EDT
+### iphone_darcy:0009 — 2026-06-27 21:42 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 100–105  
 **Timestamp as archived:** 2026-06-27 21:42  
@@ -185,7 +188,7 @@ Does 12:30 Sunday work?
 Here is Jack’s number 574-527-0370. He will call you around 12:30. Sorry, I thought confirmed 12:30, but I didn’t. That time still works?!
 ```
 
-### iphone:0010 — 2026-06-27 21:58 EDT
+### iphone_darcy:0010 — 2026-06-27 21:58 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 109–114  
 **Timestamp as archived:** 2026-06-27 21:58  
@@ -200,7 +203,7 @@ Here is Jack’s number 574-527-0370. He will call you around 12:30. Sorry, I th
 Loved “Here is Jack’s number 574-527-0370. He will call you around 12:30. Sorry, I thought confirmed 12:30, but I didn’t. That time still works?!”
 ```
 
-### iphone:0011 — 2026-06-27 21:59 EDT
+### iphone_darcy:0011 — 2026-06-27 21:59 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 118–123  
 **Timestamp as archived:** 2026-06-27 21:59  
@@ -215,7 +218,7 @@ Loved “Here is Jack’s number 574-527-0370. He will call you around 12:30. So
 Thank you! That’s perfect
 ```
 
-### iphone:0012 — 2026-06-28 11:00 EDT
+### iphone_darcy:0012 — 2026-06-28 11:00 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 127–132  
 **Timestamp as archived:** 2026-06-28 11:00  
@@ -230,7 +233,7 @@ Thank you! That’s perfect
 Jack will probably call or text first. Let me know how it goes!
 ```
 
-### iphone:0013 — 2026-06-28 11:03 EDT
+### iphone_darcy:0013 — 2026-06-28 11:03 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 136–141  
 **Timestamp as archived:** 2026-06-28 11:03  
@@ -245,7 +248,7 @@ Jack will probably call or text first. Let me know how it goes!
 He’s already been in touch thank you!!
 ```
 
-### iphone:0014 — 2026-06-29 12:04 EDT
+### iphone_darcy:0014 — 2026-06-29 12:04 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 145–150  
 **Timestamp as archived:** 2026-06-29 12:04  
@@ -260,7 +263,7 @@ He’s already been in touch thank you!!
 Hello! What did you guys think of the home yesterday?
 ```
 
-### iphone:0015 — 2026-06-29 12:10 EDT
+### iphone_darcy:0015 — 2026-06-29 12:10 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 154–161  
 **Timestamp as archived:** 2026-06-29 12:10  
@@ -277,7 +280,7 @@ Hi! Sorry we had a family emergency yesterday and have been unable to reach out.
 We LOVED the property though. Can you email me all the detailed information for the listing when you have a moment ?
 ```
 
-### iphone:0016 — 2026-06-29 15:52 EDT
+### iphone_darcy:0016 — 2026-06-29 15:52 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 165–170  
 **Timestamp as archived:** 2026-06-29 15:52  
@@ -292,7 +295,7 @@ We LOVED the property though. Can you email me all the detailed information for 
 I actually found all that on our portal! We wanna put an offer in on it!
 ```
 
-### iphone:0017 — 2026-06-29 15:55 EDT
+### iphone_darcy:0017 — 2026-06-29 15:55 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 174–179  
 **Timestamp as archived:** 2026-06-29 15:55  
@@ -307,7 +310,7 @@ I actually found all that on our portal! We wanna put an offer in on it!
 Okay! Sorry…I am on my way back from Gainesville (took my son to see U of Florida) I will be home in a little less than 2 hours. Could we chat around 7-8?? Or if another time is best? Would you ask Sam if he could get a letter for proof of funds from his financial guy or will you do financing?
 ```
 
-### iphone:0018 — 2026-06-29 16:02 EDT
+### iphone_darcy:0018 — 2026-06-29 16:02 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 183–192  
 **Timestamp as archived:** 2026-06-29 16:02  
@@ -326,7 +329,7 @@ I think we want to get the entire property and the owner Derrick mention it woul
 Safe travels home and talk soon!
 ```
 
-### iphone:0019 — 2026-06-29 16:05 EDT
+### iphone_darcy:0019 — 2026-06-29 16:05 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 196–201  
 **Timestamp as archived:** 2026-06-29 16:05  
@@ -341,7 +344,7 @@ Safe travels home and talk soon!
 Okay. The owner actually text me earlier too for feedback so I just asked if he has any serious interest at the moment Yes, Jack told me 2.8 for it all. I will verify all this too Do you want to do a specific time tomorrow ? Did you see sellers disclosure from portal?
 ```
 
-### iphone:0020 — 2026-06-29 16:08 EDT
+### iphone_darcy:0020 — 2026-06-29 16:08 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 205–214  
 **Timestamp as archived:** 2026-06-29 16:08  
@@ -362,7 +365,7 @@ Can you also ask Derrick what the general utilities costs are monthly for the pr
 Time tomorrow we can do 1pm if that works for you?
 ```
 
-### iphone:0021 — 2026-06-29 16:08 EDT
+### iphone_darcy:0021 — 2026-06-29 16:08 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 218–225  
 **Timestamp as archived:** 2026-06-29 16:08  
@@ -381,7 +384,7 @@ From seller:
 We might hear from another couple but it's less likely at the moment. We have one more showing tomorrow.
 ```
 
-### iphone:0022 — 2026-06-29 16:09 EDT
+### iphone_darcy:0022 — 2026-06-29 16:09 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 229–234  
 **Timestamp as archived:** 2026-06-29 16:09  
@@ -396,7 +399,7 @@ We might hear from another couple but it's less likely at the moment. We have on
 Ok thank you!! Ahh I really hope we get it. It’s exactly what we have been looking for
 ```
 
-### iphone:0023 — 2026-06-29 16:17 EDT
+### iphone_darcy:0023 — 2026-06-29 16:17 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 238–245  
 **Timestamp as archived:** 2026-06-29 16:17  
@@ -413,7 +416,7 @@ Absolutely.
 Electric - $440 a month for the home and then usually $35 to $40 a month for the building. Gas - at the most $100 in the winter for the home and 45 or less for building. Trash $65 for 3 months. Water - $70-90 a month. Fiber internet $69 a month. Keep in mind we have 8,550  sq ft and 3 HVAC units, hot tub and pool running in the summer.
 ```
 
-### iphone:0024 — 2026-06-29 16:19 EDT
+### iphone_darcy:0024 — 2026-06-29 16:19 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 249–256  
 **Timestamp as archived:** 2026-06-29 16:19  
@@ -432,7 +435,7 @@ Loved “Absolutely.
 Electric - $440 a month for the home and then usually $35 to $40 a month for the building. Gas - at the most $100 in the winter for the home and 45 or less for building. Trash $65 for 3 months. Water - $70-90 a month. Fiber internet $69 a month. Keep in mind we have 8,550  sq ft and 3 HVAC units, hot tub and pool running in the summer.”
 ```
 
-### iphone:0025 — 2026-06-29 16:19 EDT
+### iphone_darcy:0025 — 2026-06-29 16:19 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 260–265  
 **Timestamp as archived:** 2026-06-29 16:19  
@@ -449,7 +452,7 @@ Same sorting minute as other entries; within-minute sequence is not established.
 Ok nice thank you!
 ```
 
-### iphone:0026 — 2026-06-29 16:20 EDT
+### iphone_darcy:0026 — 2026-06-29 16:20 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 269–274  
 **Timestamp as archived:** 2026-06-29 16:20  
@@ -464,7 +467,7 @@ Ok nice thank you!
 I need to send Sam a Buyers agency agreement… 😊 I forgot about that the other day. I will just do specific to this property for 50 days. Or is it going into both your names?
 ```
 
-### iphone:0027 — 2026-06-29 16:21 EDT
+### iphone_darcy:0027 — 2026-06-29 16:21 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 278–283  
 **Timestamp as archived:** 2026-06-29 16:21  
@@ -507,7 +510,7 @@ I did about 50 days. I put 2% but will change that if they pay less.
 Thanks! :)
 ```
 
-### iphone:0028 — 2026-06-29 19:39 EDT
+### iphone_darcy:0028 — 2026-06-29 19:39 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 287–292  
 **Timestamp as archived:** 2026-06-29 19:39  
@@ -524,7 +527,7 @@ Same sorting minute as other entries; within-minute sequence is not established.
 Just emailed to Sam! Did about 50 days and I put 2% in for commission, if they won’t pay that much, I will adjust! 😊
 ```
 
-### iphone:0029 — 2026-06-29 19:39 EDT
+### iphone_darcy:0029 — 2026-06-29 19:39 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 296–301  
 **Timestamp as archived:** 2026-06-29 19:39  
@@ -595,7 +598,7 @@ representation: EVENT
 Signing-system notification; event described in subject.
 ```
 
-### iphone:0030 — 2026-06-30 12:22 EDT
+### iphone_darcy:0030 — 2026-06-30 12:22 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 305–310  
 **Timestamp as archived:** 2026-06-30 12:22  
@@ -610,7 +613,7 @@ Signing-system notification; event described in subject.
 Talk soon! 😊 got approval from financial advisor waiting on the proof of funds email now!
 ```
 
-### iphone:0031 — 2026-06-30 12:23 EDT
+### iphone_darcy:0031 — 2026-06-30 12:23 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 314–319  
 **Timestamp as archived:** 2026-06-30 12:23  
@@ -625,7 +628,7 @@ Talk soon! 😊 got approval from financial advisor waiting on the proof of fund
 Okay. Fyi I am ready when you are if you want to talk before 1. But I understand Sam might be busy Came inside to a beach restaurant bc I am dying from the heat 🙃
 ```
 
-### iphone:0032 — 2026-06-30 12:25 EDT
+### iphone_darcy:0032 — 2026-06-30 12:25 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 323–330  
 **Timestamp as archived:** 2026-06-30 12:25  
@@ -642,7 +645,7 @@ Haha oh my gosh it’s been soooo hot so totally understand.
 We are eating at the moment but can call soon!
 ```
 
-### iphone:0033 — 2026-06-30 13:00 EDT
+### iphone_darcy:0033 — 2026-06-30 13:00 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 334–339  
 **Timestamp as archived:** 2026-06-30 13:00  
@@ -657,7 +660,7 @@ We are eating at the moment but can call soon!
 Calling shortly
 ```
 
-### iphone:0034 — 2026-06-30 14:32 EDT
+### iphone_darcy:0034 — 2026-06-30 14:32 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 343–348  
 **Timestamp as archived:** 2026-06-30 14:32  
@@ -672,7 +675,7 @@ Calling shortly
 He is talking to his wife at 3 when she gets home He did ask if we close end of July would you let them have possession for a week longer (totally normal and acceptable to do, kind of anti climactic when closing and not moving right away) but if it gets the deal done for $2.5, it would be worth it!
 ```
 
-### iphone:0035 — 2026-06-30 14:34 EDT
+### iphone_darcy:0035 — 2026-06-30 14:34 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 352–357  
 **Timestamp as archived:** 2026-06-30 14:34  
@@ -687,7 +690,7 @@ He is talking to his wife at 3 when she gets home He did ask if we close end of 
 Yeah we aren’t in any rush to move just rush on securing the property before others! ❤
 ```
 
-### iphone:0036 — 2026-06-30 14:36 EDT
+### iphone_darcy:0036 — 2026-06-30 14:36 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 361–366  
 **Timestamp as archived:** 2026-06-30 14:36  
@@ -704,7 +707,7 @@ Same sorting minute as other entries; within-minute sequence is not established.
 As long as we get done in august as Sam and I will be gone on our honeymoon Sept. 1-22nd and won’t be available to do anything that month.
 ```
 
-### iphone:0037 — 2026-06-30 14:36 EDT
+### iphone_darcy:0037 — 2026-06-30 14:36 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 370–375  
 **Timestamp as archived:** 2026-06-30 14:36  
@@ -721,7 +724,7 @@ Same sorting minute as other entries; within-minute sequence is not established.
 Liked “As long as we get done in august as Sam and I will be gone on our honeymoon Sept. 1-22nd and won’t be available to do anything that month.”
 ```
 
-### iphone:0038 — 2026-06-30 16:38 EDT
+### iphone_darcy:0038 — 2026-06-30 16:38 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 379–386  
 **Timestamp as archived:** 2026-06-30 16:38  
@@ -738,7 +741,7 @@ If we had actually submitted an offer….they would counter back at $2.7. He obv
 Talk it over and let me know which way you want to proceed!
 ```
 
-### iphone:0039 — 2026-06-30 17:01 EDT
+### iphone_darcy:0039 — 2026-06-30 17:01 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 390–399  
 **Timestamp as archived:** 2026-06-30 17:01  
@@ -757,7 +760,7 @@ Let’s do 2.15 all cash with shared lot and closing 7/31 ❤ For first official
 Yayy excited!!!!
 ```
 
-### iphone:0040 — 2026-06-30 17:04 EDT
+### iphone_darcy:0040 — 2026-06-30 17:04 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 403–410  
 **Timestamp as archived:** 2026-06-30 17:04  
@@ -774,7 +777,7 @@ Sam and I will be unavailable for wedding events 7/10-712
 And then 7/16-7/21
 ```
 
-### iphone:0041 — 2026-06-30 17:09 EDT
+### iphone_darcy:0041 — 2026-06-30 17:09 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 414–419  
 **Timestamp as archived:** 2026-06-30 17:09  
@@ -789,7 +792,7 @@ And then 7/16-7/21
 Thank you on dates! Okay on offer I just left for my middles 15th birthday dinner at the Ugly Grouper but will get it all situated and sent over this evening for signatures Just going to put in Sam’s name  and then when you get the trust situated we can do an amendment putting into the trust. Will text before I send
 ```
 
-### iphone:0042 — 2026-06-30 17:11 EDT
+### iphone_darcy:0042 — 2026-06-30 17:11 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 423–428  
 **Timestamp as archived:** 2026-06-30 17:11  
@@ -804,7 +807,7 @@ Thank you on dates! Okay on offer I just left for my middles 15th birthday dinne
 No worries and sounds good. I will say you are good to use the trust name used previously. Should be good to go with that but can put in Sam’s name for now if needed!
 ```
 
-### iphone:0043 — 2026-06-30 17:17 EDT
+### iphone_darcy:0043 — 2026-06-30 17:17 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 432–437  
 **Timestamp as archived:** 2026-06-30 17:17  
@@ -819,7 +822,7 @@ No worries and sounds good. I will say you are good to use the trust name used p
 Oh! Thats right. Will do :)
 ```
 
-### iphone:0044 — 2026-06-30 17:18 EDT
+### iphone_darcy:0044 — 2026-06-30 17:18 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 441–446  
 **Timestamp as archived:** 2026-06-30 17:18  
@@ -834,7 +837,7 @@ Oh! Thats right. Will do :)
 Loved “Oh! Thats right. Will do :)”
 ```
 
-### iphone:0045 — 2026-06-30 20:39 EDT
+### iphone_darcy:0045 — 2026-06-30 20:39 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 450–455  
 **Timestamp as archived:** 2026-06-30 20:39  
@@ -849,7 +852,7 @@ Loved “Oh! Thats right. Will do :)”
 Okay…stay tuned buying a parcel and then splitting it before it’s actually purchased could be problematic. By problematic I mean an attorney may need to get involved. I used AI to help me write the contingencies in for the actual splitting of the parcel, the taxes on the parcel and then the pond maintenance I sent it to my owner and our managing broker. The owner said it probably needed an attorney Waiting to see what my broker says. 😬 Honestly..the seller should have just split before selling or sell it all together! I want to make sure you (and me) are both fully covered
 ```
 
-### iphone:0046 — 2026-06-30 20:41 EDT
+### iphone_darcy:0046 — 2026-06-30 20:41 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 459–466  
 **Timestamp as archived:** 2026-06-30 20:41  
@@ -866,7 +869,7 @@ Thank you for doing your due diligence on that for you and for us!!! Just let us
 Sorry to be doing this while you’re on vacation!!!
 ```
 
-### iphone:0047 — 2026-06-30 20:48 EDT
+### iphone_darcy:0047 — 2026-06-30 20:48 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 470–475  
 **Timestamp as archived:** 2026-06-30 20:48  
@@ -881,7 +884,7 @@ Sorry to be doing this while you’re on vacation!!!
 Okay my broker told me I sounded like a lawyer 🙃 and I could get in trouble for “practicing law.” So….let me also let Derrick the seller know all this and see what he says. Maybe he would start the split right away and we can see how long it will take and see what kind of promise he can make us to sell it to us….. Or maybe he will give in and sell it all for 2.5!!
 ```
 
-### iphone:0048 — 2026-06-30 20:53 EDT
+### iphone_darcy:0048 — 2026-06-30 20:53 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 479–484  
 **Timestamp as archived:** 2026-06-30 20:53  
@@ -896,7 +899,7 @@ Okay my broker told me I sounded like a lawyer 🙃 and I could get in trouble f
 Ok sounds good to us and seems we are on the same page with thoughts on this. Appreciate you!
 ```
 
-### iphone:0049 — 2026-07-01 08:01 EDT
+### iphone_darcy:0049 — 2026-07-01 08:01 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 488–497  
 **Timestamp as archived:** 2026-07-01 08:01  
@@ -915,7 +918,7 @@ Good morning,
 I wanted to let you and the buyers know that we are working on few things but it will require us to involve 3 other people to ensure we have all angles covered. If it is okay I likely will be back in touch around mid afternoon and for sure before 5?
 ```
 
-### iphone:0050 — 2026-07-01 09:54 EDT
+### iphone_darcy:0050 — 2026-07-01 09:54 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 501–506  
 **Timestamp as archived:** 2026-07-01 09:54  
@@ -930,7 +933,7 @@ I wanted to let you and the buyers know that we are working on few things but it
 Yeah that is ok with us. Thank you!
 ```
 
-### iphone:0051 — 2026-07-01 09:58 EDT
+### iphone_darcy:0051 — 2026-07-01 09:58 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 510–515  
 **Timestamp as archived:** 2026-07-01 09:58  
@@ -945,7 +948,7 @@ Yeah that is ok with us. Thank you!
 Also I can share with you proof of purchase if needed!
 ```
 
-### iphone:0052 — 2026-07-01 10:57 EDT
+### iphone_darcy:0052 — 2026-07-01 10:57 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 519–524  
 **Timestamp as archived:** 2026-07-01 10:57  
@@ -960,7 +963,7 @@ Also I can share with you proof of purchase if needed!
 I think Sam is wanting to come in person and see the property himself. If we fly in tomorrow could we see the property Friday?
 ```
 
-### iphone:0053 — 2026-07-01 11:33 EDT
+### iphone_darcy:0053 — 2026-07-01 11:33 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 528–533  
 **Timestamp as archived:** 2026-07-01 11:33  
@@ -975,7 +978,7 @@ I think Sam is wanting to come in person and see the property himself. If we fly
 We could be in town Friday 11am - 5pm if that could work for them we will book our tickets now. Thank you
 ```
 
-### iphone:0054 — 2026-07-01 11:47 EDT
+### iphone_darcy:0054 — 2026-07-01 11:47 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 537–542  
 **Timestamp as archived:** 2026-07-01 11:47  
@@ -990,7 +993,7 @@ We could be in town Friday 11am - 5pm if that could work for them we will book o
 I should be able to find someone to go with you Friday! I won’t be home until Sunday Sorry we were kayaking and looking for manatees….I am not going to be able to lift my arms tomorrow 🙃
 ```
 
-### iphone:0055 — 2026-07-01 11:48 EDT
+### iphone_darcy:0055 — 2026-07-01 11:48 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 546–553  
 **Timestamp as archived:** 2026-07-01 11:48  
@@ -1007,7 +1010,7 @@ Hahaha oh my gosh I bet that was so fun!! 🤩 but yes the soreness is serious h
 Yay for Friday. We will book tickets now
 ```
 
-### iphone:0056 — 2026-07-01 12:14 EDT
+### iphone_darcy:0056 — 2026-07-01 12:14 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 557–562  
 **Timestamp as archived:** 2026-07-01 12:14  
@@ -1022,7 +1025,7 @@ Yay for Friday. We will book tickets now
 When you have the chance can we confirm with the owner that Friday works for them?
 ```
 
-### iphone:0057 — 2026-07-01 12:39 EDT
+### iphone_darcy:0057 — 2026-07-01 12:39 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 566–571  
 **Timestamp as archived:** 2026-07-01 12:39  
@@ -1037,7 +1040,7 @@ When you have the chance can we confirm with the owner that Friday works for the
 Owner is checking w wife as apparently Friday is their anniversary. I told him he didn’t need to be there but…I am guessing he likes to be there
 ```
 
-### iphone:0058 — 2026-07-01 12:46 EDT
+### iphone_darcy:0058 — 2026-07-01 12:46 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 575–580  
 **Timestamp as archived:** 2026-07-01 12:46  
@@ -1052,7 +1055,7 @@ Owner is checking w wife as apparently Friday is their anniversary. I told him h
 Loved “Owner is checking w wife as apparently Friday is their anniversary. I told him he didn’t need to be there but…I am guessing he likes to be there”
 ```
 
-### iphone:0059 — 2026-07-01 12:48 EDT
+### iphone_darcy:0059 — 2026-07-01 12:48 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 584–589  
 **Timestamp as archived:** 2026-07-01 12:48  
@@ -1131,7 +1134,7 @@ Derrick and Sarah Hasenour
 --
 ```
 
-### iphone:0060 — 2026-07-01 15:34 EDT
+### iphone_darcy:0060 — 2026-07-01 15:34 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 593–598  
 **Timestamp as archived:** 2026-07-01 15:34  
@@ -1146,7 +1149,7 @@ Derrick and Sarah Hasenour
 Just sent you an email! I am sure Friday will work out either w Jake or the owner himself.
 ```
 
-### iphone:0061 — 2026-07-01 15:43 EDT
+### iphone_darcy:0061 — 2026-07-01 15:43 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 602–607  
 **Timestamp as archived:** 2026-07-01 15:43  
@@ -1161,7 +1164,7 @@ Just sent you an email! I am sure Friday will work out either w Jake or the owne
 Perfect thank you!
 ```
 
-### iphone:0062 — 2026-07-01 15:54 EDT
+### iphone_darcy:0062 — 2026-07-01 15:54 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 611–616  
 **Timestamp as archived:** 2026-07-01 15:54  
@@ -1178,7 +1181,7 @@ Same sorting minute as other entries; within-minute sequence is not established.
 When you’re available we would love chat! Have a few opinions and questions about the offer.
 ```
 
-### iphone:0063 — 2026-07-01 15:54 EDT
+### iphone_darcy:0063 — 2026-07-01 15:54 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 620–625  
 **Timestamp as archived:** 2026-07-01 15:54  
@@ -1195,7 +1198,7 @@ Same sorting minute as other entries; within-minute sequence is not established.
 I will be unavailable between 5-6
 ```
 
-### iphone:0064 — 2026-07-01 15:55 EDT
+### iphone_darcy:0064 — 2026-07-01 15:55 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 629–634  
 **Timestamp as archived:** 2026-07-01 15:55  
@@ -1210,7 +1213,7 @@ I will be unavailable between 5-6
 Okay, I am still at the beach and I really want to read it from my computer!!! so let’s plan at least around 6:30…getting into dinner but I will figure it out.
 ```
 
-### iphone:0065 — 2026-07-01 15:57 EDT
+### iphone_darcy:0065 — 2026-07-01 15:57 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 638–643  
 **Timestamp as archived:** 2026-07-01 15:57  
@@ -1225,7 +1228,7 @@ Okay, I am still at the beach and I really want to read it from my computer!!! s
 Perfect! No rush for us and hope you enjoy the beach ❤
 ```
 
-### iphone:0066 — 2026-07-01 18:20 EDT
+### iphone_darcy:0066 — 2026-07-01 18:20 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 647–652  
 **Timestamp as archived:** 2026-07-01 18:20  
@@ -1240,7 +1243,7 @@ Perfect! No rush for us and hope you enjoy the beach ❤
 You’re welcome to call whenever you are ready! No rush
 ```
 
-### iphone:0067 — 2026-07-01 18:25 EDT
+### iphone_darcy:0067 — 2026-07-01 18:25 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 656–661  
 **Timestamp as archived:** 2026-07-01 18:25  
@@ -1255,7 +1258,7 @@ You’re welcome to call whenever you are ready! No rush
 I a ready when you are! I have family pictures at 7 that I found out about around 4:45…. 🤪
 ```
 
-### iphone:0068 — 2026-07-01 18:38 EDT
+### iphone_darcy:0068 — 2026-07-01 18:38 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 665–670  
 **Timestamp as archived:** 2026-07-01 18:38  
@@ -1270,7 +1273,7 @@ I a ready when you are! I have family pictures at 7 that I found out about aroun
 We are still on for Friday for a visit! Btw!!!
 ```
 
-### iphone:0069 — 2026-07-01 18:39 EDT
+### iphone_darcy:0069 — 2026-07-01 18:39 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 674–679  
 **Timestamp as archived:** 2026-07-01 18:39  
@@ -1287,7 +1290,7 @@ Same sorting minute as other entries; within-minute sequence is not established.
 Okay!
 ```
 
-### iphone:0070 — 2026-07-01 18:39 EDT
+### iphone_darcy:0070 — 2026-07-01 18:39 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 683–688  
 **Timestamp as archived:** 2026-07-01 18:39  
@@ -1304,7 +1307,7 @@ Same sorting minute as other entries; within-minute sequence is not established.
 At most we would do 2.55 if needed for fully private
 ```
 
-### iphone:0071 — 2026-07-01 20:17 EDT
+### iphone_darcy:0071 — 2026-07-01 20:17 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 692–697  
 **Timestamp as archived:** 2026-07-01 20:17  
@@ -1319,7 +1322,7 @@ At most we would do 2.55 if needed for fully private
 We will be in Indiana Friday and available from 11am until 5pm.
 ```
 
-### iphone:0072 — 2026-07-02 10:03 EDT
+### iphone_darcy:0072 — 2026-07-02 10:03 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 701–706  
 **Timestamp as archived:** 2026-07-02 10:03  
@@ -1334,7 +1337,7 @@ We will be in Indiana Friday and available from 11am until 5pm.
 Okay, they really just want access to  that way back part of the lake to fish. Since they wanted to put a small dock in, it makes sense for the easement-they said they didn’t want to see you guys as they were sure you wouldn’t want to see them either 😂 They would absolutely end the agreement if they moved. Wondered though if one of their children bought the property if that was okay? As long as the home was “in the family” otherwise the easement would end upon selling. Sending a pic…the red is what they are buying which is why that easement on that side. I circled (sort of) the end of the lake they want to use. Apparently there is a small stream that goes from the lake to the new property they want to buy.
 ```
 
-### iphone:0073 — 2026-07-02 10:04 EDT
+### iphone_darcy:0073 — 2026-07-02 10:04 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 710–715  
 **Timestamp as archived:** 2026-07-02 10:04  
@@ -1349,7 +1352,7 @@ Okay, they really just want access to  that way back part of the lake to fish. S
 ![Embedded attachment from PDF page 12](iphone_darcy_messages_assets/message_0073_page_012_image_001.jpeg)
 ```
 
-### iphone:0074 — 2026-07-02 10:39 EDT
+### iphone_darcy:0074 — 2026-07-02 10:39 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 719–728  
 **Timestamp as archived:** 2026-07-02 10:39  
@@ -1368,7 +1371,7 @@ Is this for the 2.5 price?
 And are what time tomorrow would be best to view the property?
 ```
 
-### iphone:0075 — 2026-07-02 10:40 EDT
+### iphone_darcy:0075 — 2026-07-02 10:40 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 732–737  
 **Timestamp as archived:** 2026-07-02 10:40  
@@ -1383,7 +1386,7 @@ And are what time tomorrow would be best to view the property?
 Loved “Okay, they really just want access to  that way back part of the lake to fish. Since they wanted to put a small dock in, it makes sense for the easement-they said they didn’t want to see you guys as they were sure you wouldn’t want to see them either 😂 They would absolutely end the agreement if they moved. Wondered though if one of their children bought the property if that was okay? As long as the home was “in the family” otherwise the easement would end upon selling. Sending a pic…the red is what they are buying which is why that easement on that side. I circled (sort of) the end of the lake they want to use. Apparently there is a small stream that goes from the lake to the new property they want to buy.”
 ```
 
-### iphone:0076 — 2026-07-02 11:00 EDT
+### iphone_darcy:0076 — 2026-07-02 11:00 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 741–748  
 **Timestamp as archived:** 2026-07-02 11:00  
@@ -1400,7 +1403,7 @@ All property, $2.5M minus the easement which will run with the land as long as t
 They said 2 tomorrow and then asked about 1. Jack was ready for 2, checking w him about 1 🙃 Since Derrick would be there it would be okay without Jack but I feel better about being “represented.”
 ```
 
-### iphone:0077 — 2026-07-02 11:03 EDT
+### iphone_darcy:0077 — 2026-07-02 11:03 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 752–761  
 **Timestamp as archived:** 2026-07-02 11:03  
@@ -1419,7 +1422,7 @@ Thank you so much Darcy!!
 Hopefully third times a charm for us hahaha
 ```
 
-### iphone:0078 — 2026-07-02 11:22 EDT
+### iphone_darcy:0078 — 2026-07-02 11:22 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 765–770  
 **Timestamp as archived:** 2026-07-02 11:22  
@@ -1434,7 +1437,7 @@ Hopefully third times a charm for us hahaha
 Okay, 1 pm works for Jack and owner Does that work for you?
 ```
 
-### iphone:0079 — 2026-07-02 11:25 EDT
+### iphone_darcy:0079 — 2026-07-02 11:25 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 774–779  
 **Timestamp as archived:** 2026-07-02 11:25  
@@ -1451,7 +1454,7 @@ Same sorting minute as other entries; within-minute sequence is not established.
 That works for us! We will see them there.
 ```
 
-### iphone:0080 — 2026-07-02 11:25 EDT
+### iphone_darcy:0080 — 2026-07-02 11:25 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 783–788  
 **Timestamp as archived:** 2026-07-02 11:25  
@@ -1468,7 +1471,7 @@ Same sorting minute as other entries; within-minute sequence is not established.
 Liked “That works for us! We will see them there. ”
 ```
 
-### iphone:0081 — 2026-07-03 11:22 EDT
+### iphone_darcy:0081 — 2026-07-03 11:22 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 792–797  
 **Timestamp as archived:** 2026-07-03 11:22  
@@ -1483,7 +1486,7 @@ Liked “That works for us! We will see them there. ”
 Still good for 1? Just double checking :)
 ```
 
-### iphone:0082 — 2026-07-03 11:23 EDT
+### iphone_darcy:0082 — 2026-07-03 11:23 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 801–806  
 **Timestamp as archived:** 2026-07-03 11:23  
@@ -1498,7 +1501,7 @@ Still good for 1? Just double checking :)
 Yes we are!! Made it to Indy about not long ago
 ```
 
-### iphone:0083 — 2026-07-03 14:26 EDT
+### iphone_darcy:0083 — 2026-07-03 14:26 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 810–815  
 **Timestamp as archived:** 2026-07-03 14:26  
@@ -1515,7 +1518,7 @@ Same sorting minute as other entries; within-minute sequence is not established.
 We want to put an offer in at 2.5!
 ```
 
-### iphone:0084 — 2026-07-03 14:26 EDT
+### iphone_darcy:0084 — 2026-07-03 14:26 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 819–824  
 **Timestamp as archived:** 2026-07-03 14:26  
@@ -1532,7 +1535,7 @@ Same sorting minute as other entries; within-minute sequence is not established.
 Okay, so 2.5 and allow an easement?
 ```
 
-### iphone:0085 — 2026-07-03 14:27 EDT
+### iphone_darcy:0085 — 2026-07-03 14:27 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 828–833  
 **Timestamp as archived:** 2026-07-03 14:27  
@@ -1549,7 +1552,7 @@ Same sorting minute as other entries; within-minute sequence is not established.
 We are gonna debrief but it seems likely we are gonna move forward. And yes. Text you shortly!
 ```
 
-### iphone:0086 — 2026-07-03 14:27 EDT
+### iphone_darcy:0086 — 2026-07-03 14:27 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 837–842  
 **Timestamp as archived:** 2026-07-03 14:27  
@@ -1566,7 +1569,7 @@ Same sorting minute as other entries; within-minute sequence is not established.
 Okay.
 ```
 
-### iphone:0087 — 2026-07-03 14:44 EDT
+### iphone_darcy:0087 — 2026-07-03 14:44 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 846–855  
 **Timestamp as archived:** 2026-07-03 14:44  
@@ -1585,7 +1588,7 @@ We talked about buying the pool table and possible other furnishings. Not sure h
 Loved the house so much
 ```
 
-### iphone:0088 — 2026-07-03 14:56 EDT
+### iphone_darcy:0088 — 2026-07-03 14:56 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 859–864  
 **Timestamp as archived:** 2026-07-03 14:56  
@@ -1600,7 +1603,7 @@ Loved the house so much
 Okay. I will get it typed up and send as pdf first so you can view it. Technically in a cash offer we can put all that in our offer (personal property) so….if you know what you want we can add it and a price or we can just wait until we get the deal done and do a personal property agreement. Depending on how much stuff you want…or how soon you want me to get the offer written!!
 ```
 
-### iphone:0089 — 2026-07-03 15:00 EDT
+### iphone_darcy:0089 — 2026-07-03 15:00 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 868–873  
 **Timestamp as archived:** 2026-07-03 15:00  
@@ -1615,7 +1618,7 @@ Okay. I will get it typed up and send as pdf first so you can view it. Technical
 Let’s do the personal property agreement after! Thank you!!
 ```
 
-### iphone:0090 — 2026-07-03 15:05 EDT
+### iphone_darcy:0090 — 2026-07-03 15:05 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 877–882  
 **Timestamp as archived:** 2026-07-03 15:05  
@@ -1630,7 +1633,7 @@ Let’s do the personal property agreement after! Thank you!!
 I for some reason am not finding my email w Sam’s Trust name from last year…can you tell me what it is if you know off the top of your head?
 ```
 
-### iphone:0091 — 2026-07-03 15:06 EDT
+### iphone_darcy:0091 — 2026-07-03 15:06 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 886–891  
 **Timestamp as archived:** 2026-07-03 15:06  
@@ -1645,7 +1648,7 @@ I for some reason am not finding my email w Sam’s Trust name from last year…
 Email me proof of funds too when you have a moment t
 ```
 
-### iphone:0092 — 2026-07-03 15:10 EDT
+### iphone_darcy:0092 — 2026-07-03 15:10 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 895–900  
 **Timestamp as archived:** 2026-07-03 15:10  
@@ -1660,7 +1663,7 @@ Email me proof of funds too when you have a moment t
 [Attachment unavailable]
 ```
 
-### iphone:0093 — 2026-07-03 15:12 EDT
+### iphone_darcy:0093 — 2026-07-03 15:12 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 904–909  
 **Timestamp as archived:** 2026-07-03 15:12  
@@ -1677,7 +1680,7 @@ Same sorting minute as other entries; within-minute sequence is not established.
 Samuel G. Presnal Trust
 ```
 
-### iphone:0094 — 2026-07-03 15:12 EDT
+### iphone_darcy:0094 — 2026-07-03 15:12 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 913–918  
 **Timestamp as archived:** 2026-07-03 15:12  
@@ -1694,7 +1697,7 @@ Same sorting minute as other entries; within-minute sequence is not established.
 Do we need to get a new proof of funds that reflects the 2.5?
 ```
 
-### iphone:0095 — 2026-07-03 15:12 EDT
+### iphone_darcy:0095 — 2026-07-03 15:12 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 922–927  
 **Timestamp as archived:** 2026-07-03 15:12  
@@ -1711,7 +1714,7 @@ Same sorting minute as other entries; within-minute sequence is not established.
 Oh sorry just saw where you said email proof.. I can do that if needed
 ```
 
-### iphone:0096 — 2026-07-03 15:12 EDT
+### iphone_darcy:0096 — 2026-07-03 15:12 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 931–936  
 **Timestamp as archived:** 2026-07-03 15:12  
@@ -1728,7 +1731,7 @@ Same sorting minute as other entries; within-minute sequence is not established.
 I will send that one first and put in the out agreement we have one business day to get. That way if he wants a 2.5 we can do on Monday
 ```
 
-### iphone:0097 — 2026-07-03 15:12 EDT
+### iphone_darcy:0097 — 2026-07-03 15:12 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 940–945  
 **Timestamp as archived:** 2026-07-03 15:12  
@@ -1745,7 +1748,7 @@ Same sorting minute as other entries; within-minute sequence is not established.
 Nope! I got from text :)
 ```
 
-### iphone:0098 — 2026-07-03 15:13 EDT
+### iphone_darcy:0098 — 2026-07-03 15:13 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 949–954  
 **Timestamp as archived:** 2026-07-03 15:13  
@@ -1762,7 +1765,7 @@ Same sorting minute as other entries; within-minute sequence is not established.
 Perfect! Sounds good 💕
 ```
 
-### iphone:0099 — 2026-07-03 15:13 EDT
+### iphone_darcy:0099 — 2026-07-03 15:13 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 958–963  
 **Timestamp as archived:** 2026-07-03 15:13  
@@ -1821,7 +1824,7 @@ Is a 7/31 closing date okay?
 I think thats it....
 ```
 
-### iphone:0100 — 2026-07-03 15:48 EDT
+### iphone_darcy:0100 — 2026-07-03 15:48 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 967–972  
 **Timestamp as archived:** 2026-07-03 15:48  
@@ -1838,7 +1841,7 @@ Same sorting minute as other entries; within-minute sequence is not established.
 If close 7/31 is a move out date for them of 8/7 okay? Since they need the $ to buy the other place but some time to move out. But you can also start moving in they said 🙃 they just won’t be out all the way We will do a post closing possession that is a legal document for if something were to happen.
 ```
 
-### iphone:0101 — 2026-07-03 15:48 EDT
+### iphone_darcy:0101 — 2026-07-03 15:48 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 976–981  
 **Timestamp as archived:** 2026-07-03 15:48  
@@ -1855,7 +1858,7 @@ Same sorting minute as other entries; within-minute sequence is not established.
 I sent an email w purchase agreement draft to look over
 ```
 
-### iphone:0102 — 2026-07-03 15:55 EDT
+### iphone_darcy:0102 — 2026-07-03 15:55 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 985–990  
 **Timestamp as archived:** 2026-07-03 15:55  
@@ -1870,7 +1873,7 @@ I sent an email w purchase agreement draft to look over
 I would say all looks good to us!! We won’t need to move in immediately. Probably mid august before we even get started with moving and then will be gone until end of sept.
 ```
 
-### iphone:0103 — 2026-07-03 15:56 EDT
+### iphone_darcy:0103 — 2026-07-03 15:56 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 994–999  
 **Timestamp as archived:** 2026-07-03 15:56  
@@ -1914,7 +1917,7 @@ a Lead based paint (even though it isn't applicable...he had it so we are signin
 the post close possession
 ```
 
-### iphone:0104 — 2026-07-03 16:14 EDT
+### iphone_darcy:0104 — 2026-07-03 16:14 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1003–1008  
 **Timestamp as archived:** 2026-07-03 16:14  
@@ -1929,7 +1932,7 @@ the post close possession
 Are you flying home tonight?
 ```
 
-### iphone:0105 — 2026-07-03 16:15 EDT
+### iphone_darcy:0105 — 2026-07-03 16:15 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1012–1017  
 **Timestamp as archived:** 2026-07-03 16:15  
@@ -1946,7 +1949,7 @@ Same sorting minute as other entries; within-minute sequence is not established.
 We fly back out at 7 and land at 10pm.
 ```
 
-### iphone:0106 — 2026-07-03 16:15 EDT
+### iphone_darcy:0106 — 2026-07-03 16:15 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1021–1026  
 **Timestamp as archived:** 2026-07-03 16:15  
@@ -1963,7 +1966,7 @@ Same sorting minute as other entries; within-minute sequence is not established.
 Allegiant? If so…I am coming in on the flight from Sarasota! 😁
 ```
 
-### iphone:0107 — 2026-07-03 16:19 EDT
+### iphone_darcy:0107 — 2026-07-03 16:19 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1030–1037  
 **Timestamp as archived:** 2026-07-03 16:19  
@@ -1980,7 +1983,7 @@ Oh my gosh haha 🤣 that’s so funny.
 Sam said keep are seats warm for us 🤣
 ```
 
-### iphone:0108 — 2026-07-03 16:24 EDT
+### iphone_darcy:0108 — 2026-07-03 16:24 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1041–1046  
 **Timestamp as archived:** 2026-07-03 16:24  
@@ -1995,7 +1998,7 @@ Sam said keep are seats warm for us 🤣
 Also safe travels!
 ```
 
-### iphone:0109 — 2026-07-03 16:25 EDT
+### iphone_darcy:0109 — 2026-07-03 16:25 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1050–1055  
 **Timestamp as archived:** 2026-07-03 16:25  
@@ -2010,7 +2013,7 @@ Also safe travels!
 Thanks, you too! I did send those docs before I got on the plane but I won’t send until I land so just sign whenever. If you have questions just wait for me to land! :)
 ```
 
-### iphone:0110 — 2026-07-03 16:29 EDT
+### iphone_darcy:0110 — 2026-07-03 16:29 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1059–1064  
 **Timestamp as archived:** 2026-07-03 16:29  
@@ -2027,7 +2030,7 @@ Same sorting minute as other entries; within-minute sequence is not established.
 Loved “Thanks, you too! I did send those docs before I got on the plane but I won’t send until I land so just sign whenever. If you have questions just wait for me to land! :)”
 ```
 
-### iphone:0111 — 2026-07-03 16:29 EDT
+### iphone_darcy:0111 — 2026-07-03 16:29 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1068–1073  
 **Timestamp as archived:** 2026-07-03 16:29  
@@ -2044,7 +2047,7 @@ Same sorting minute as other entries; within-minute sequence is not established.
 Thank you, sounds good!
 ```
 
-### iphone:0112 — 2026-07-03 18:48 EDT
+### iphone_darcy:0112 — 2026-07-03 18:48 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1077–1082  
 **Timestamp as archived:** 2026-07-03 18:48  
@@ -2059,7 +2062,7 @@ Thank you, sounds good!
 Sam has a few questions
 ```
 
-### iphone:0113 — 2026-07-03 19:08 EDT
+### iphone_darcy:0113 — 2026-07-03 19:08 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1086–1091  
 **Timestamp as archived:** 2026-07-03 19:08  
@@ -2074,7 +2077,7 @@ Sam has a few questions
 I think we missed you
 ```
 
-### iphone:0114 — 2026-07-03 19:10 EDT
+### iphone_darcy:0114 — 2026-07-03 19:10 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1095–1100  
 **Timestamp as archived:** 2026-07-03 19:10  
@@ -2089,7 +2092,7 @@ I think we missed you
 I was looking for you but didn’t see you guys 🫤 My best friend is on the flight down there too to her parents.
 ```
 
-### iphone:0115 — 2026-07-03 19:11 EDT
+### iphone_darcy:0115 — 2026-07-03 19:11 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1104–1109  
 **Timestamp as archived:** 2026-07-03 19:11  
@@ -2106,7 +2109,7 @@ Same sorting minute as other entries; within-minute sequence is not established.
 I saw you I just couldn’t get our eyes to meet 😥 and oh how fun! Sam has a few things to ask about before we sign
 ```
 
-### iphone:0116 — 2026-07-03 19:11 EDT
+### iphone_darcy:0116 — 2026-07-03 19:11 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1113–1118  
 **Timestamp as archived:** 2026-07-03 19:11  
@@ -2123,7 +2126,7 @@ Same sorting minute as other entries; within-minute sequence is not established.
 I am sure we are okay to just submit tomorrow morning, I can rescind the PA and change the dates to tomorrow Or you can text me the questions?
 ```
 
-### iphone:0117 — 2026-07-03 19:12 EDT
+### iphone_darcy:0117 — 2026-07-03 19:12 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1122–1127  
 **Timestamp as archived:** 2026-07-03 19:12  
@@ -2140,7 +2143,7 @@ Same sorting minute as other entries; within-minute sequence is not established.
 Or we can talk later or now!? :)
 ```
 
-### iphone:0118 — 2026-07-03 19:12 EDT
+### iphone_darcy:0118 — 2026-07-03 19:12 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1131–1136  
 **Timestamp as archived:** 2026-07-03 19:12  
@@ -2157,7 +2160,7 @@ Same sorting minute as other entries; within-minute sequence is not established.
 Shoot sorry
 ```
 
-### iphone:0119 — 2026-07-03 19:22 EDT
+### iphone_darcy:0119 — 2026-07-03 19:22 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1140–1145  
 **Timestamp as archived:** 2026-07-03 19:22  
@@ -2172,7 +2175,7 @@ Shoot sorry
 I’m gonna have Sam email you
 ```
 
-### iphone:0120 — 2026-07-03 19:23 EDT
+### iphone_darcy:0120 — 2026-07-03 19:23 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1149–1154  
 **Timestamp as archived:** 2026-07-03 19:23  
@@ -2187,7 +2190,7 @@ I’m gonna have Sam email you
 It won’t be tonight..
 ```
 
-### iphone:0121 — 2026-07-03 19:41 EDT
+### iphone_darcy:0121 — 2026-07-03 19:41 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1158–1165  
 **Timestamp as archived:** 2026-07-03 19:41  
@@ -2276,7 +2279,7 @@ Thanks
 Darcy
 ```
 
-### iphone:0122 — 2026-07-04 11:40 EDT
+### iphone_darcy:0122 — 2026-07-04 11:40 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1169–1174  
 **Timestamp as archived:** 2026-07-04 11:40  
@@ -2291,7 +2294,7 @@ Darcy
 Hi! Are you available for a phone call sometime today or now?
 ```
 
-### iphone:0123 — 2026-07-04 11:41 EDT
+### iphone_darcy:0123 — 2026-07-04 11:41 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1178–1183  
 **Timestamp as archived:** 2026-07-04 11:41  
@@ -2520,7 +2523,7 @@ Thanks
 Darcy
 ```
 
-### iphone:0124 — 2026-07-05 16:48 EDT
+### iphone_darcy:0124 — 2026-07-05 16:48 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1187–1194  
 **Timestamp as archived:** 2026-07-05 16:48  
@@ -2537,7 +2540,7 @@ Hi! Thoughts on getting survey done… with the last one being in 2009 and lots 
 We really thought a more recent one was done. Also the document with the current surveys are too blurry to read any of the smaller print.
 ```
 
-### iphone:0125 — 2026-07-05 17:26 EDT
+### iphone_darcy:0125 — 2026-07-05 17:26 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1198–1203  
 **Timestamp as archived:** 2026-07-05 17:26  
@@ -2552,7 +2555,7 @@ We really thought a more recent one was done. Also the document with the current
 after we decide on this we are ready to sign purchase agreement.
 ```
 
-### iphone:0126 — 2026-07-05 17:31 EDT
+### iphone_darcy:0126 — 2026-07-05 17:31 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1207–1212  
 **Timestamp as archived:** 2026-07-05 17:31  
@@ -2567,7 +2570,7 @@ after we decide on this we are ready to sign purchase agreement.
 Sorry! I am digging around online. The survey is from 2009 because that is when they made Lots 1/2 a Subdivision. I am trying to find all the deeds since then to see if they all have the exact legal description. I don’t see why it would be a problem to get a survey other than it not being done on time for a 7/31 close…and I doubt the seller will pay for it.
 ```
 
-### iphone:0127 — 2026-07-05 17:49 EDT
+### iphone_darcy:0127 — 2026-07-05 17:49 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1216–1225  
 **Timestamp as archived:** 2026-07-05 17:49  
@@ -2586,7 +2589,7 @@ If closing date needs to be extended we don’t have issues with that.. do you t
 Sorry, really not trying to be complicated!!
 ```
 
-### iphone:0128 — 2026-07-05 17:59 EDT
+### iphone_darcy:0128 — 2026-07-05 17:59 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1229–1234  
 **Timestamp as archived:** 2026-07-05 17:59  
@@ -2601,7 +2604,7 @@ Sorry, really not trying to be complicated!!
 Its okay! It’s an expensive piece of property!!! So….a Survey location report is usually only for small tracts of land. For this amount of acreage, I am fairly certain it would be a Boundary survey. 😬 This won’t be cheap for 20 acres. I do think it will be tough to get it done by 7/31 but I don’t know for sure. I think the sellers want to close  so they can close on the other property.
 ```
 
-### iphone:0129 — 2026-07-05 18:09 EDT
+### iphone_darcy:0129 — 2026-07-05 18:09 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1238–1243  
 **Timestamp as archived:** 2026-07-05 18:09  
@@ -2616,7 +2619,7 @@ Its okay! It’s an expensive piece of property!!! So….a Survey location repor
 Can you setup the appointment with the lawyer for tomorrow and Sam and them can discuss that and the purchase agreement
 ```
 
-### iphone:0130 — 2026-07-06 09:32 EDT
+### iphone_darcy:0130 — 2026-07-06 09:32 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1247–1252  
 **Timestamp as archived:** 2026-07-06 09:32  
@@ -2733,7 +2736,7 @@ On Mon, Jul 6, 2026, 1:10 PM Darcy Knott <darcy@truebloodre.com> wrote:
 > <[long link omitted]
 ```
 
-### iphone:0131 — 2026-07-06 13:26 EDT
+### iphone_darcy:0131 — 2026-07-06 13:26 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1256–1261  
 **Timestamp as archived:** 2026-07-06 13:26  
@@ -2748,7 +2751,7 @@ On Mon, Jul 6, 2026, 1:10 PM Darcy Knott <darcy@truebloodre.com> wrote:
 I sent an email w as much detail as I could but he will probably still have questions!! His cell is 317-410-8851 but might call from an office number
 ```
 
-### iphone:0132 — 2026-07-06 13:30 EDT
+### iphone_darcy:0132 — 2026-07-06 13:30 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1265–1270  
 **Timestamp as archived:** 2026-07-06 13:30  
@@ -2791,7 +2794,7 @@ Good afternoon,
 Thanks for taking the time to chat just now. When you have a moment, please send over your full names, phone numbers, and current mailing address. We'll get going on that engagement letter and will be able to send that over for signature once we receive this information.
 ```
 
-### iphone:0133 — 2026-07-06 13:41 EDT
+### iphone_darcy:0133 — 2026-07-06 13:41 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1274–1281  
 **Timestamp as archived:** 2026-07-06 13:41  
@@ -2836,7 +2839,7 @@ representation: EVENT
 Provided contact information to retained counsel (personal phone numbers and address omitted).
 ```
 
-### iphone:0134 — 2026-07-06 15:41 EDT
+### iphone_darcy:0134 — 2026-07-06 15:41 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1285–1290  
 **Timestamp as archived:** 2026-07-06 15:41  
@@ -2851,7 +2854,7 @@ Provided contact information to retained counsel (personal phone numbers and add
 Yes! Sorry
 ```
 
-### iphone:0135 — 2026-07-06 16:04 EDT
+### iphone_darcy:0135 — 2026-07-06 16:04 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1294–1299  
 **Timestamp as archived:** 2026-07-06 16:04  
@@ -2866,7 +2869,7 @@ Yes! Sorry
 Do you have time in the next 30?
 ```
 
-### iphone:0136 — 2026-07-06 16:14 EDT
+### iphone_darcy:0136 — 2026-07-06 16:14 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1303–1308  
 **Timestamp as archived:** 2026-07-06 16:14  
@@ -2881,7 +2884,7 @@ Do you have time in the next 30?
 Or you can call when you are free. Sam and I are available :)
 ```
 
-### iphone:0137 — 2026-07-06 19:55 EDT
+### iphone_darcy:0137 — 2026-07-06 19:55 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1312–1321  
 **Timestamp as archived:** 2026-07-06 19:55  
@@ -2900,7 +2903,7 @@ Garrett said in his legal opinion, a new(er) survey needs done for the easement.
 Does that sum it up correctly?
 ```
 
-### iphone:0138 — 2026-07-06 20:04 EDT
+### iphone_darcy:0138 — 2026-07-06 20:04 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1325–1332  
 **Timestamp as archived:** 2026-07-06 20:04  
@@ -2917,7 +2920,7 @@ Our take away was he highly recommends doing the survey especially since there i
 We haven’t heard back from Garrett today but hoping tomorrow morning we can get things going.
 ```
 
-### iphone:0139 — 2026-07-06 20:05 EDT
+### iphone_darcy:0139 — 2026-07-06 20:05 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1336–1343  
 **Timestamp as archived:** 2026-07-06 20:05  
@@ -3047,7 +3050,7 @@ Good afternoon,
 Thanks for taking the time to chat just now. When you have a moment, please send over your full names, phone numbers, and current mailing address. We’ll get going on that engagement letter and will be able to send that over for signature once we receive this information.
 ```
 
-### iphone:0140 — 2026-07-07 10:28 EDT
+### iphone_darcy:0140 — 2026-07-07 10:28 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1347–1352  
 **Timestamp as archived:** 2026-07-07 10:28  
@@ -3062,7 +3065,7 @@ Thanks for taking the time to chat just now. When you have a moment, please send
 Have you gotten anything from Garrett yet this am?
 ```
 
-### iphone:0141 — 2026-07-07 10:31 EDT
+### iphone_darcy:0141 — 2026-07-07 10:31 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1356–1361  
 **Timestamp as archived:** 2026-07-07 10:31  
@@ -3077,7 +3080,7 @@ Have you gotten anything from Garrett yet this am?
 He just messaged and said he would send over stuff shortly… we are still waiting on him to send over contract for us to work with him.
 ```
 
-### iphone:0142 — 2026-07-07 10:35 EDT
+### iphone_darcy:0142 — 2026-07-07 10:35 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1365–1370  
 **Timestamp as archived:** 2026-07-07 10:35  
@@ -3092,7 +3095,7 @@ He just messaged and said he would send over stuff shortly… we are still waiti
 Liked “He just messaged and said he would send over stuff shortly… we are still waiting on him to send over contract for us to work with him. ”
 ```
 
-### iphone:0143 — 2026-07-07 11:45 EDT
+### iphone_darcy:0143 — 2026-07-07 11:45 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1374–1379  
 **Timestamp as archived:** 2026-07-07 11:45  
@@ -3107,7 +3110,7 @@ Liked “He just messaged and said he would send over stuff shortly… we are st
 Agreement with lawyer has been signed.
 ```
 
-### iphone:0144 — 2026-07-07 11:47 EDT
+### iphone_darcy:0144 — 2026-07-07 11:47 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1383–1388  
 **Timestamp as archived:** 2026-07-07 11:47  
@@ -3973,7 +3976,7 @@ Good afternoon,
 Thanks for taking the time to chat just now. When you have a moment, please send over your full names, phone numbers, and current mailing address. We’ll get going on that engagement letter and will be able to send that over for signature once we receive this information.
 ```
 
-### iphone:0145 — 2026-07-07 14:23 EDT
+### iphone_darcy:0145 — 2026-07-07 14:23 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1392–1397  
 **Timestamp as archived:** 2026-07-07 14:23  
@@ -4742,7 +4745,7 @@ On Tue, Jul 7, 2026 at 4:25 PM Sam <samgpresnal@gmail.com> wrote:
 >> was pulled away to work on some other matters.
 ```
 
-### iphone:0146 — 2026-07-07 16:46 EDT
+### iphone_darcy:0146 — 2026-07-07 16:46 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1401–1406  
 **Timestamp as archived:** 2026-07-07 16:46  
@@ -4757,7 +4760,7 @@ On Tue, Jul 7, 2026 at 4:25 PM Sam <samgpresnal@gmail.com> wrote:
 Hi are you available for a quick phone call? We just spoke to Garrett! 😊
 ```
 
-### iphone:0147 — 2026-07-07 16:47 EDT
+### iphone_darcy:0147 — 2026-07-07 16:47 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1410–1415  
 **Timestamp as archived:** 2026-07-07 16:47  
@@ -4952,7 +4955,7 @@ Good afternoon,
 Thanks for taking the time to chat just now. When you have a moment, please send over your full names, phone numbers, and current mailing address. We’ll get going on that engagement letter and will be able to send that over for signature once we receive this information.
 ```
 
-### iphone:0148 — 2026-07-07 16:59 EDT
+### iphone_darcy:0148 — 2026-07-07 16:59 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1419–1424  
 **Timestamp as archived:** 2026-07-07 16:59  
@@ -4969,7 +4972,7 @@ Same sorting minute as other entries; within-minute sequence is not established.
 Oh! Will you call your inspector friend about doing an inspection?? If he can do 7/14 that would be super duper ideal for me!! :) Or later afternoon on the 13th!
 ```
 
-### iphone:0149 — 2026-07-07 16:59 EDT
+### iphone_darcy:0149 — 2026-07-07 16:59 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1428–1433  
 **Timestamp as archived:** 2026-07-07 16:59  
@@ -4986,7 +4989,7 @@ Same sorting minute as other entries; within-minute sequence is not established.
 Just to pencil him in
 ```
 
-### iphone:0150 — 2026-07-07 17:02 EDT
+### iphone_darcy:0150 — 2026-07-07 17:02 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1437–1442  
 **Timestamp as archived:** 2026-07-07 17:02  
@@ -5003,7 +5006,7 @@ Same sorting minute as other entries; within-minute sequence is not established.
 Loved “Oh! Will you call your inspector friend about doing an inspection?? If he can do 7/14 that would be super duper ideal for me!! :) Or later afternoon on the 13th!”
 ```
 
-### iphone:0151 — 2026-07-07 17:02 EDT
+### iphone_darcy:0151 — 2026-07-07 17:02 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1446–1451  
 **Timestamp as archived:** 2026-07-07 17:02  
@@ -5020,7 +5023,7 @@ Same sorting minute as other entries; within-minute sequence is not established.
 I’ll ask him!!
 ```
 
-### iphone:0152 — 2026-07-07 17:07 EDT
+### iphone_darcy:0152 — 2026-07-07 17:07 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1455–1460  
 **Timestamp as archived:** 2026-07-07 17:07  
@@ -5035,7 +5038,7 @@ I’ll ask him!!
 I went to send him the Zillow link for the property and it shows it was taken off today 😂
 ```
 
-### iphone:0153 — 2026-07-07 17:08 EDT
+### iphone_darcy:0153 — 2026-07-07 17:08 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1464–1469  
 **Timestamp as archived:** 2026-07-07 17:08  
@@ -5050,7 +5053,7 @@ I went to send him the Zillow link for the property and it shows it was taken of
 His contract w the realtor ended yesterday technically. But I still need to put his name on the PA on my end bc we did all this while he was still listing agent and I honestly have no idea what arrangement they actually had…. Do you need me to send it to you?
 ```
 
-### iphone:0154 — 2026-07-07 17:15 EDT
+### iphone_darcy:0154 — 2026-07-07 17:15 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1473–1478  
 **Timestamp as archived:** 2026-07-07 17:15  
@@ -5065,7 +5068,7 @@ His contract w the realtor ended yesterday technically. But I still need to put 
 No it’s ok! Thank you for clarifying that!
 ```
 
-### iphone:0155 — 2026-07-07 17:16 EDT
+### iphone_darcy:0155 — 2026-07-07 17:16 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1482–1487  
 **Timestamp as archived:** 2026-07-07 17:16  
@@ -5082,7 +5085,7 @@ Same sorting minute as other entries; within-minute sequence is not established.
 Bill said he is available either day for inspection :)
 ```
 
-### iphone:0156 — 2026-07-07 17:16 EDT
+### iphone_darcy:0156 — 2026-07-07 17:16 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1491–1496  
 **Timestamp as archived:** 2026-07-07 17:16  
@@ -5099,7 +5102,7 @@ Same sorting minute as other entries; within-minute sequence is not established.
 Perfect, give me until tomorrow and I will tell you which day for sure! I just don’t know if am taking my oldest to camp Monday am or not…. 🤪
 ```
 
-### iphone:0157 — 2026-07-07 17:17 EDT
+### iphone_darcy:0157 — 2026-07-07 17:17 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1500–1505  
 **Timestamp as archived:** 2026-07-07 17:17  
@@ -5366,7 +5369,7 @@ representation: EVENT
 Signing-system notification; event described in subject.
 ```
 
-### iphone:0158 — 2026-07-07 22:00 EDT
+### iphone_darcy:0158 — 2026-07-07 22:00 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1509–1514  
 **Timestamp as archived:** 2026-07-07 22:00  
@@ -5381,7 +5384,7 @@ Signing-system notification; event described in subject.
 Everything has been submitted! I did say we could get an updated Proof of funds if he needed. He said for peace of mind he would like one. So can you reach out in the am and get that updated to $2.5? Thank you!! Will let you know what he says tomorrow!
 ```
 
-### iphone:0159 — 2026-07-07 22:01 EDT
+### iphone_darcy:0159 — 2026-07-07 22:01 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1518–1523  
 **Timestamp as archived:** 2026-07-07 22:01  
@@ -5396,7 +5399,7 @@ Everything has been submitted! I did say we could get an updated Proof of funds 
 All sounds good and we can do that. Thank you for your help!!! We appreciate it all.
 ```
 
-### iphone:0160 — 2026-07-08 10:26 EDT
+### iphone_darcy:0160 — 2026-07-08 10:26 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1527–1532  
 **Timestamp as archived:** 2026-07-08 10:26  
@@ -5411,7 +5414,7 @@ All sounds good and we can do that. Thank you for your help!!! We appreciate it 
 📎 Presnal.Sam - Ltr for Indiana home purchase_07.08.26-1290efc2e37e99642798c2bda86cd35993192b8 d1de7ca4fb5e243117dce9529.pdf
 ```
 
-### iphone:0161 — 2026-07-08 10:32 EDT
+### iphone_darcy:0161 — 2026-07-08 10:32 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1536–1541  
 **Timestamp as archived:** 2026-07-08 10:32  
@@ -5426,7 +5429,7 @@ All sounds good and we can do that. Thank you for your help!!! We appreciate it 
 Got it and sent!
 ```
 
-### iphone:0162 — 2026-07-08 14:12 EDT
+### iphone_darcy:0162 — 2026-07-08 14:12 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1545–1550  
 **Timestamp as archived:** 2026-07-08 14:12  
@@ -5502,7 +5505,7 @@ Sarah and Derrick Hasenour
 --
 ```
 
-### iphone:0163 — 2026-07-08 14:39 EDT
+### iphone_darcy:0163 — 2026-07-08 14:39 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1554–1559  
 **Timestamp as archived:** 2026-07-08 14:39  
@@ -5517,7 +5520,7 @@ Sarah and Derrick Hasenour
 Just sent a counter offer 🙃
 ```
 
-### iphone:0164 — 2026-07-08 15:25 EDT
+### iphone_darcy:0164 — 2026-07-08 15:25 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1563–1568  
 **Timestamp as archived:** 2026-07-08 15:25  
@@ -5532,7 +5535,7 @@ Just sent a counter offer 🙃
 Thank you for sending that over. I am gonna be home in the next 40 minutes. Do you wanna schedule a call around 4:30 and we can discuss it?
 ```
 
-### iphone:0165 — 2026-07-08 15:35 EDT
+### iphone_darcy:0165 — 2026-07-08 15:35 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1572–1577  
 **Timestamp as archived:** 2026-07-08 15:35  
@@ -5547,7 +5550,7 @@ Thank you for sending that over. I am gonna be home in the next 40 minutes. Do y
 Yes 4:30 works
 ```
 
-### iphone:0166 — 2026-07-08 15:47 EDT
+### iphone_darcy:0166 — 2026-07-08 15:47 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1581–1586  
 **Timestamp as archived:** 2026-07-08 15:47  
@@ -5655,7 +5658,7 @@ it out there. The big concern is when we can finalize the easement. Andrew
 said all are busy and maybe 3 to 4 weeks after he is done.
 ```
 
-### iphone:0167 — 2026-07-09 09:10 EDT
+### iphone_darcy:0167 — 2026-07-09 09:10 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1590–1603  
 **Timestamp as archived:** 2026-07-09 09:10  
@@ -5678,7 +5681,7 @@ And just to note..: we never wanted the property for 2.8 or for the full propert
 I don’t think he’s doing a good job representing themselves.
 ```
 
-### iphone:0168 — 2026-07-09 09:16 EDT
+### iphone_darcy:0168 — 2026-07-09 09:16 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1607–1612  
 **Timestamp as archived:** 2026-07-09 09:16  
@@ -5693,7 +5696,7 @@ I don’t think he’s doing a good job representing themselves.
 I agree. I “assume” he meant a standstill because of the easement holding us up?! Honestly, once we see what Garrett says, it will be best to just write another offer and make it as clean as possible with everything we have talked about and they just accept instead of countering.
 ```
 
-### iphone:0169 — 2026-07-09 09:17 EDT
+### iphone_darcy:0169 — 2026-07-09 09:17 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1616–1621  
 **Timestamp as archived:** 2026-07-09 09:17  
@@ -5708,7 +5711,7 @@ I agree. I “assume” he meant a standstill because of the easement holding us
 I know courthouse tomorrow. When do you leave for Anguilla?
 ```
 
-### iphone:0170 — 2026-07-09 09:23 EDT
+### iphone_darcy:0170 — 2026-07-09 09:23 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1625–1630  
 **Timestamp as archived:** 2026-07-09 09:23  
@@ -5725,7 +5728,7 @@ Same sorting minute as other entries; within-minute sequence is not established.
 We leave on the 16-22 for Anguilla
 ```
 
-### iphone:0171 — 2026-07-09 09:23 EDT
+### iphone_darcy:0171 — 2026-07-09 09:23 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1634–1639  
 **Timestamp as archived:** 2026-07-09 09:23  
@@ -5742,7 +5745,7 @@ Same sorting minute as other entries; within-minute sequence is not established.
 Loved “I agree. I “assume” he meant a standstill because of the easement holding us up?! Honestly, once we see what Garrett says, it will be best to just write another offer and make it as clean as possible with everything we have talked about and they just accept instead of countering.”
 ```
 
-### iphone:0172 — 2026-07-09 09:25 EDT
+### iphone_darcy:0172 — 2026-07-09 09:25 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1643–1648  
 **Timestamp as archived:** 2026-07-09 09:25  
@@ -5757,7 +5760,7 @@ Loved “I agree. I “assume” he meant a standstill because of the easement h
 Thank you, I could have scrolled up….but that was easier 😊
 ```
 
-### iphone:0173 — 2026-07-09 09:47 EDT
+### iphone_darcy:0173 — 2026-07-09 09:47 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1652–1657  
 **Timestamp as archived:** 2026-07-09 09:47  
@@ -5772,7 +5775,7 @@ Thank you, I could have scrolled up….but that was easier 😊
 Loved “Thank you, I could have scrolled up….but that was easier 😊”
 ```
 
-### iphone:0174 — 2026-07-09 12:18 EDT
+### iphone_darcy:0174 — 2026-07-09 12:18 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1661–1666  
 **Timestamp as archived:** 2026-07-09 12:18  
@@ -5787,7 +5790,7 @@ Loved “Thank you, I could have scrolled up….but that was easier 😊”
 You up for a call?
 ```
 
-### iphone:0175 — 2026-07-09 12:19 EDT
+### iphone_darcy:0175 — 2026-07-09 12:19 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1670–1675  
 **Timestamp as archived:** 2026-07-09 12:19  
@@ -5802,7 +5805,7 @@ You up for a call?
 Give me 15-20 ish. I am taking my middle and some friends to the fields so easier to not have anyone with me in the car!
 ```
 
-### iphone:0176 — 2026-07-09 12:21 EDT
+### iphone_darcy:0176 — 2026-07-09 12:21 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1679–1684  
 **Timestamp as archived:** 2026-07-09 12:21  
@@ -5862,7 +5865,7 @@ Thanks!
 Sam and Regina
 ```
 
-### iphone:0177 — 2026-07-09 13:19 EDT
+### iphone_darcy:0177 — 2026-07-09 13:19 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1688–1693  
 **Timestamp as archived:** 2026-07-09 13:19  
@@ -5877,7 +5880,7 @@ Sam and Regina
 Ok Sam and I have come up with two options. Should I email or go over on the phone with you?
 ```
 
-### iphone:0178 — 2026-07-09 13:21 EDT
+### iphone_darcy:0178 — 2026-07-09 13:21 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1697–1702  
 **Timestamp as archived:** 2026-07-09 13:21  
@@ -5892,7 +5895,7 @@ Ok Sam and I have come up with two options. Should I email or go over on the pho
 I like both! Email first and then we can talk!
 ```
 
-### iphone:0179 — 2026-07-09 13:26 EDT
+### iphone_darcy:0179 — 2026-07-09 13:26 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1706–1711  
 **Timestamp as archived:** 2026-07-09 13:26  
@@ -5980,7 +5983,7 @@ On Thu, Jul 9, 2026 at 7:59 AM Darcy Knott <darcy@truebloodre.com> wrote:
 > easement. Andrew said all are busy and maybe 3 to 4 weeks after he is done.
 ```
 
-### iphone:0180 — 2026-07-09 14:08 EDT
+### iphone_darcy:0180 — 2026-07-09 14:08 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1715–1720  
 **Timestamp as archived:** 2026-07-09 14:08  
@@ -5997,7 +6000,7 @@ Same sorting minute as other entries; within-minute sequence is not established.
 Sending now
 ```
 
-### iphone:0181 — 2026-07-09 14:08 EDT
+### iphone_darcy:0181 — 2026-07-09 14:08 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1724–1729  
 **Timestamp as archived:** 2026-07-09 14:08  
@@ -6062,7 +6065,7 @@ Then they pick from options below: (but tell me before I write the PA)
    entirely. After closing we could then grant one if time is a concern
 ```
 
-### iphone:0182 — 2026-07-09 15:32 EDT
+### iphone_darcy:0182 — 2026-07-09 15:32 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1733–1738  
 **Timestamp as archived:** 2026-07-09 15:32  
@@ -6077,7 +6080,7 @@ Then they pick from options below: (but tell me before I write the PA)
 Just sent an email back with a highlights of a new offer
 ```
 
-### iphone:0183 — 2026-07-09 15:34 EDT
+### iphone_darcy:0183 — 2026-07-09 15:34 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1742–1747  
 **Timestamp as archived:** 2026-07-09 15:34  
@@ -6270,7 +6273,7 @@ On Thu, Jul 9, 2026 at 6:02 PM Darcy Knott <darcy@truebloodre.com> wrote:
 >>>    entirely. After closing we could then grant one if time is a concern
 ```
 
-### iphone:0184 — 2026-07-10 15:09 EDT
+### iphone_darcy:0184 — 2026-07-10 15:09 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1751–1756  
 **Timestamp as archived:** 2026-07-10 15:09  
@@ -6373,7 +6376,7 @@ wrote:
 > Darcy
 ```
 
-### iphone:0185 — 2026-07-10 15:11 EDT
+### iphone_darcy:0185 — 2026-07-10 15:11 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1760–1765  
 **Timestamp as archived:** 2026-07-10 15:11  
@@ -6388,7 +6391,7 @@ wrote:
 He put back on Zillow because he kept getting expired listing calls from Agents….this way they only call if they are interested 😊 He is still willing to do our deal.
 ```
 
-### iphone:0186 — 2026-07-10 15:12 EDT
+### iphone_darcy:0186 — 2026-07-10 15:12 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1769–1774  
 **Timestamp as archived:** 2026-07-10 15:12  
@@ -6500,7 +6503,7 @@ On Fri, Jul 10, 2026 at 3:10 PM Darcy Knott <darcy@truebloodre.com> wrote:
 >> Darcy
 ```
 
-### iphone:0187 — 2026-07-10 15:15 EDT
+### iphone_darcy:0187 — 2026-07-10 15:15 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1778–1783  
 **Timestamp as archived:** 2026-07-10 15:15  
@@ -6517,7 +6520,7 @@ Same sorting minute as other entries; within-minute sequence is not established.
 Ahhh okay let’s handle Monday then!!
 ```
 
-### iphone:0188 — 2026-07-11 13:33 EDT
+### iphone_darcy:0188 — 2026-07-11 13:33 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1787–1794  
 **Timestamp as archived:** 2026-07-11 13:33  
@@ -6534,7 +6537,7 @@ Hi! Do you have any free time today to go over a discrepancy in options sent ove
 Thank you!
 ```
 
-### iphone:0189 — 2026-07-13 08:24 EDT
+### iphone_darcy:0189 — 2026-07-13 08:24 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1798–1803  
 **Timestamp as archived:** 2026-07-13 08:24  
@@ -6549,7 +6552,7 @@ Thank you!
 Good morning just wanted to check in and touch base with previous message. Thank you.
 ```
 
-### iphone:0190 — 2026-07-13 08:50 EDT
+### iphone_darcy:0190 — 2026-07-13 08:50 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1807–1812  
 **Timestamp as archived:** 2026-07-13 08:50  
@@ -6566,7 +6569,7 @@ Same sorting minute as other entries; within-minute sequence is not established.
 Sam stepped away for a second. Can I call you back in 5?
 ```
 
-### iphone:0191 — 2026-07-13 08:50 EDT
+### iphone_darcy:0191 — 2026-07-13 08:50 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1816–1821  
 **Timestamp as archived:** 2026-07-13 08:50  
@@ -6773,7 +6776,7 @@ On Mon, Jul 13, 2026 at 9:40 AM Sam <samgpresnal@gmail.com> wrote:
 >> to assist.
 ```
 
-### iphone:0192 — 2026-07-13 10:30 EDT
+### iphone_darcy:0192 — 2026-07-13 10:30 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1825–1830  
 **Timestamp as archived:** 2026-07-13 10:30  
@@ -6788,7 +6791,7 @@ On Mon, Jul 13, 2026 at 9:40 AM Sam <samgpresnal@gmail.com> wrote:
 Just sent an email that the surveyor should have legal description for easement done tomorrow
 ```
 
-### iphone:0193 — 2026-07-13 19:51 EDT
+### iphone_darcy:0193 — 2026-07-13 19:51 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1834–1839  
 **Timestamp as archived:** 2026-07-13 19:51  
@@ -6803,7 +6806,7 @@ Just sent an email that the surveyor should have legal description for easement 
 Thank you!!
 ```
 
-### iphone:0194 — 2026-07-14 14:30 EDT
+### iphone_darcy:0194 — 2026-07-14 14:30 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1843–1848  
 **Timestamp as archived:** 2026-07-14 14:30  
@@ -6818,7 +6821,7 @@ Thank you!!
 We still haven’t heard anything from Garrett. Just checking in to see if you’ve had any updates on your end.
 ```
 
-### iphone:0195 — 2026-07-14 15:39 EDT
+### iphone_darcy:0195 — 2026-07-14 15:39 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1852–1857  
 **Timestamp as archived:** 2026-07-14 15:39  
@@ -6833,7 +6836,7 @@ We still haven’t heard anything from Garrett. Just checking in to see if you�
 I have not about the easement! He did ask again about buying their stuff (exercise, hot tub?, some furniture) Do you know what you wanted? Should I have them do a list? Do you want to go direct to them and then I can do a personal property addendum? Sorry, lots of questions there
 ```
 
-### iphone:0196 — 2026-07-14 15:53 EDT
+### iphone_darcy:0196 — 2026-07-14 15:53 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1861–1868  
 **Timestamp as archived:** 2026-07-14 15:53  
@@ -6850,7 +6853,7 @@ Hi! I know we are interested in the hot tub, pool table, and lounge sets outside
 Other than that if they wanted to make a list we would be happy to look through it and see but ok with just the above or nothing as well if they don’t wanna do that.
 ```
 
-### iphone:0197 — 2026-07-14 16:28 EDT
+### iphone_darcy:0197 — 2026-07-14 16:28 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1872–1877  
 **Timestamp as archived:** 2026-07-14 16:28  
@@ -6865,7 +6868,7 @@ Other than that if they wanted to make a list we would be happy to look through 
 Okay, thanks! Will tell him this
 ```
 
-### iphone:0198 — 2026-07-14 17:07 EDT
+### iphone_darcy:0198 — 2026-07-14 17:07 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1881–1886  
 **Timestamp as archived:** 2026-07-14 17:07  
@@ -6945,7 +6948,7 @@ Derrick
 --
 ```
 
-### iphone:0199 — 2026-07-14 18:15 EDT
+### iphone_darcy:0199 — 2026-07-14 18:15 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1890–1895  
 **Timestamp as archived:** 2026-07-14 18:15  
@@ -6960,7 +6963,7 @@ Derrick
 Sent the email with description. I went ahead and included Garrett to see if he can answer us….I didn’t realize he was gone for a week, I thought it was just last weekend. 😬
 ```
 
-### iphone:0200 — 2026-07-14 18:42 EDT
+### iphone_darcy:0200 — 2026-07-14 18:42 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1899–1906  
 **Timestamp as archived:** 2026-07-14 18:42  
@@ -6977,7 +6980,7 @@ Sam and I have had the worst luck hiring lawyers lately just for them to go out 
 No worries. Thank you for this!
 ```
 
-### iphone:0201 — 2026-07-14 19:24 EDT
+### iphone_darcy:0201 — 2026-07-14 19:24 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1910–1917  
 **Timestamp as archived:** 2026-07-14 19:24  
@@ -6994,7 +6997,7 @@ Emphasized “Sam and I have had the worst luck hiring lawyers lately just for t
 No worries. Thank you for this! ”
 ```
 
-### iphone:0202 — 2026-07-16 14:15 EDT
+### iphone_darcy:0202 — 2026-07-16 14:15 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1921–1926  
 **Timestamp as archived:** 2026-07-16 14:15  
@@ -7009,7 +7012,7 @@ No worries. Thank you for this! ”
 He’s gotta be back in the office today right…? 😭
 ```
 
-### iphone:0203 — 2026-07-16 14:18 EDT
+### iphone_darcy:0203 — 2026-07-16 14:18 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1930–1935  
 **Timestamp as archived:** 2026-07-16 14:18  
@@ -7024,7 +7027,7 @@ He’s gotta be back in the office today right…? 😭
 I emailed him separately too just to ask…. 🙃
 ```
 
-### iphone:0204 — 2026-07-17 09:50 EDT
+### iphone_darcy:0204 — 2026-07-17 09:50 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1939–1944  
 **Timestamp as archived:** 2026-07-17 09:50  
@@ -7039,7 +7042,7 @@ I emailed him separately too just to ask…. 🙃
 Derick asking me if he should meet with attorney today about doing the easement. I want to tell him yes but need to make sure you guys still want to move forward as soon as Garrett responds to us…
 ```
 
-### iphone:0205 — 2026-07-17 09:53 EDT
+### iphone_darcy:0205 — 2026-07-17 09:53 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1948–1953  
 **Timestamp as archived:** 2026-07-17 09:53  
@@ -7054,7 +7057,7 @@ Derick asking me if he should meet with attorney today about doing the easement.
 Yes 🙌
 ```
 
-### iphone:0206 — 2026-07-17 10:10 EDT
+### iphone_darcy:0206 — 2026-07-17 10:10 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1957–1962  
 **Timestamp as archived:** 2026-07-17 10:10  
@@ -7069,7 +7072,7 @@ Yes 🙌
 Liked “Yes 🙌 ”
 ```
 
-### iphone:0207 — 2026-07-17 11:36 EDT
+### iphone_darcy:0207 — 2026-07-17 11:36 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1966–1971  
 **Timestamp as archived:** 2026-07-17 11:36  
@@ -7084,7 +7087,7 @@ Liked “Yes 🙌 ”
 From Derrick: Our lawyer believes it will be done at least the 1st draft on the 28th. It would then be finalized and recorded by the title company. Can we sign the purchase agreement now?  We can adjust the easement terms if needed before the actual closing date. The lawyer is on vacation this coming week. Can send you over a "counter offer" with additional information and exhibits. The other property owner wants a purchase agreement signed as well. We have settled on a price and was waiting on this one.
 ```
 
-### iphone:0208 — 2026-07-17 11:38 EDT
+### iphone_darcy:0208 — 2026-07-17 11:38 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1975–1980  
 **Timestamp as archived:** 2026-07-17 11:38  
@@ -7099,7 +7102,7 @@ From Derrick: Our lawyer believes it will be done at least the 1st draft on the 
 With this info we can put something in about the easement in further conditions. I am open and okay to put a clause in further conditions about easement but it doesn’t seem like Garrett is being super helpful at the moment (which I apologize for…..) Working on some wording
 ```
 
-### iphone:0209 — 2026-07-17 11:53 EDT
+### iphone_darcy:0209 — 2026-07-17 11:53 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 1984–1997  
 **Timestamp as archived:** 2026-07-17 11:53  
@@ -7122,7 +7125,7 @@ We don’t wanna rush into signing something because of their arrangements with 
 And I’m sorry to you as I know this has to be so annoying
 ```
 
-### iphone:0210 — 2026-07-17 11:55 EDT
+### iphone_darcy:0210 — 2026-07-17 11:55 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2001–2006  
 **Timestamp as archived:** 2026-07-17 11:55  
@@ -7139,7 +7142,7 @@ Same sorting minute as other entries; within-minute sequence is not established.
 Nope, I get it. I just wanted to send you the info as I had it!!!
 ```
 
-### iphone:0211 — 2026-07-17 11:55 EDT
+### iphone_darcy:0211 — 2026-07-17 11:55 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2010–2015  
 **Timestamp as archived:** 2026-07-17 11:55  
@@ -7156,7 +7159,7 @@ Same sorting minute as other entries; within-minute sequence is not established.
 We truly appreciate you Darcy, thank you.
 ```
 
-### iphone:0212 — 2026-07-17 12:00 EDT
+### iphone_darcy:0212 — 2026-07-17 12:00 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2019–2024  
 **Timestamp as archived:** 2026-07-17 12:00  
@@ -7171,7 +7174,7 @@ We truly appreciate you Darcy, thank you.
 I think I left him a VM 🙃 was a generic one (Garrett)
 ```
 
-### iphone:0213 — 2026-07-17 12:02 EDT
+### iphone_darcy:0213 — 2026-07-17 12:02 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2028–2033  
 **Timestamp as archived:** 2026-07-17 12:02  
@@ -7186,7 +7189,7 @@ I think I left him a VM 🙃 was a generic one (Garrett)
 Sam doesn’t have anything
 ```
 
-### iphone:0214 — 2026-07-17 14:37 EDT
+### iphone_darcy:0214 — 2026-07-17 14:37 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2037–2042  
 **Timestamp as archived:** 2026-07-17 14:37  
@@ -7201,7 +7204,7 @@ Sam doesn’t have anything
 From Garrett: which is kind of what I thought he would say but….sounds like we could be good to go. I will type up the further condition and send to you and him to review and then maybe sign!?? Sorry I missed your call. Just got back late yesterday and have been catching up on things. Happy to assist with this. If the easement will be done by 7/28 for an 8/7 close, I think that will be plenty of time to review and approve the easement. I would just word the PA to reflect that the seller shall deliver the final draft of the easement by 7/28 and that the purchase is contingent on buyers’ approval of the easement, at their sole discretion. If you need more formal language than that, let me know. Happy to review whatever you put together prior to sending it over if you’d like.
 ```
 
-### iphone:0215 — 2026-07-17 14:41 EDT
+### iphone_darcy:0215 — 2026-07-17 14:41 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2046–2051  
 **Timestamp as archived:** 2026-07-17 14:41  
@@ -7332,7 +7335,7 @@ Darcy
 [Image removed by sender.]
 ```
 
-### iphone:0216 — 2026-07-17 17:32 EDT
+### iphone_darcy:0216 — 2026-07-17 17:32 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2055–2060  
 **Timestamp as archived:** 2026-07-17 17:32  
@@ -7347,7 +7350,7 @@ Darcy
 I have Garrett’s edits in the PA and ready to send. BUT he says final draft and it’s going to be first/rough draft so varifying that language is acceptable. However, I did not reply all so it only went to him… sorry.
 ```
 
-### iphone:0217 — 2026-07-17 17:34 EDT
+### iphone_darcy:0217 — 2026-07-17 17:34 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2064–2069  
 **Timestamp as archived:** 2026-07-17 17:34  
@@ -7362,7 +7365,7 @@ I have Garrett’s edits in the PA and ready to send. BUT he says final draft an
 My daughter’s game is in a lightning delay so I left the fields to find WiFI at a Starbucks. So sitting here “patiently.” 🙃
 ```
 
-### iphone:0218 — 2026-07-17 18:07 EDT
+### iphone_darcy:0218 — 2026-07-17 18:07 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2073–2078  
 **Timestamp as archived:** 2026-07-17 18:07  
@@ -7405,7 +7408,7 @@ Changed the final date to 7/31 that way we get the rough draft before
 (hopefully the 28th) and its done 7/31.
 ```
 
-### iphone:0219 — 2026-07-18 09:49 EDT
+### iphone_darcy:0219 — 2026-07-18 09:49 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2082–2087  
 **Timestamp as archived:** 2026-07-18 09:49  
@@ -7420,7 +7423,7 @@ Changed the final date to 7/31 that way we get the rough draft before
 Sounds good. I think we are ready to have contract signed! Sorry events started right at this time!
 ```
 
-### iphone:0220 — 2026-07-18 09:52 EDT
+### iphone_darcy:0220 — 2026-07-18 09:52 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2091–2096  
 **Timestamp as archived:** 2026-07-18 09:52  
@@ -7437,7 +7440,7 @@ Same sorting minute as other entries; within-minute sequence is not established.
 I understand!!! I am not sure what day it is when I go out of town for sports. 🙃 Did you see the email with copy of PA with Garrett’s words?
 ```
 
-### iphone:0221 — 2026-07-18 09:52 EDT
+### iphone_darcy:0221 — 2026-07-18 09:52 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2100–2105  
 **Timestamp as archived:** 2026-07-18 09:52  
@@ -7454,7 +7457,7 @@ Same sorting minute as other entries; within-minute sequence is not established.
 Wording
 ```
 
-### iphone:0222 — 2026-07-18 09:54 EDT
+### iphone_darcy:0222 — 2026-07-18 09:54 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2109–2114  
 **Timestamp as archived:** 2026-07-18 09:54  
@@ -7469,7 +7472,7 @@ Wording
 Looking over soon. So sorry.
 ```
 
-### iphone:0223 — 2026-07-18 13:09 EDT
+### iphone_darcy:0223 — 2026-07-18 13:09 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2118–2123  
 **Timestamp as archived:** 2026-07-18 13:09  
@@ -7484,7 +7487,7 @@ Looking over soon. So sorry.
 I know you are doing important wedding things! Will you just let me know if you want to proceed today or if we just wait until Monday? I am going to be unable to much in a couple hours, for a couple of hours, so just want to gauge the rest of the afternoon if possible. Thanks!
 ```
 
-### iphone:0224 — 2026-07-20 11:58 EDT
+### iphone_darcy:0224 — 2026-07-20 11:58 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2127–2132  
 **Timestamp as archived:** 2026-07-20 11:58  
@@ -7499,7 +7502,7 @@ I know you are doing important wedding things! Will you just let me know if you 
 Good morning! Hope you all had a great wedding weekend. Let me know if you want to move forward still?!
 ```
 
-### iphone:0225 — 2026-07-20 12:03 EDT
+### iphone_darcy:0225 — 2026-07-20 12:03 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2136–2143  
 **Timestamp as archived:** 2026-07-20 12:03  
@@ -7516,7 +7519,7 @@ Hi. Thank you,
 We are reviewing it and will reply shortly
 ```
 
-### iphone:0226 — 2026-07-20 12:05 EDT
+### iphone_darcy:0226 — 2026-07-20 12:05 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2147–2154  
 **Timestamp as archived:** 2026-07-20 12:05  
@@ -7533,7 +7536,7 @@ Liked “ Hi. Thank you,
 We are reviewing it and will reply shortly ”
 ```
 
-### iphone:0227 — 2026-07-20 12:12 EDT
+### iphone_darcy:0227 — 2026-07-20 12:12 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2158–2163  
 **Timestamp as archived:** 2026-07-20 12:12  
@@ -7548,7 +7551,7 @@ We are reviewing it and will reply shortly ”
 Everything looks good. Can we push earnest money deadline till Wednesday so we can get that situated?
 ```
 
-### iphone:0228 — 2026-07-20 12:22 EDT
+### iphone_darcy:0228 — 2026-07-20 12:22 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2167–2172  
 **Timestamp as archived:** 2026-07-20 12:22  
@@ -7563,7 +7566,7 @@ Everything looks good. Can we push earnest money deadline till Wednesday so we c
 Double checking the final date with Garrett if we move it back a couple days (past 7/28-bc that is just the rough draft) to make sure he can review it but still close on 8/7. I know he said 2 weeks before but we don’t have that luxury at this point! And yes to the EM, might do Thursday to be safe!
 ```
 
-### iphone:0229 — 2026-07-20 12:32 EDT
+### iphone_darcy:0229 — 2026-07-20 12:32 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2176–2181  
 **Timestamp as archived:** 2026-07-20 12:32  
@@ -7608,7 +7611,7 @@ Thank you!
 Darcy
 ```
 
-### iphone:0230 — 2026-07-20 12:38 EDT
+### iphone_darcy:0230 — 2026-07-20 12:38 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2185–2190  
 **Timestamp as archived:** 2026-07-20 12:38  
@@ -7623,7 +7626,7 @@ Darcy
 Okay sent! With Garrett’s approval of dates 😊 There are 3 docs, the purchase agreement, post closing addendum and a FSBO form for them to pay commission.
 ```
 
-### iphone:0231 — 2026-07-20 12:40 EDT
+### iphone_darcy:0231 — 2026-07-20 12:40 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2194–2199  
 **Timestamp as archived:** 2026-07-20 12:40  
@@ -7692,7 +7695,7 @@ representation: EVENT
 Signing-system notification; event described in subject.
 ```
 
-### iphone:0232 — 2026-07-20 18:56 EDT
+### iphone_darcy:0232 — 2026-07-20 18:56 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2203–2208  
 **Timestamp as archived:** 2026-07-20 18:56  
@@ -7707,7 +7710,7 @@ Signing-system notification; event described in subject.
 Derick has not responded to my text or email yet! 🙃
 ```
 
-### iphone:0233 — 2026-07-20 18:57 EDT
+### iphone_darcy:0233 — 2026-07-20 18:57 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2212–2217  
 **Timestamp as archived:** 2026-07-20 18:57  
@@ -7722,7 +7725,7 @@ Derick has not responded to my text or email yet! 🙃
 Of course lol
 ```
 
-### iphone:0234 — 2026-07-21 10:06 EDT
+### iphone_darcy:0234 — 2026-07-21 10:06 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2221–2226  
 **Timestamp as archived:** 2026-07-21 10:06  
@@ -7737,7 +7740,7 @@ Of course lol
 Good morning! I knew the Attorney language would throw them off!! 😂 They called to ask me if what you have all spoken about (the day you were here) and then I believe they emailed some “expectations” of the easement they want….they were questioning whether you had changes already! I said not to my knowledge. The attorney for the easement is out of town…so they were trying to track her down for the exact dates. At any rate…they are out of town and cannot sign and send back the Purchase agreement. So….I am either going to do an amendment and amend the response time. Or we can just let the PA expire at noon and I can retype it with todays date and change the response time to one they can do….. so Sam will need to sign something later today FYI.
 ```
 
-### iphone:0235 — 2026-07-21 10:07 EDT
+### iphone_darcy:0235 — 2026-07-21 10:07 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2230–2235  
 **Timestamp as archived:** 2026-07-21 10:07  
@@ -7752,7 +7755,7 @@ Good morning! I knew the Attorney language would throw them off!! 😂 They call
 That was long, sorry!
 ```
 
-### iphone:0236 — 2026-07-21 10:09 EDT
+### iphone_darcy:0236 — 2026-07-21 10:09 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2239–2248  
 **Timestamp as archived:** 2026-07-21 10:09  
@@ -7771,7 +7774,7 @@ And I mean we are out of town to but that didn’t stop us..
 And I’m not sure what changes they are referring to.
 ```
 
-### iphone:0237 — 2026-07-21 10:11 EDT
+### iphone_darcy:0237 — 2026-07-21 10:11 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2252–2257  
 **Timestamp as archived:** 2026-07-21 10:11  
@@ -7786,7 +7789,7 @@ And I’m not sure what changes they are referring to.
 I think I just didn’t process your message correctly lol
 ```
 
-### iphone:0238 — 2026-07-21 10:14 EDT
+### iphone_darcy:0238 — 2026-07-21 10:14 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2261–2266  
 **Timestamp as archived:** 2026-07-21 10:14  
@@ -7801,7 +7804,7 @@ I think I just didn’t process your message correctly lol
 Sorry. The part from Garrett is just a lot and it does lean in your favor but somehow they read it as you already didn’t agree with the easement…. The attorney for the easement is who they are referencing, and wanted to make sure they could fulfill the dates in that clause. Last-they hand sign and scan back….and they are at Holiday World so just don’t have access. I am trying to find out if I can send to them electronically for digital signatures out of my file..but I also don’t want to do something I am not supposed to do! 😊
 ```
 
-### iphone:0239 — 2026-07-21 10:28 EDT
+### iphone_darcy:0239 — 2026-07-21 10:28 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2270–2277  
 **Timestamp as archived:** 2026-07-21 10:28  
@@ -7818,7 +7821,7 @@ Ok thank you for explaining that. Sounds good and we will wait for updates.
 Will be traveling starting at 1:50-9pm
 ```
 
-### iphone:0240 — 2026-07-21 10:30 EDT
+### iphone_darcy:0240 — 2026-07-21 10:30 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2281–2286  
 **Timestamp as archived:** 2026-07-21 10:30  
@@ -7833,7 +7836,7 @@ Will be traveling starting at 1:50-9pm
 Okay, thank you for that update on your travels!
 ```
 
-### iphone:0241 — 2026-07-21 10:32 EDT
+### iphone_darcy:0241 — 2026-07-21 10:32 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2290–2295  
 **Timestamp as archived:** 2026-07-21 10:32  
@@ -7848,7 +7851,7 @@ Okay, thank you for that update on your travels!
 We will be in car from 5:30-9:30 most likely so if anything we can stop and sign if needed in the evening when we charge the car
 ```
 
-### iphone:0242 — 2026-07-21 10:33 EDT
+### iphone_darcy:0242 — 2026-07-21 10:33 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2299–2304  
 **Timestamp as archived:** 2026-07-21 10:33  
@@ -7863,7 +7866,7 @@ We will be in car from 5:30-9:30 most likely so if anything we can stop and sign
 Okay!
 ```
 
-### iphone:0243 — 2026-07-21 11:36 EDT
+### iphone_darcy:0243 — 2026-07-21 11:36 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2308–2313  
 **Timestamp as archived:** 2026-07-21 11:36  
@@ -7904,7 +7907,7 @@ representation: EVENT
 Signing-system notice. Sender note: Sorry!!  I should have sent to you awhile ago but forgot. Just sign when you can! I changed the fee to $199 which all goes to the real estate company
 ```
 
-### iphone:0244 — 2026-07-21 12:51 EDT
+### iphone_darcy:0244 — 2026-07-21 12:51 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2317–2324  
 **Timestamp as archived:** 2026-07-21 12:51  
@@ -7921,7 +7924,7 @@ Ahhhh ok!!! Let me text the inspector. Any specific time and day?
 Wooohoo and I’m sure I can have someone go to the inspection
 ```
 
-### iphone:0245 — 2026-07-21 12:55 EDT
+### iphone_darcy:0245 — 2026-07-21 12:55 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2328–2333  
 **Timestamp as archived:** 2026-07-21 12:55  
@@ -7936,7 +7939,7 @@ Wooohoo and I’m sure I can have someone go to the inspection
 They said anytime
 ```
 
-### iphone:0246 — 2026-07-21 12:58 EDT
+### iphone_darcy:0246 — 2026-07-21 12:58 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2337–2342  
 **Timestamp as archived:** 2026-07-21 12:58  
@@ -7951,7 +7954,7 @@ They said anytime
 Ok I messaged him!!
 ```
 
-### iphone:0247 — 2026-07-21 13:29 EDT
+### iphone_darcy:0247 — 2026-07-21 13:29 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2346–2351  
 **Timestamp as archived:** 2026-07-21 13:29  
@@ -8009,7 +8012,7 @@ Thanks!
 Darcy
 ```
 
-### iphone:0248 — 2026-07-21 14:41 EDT
+### iphone_darcy:0248 — 2026-07-21 14:41 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2355–2360  
 **Timestamp as archived:** 2026-07-21 14:41  
@@ -8024,7 +8027,7 @@ Darcy
 The inspector said he can do Thursday morning
 ```
 
-### iphone:0249 — 2026-07-21 14:49 EDT
+### iphone_darcy:0249 — 2026-07-21 14:49 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2364–2369  
 **Timestamp as archived:** 2026-07-21 14:49  
@@ -8039,7 +8042,7 @@ The inspector said he can do Thursday morning
 Ok saw your email and sent inspector derricks number
 ```
 
-### iphone:0250 — 2026-07-21 14:59 EDT
+### iphone_darcy:0250 — 2026-07-21 14:59 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2373–2380  
 **Timestamp as archived:** 2026-07-21 14:59  
@@ -8058,7 +8061,7 @@ Also Sam has a question regarding the doc you sent for him to sign.
 We thought the seller was using first American title company. Is that what that is referring to?
 ```
 
-### iphone:0251 — 2026-07-21 14:59 EDT
+### iphone_darcy:0251 — 2026-07-21 14:59 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2384–2389  
 **Timestamp as archived:** 2026-07-21 14:59  
@@ -8103,7 +8106,7 @@ representation: EVENT
 Signing-system notification; event described in subject.
 ```
 
-### iphone:0252 — 2026-07-21 15:25 EDT
+### iphone_darcy:0252 — 2026-07-21 15:25 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2393–2398  
 **Timestamp as archived:** 2026-07-21 15:25  
@@ -8118,7 +8121,7 @@ Signing-system notification; event described in subject.
 I sent him our office policy doc. It just states I am representing you! (He signed one last year too for Oakmont but I can’t use one from over a year ago) First American is the title company. I spoke to Derick  a long time ago about  using them bc they would be able to do the work quickly, they have an office in Greenwood and if he then wanted to do a back to back closing for his other property, they can do.
 ```
 
-### iphone:0253 — 2026-07-21 15:38 EDT
+### iphone_darcy:0253 — 2026-07-21 15:38 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2402–2407  
 **Timestamp as archived:** 2026-07-21 15:38  
@@ -8135,7 +8138,7 @@ Same sorting minute as other entries; within-minute sequence is not established.
 Sounds good and all signed
 ```
 
-### iphone:0254 — 2026-07-21 15:38 EDT
+### iphone_darcy:0254 — 2026-07-21 15:38 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2411–2416  
 **Timestamp as archived:** 2026-07-21 15:38  
@@ -8152,7 +8155,7 @@ Same sorting minute as other entries; within-minute sequence is not established.
 [No readable message body in PDF]
 ```
 
-### iphone:0255 — 2026-07-21 15:40 EDT
+### iphone_darcy:0255 — 2026-07-21 15:40 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2420–2425  
 **Timestamp as archived:** 2026-07-21 15:40  
@@ -8169,7 +8172,7 @@ Same sorting minute as other entries; within-minute sequence is not established.
 Thanks! Will give Derrick time to respond before I double check w him that he received!
 ```
 
-### iphone:0256 — 2026-07-21 15:40 EDT
+### iphone_darcy:0256 — 2026-07-21 15:40 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2429–2436  
 **Timestamp as archived:** 2026-07-21 15:40  
@@ -8188,7 +8191,7 @@ I told bill they were at holiday world and would hopefully return his call soon 
 Messaged septic company and waiting on response
 ```
 
-### iphone:0257 — 2026-07-21 15:41 EDT
+### iphone_darcy:0257 — 2026-07-21 15:41 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2440–2445  
 **Timestamp as archived:** 2026-07-21 15:41  
@@ -8203,7 +8206,7 @@ Messaged septic company and waiting on response
 Sam’s dad can be at inspection Thursday morning if it gets scheduled.
 ```
 
-### iphone:0258 — 2026-07-22 10:06 EDT
+### iphone_darcy:0258 — 2026-07-22 10:06 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2449–2454  
 **Timestamp as archived:** 2026-07-22 10:06  
@@ -8218,7 +8221,7 @@ Sam’s dad can be at inspection Thursday morning if it gets scheduled.
 Do we have any updates?
 ```
 
-### iphone:0259 — 2026-07-22 10:20 EDT
+### iphone_darcy:0259 — 2026-07-22 10:20 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2458–2463  
 **Timestamp as archived:** 2026-07-22 10:20  
@@ -8233,7 +8236,7 @@ Do we have any updates?
 Derick just text me that it is 9 am tomorrow.
 ```
 
-### iphone:0260 — 2026-07-22 10:23 EDT
+### iphone_darcy:0260 — 2026-07-22 10:23 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2467–2472  
 **Timestamp as archived:** 2026-07-22 10:23  
@@ -8250,7 +8253,7 @@ Same sorting minute as other entries; within-minute sequence is not established.
 On phone with Bill right now
 ```
 
-### iphone:0261 — 2026-07-22 10:23 EDT
+### iphone_darcy:0261 — 2026-07-22 10:23 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2476–2481  
 **Timestamp as archived:** 2026-07-22 10:23  
@@ -8267,7 +8270,7 @@ Same sorting minute as other entries; within-minute sequence is not established.
 Also..as soon as I can update, I need to send a new Buyers agency agreement to Sam stating the seller is paying $25k commission
 ```
 
-### iphone:0262 — 2026-07-22 10:34 EDT
+### iphone_darcy:0262 — 2026-07-22 10:34 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2485–2492  
 **Timestamp as archived:** 2026-07-22 10:34  
@@ -8284,7 +8287,7 @@ Ok.
 Confirmed inspection for tomorrow from 9-3 Sam’s dad will be there around 10 with one of his friends.
 ```
 
-### iphone:0263 — 2026-07-22 10:56 EDT
+### iphone_darcy:0263 — 2026-07-22 10:56 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2496–2501  
 **Timestamp as archived:** 2026-07-22 10:56  
@@ -8299,7 +8302,7 @@ Confirmed inspection for tomorrow from 9-3 Sam’s dad will be there around 10 w
 It’s too late now but I’m wondering why they are able to have possession of the property for two weeks after closing when we agreed to only one week I thought. Correct me if I’m wrong but I never saw the purchase agreement until now and Sam missed that when signing yesterday
 ```
 
-### iphone:0264 — 2026-07-22 10:58 EDT
+### iphone_darcy:0264 — 2026-07-22 10:58 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2505–2510  
 **Timestamp as archived:** 2026-07-22 10:58  
@@ -8314,7 +8317,7 @@ It’s too late now but I’m wondering why they are able to have possession of 
 He asked about the extension at least a week ago…..I will have to scroll through texts and emails to find it
 ```
 
-### iphone:0265 — 2026-07-22 11:00 EDT
+### iphone_darcy:0265 — 2026-07-22 11:00 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2514–2519  
 **Timestamp as archived:** 2026-07-22 11:00  
@@ -8329,7 +8332,7 @@ He asked about the extension at least a week ago…..I will have to scroll throu
 It’s fine. There’s been so much back and forth I’m lost in everything at this point lol
 ```
 
-### iphone:0266 — 2026-07-22 11:52 EDT
+### iphone_darcy:0266 — 2026-07-22 11:52 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2523–2534  
 **Timestamp as archived:** 2026-07-22 11:52  
@@ -8352,7 +8355,7 @@ Regarding septic inspection - we received a quote and have a couple questions:
 3. Does tomorrow (Thurs) around 3pm work? I know Derrick may not be there but I think other inspections are likely to still be ongoing at that time so it may be most preferable for him
 ```
 
-### iphone:0267 — 2026-07-22 11:52 EDT
+### iphone_darcy:0267 — 2026-07-22 11:52 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2538–2543  
 **Timestamp as archived:** 2026-07-22 11:52  
@@ -11829,7 +11832,7 @@ On Wed, Jul 29, 2026 at 5:28 PM Sam <samgpresnal@gmail.com> wrote:
 >>> Received. I’ll review this shortly.
 ```
 
-### iphone:0268 — 2026-07-30 15:47 EDT
+### iphone_darcy:0268 — 2026-07-30 15:47 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2547–2552  
 **Timestamp as archived:** 2026-07-30 15:47  
@@ -11844,7 +11847,7 @@ On Wed, Jul 29, 2026 at 5:28 PM Sam <samgpresnal@gmail.com> wrote:
 Are you available for a phone call
 ```
 
-### iphone:0269 — 2026-07-30 16:09 EDT
+### iphone_darcy:0269 — 2026-07-30 16:09 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2556–2561  
 **Timestamp as archived:** 2026-07-30 16:09  
@@ -16770,7 +16773,7 @@ Same sorting minute as other entries; within-minute sequence is not established.
 📄 Screenshot 2026-08-05 at 9.38.28 AM.png
 ```
 
-### iphone:0270 — 2026-08-05 09:38 EDT
+### iphone_darcy:0270 — 2026-08-05 09:38 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2565–2570  
 **Timestamp as archived:** 2026-08-05 09:38  
@@ -16901,7 +16904,7 @@ wrote:
 📄 Screenshot 2026-08-05 at 9.58.07 AM.png
 ```
 
-### iphone:0271 — 2026-08-05 12:16 EDT
+### iphone_darcy:0271 — 2026-08-05 12:16 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2574–2579  
 **Timestamp as archived:** 2026-08-05 12:16  
@@ -17308,7 +17311,7 @@ Darcy
 [Image removed by sender.]
 ```
 
-### iphone:0272 — 2026-08-05 12:57 EDT
+### iphone_darcy:0272 — 2026-08-05 12:57 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2583–2588  
 **Timestamp as archived:** 2026-08-05 12:57  
@@ -24776,7 +24779,7 @@ wrote:
 >>>>>>> Sarah 317-292-1884
 ```
 
-### iphone:0273 — 2026-08-11 15:50 EDT
+### iphone_darcy:0273 — 2026-08-11 15:50 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2592–2597  
 **Timestamp as archived:** 2026-08-11 15:50  
@@ -24791,7 +24794,7 @@ wrote:
 Hope all is well with you and your family. That storm looked NASTY
 ```
 
-### iphone:0274 — 2026-08-11 20:40 EDT
+### iphone_darcy:0274 — 2026-08-11 20:40 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2601–2606  
 **Timestamp as archived:** 2026-08-11 20:40  
@@ -24897,7 +24900,7 @@ wrote:
 > [long link omitted]
 ```
 
-### iphone:0275 — 2026-08-13 19:10 EDT
+### iphone_darcy:0275 — 2026-08-13 19:10 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2610–2615  
 **Timestamp as archived:** 2026-08-13 19:10  
@@ -24912,7 +24915,7 @@ wrote:
 Girl… what is happening in Indiana right now holy crap.
 ```
 
-### iphone:0276 — 2026-08-13 19:12 EDT
+### iphone_darcy:0276 — 2026-08-13 19:12 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2619–2624  
 **Timestamp as archived:** 2026-08-13 19:12  
@@ -24927,7 +24930,7 @@ Girl… what is happening in Indiana right now holy crap.
 It’s been crazy! So much rain!
 ```
 
-### iphone:0277 — 2026-08-13 19:15 EDT
+### iphone_darcy:0277 — 2026-08-13 19:15 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2628–2633  
 **Timestamp as archived:** 2026-08-13 19:15  
@@ -26234,7 +26237,7 @@ wrote:
 > again.
 ```
 
-### iphone:0278 — 2026-08-20 19:34 EDT
+### iphone_darcy:0278 — 2026-08-20 19:34 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2637–2642  
 **Timestamp as archived:** 2026-08-20 19:34  
@@ -26249,7 +26252,7 @@ wrote:
 See you tomorrow! Did Derick tell you the gate code? Maybe it will just be open?! I gave Garrett more detail yesterday. I know he was in court though…. Maybe he has gotten back to you though? I am calling the other agent on my drive down tomorrow to see what else he can tell me, if anything. But I don’t want him to then go run to his seller who then calls Derrick. Just interested to see how Derrick spins this story but want info from the other side first!! Safe travels!
 ```
 
-### iphone:0279 — 2026-08-20 19:37 EDT
+### iphone_darcy:0279 — 2026-08-20 19:37 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2646–2653  
 **Timestamp as archived:** 2026-08-20 19:37  
@@ -26266,7 +26269,7 @@ Hi and yess see you tomorrow! We haven’t heard anything further from Garrett o
 Sounds good on other agent! Definitely frustrating 🙃
 ```
 
-### iphone:0280 — 2026-08-21 11:47 EDT
+### iphone_darcy:0280 — 2026-08-21 11:47 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2657–2662  
 **Timestamp as archived:** 2026-08-21 11:47  
@@ -26281,7 +26284,7 @@ Sounds good on other agent! Definitely frustrating 🙃
 We are here.
 ```
 
-### iphone:0281 — 2026-08-21 11:49 EDT
+### iphone_darcy:0281 — 2026-08-21 11:49 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2666–2671  
 **Timestamp as archived:** 2026-08-21 11:49  
@@ -26298,7 +26301,7 @@ Same sorting minute as other entries; within-minute sequence is not established.
 Gate open?
 ```
 
-### iphone:0282 — 2026-08-21 11:49 EDT
+### iphone_darcy:0282 — 2026-08-21 11:49 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2675–2680  
 **Timestamp as archived:** 2026-08-21 11:49  
@@ -26315,7 +26318,7 @@ Same sorting minute as other entries; within-minute sequence is not established.
 I am 8 minutes
 ```
 
-### iphone:0283 — 2026-08-21 11:49 EDT
+### iphone_darcy:0283 — 2026-08-21 11:49 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2684–2691  
 **Timestamp as archived:** 2026-08-21 11:49  
@@ -26334,7 +26337,7 @@ Yes mam.
 They have a big truck here picking up a pod. You can park in grass in front of the white jeep
 ```
 
-### iphone:0284 — 2026-08-21 11:54 EDT
+### iphone_darcy:0284 — 2026-08-21 11:54 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2695–2700  
 **Timestamp as archived:** 2026-08-21 11:54  
@@ -26563,7 +26566,7 @@ wrote:
 > Pool cover code is 1234 check mark and door codes are 2122.
 ```
 
-### iphone:0285 — 2026-08-22 14:13 EDT
+### iphone_darcy:0285 — 2026-08-22 14:13 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2704–2709  
 **Timestamp as archived:** 2026-08-22 14:13  
@@ -26578,7 +26581,7 @@ wrote:
 We should have put in the contact they had to hire move out cleaners… they should be embarrassed by us seeing the filth they were ok living in. Most disgusting house I’ve ever moved into.
 ```
 
-### iphone:0286 — 2026-08-22 14:16 EDT
+### iphone_darcy:0286 — 2026-08-22 14:16 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2713–2718  
 **Timestamp as archived:** 2026-08-22 14:16  
@@ -26593,7 +26596,7 @@ We should have put in the contact they had to hire move out cleaners… they sho
 Eek, I’m sorry. For the most part people do leave homes fairly clean. Because it is embarrassing when they aren’t Did you find something else?
 ```
 
-### iphone:0287 — 2026-08-22 14:17 EDT
+### iphone_darcy:0287 — 2026-08-22 14:17 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2722–2727  
 **Timestamp as archived:** 2026-08-22 14:17  
@@ -26608,7 +26611,7 @@ Eek, I’m sorry. For the most part people do leave homes fairly clean. Because 
 I swear they have never deep cleaned this property once. Also they lied about the square footage by 1000 square feet
 ```
 
-### iphone:0288 — 2026-08-22 14:28 EDT
+### iphone_darcy:0288 — 2026-08-22 14:28 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2731–2736  
 **Timestamp as archived:** 2026-08-22 14:28  
@@ -26766,7 +26769,7 @@ Here’s Sam’s!
 No problem at all. We try to be timely as possible. We enjoyed getting to talk face to face as well. So much better than thru a 3rd party! We are having issues with changing our address online so will have to wait and go to the physical post office Monday. So if you do see some of our mail either let us know or just put moved on the envelope and put back in the mailbox please and thank you. We  still have to switch Doorking payments over to the Fletchers. You will need to meet with as I am closing out the HOA account and having them take it over as they requested. We talked it over with them today.
 ```
 
-### iphone:0289 — 2026-08-22 20:51 EDT
+### iphone_darcy:0289 — 2026-08-22 20:51 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2740–2745  
 **Timestamp as archived:** 2026-08-22 20:51  
@@ -26781,7 +26784,7 @@ No problem at all. We try to be timely as possible. We enjoyed getting to talk f
 Does any of that footage NOT include any finished areas. For example, the home was built and it was that square footage for 2nd floor BUT the space beyond the master bath was not included bc it was finished later??? Per the Johnson County Assessor and what you are taxed on it is 8,555 finished square feet. 2672 main and 2672 for the basement and 3211 for the 2nd floor.
 ```
 
-### iphone:0290 — 2026-08-22 21:09 EDT
+### iphone_darcy:0290 — 2026-08-22 21:09 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2749–2754  
 **Timestamp as archived:** 2026-08-22 21:09  
@@ -26873,6 +26876,104 @@ The trash for you in the future is best to be put out Sunday night because they 
 **Source:** PDF page 3
 
 Good to know, thank you.
+```
+
+### iphone_sarah:0001 — 2026-08-23 11:07 EDT
+
+**Archive reference:** [iphone_sarah_messages.md](../data/archives/iphone/iphone_sarah_messages.md), lines 14–21  
+**Timestamp as archived:** 2026-08-23 11:07  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0001 — 2026-08-23 11:07
+**From:** Sarah  
+**To:** Regina  
+**Source:** PDF page 1
+
+https://venturi.blob.core.windows.net/ fd-4121/41-04-21-043-032.001-054/0? sv=2025-11-05&se=2026-08-24T14%3A28%3A26Z&sr=b&sp=r&rs cd=inline%3B+filename%3D%2241-04-21-043-032.001-054_0.pdf %22&sig=Pkjk%2FksOKR0sBUyefrstdAKN%2B9GIuGsqTMe8oVXVi2 w%3D
+
+Good morning Regina and Sam! This is Sarah. I wanted to pass this info onto you so you can understand where we and Paradigm found all the info on the house. Here is the information we and Paradigm used to get our numbers and base price points. Which can be found on beacon (Johnson county), assessors office and so on. This was also the information that was passed down to us when we bought the home from the previous owners.
+```
+
+### iphone_sarah:0002 — 2026-08-23 11:18 EDT
+
+**Archive reference:** [iphone_sarah_messages.md](../data/archives/iphone/iphone_sarah_messages.md), lines 25–34  
+**Timestamp as archived:** 2026-08-23 11:18  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0002 — 2026-08-23 11:18
+**From:** Regina  
+**To:** Sarah  
+**Source:** PDF page 1
+
+Hi Sarah and good morning,
+
+Thanks for sending this over. I swear that has to include the unfinished part of the attic.. there’s just no way the second floor is more square footage than the rest of the floors. So weird..  the tax assessors measure the square footage from the outside is Sam’s understanding but he could be wrong. We are gonna get it measured to see though.
+
+8,555 and 6,702 is just such a big difference. We feel like it’s somewhat in the middle of those numbers.
+```
+
+### iphone_sarah:0003 — 2026-08-23 12:06 EDT
+
+**Archive reference:** [iphone_sarah_messages.md](../data/archives/iphone/iphone_sarah_messages.md), lines 38–43  
+**Timestamp as archived:** 2026-08-23 12:06  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0003 — 2026-08-23 12:06
+**From:** Regina  
+**To:** Sarah  
+**Source:** PDF page 1
+
+Question… How often did you water the hydrangeas and am I needing to do that? The ones on the right side are looking so brown, is that usual for this time of the year?
+```
+
+### iphone_sarah:0004 — 2026-08-23 12:25 EDT
+
+**Archive reference:** [iphone_sarah_messages.md](../data/archives/iphone/iphone_sarah_messages.md), lines 47–54  
+**Timestamp as archived:** 2026-08-23 12:25  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0004 — 2026-08-23 12:25
+**From:** Sarah  
+**To:** Regina  
+**Source:** PDF page 2
+
+I never watered any of the perennial landscaping.  You really shouldn't have to at all. Ever. I have never seen them brown like this though. I'm not sure if you heard about the historical rain falls we had last week. It made the national news. But the weeks before the rain we had a bit of a drought. They weren't looking good then but then we got the rain last week and they turned brown. So I think its been the extreme weather. Every year prior they have been absolutely beautiful from spring into early fall. Don't worry about it. In a few weeks trim them back and I bet you anything they'll come back next spring just fine.
+
+* I will say if you have extreme heat and no water for a week you do need to water the little evergreens that line the road, the pecan tree which is also not very old and the tree that is right next to John's road right next to his hill. Those trees are younger and don't have a deep established root system to reach water in times of drought. So I'd baby them a couple more years in times of drought. Other than that you shouldn't have to water anything. Everything else is established. If you want I can walk the property with you and go over all the trees with you. Pruning etc.
+```
+
+### iphone_sarah:0005 — 2026-08-23 13:31 EDT
+
+**Archive reference:** [iphone_sarah_messages.md](../data/archives/iphone/iphone_sarah_messages.md), lines 58–63  
+**Timestamp as archived:** 2026-08-23 13:31  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0005 — 2026-08-23 13:31
+**From:** Sarah  
+**To:** Regina  
+**Source:** PDF page 2
+
+*also the deer have been eating them this year. My daughter who's the LA suspects it the excess water they got this year
+```
+
+### iphone_sarah:0006 — 2026-08-23 14:59 EDT
+
+**Archive reference:** [iphone_sarah_messages.md](../data/archives/iphone/iphone_sarah_messages.md), lines 67–72  
+**Timestamp as archived:** 2026-08-23 14:59  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0006 — 2026-08-23 14:59
+**From:** Regina  
+**To:** Sarah  
+**Source:** PDF page 2
+
+That makes sense. Thank you! I have some landscapers coming soon to help keep the property kept up while we are in between here and Florida till we can get officially moved in so this information will be helpful to pass along to them. I would love to walk the property with you but don’t feel obligated if you are busy with getting settled in yalls new place.
 ```
 
 ### iphone_derrick:0015 — 2026-08-23 16:47 EDT
@@ -27483,11 +27584,30 @@ I spoke to soon on the 9am tomorrow because of a doctor appointment. Please let 
 We will be here all day tomorrow but will leave garage door that leads inside unlocked if not and just let you know. You are welcome to stop by when you can.
 ```
 
+### iphone_sarah:0007 — 2026-08-24 11:03 EDT
+
+**Archive reference:** [iphone_sarah_messages.md](../data/archives/iphone/iphone_sarah_messages.md), lines 76–81  
+**Timestamp as archived:** 2026-08-24 11:03  
+**Time basis:** User-supplied America/New_York
+
+Same sorting minute as other entries; within-minute sequence is not established.
+
+```text
+## Message 0007 — 2026-08-24 11:03
+**From:** Regina  
+**To:** Sarah  
+**Source:** PDF page 2
+
+Is there an irrigation system for the yard?
+```
+
 ### iphone_derrick:0042 — 2026-08-24 11:03 EDT
 
 **Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 403–408  
 **Timestamp as archived:** 2026-08-24 11:03  
 **Time basis:** User-supplied America/New_York
+
+Same sorting minute as other entries; within-minute sequence is not established.
 
 ```text
 ## Message 0042 — 2026-08-24 11:03
@@ -27530,6 +27650,89 @@ Same sorting minute as other entries; within-minute sequence is not established.
 **Source:** PDF page 6
 
 Well not that I know of.
+```
+
+### iphone_sarah:0008 — 2026-08-24 11:05 EDT
+
+**Archive reference:** [iphone_sarah_messages.md](../data/archives/iphone/iphone_sarah_messages.md), lines 85–90  
+**Timestamp as archived:** 2026-08-24 11:05  
+**Time basis:** User-supplied America/New_York
+
+Same sorting minute as other entries; within-minute sequence is not established.
+
+```text
+## Message 0008 — 2026-08-24 11:05
+**From:** Sarah  
+**To:** Regina  
+**Source:** PDF page 3
+
+Like sprinklers?
+```
+
+### iphone_sarah:0009 — 2026-08-24 11:05 EDT
+
+**Archive reference:** [iphone_sarah_messages.md](../data/archives/iphone/iphone_sarah_messages.md), lines 94–99  
+**Timestamp as archived:** 2026-08-24 11:05  
+**Time basis:** User-supplied America/New_York
+
+Same sorting minute as other entries; within-minute sequence is not established.
+
+```text
+## Message 0009 — 2026-08-24 11:05
+**From:** Regina  
+**To:** Sarah  
+**Source:** PDF page 3
+
+Yes but Derrick said no.
+```
+
+### iphone_sarah:0010 — 2026-08-24 11:06 EDT
+
+**Archive reference:** [iphone_sarah_messages.md](../data/archives/iphone/iphone_sarah_messages.md), lines 103–108  
+**Timestamp as archived:** 2026-08-24 11:06  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0010 — 2026-08-24 11:06
+**From:** Sarah  
+**To:** Regina  
+**Source:** PDF page 3
+
+Correct.
+```
+
+### iphone_sarah:0011 — 2026-08-24 11:12 EDT
+
+**Archive reference:** [iphone_sarah_messages.md](../data/archives/iphone/iphone_sarah_messages.md), lines 112–117  
+**Timestamp as archived:** 2026-08-24 11:12  
+**Time basis:** User-supplied America/New_York
+
+Same sorting minute as other entries; within-minute sequence is not established.
+
+```text
+## Message 0011 — 2026-08-24 11:12
+**From:** Regina  
+**To:** Sarah  
+**Source:** PDF page 3
+
+![Embedded attachment from PDF page 3](iphone_sarah_messages_assets/message_0011_page_003_image_001.jpeg)
+```
+
+### iphone_sarah:0012 — 2026-08-24 11:12 EDT
+
+**Archive reference:** [iphone_sarah_messages.md](../data/archives/iphone/iphone_sarah_messages.md), lines 121–126  
+**Timestamp as archived:** 2026-08-24 11:12  
+**Time basis:** User-supplied America/New_York
+
+Same sorting minute as other entries; within-minute sequence is not established.
+
+```text
+## Message 0012 — 2026-08-24 11:12
+**From:** Regina  
+**To:** Sarah  
+**Source:** PDF page 3
+
+Plumbers were wondering, thank you both for your quick responses
 ```
 
 ### iphone_derrick:0045 — 2026-08-24 11:14 EDT
@@ -27758,11 +27961,30 @@ Same sorting minute as other entries; within-minute sequence is not established.
 We can go up the back staircase as well if it's unlocked.
 ```
 
+### iphone_sarah:0013 — 2026-08-24 16:58 EDT
+
+**Archive reference:** [iphone_sarah_messages.md](../data/archives/iphone/iphone_sarah_messages.md), lines 130–135  
+**Timestamp as archived:** 2026-08-24 16:58  
+**Time basis:** User-supplied America/New_York
+
+Same sorting minute as other entries; within-minute sequence is not established.
+
+```text
+## Message 0013 — 2026-08-24 16:58
+**From:** Regina  
+**To:** Sarah  
+**Source:** PDF page 3
+
+Got it all changed over and handled. Thank you for the heads up.
+```
+
 ### iphone_derrick:0048 — 2026-08-24 16:58 EDT
 
 **Archive reference:** [iphone_derrick_messages.md](../data/archives/iphone/iphone_derrick_messages.md), lines 457–462  
 **Timestamp as archived:** 2026-08-24 16:58  
 **Time basis:** User-supplied America/New_York
+
+Same sorting minute as other entries; within-minute sequence is not established.
 
 ```text
 ## Message 0048 — 2026-08-24 16:58
@@ -28467,7 +28689,7 @@ wrote:
 I will look for the paperwork but unlikely they will have more than a year warranty as bats can make new ways back in and only need a hole the size of a nickel to get thru. I personally looked for new guano in the attic this spring and did not find any. We found they were there because they actually entered the home and were flying around the house right after we bought it and before we  had it fix 2 to 3 yrs ago. We had to exclude them from the red home as well up the lane. Not sure how to prevent them from ever getting back in like mice. I believe we used Admiral Wildlife services.
 ```
 
-### iphone:0291 — 2026-08-25 13:14 EDT
+### iphone_darcy:0291 — 2026-08-25 13:14 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2758–2769  
 **Timestamp as archived:** 2026-08-25 13:14  
@@ -28940,7 +29162,7 @@ On Mon, Aug 24, 2026 at 7:20 PM Regina Gray <graylregina@gmail.com> wrote:
 >>>> Regina and Sam
 ```
 
-### iphone:0292 — 2026-08-26 18:38 EDT
+### iphone_darcy:0292 — 2026-08-26 18:38 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2773–2778  
 **Timestamp as archived:** 2026-08-26 18:38  
@@ -28955,7 +29177,7 @@ On Mon, Aug 24, 2026 at 7:20 PM Regina Gray <graylregina@gmail.com> wrote:
 We are getting a new lawyer and gonna see what our options are. We met the neighbors and….. wow. Derrick and Sarah lied about water intrusion and bat remediation and we plan on suing
 ```
 
-### iphone:0293 — 2026-08-26 19:19 EDT
+### iphone_darcy:0293 — 2026-08-26 19:19 EDT
 
 **Archive reference:** [iphone_darcy_messages.md](../data/archives/iphone/iphone_darcy_messages.md), lines 2782–2789  
 **Timestamp as archived:** 2026-08-26 19:19  
@@ -30840,6 +31062,21 @@ On Wed, Sep 16, 2026 at 3:31 PM Regina Gray <graylregina@gmail.com> wrote:
 >>>>>> Regina and Sam
 ```
 
+### iphone_sarah:0014 — 2026-09-29 09:33 EDT
+
+**Archive reference:** [iphone_sarah_messages.md](../data/archives/iphone/iphone_sarah_messages.md), lines 139–144  
+**Timestamp as archived:** 2026-09-29 09:33  
+**Time basis:** User-supplied America/New_York
+
+```text
+## Message 0014 — 2026-09-29 09:33
+**From:** Sarah  
+**To:** Regina  
+**Source:** PDF page 4
+
+Hey neighbor! Hope you had a great trip and are doing well! I picked up our package off your front porch and I dropped off some paint that should have stayed with the house. Not sure how it got put with our things.  I'm sure we'll find more things when we get into our pods. The previous owners still haven't moved out so that may be some time from now. The paint I dropped off is an exterior paint for all the outside trim, garage doors, stucko, pillars etc.
+```
+
 ### gmail:0277 — 2026-09-29 16:25 EDT
 
 **Archive reference:** [property_emails_compact.md](../data/archives/gmail/property_emails_compact.md), lines 15861–15869  
@@ -31217,6 +31454,21 @@ as the source.
 **Source PDF:** `iphone_derrick.pdf`
 **Messages represented:** 77
 **Conversation:** Regina ↔ Derrick
+**Order:** As exported by TextPort, earliest first
+**Time zone:** Not specified in the PDF; do not assume UTC
+**Evidence note:** TextPort may repeat rounded timestamps across distinct messages. No exact seconds or missing timestamps have been inferred.
+**Attachment note:** Bracketed image/document descriptions are preserved, but are not the actual original attachments. The PDF may omit their content.
+**Provenance:** Keep the original PDF and, preferably, the native phone export.
+```
+
+### iphone — iphone_sarah_messages.md
+
+```text
+# SMS / iMessage archive — Sarah
+
+**Source PDF:** `iphone_sarah.pdf`
+**Messages represented:** 14
+**Conversation:** Regina ↔ Sarah
 **Order:** As exported by TextPort, earliest first
 **Time zone:** Not specified in the PDF; do not assume UTC
 **Evidence note:** TextPort may repeat rounded timestamps across distinct messages. No exact seconds or missing timestamps have been inferred.

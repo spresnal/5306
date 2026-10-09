@@ -107,7 +107,7 @@ class PDFIntegrationTests(unittest.TestCase):
             digest = hashlib.sha256(path.read_bytes()).hexdigest()
             anchor = f'<a class="file-link" data-sha256="{digest}" data-byte-size="{path.stat().st_size}" href="fixture.txt">Fixture</a>'
             source, output = directory / 'timeline.html', directory / 'timeline.pdf'
-            html = '<article id="gmail:0001">' + anchor + '</article><article id="iphone:0001">' + anchor + '</article>'
+            html = '<article id="gmail:0001">' + anchor + '</article><article id="iphone_darcy:0001">' + anchor + '</article>'
             files = collect_files(html, source)
             _, targets = tokenize_file_links(html, source, output)
             document = fitz.open()

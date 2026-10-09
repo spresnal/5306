@@ -35,7 +35,7 @@ The central allegations concern affirmative misrepresentations, potentially conc
 
 **Confirmed documentary facts:**
 
-1. **The home was represented as 8,555 square feet.** Darcy supplied county figures of 5,883 square feet above grade and 2,672 square feet in the basement. Sources: `android:0055`, `iphone:0271`.
+1. **The home was represented as 8,555 square feet.** Darcy supplied county figures of 5,883 square feet above grade and 2,672 square feet in the basement. Sources: `android:0055`, `iphone_darcy:0271`.
 
 2. **A historical 2013 listing reported approximately 7,383 finished square feet.** The discrepancy is approximately 1,172 square feet compared with the 2026 marketed total. Source: `attachment:0193`, page 1.
 
@@ -49,7 +49,7 @@ The central allegations concern affirmative misrepresentations, potentially conc
 
 7. **The buyers reported difficulty obtaining an HVAC inspection.** Correspondence documents Regina reporting that Derrick turned away a scheduled technician and Darcy acknowledging that inspection access should be permitted. Sources: `android:0083`–`android:0112`.
 
-8. **Darcy modified wording in an easement proposal.** The July 9 buyer-approved proposal and Darcy's forwarded version differ regarding a potential post-closing written easement arrangement. Regina subsequently questioned this wording. Sources: `gmail:0048`, `gmail:0053`, `iphone:0174`.
+8. **Darcy modified wording in an easement proposal.** The July 9 buyer-approved proposal and Darcy's forwarded version differ regarding a potential post-closing written easement arrangement. Regina subsequently questioned this wording. Sources: `gmail:0048`, `gmail:0053`, `iphone_darcy:0174`.
 
 9. **The August 5 amendment removed the easement and established an as-is purchase at $2,525,000**, without further seller repair obligations or credits. Sources: `gmail:0164`, `attachment:0107`.
 
@@ -100,7 +100,7 @@ The full purchase agreement, original signed seller disclosure, and supporting p
 - **June 25–28, 2026:** Initial communications with Darcy; remote showing coordinated.
 - **July 4:** Darcy expresses that an attorney is generally unnecessary for the transaction while recommending legal review of the easement. Source: `gmail:0008`.
 - **July 7:** Initial purchase documents and seller disclosure electronically signed. Source: `attachment:0056`.
-- **July 9–11:** Buyer easement proposals communicated; Darcy's modified wording becomes a concern. Sources: `gmail:0048`, `gmail:0053`, `iphone:0174`.
+- **July 9–11:** Buyer easement proposals communicated; Darcy's modified wording becomes a concern. Sources: `gmail:0048`, `gmail:0053`, `iphone_darcy:0174`.
 - **July 20:** Date of underlying purchase agreement referenced in later amendment; reconcile with earlier signed documentation.
 - **July 23:** General home inspection performed. Source: `attachment:0053`.
 - **July 25:** Buyers request architectural plans; signed seller disclosure transmitted. Sources: `android:0044`, `gmail:0084`.
@@ -109,7 +109,7 @@ The full purchase agreement, original signed seller disclosure, and supporting p
 - **August 1–2:** Derrick's explanations of bat and water insurance claims are communicated to buyers. Source: `gmail:0131`.
 - **August 5:** Buyers select an arrangement removing the easement, increasing the price to $2,525,000, and accepting the property as-is. Source: `attachment:0107`.
 - **August 7:** Property closing.
-- **August 21–25:** Buyers identify and communicate post-closing square-footage, bat, and HVAC concerns. Sources: `iphone:0269`, `iphone:0271`, `iphone:0273`, `gmail:0280`.
+- **August 21–25:** Buyers identify and communicate post-closing square-footage, bat, and HVAC concerns. Sources: `iphone_darcy:0269`, `iphone_darcy:0271`, `iphone_darcy:0273`, `gmail:0280`.
 - **August 26:** Historical 2013 listing and post-closing wildlife remediation estimate enter the documented record. Sources: `attachment:0193`, `attachment:0197`.
 - **September 17:** Independent appraisal effective date. Source: `attachment:0200`.
 - **Early October:** Additional plumbing, chimney, and fireplace defects reported.

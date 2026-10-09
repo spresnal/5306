@@ -151,13 +151,13 @@ class ReviewRegressionTests(unittest.TestCase):
             image.write_bytes(b'fixture image')
             item = dict(relative_path=image.name, original_filename=image.name, content_type='image/jpeg',
                         byte_size=image.stat().st_size, sha256=hashlib.sha256(image.read_bytes()).hexdigest())
-            record = dict(id='iphone:0001', origin='iphone', number=1, path=directory / 'iphone.md',
+            record = dict(id='iphone_darcy:0001', origin='iphone', number=1, path=directory / 'iphone.md',
                           utc=datetime(2026, 5, 1, 14, tzinfo=timezone.utc), displayed='2026-05-01 10:00',
                           line_start=1, line_end=6, text='## Message 0001 — 2026-05-01 10:00\n'
                           '**From:** Regina\n**To:** Darcy\n\nSee photo.')
             destination = directory / 'timeline.html'
             write_html([record], {}, 'America/New_York', destination, compact_record,
-                       iphone_index={1: dict(attachment_files_json=json.dumps([item]))})
+                       iphone_index={'iphone_darcy:0001': dict(attachment_files_json=json.dumps([item]))})
             html = destination.read_text()
             self.assertIn('attachment-thumb', html)
             self.assertEqual(len(collect_files(html, destination)), 1)
