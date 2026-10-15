@@ -383,6 +383,8 @@ class Workspace:
                                              for review in self.state['cross_reviews'].values()),
                 'cross_tasks_failed': sum(failure.get('snapshot') == snapshot
                                          for failure in self.state.get('cross_failures', {}).values()),
+                'cross_tasks_skipped': sum(failure.get('snapshot') == snapshot and failure.get('skipped', False)
+                                          for failure in self.state.get('cross_failures', {}).values()),
                 'cross_entries_excluded': len(self.cross_excluded_ids()),
                 'cross_review_complete_for_scope': self.state.get('cross_complete_snapshot') == snapshot,
                 'cross_review_complete': len(current) == len(self.records) and
@@ -401,7 +403,7 @@ class Workspace:
     def snapshot(self):
         value = {'criteria': self.criteria_hash, 'cross_algorithm': 2,
                  'assessments': [self.state['assessments'].get(r['id']) for r in self.records]}
-        if self.state.get('cross_skip_manual_review'):
+        if self.cross_excluded_ids():
             value['excluded_ids'] = self.cross_excluded_ids()
             value['evidence'] = [(r['id'], r['review_hash']) for r in self.records]
         return hashed(value)
@@ -674,6 +676,14 @@ def cross_review(work, args):
             task_hash = hashed({'algorithm': 2, 'entries': supplied, 'snapshot': snapshot})
             if task_hash in work.state['cross_reviews']:
                 continue
+            previous_failure = work.state.get('cross_failures', {}).get(task_hash)
+            if getattr(args, 'skip_manual_review', False) and previous_failure:
+                previous_failure['skipped'] = True
+                previous_failure['manual_review'] = True
+                work.checkpoint()
+                print(f'Skipping previously failed cross-review: blocks {i + 1}/{j + 1}: '
+                      + previous_failure['error'], flush=True)
+                continue
             if args.max_cross_calls is not None and calls >= args.max_cross_calls:
                 print('Cross-review call limit reached; resume to continue.', flush=True)
                 return
@@ -713,11 +723,16 @@ def cross_review(work, args):
                         'Every finding must cite exact evidence quotations from at least two distinct entries. '
                         'An empty findings list is valid.',
                         {'case_brief': work.brief, 'entries': supplied}, CROSS_SCHEMA, validate)
-                except ReviewValidationError as exc:
+                except ValueError as exc:
                     work.state.setdefault('cross_failures', {})[task_hash] = {
                         'at': stamp(), 'error': str(exc), 'snapshot': snapshot,
+                        'kind': 'validation' if isinstance(exc, ReviewValidationError) else 'execution',
+                        'skipped': bool(getattr(args, 'skip_manual_review', False)),
+                        'manual_review': bool(getattr(args, 'skip_manual_review', False)),
                         'entries': sorted({u['id'] for u in supplied})}
                     work.checkpoint()
+                    if not isinstance(exc, ReviewValidationError) and not getattr(args, 'skip_manual_review', False):
+                        raise
                     print('Marked failed and skipped cross-review task: ' + str(exc), flush=True)
                     continue
                 work.state['calls'].append({'at': stamp(), 'phase': 'cross',
@@ -751,7 +766,8 @@ def report(work):
     if cross_failures:
         lines += ['## Failed cross-entry comparisons', '']
         for failure in cross_failures:
-            lines += ['- ' + ', '.join(failure['entries']) + ': ' + failure['error']]
+            label = 'Skipped for manual review' if failure.get('skipped') else 'Retry pending'
+            lines += ['- ' + label + ' — ' + ', '.join(failure['entries']) + ': ' + failure['error']]
         lines += ['']
     rows = {r['id']: r for r in work.records}
     current = [work.state['assessments'][r['id']] for r in work.records if work.current(r)]

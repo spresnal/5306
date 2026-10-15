@@ -290,6 +290,58 @@ class ReviewRunnerTests(unittest.TestCase):
         self.assertEqual(self.work().coverage()['cross_tasks_failed'], 0)
         self.assertTrue(self.work().coverage()['cross_review_complete'])
 
+    def test_skip_flag_bypasses_previous_cross_failures_and_later_tasks_continue(self):
+        self.args.pilot = 23
+        self.args.max_chars = 10000
+        with patch.object(runner, 'model_request', side_effect=self.fake_model):
+            runner.run(self.work(), self.args)
+        self.args.pilot = None
+        self.args.unattended = True
+        with patch.object(runner, 'model_request', side_effect=runner.CodexError('Fixture execution error')):
+            with self.assertRaisesRegex(ValueError, 'Fixture execution error'):
+                runner.run(self.work(), self.args)
+        previous = self.work()
+        failure_key = next(iter(previous.state['cross_failures']))
+        self.args.skip_manual_review = True
+        with patch.object(runner, 'model_request', side_effect=self.fake_model) as request:
+            runner.run(self.work(), self.args)
+        work = self.work()
+        self.assertGreater(request.call_count, 0)
+        self.assertTrue(work.state['cross_failures'][failure_key]['skipped'])
+        self.assertEqual(work.coverage()['cross_tasks_skipped'], 1)
+        self.assertEqual(work.coverage()['cross_tasks_completed'] + 1, work.coverage()['cross_tasks_total'])
+        self.assertFalse(work.coverage()['cross_review_complete_for_scope'])
+        self.assertIn('Skipped for manual review', (self.root / 'output/counsel_review.md').read_text())
+        with patch.object(runner, 'model_request') as request:
+            runner.run(self.work(), self.args)
+            request.assert_not_called()
+        self.args.skip_manual_review = False
+        with patch.object(runner, 'model_request', side_effect=self.fake_model) as request:
+            runner.run(self.work(), self.args)
+            self.assertEqual(request.call_count, 1)
+        self.assertTrue(self.work().coverage()['cross_review_complete'])
+
+    def test_skip_flag_records_new_cross_execution_errors_and_continues(self):
+        self.args.pilot = None
+        self.args.unattended = True
+        self.args.skip_manual_review = True
+        self.args.max_chars = 10000
+        failures = []
+        def model(*args):
+            if args[3] == runner.CROSS_SCHEMA and not failures:
+                failures.append(True)
+                raise runner.CodexError('Fixture cross execution failure')
+            return self.fake_model(*args)
+        with patch.object(runner, 'model_request', side_effect=model):
+            runner.run(self.work(), self.args)
+        work = self.work()
+        self.assertEqual(work.coverage()['cross_tasks_skipped'], 1)
+        self.assertGreater(work.coverage()['cross_tasks_completed'], 0)
+        self.assertFalse(work.coverage()['cross_review_complete_for_scope'])
+        with patch.object(runner, 'model_request') as request:
+            runner.run(self.work(), self.args)
+            request.assert_not_called()
+
     def test_brief_and_source_changes_mark_stale(self):
         with patch.object(runner, 'model_request', side_effect=self.fake_model):
             runner.run(self.work(), self.args)

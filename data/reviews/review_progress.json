@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09T22:54:19.522624+00:00",
+  "updated_at": "2026-10-10T04:51:27.200841+00:00",
   "criteria_hash": "a95d913b110c5c7c203d85f8005fbc469b6c684ada6784324a2f52daf3d00949",
   "total": 880,
   "reviewed": 834,
@@ -10,8 +10,9 @@
   "manual_review": 46,
   "attachment_incomplete": 106,
   "cross_tasks_total": 5886,
-  "cross_tasks_completed": 1,
-  "cross_tasks_failed": 0,
+  "cross_tasks_completed": 81,
+  "cross_tasks_failed": 103,
+  "cross_tasks_skipped": 103,
   "cross_entries_excluded": 46,
   "cross_review_complete_for_scope": false,
   "cross_review_complete": false,

@@ -114,6 +114,14 @@ when resuming this partial pass. After resolving the flagged entries, run with
 `--retry-manual-review` and omit `--skip-manual-review` for a fresh full-coverage
 comparison pass. Saved partial comparisons cannot substitute for full coverage.
 
+In pass two, `--skip-manual-review` also skips comparison tasks already recorded
+in `cross_failures` for the same evidence and comparison plan. New validation or
+execution errors are checkpointed and skipped after the configured retries;
+later comparisons continue. `cross_tasks_skipped` counts them, and the counsel
+report lists their reasons. Skipped comparisons never count as successful or
+complete; omit the flag to retry them. Changing the evidence, scope, or request
+budget can produce a different comparison plan, whose tasks are evaluated afresh.
+
 Responses with missing/duplicate/unknown
 IDs cannot be safely attributed and still mark the whole batch failed. Failed comparisons
 in the second pass are also recorded and skipped, and that pass remains incomplete.
