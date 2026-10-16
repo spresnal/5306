@@ -297,7 +297,7 @@ class ReviewRunnerTests(unittest.TestCase):
             runner.run(self.work(), self.args)
         self.args.pilot = None
         self.args.unattended = True
-        with patch.object(runner, 'model_request', side_effect=runner.CodexError('Fixture execution error')):
+        with patch.object(runner, 'model_request', side_effect=runner.CodexError('Fixture execution error', category='task')):
             with self.assertRaisesRegex(ValueError, 'Fixture execution error'):
                 runner.run(self.work(), self.args)
         previous = self.work()
@@ -330,7 +330,7 @@ class ReviewRunnerTests(unittest.TestCase):
         def model(*args):
             if args[3] == runner.CROSS_SCHEMA and not failures:
                 failures.append(True)
-                raise runner.CodexError('Fixture cross execution failure')
+                raise runner.CodexError('Fixture cross execution failure', category='task')
             return self.fake_model(*args)
         with patch.object(runner, 'model_request', side_effect=model):
             runner.run(self.work(), self.args)

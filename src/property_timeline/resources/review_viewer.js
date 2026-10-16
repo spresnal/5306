@@ -30,6 +30,30 @@ function reviewState(entry, card, expectedCriteria) {
   return expectedCriteria ? 'current' : 'unverified';
 }
 
+function validateFailures(value) {
+  const failures = new Map();
+  if (value === undefined) return failures;
+  if (!value || typeof value !== 'object' || Array.isArray(value)) throw new Error('Malformed review failures.');
+  for (const [id, failure] of Object.entries(value)) {
+    if (!/^(gmail|android|iphone_[a-z0-9_]+):\d+$/.test(id) || !failure ||
+        typeof failure !== 'object' || typeof failure.error !== 'string' ||
+        (failure.manual_review !== undefined && typeof failure.manual_review !== 'boolean') ||
+        ['review_hash', 'criteria_hash'].some(key => failure[key] !== undefined &&
+          (typeof failure[key] !== 'string' || !/^[a-f0-9]{64}$/.test(failure[key])))) {
+      throw new Error('Malformed review failure: ' + id);
+    }
+    failures.set(id, failure);
+  }
+  return failures;
+}
+
+function failureState(failure, card) {
+  if (!failure) return 'none';
+  if (!failure.review_hash || !failure.criteria_hash || !expectedCriteria) return 'failure-unverified';
+  if (failure.review_hash !== card.dataset.reviewHash || failure.criteria_hash !== expectedCriteria) return 'failure-stale';
+  return failure.manual_review ? 'manual' : 'retry';
+}
+
 function contextualFindings(value, cards, expectedCriteria) {
   if (!value) return {byEntry: new Map(), message: 'No source-based second-pass findings saved.'};
   if (value.version !== 2 || typeof value.complete !== 'boolean' ||
@@ -70,8 +94,20 @@ function contextualFindings(value, cards, expectedCriteria) {
       byEntry.get(id).push(finding);
     }
   }
+  const coverage = value.coverage;
+  if (coverage && (typeof coverage.cross_plan_verified !== 'boolean' ||
+      ['cross_tasks_total', 'cross_tasks_completed', 'cross_tasks_failed', 'cross_tasks_skipped'].some(key =>
+        !Number.isInteger(coverage[key]) || coverage[key] < 0) ||
+      coverage.cross_tasks_completed > coverage.cross_tasks_total ||
+      coverage.cross_tasks_failed > coverage.cross_tasks_total - coverage.cross_tasks_completed ||
+      coverage.cross_tasks_skipped > coverage.cross_tasks_failed)) throw new Error('Malformed comparison coverage.');
+  const complete = coverage && coverage.cross_plan_verified && value.complete &&
+    coverage.cross_tasks_completed === coverage.cross_tasks_total && !coverage.cross_tasks_failed;
+  const progress = coverage ? ' ' + coverage.cross_tasks_completed + '/' + coverage.cross_tasks_total +
+    ' comparisons · ' + coverage.cross_tasks_failed + ' failed · ' + coverage.cross_tasks_skipped + ' skipped.' :
+    ' Comparison plan unverified (legacy review).';
   return {byEntry, message: value.findings.length + ' cross-entry findings · second pass ' +
-    (value.complete ? 'complete for included entries.' : 'in progress.') +
+    (complete ? 'complete for included entries.' : 'in progress or unverified.') + progress +
     (excluded.length ? ' Partial coverage: ' + excluded.length + ' manual-review entries excluded.' : '')};
 }
 
@@ -87,7 +123,7 @@ const reviewStatusFilter = document.getElementById('review-state');
 const reviewStatus = document.getElementById('review-status');
 const reviewClear = document.getElementById('review-clear');
 const expectedCriteria = document.querySelector('meta[name="review-criteria"]').content;
-let loadedReview = new Map(), loadedContext = new Map(), loadSequence = 0;
+let loadedReview = new Map(), loadedContext = new Map(), loadedFailures = new Map(), loadSequence = 0;
 
 function reviewMatches(card) {
   const entry = loadedReview.get(card.id);
@@ -109,7 +145,16 @@ function reviewNode(tag, text, className) {
 }
 
 function renderReview(card, entry, state) {
-  if (!entry) return;
+  if (!entry) {
+    const failure = loadedFailures.get(card.id);
+    if (!failure) return;
+    const panel = reviewNode('details', undefined, 'review-panel');
+    const labels = {manual: 'Manual review required', retry: 'Retry pending',
+      'failure-unverified': 'Failure freshness unchecked', 'failure-stale': 'Historical failure (outdated)'};
+    panel.append(reviewNode('summary', labels[state] || 'Saved failure'), reviewNode('p', failure.error));
+    card.querySelector('.record-top').after(panel);
+    return;
+  }
   const panel = reviewNode('details', undefined, 'review-panel');
   const findings = state === 'current' ? loadedContext.get(card.id) || [] : [];
   const label = state === 'stale' ? 'Review outdated · previous priority: ' :
@@ -127,6 +172,7 @@ function renderReview(card, entry, state) {
   if (state === 'stale') panel.append(reviewNode('p', 'The entry, indexed evidence, or review criteria changed. Re-review this entry before relying on these annotations.', 'review-warning'));
   if (state === 'unverified') panel.append(reviewNode('p', 'This viewer has no case-brief fingerprint. Rebuild it with the current case brief and review instructions to check the criteria.', 'review-warning'));
   panel.append(reviewNode('p', 'Provisional AI assessment; check the original evidence.'));
+  if (!entry.preparation) panel.append(reviewNode('p', 'Prepared evidence provenance unknown (legacy assessment).'));
   for (const [title, text] of [['Summary', entry.summary], ['Relevance', entry.relevance],
       ['Assertion / stance', entry.assertion + ' / ' + entry.stance], ['Uncertainty', entry.uncertainty]]) {
     panel.append(reviewNode('h4', title), reviewNode('p', text || 'None recorded.'));
@@ -173,6 +219,7 @@ function clearReview() {
   loadSequence++;
   loadedReview = new Map();
   loadedContext = new Map();
+  loadedFailures = new Map();
   for (const card of cards) {
     card.querySelector('.review-panel')?.remove();
     delete card.dataset.reviewState;
@@ -197,19 +244,25 @@ reviewInput.addEventListener('change', async () => {
     if (file.size > 50 * 1024 * 1024) throw new Error('Review file exceeds the 50 MB limit.');
     const value = JSON.parse((await file.text()).replace(/^\uFEFF/, ''));
     const entries = validateReview(value);
+    const failures = validateFailures(value.failures);
     const context = contextualFindings(value.contextual_review, cards, expectedCriteria);
     if (sequence !== loadSequence) return;
     loadedReview = entries;
     loadedContext = context.byEntry;
-    const counts = {current: 0, stale: 0, none: 0, unverified: 0};
+    loadedFailures = failures;
+    const counts = {current: 0, stale: 0, none: 0, unverified: 0, manual: 0, retry: 0,
+      'failure-unverified': 0, 'failure-stale': 0};
     const topics = new Set();
     for (const card of cards) {
       card.querySelector('.review-panel')?.remove();
-      const entry = entries.get(card.id), state = reviewState(entry, card, expectedCriteria);
+      const entry = entries.get(card.id);
+      const assessmentState = reviewState(entry, card, expectedCriteria);
+      const failedState = failureState(failures.get(card.id), card);
+      const state = assessmentState === 'current' || failedState === 'none' ? assessmentState : failedState;
       card.dataset.reviewState = state;
       counts[state]++;
       if (state === 'current') for (const topic of entry.topics) topics.add(topic);
-      renderReview(card, entry, state);
+      renderReview(card, ['manual', 'retry', 'failure-unverified', 'failure-stale'].includes(state) ? null : entry, state);
     }
     reviewTopic.replaceChildren(reviewNode('option', 'All topics'));
     reviewTopic.firstElementChild.value = '';
@@ -226,6 +279,8 @@ reviewInput.addEventListener('change', async () => {
     const orphaned = [...entries.keys()].filter(id => !cards.some(card => card.id === id)).length;
     reviewStatus.textContent = file.name + ': ' + counts.current + ' current · ' + counts.stale +
       ' outdated · ' + counts.none + ' unreviewed · ' + counts.unverified + ' criteria unchecked · ' +
+      counts.manual + ' manual review · ' + counts.retry + ' retry pending · ' +
+      counts['failure-unverified'] + ' failures unchecked · ' + counts['failure-stale'] + ' historical failures · ' +
       orphaned + ' IDs absent from this viewer. ' + context.message + ' Annotations are provisional and stored in this tab only.';
     filter();
   } catch (error) {

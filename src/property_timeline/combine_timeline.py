@@ -15,6 +15,8 @@ from property_timeline.timeline_html import write_html
 from property_timeline.output_safety import staged_outputs
 from property_timeline.ai_export import export_review
 from property_timeline.source_identity import archive_namespace
+from property_timeline.archive_format import MARKER, outside_body, decode_record
+from property_timeline.archive_inventory import validate_index, provenance_path
 
 
 HEADER = re.compile(r"^## (Message|Email) (\d+) — (\d{4}-\d{2}-\d{2} \d{2}:\d{2})( UTC| \(TZ unspecified\))?$")
@@ -72,12 +74,14 @@ def compact_record(record, email_metadata, destination=None):
 
 def parse_archive(path, origin, phone_zone):
     lines = path.read_text(encoding="utf-8-sig").splitlines()
-    starts = [(i, HEADER.fullmatch(line)) for i, line in enumerate(lines)]
+    framed = bool(lines and lines[0] == MARKER)
+    positions = outside_body(lines) if framed else range(len(lines))
+    starts = [(i, HEADER.fullmatch(lines[i])) for i in positions]
     starts = [(i, match) for i, match in starts if match]
     if not starts:
         raise ValueError(f"No record headings found in {path}")
-    suspicious = [line for line in lines if re.match(r"^## (Message|Email) \d+", line)
-                  and not HEADER.fullmatch(line)]
+    suspicious = [lines[i] for i in positions if re.match(r"^## (Message|Email) \d+", lines[i])
+                  and not HEADER.fullmatch(lines[i])]
     if suspicious:
         raise ValueError(f"Unrecognized record heading in {path}: {suspicious[0]}")
     expected = re.search(r"(?:\*\*)?Messages represented:(?:\*\*)?\s*(\d+)|Emails represented:\s*(\d+)",
@@ -110,7 +114,8 @@ def parse_archive(path, origin, phone_zone):
         instant = None if unknown else dt.replace(tzinfo=zone).astimezone(timezone.utc)
         records.append(dict(id=identifier, origin=origin, number=int(number), path=path,
                             line_start=start + 1, line_end=end, displayed=displayed + (utc_marker or ""),
-                            utc=instant, text="\n".join(lines[start:end])))
+                            utc=instant, text=decode_record(lines[start:end]) if framed else "\n".join(lines[start:end]),
+                            body_end=(end - 1 if framed else end)))
     return records, "\n".join(lines[:starts[0][0]]).rstrip("\n- ")
 
 
@@ -144,9 +149,12 @@ def main():
     destinations = (output, index_path, compact_path, html_path, ai_path)
     if len(set(destinations)) != len(destinations) or any(p in destinations for _, p in paths):
         parser.error("Output paths must differ from each other and all input archives")
-    records, preambles = [], []
+    records, preambles, validated_indexes = [], [], {}
     for origin, path in paths:
         entries, preamble = parse_archive(path, origin, zone)
+        if provenance_path(path).resolve() in destinations:
+            parser.error('Output path collides with archive provenance')
+        validated_indexes[path] = validate_index(path, origin, entries)
         records.extend(entries)
         preambles.append((origin, path, preamble))
     if len({record['id'] for record in records}) != len(records):
@@ -181,12 +189,22 @@ def main():
     android_index = {}
     iphone_index = {}
     for origin, path in paths:
+        rows = validated_indexes[path]
+        if origin == 'gmail':
+            email_index.update(rows)
+        elif origin == 'android':
+            android_index.update(rows)
+        else:
+            iphone_index.update({f'{archive_namespace(path, origin)}:{number:04d}': row
+                                 for number, row in rows.items()})
         archive += [f"- **{origin} archive:** {link(path)} — SHA-256 `{digest(path)}`"]
         if origin == 'iphone':
             stem = path.stem.removesuffix('_messages')
             names = [stem + '.pdf', stem + '_index.csv']
         else:
             names = companions[origin]
+        if provenance_path(path).exists():
+            names = [*names, provenance_path(path).name]
         for name in names:
             companion = path.parent / name
             # Indexes/manifests stay beside their archives. Original exports
@@ -198,22 +216,6 @@ def main():
                 parser.error('Output path collides with supporting source: ' + str(companion))
             if companion.exists():
                 archive += [f"- **{origin} supporting source:** {link(companion)} — SHA-256 `{digest(companion)}`"]
-                if name == "property_email_source_index.csv":
-                    with companion.open(encoding="utf-8-sig", newline="") as stream:
-                        for row in csv.DictReader(stream):
-                            number = int(row["source_email_number"])
-                            if number in email_index:
-                                raise ValueError(f"Duplicate email source index number: {number}")
-                            email_index[number] = row
-                elif name == "android_darcy_group_index.csv" or (origin == 'iphone' and name.endswith('_index.csv')):
-                    with companion.open(encoding="utf-8-sig", newline="") as stream:
-                        for row in csv.DictReader(stream):
-                            number = int(row['message_number'])
-                            target = android_index if origin == 'android' else iphone_index
-                            key = number if origin == 'android' else f"{archive_namespace(path, origin)}:{number:04d}"
-                            if key in target:
-                                raise ValueError(f'Duplicate phone source index number: {number}')
-                            target[key] = row
             else:
                 archive += [f"- **{origin} supporting source unavailable:** `{name}`"]
     archive += ["", "## Timeline", ""]

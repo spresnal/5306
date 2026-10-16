@@ -27,6 +27,8 @@ from urllib.parse import quote
 from property_timeline.email_attachments import extract_attachments
 from property_timeline.email_parsing import message_boundary
 from property_timeline.output_safety import staged_outputs, distinct_paths
+from property_timeline.archive_format import MARKER, frame_body, outside_body, decode_record
+from property_timeline.archive_inventory import provenance_path, write_generation
 
 
 class HTMLToText(HTMLParser):
@@ -99,11 +101,8 @@ def mbox_body(msg):
     return ''
 
 
-def from_mbox(path, attachment_directory=None, attachment_records=None):
-    """Convert MBOX into the earlier exported Markdown layout in memory.
-
-    No deduplication or signature trimming here: cleanup is a separate pass.
-    """
+def records_from_mbox(path, attachment_directory=None, attachment_records=None, forbidden=()):
+    """Keep actual MIME messages structured until the final serialization boundary."""
     archive = mailbox.mbox(str(path), create=False)
     messages = list(archive)
     archive.close()
@@ -116,32 +115,34 @@ def from_mbox(path, attachment_directory=None, attachment_records=None):
             return 0
 
     messages.sort(key=sort_key)
-    lines = ['# Email Archive', '', f'Total messages: {len(messages)}',
-             'Sorted chronologically, oldest first.', '']
+    records = []
     for index, msg in enumerate(messages, 1):
         if attachment_directory is not None:
-            extracted = extract_attachments(msg, index, attachment_directory)
+            extracted = extract_attachments(msg, index, attachment_directory, forbidden)
             attachment_records.extend(extracted)
         attachments = []
         for part in msg.walk():
             name = part.get_filename()
             if name or part.get_content_disposition() == 'attachment':
                 attachments.append(name or 'unnamed attachment')
-        lines.extend(['---', '',
-                      f"## Email {index:03d}: {decoded_header(msg, 'Subject') or '(no subject)'}",
-                      '',
-                      f"Date: {decoded_header(msg, 'Date')}",
-                      f"From: {decoded_header(msg, 'From')}",
-                      f"To: {decoded_header(msg, 'To')}"])
-        cc = decoded_header(msg, 'Cc')
-        if cc:
-            lines.append('Cc: ' + cc)
-        mid = decoded_header(msg, 'Message-ID')
-        if mid:
-            lines.append('Message-ID: ' + mid)
-        if attachments:
-            lines.append('Attachments: ' + ', '.join(attachments))
-        lines.extend(['', mbox_body(msg).strip() or '[No readable message body]', ''])
+        records.append({'num': index, 'subject': decoded_header(msg, 'Subject') or '(no subject)',
+                        'date': decoded_header(msg, 'Date'), 'from': decoded_header(msg, 'From'),
+                        'to': decoded_header(msg, 'To'), 'cc': decoded_header(msg, 'Cc'),
+                        'id': decoded_header(msg, 'Message-ID'), 'attachments': ', '.join(attachments),
+                        'body': mbox_body(msg).strip() or '[No readable message body]'})
+    return records
+
+
+def from_mbox(path, attachment_directory=None, attachment_records=None):
+    """Compatibility display helper; the extractor does not reparse this Markdown."""
+    records = records_from_mbox(path, attachment_directory, attachment_records)
+    lines = ['# Email Archive', '', f'Total messages: {len(records)}', '']
+    for record in records:
+        lines.extend(['---', '', f"## Email {record['num']:03d}: {record['subject']}", '',
+                      *[f'{name}: {record[key]}' for name, key in
+                        [('Date', 'date'), ('From', 'from'), ('To', 'to'), ('Cc', 'cc'),
+                         ('Message-ID', 'id'), ('Attachments', 'attachments')] if record[key]],
+                      '', frame_body(record['body']), ''])
     return '\n'.join(lines)
 
 
@@ -356,25 +357,40 @@ def main():
     INDEX = INDEX.expanduser().resolve()
     ATTACHMENTS = (args.attachments_dir or OUT.with_name(OUT.stem + '_attachments')).expanduser().resolve()
     manifest = OUT.with_name(OUT.stem + '_attachment_manifest.csv')
-    distinct_paths([SRC], [OUT, INDEX, manifest])
+    provenance = provenance_path(OUT)
+    distinct_paths([SRC], [OUT, INDEX, manifest, provenance])
     if SRC in (OUT, INDEX) or OUT == INDEX:
         parser.error('Source, Markdown output, and source index must use distinct paths.')
     attachment_records = []
     if SRC.suffix.lower() == '.mbox':
-        raw = from_mbox(SRC, ATTACHMENTS, attachment_records)
+        inputs = records_from_mbox(SRC, ATTACHMENTS, attachment_records, [SRC, OUT, INDEX, manifest, provenance])
     elif SRC.suffix.lower() in ('.md', '.txt'):
         raw = SRC.read_text(encoding='utf-8-sig')
         print('WARNING: Markdown input may already have had quoted messages removed. To recover them, run this script on the ORIGINAL .mbox.')
+        raw_lines = raw.splitlines(keepends=True)
+        allowed = set(outside_body([line.rstrip('\r\n') for line in raw_lines]))
+        offsets, offset = set(), 0
+        for position, line in enumerate(raw_lines):
+            if position in allowed:
+                offsets.add(offset)
+            offset += len(line)
+        starts = [m for m in re.finditer(r'(?m)^## Email (\d+): ', raw) if m.start() in offsets]
+        declared = re.search(r'(?m)^Total messages: (\d+)', raw)
+        if not declared or int(declared[1]) != len(starts):
+            parser.error('Ambiguous legacy Markdown boundaries/count; use the original MBOX or repair explicit body framing')
+        inputs = [get_segment(m, starts[i + 1].start() if i + 1 < len(starts) else len(raw), raw)
+                  for i, m in enumerate(starts)]
+        if len({r['num'] for r in inputs}) != len(inputs):
+            parser.error('Duplicate legacy email numbers; repair the source export')
+        for record in inputs:
+            record['body'] = decode_record(record['body'].splitlines())
     else:
         parser.error('Use a .mbox, .md, or .txt input file.')
-    starts=list(re.finditer(r'(?m)^## Email (\d+): ',raw))
-    if not starts:
+    if not inputs:
         parser.error('No emails found in the input file.')
 
     records=[]
-    for i,m in enumerate(starts):
-        nxt=starts[i+1].start() if i+1<len(starts) else len(raw)
-        r=get_segment(m,nxt,raw)
+    for r in inputs:
         r['clean']=clean_body(r['body'])
         r['attachment_short']=meaningful_attachments(r['attachments'])
         typ, txt=automation(r, r['clean'])
@@ -420,7 +436,7 @@ def main():
     # is performed by the timeline viewer, never destructive shingle elision.
 
     # Format with source email number stable across source and reduced copy.
-    lines=[
+    lines=[MARKER,
         '# Property Correspondence — Compact Email Archive',
         '',
         f'Emails represented: {len(records)} (source email numbers are unchanged).',
@@ -457,8 +473,8 @@ def main():
             lines.append('**Type:** Shortened system/admin event')
         elif r['type']=='REFERENCE':
             lines.append('**Type:** Forwarded duplicate (original email preserved in source archive)')
-        lines.extend(['',r['text'],''])
-    destinations = [OUT, INDEX] + ([manifest] if attachment_records else [])
+        lines.extend(['',frame_body(r['text']),''])
+    destinations = [OUT, INDEX, manifest, provenance]
     distinct_paths([SRC], destinations)
     with staged_outputs(destinations) as stages:
         stages[0].write_text('\n'.join(lines),encoding='utf-8')
@@ -468,11 +484,13 @@ def main():
                 body_lines = r['body'].splitlines()
                 has_history = any(message_boundary(body_lines, i) for i in range(len(body_lines)))
                 w.writerow([r['num'],r['date'],r['from'],r['to'],r['cc'],r['subject'],r['id'],r['attachments'],r['type'],len(r['body']),len(r['text']),has_history,json.dumps(r['attachment_files'],ensure_ascii=False)])
-        if attachment_records:
-            with stages[2].open('w', newline='', encoding='utf-8-sig') as stream:
-                writer = csv.DictWriter(stream, fieldnames=list(attachment_records[0]))
-                writer.writeheader()
-                writer.writerows(attachment_records)
+        with stages[2].open('w', newline='', encoding='utf-8-sig') as stream:
+            fields = ['source_email_number', 'message_id', 'mime_part', 'original_filename', 'saved_filename',
+                      'content_type', 'disposition', 'content_id', 'byte_size', 'sha256', 'relative_path']
+            writer = csv.DictWriter(stream, fieldnames=fields)
+            writer.writeheader()
+            writer.writerows(attachment_records)
+        write_generation(stages[-1], stages[0], stages[1], OUT, INDEX, 'gmail', SRC)
 
 
     s=Counter(r['type'] for r in records)

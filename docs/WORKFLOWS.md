@@ -55,7 +55,9 @@ python -m pip install -e .
    derivative archives and indexes, including manual edits. Compare fresh output
    with your backup and reapply any required curation before combining. IDs follow
    source numbering and remain stable only while the source set and ordering
-   stay fixed; check existing citations after refreshing.
+   stay fixed; check existing citations after refreshing. After reapplying manual
+   edits, use the [binding workflow](#archive-indexes-curation-and-generation-binding)
+   to acknowledge the edited archive/index generation before combining.
 4. **Combine, export, and verify** using the remaining commands. Run each command
    only after the previous one succeeds. If you reapply edits after combining,
    repeat the combine/export/verify steps.
@@ -128,14 +130,22 @@ passages in 34 records; the recovery manifest retains the added text and hashes.
 ## Verification and publication
 
 ```bash
-python -m unittest discover -s tests -v
-python -m property_timeline.export_timeline_pdf --self-test
-python -m property_timeline.export_timeline_pdf --verify-only
+python -m property_timeline.verify --strict
+# Also check an existing publication, without regenerating it:
+python -m property_timeline.verify --strict --pdf output/master_timeline.html
 ```
 
-The Windows `--self-test` command runs the full suite, including sanitized PDF,
-iPhone image extraction, preview orientation, and embedding fixtures. Interpreters
-without PyMuPDF skip PDF tests. Attachment tests do not depend on case files.
+The verifier runs Python tests, the Node review-overlay harness, and a real
+Chrome/Edge/Chromium integration fixture. Node must be on PATH. Chrome/Edge is
+detected on Windows; pass `--browser PATH` to select another installation.
+The fixtures contain synthetic correspondence only and make no model requests.
+`--strict` fails when a required PDF, Node, or browser check is unavailable.
+Without strict mode, missing components are reported as unavailable. Individual
+skips, such as Windows symlink support, are listed. PDF fixture skips fail strict
+verification. Windows and Linux CI use this strict command without case data.
+The exporter's compatibility `--self-test` now delegates to the unified verifier.
+For Python-only development checks, `python -m unittest discover -s tests -v`
+remains available; it does not include JavaScript/browser verification.
 
 PDF verification checks native source-header destinations, rendered body text
 within each record, original file hashes, both manifests, and every expected
@@ -150,6 +160,43 @@ path collisions are rejected. A failed PDF verification preserves the previous
 successful PDF. Rebuild from source after interruption during multi-file replacement.
 
 [CODE_REVIEW.md](CODE_REVIEW.md) retains the original findings and their remediation status.
+
+## Archive indexes, curation, and generation binding
+
+Normal combination requires every archive's source index, its required columns,
+valid attachment JSON, and exact source-number coverage. Missing metadata fails
+before output publication. Unavailable originals must be explicit indexed
+references; they are not interpreted as an empty attachment list.
+
+New extraction also writes `<archive_stem>_provenance.json`, binding archive and
+index bytes to one generation and recording original-source/attachment hashes.
+A mixed or partially replaced generation fails validation. Existing legacy
+archives remain usable after association validation, without forced extraction
+or changes to IDs. To inspect or explicitly bind a legacy archive:
+
+```powershell
+python -m property_timeline.archive_inventory check data/archives/gmail/property_emails_compact.md --origin gmail
+python -m property_timeline.archive_inventory bind data/archives/gmail/property_emails_compact.md --origin gmail --source data/originals/gmail/property_emails.mbox
+```
+
+After intentional curation of a bound archive, inspect the edits and run `bind`
+again to acknowledge the new archive/index pair. Binding validates associations
+and attachment bytes; it does not authenticate authorship or prove that curation
+is correct. Omitting `--source` retains an existing source fingerprint. Then
+regenerate the timeline, PDF, and verification as usual. The quote-recovery tool
+updates its generation binding with its archive/index changes.
+
+New archives place bodies inside reversible literal fences, so a pasted archive
+heading remains message content. To migrate legacy bodies without re-extraction
+or changing their logical text/IDs, add `--frame` to `bind`. This changes physical
+line ranges, so regenerate the timeline afterward. Ambiguous headings/counts
+must be repaired against the original; they are not silently renumbered.
+
+Gmail attachments and extracted iPhone images now use immutable content-hash
+subdirectories. A failed extraction cannot overwrite bytes referenced by the
+previous archive. Original filenames remain in metadata. Old generations and
+unreferenced new assets are retained; no automatic asset cleanup runs. Back up
+before source refreshes, and keep assets needed by retained archives/backups.
 
 ## Automated counsel triage
 

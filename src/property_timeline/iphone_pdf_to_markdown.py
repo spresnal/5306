@@ -22,6 +22,9 @@ import hashlib
 import json
 import mimetypes
 from property_timeline.output_safety import staged_outputs, distinct_paths
+from property_timeline.immutable_assets import publish_asset
+from property_timeline.archive_format import MARKER, frame_body
+from property_timeline.archive_inventory import provenance_path, write_generation
 import re
 from dataclasses import dataclass, field
 from datetime import datetime
@@ -212,7 +215,8 @@ def main():
     idx = args.index or source.with_name(source.stem + "_index.csv")
     out = out.expanduser().resolve()
     idx = idx.expanduser().resolve()
-    distinct_paths([source], [out, idx])
+    provenance = provenance_path(out)
+    distinct_paths([source], [out, idx, provenance])
     out.parent.mkdir(parents=True, exist_ok=True)
     idx.parent.mkdir(parents=True, exist_ok=True)
     assets_dir = out.parent / (out.stem + "_assets")
@@ -269,11 +273,9 @@ def main():
             current.page_end = pno
             if row.kind == "image":
                 extracted_images += 1
-                assets_dir.mkdir(parents=True, exist_ok=True)
                 ext = re.sub(r"[^a-z0-9]+", "", row.image_ext.lower()) or "png"
                 filename = f"message_{current.no:04d}_page_{pno:03d}_image_{extracted_images:03d}.{ext}"
-                asset = assets_dir / filename
-                asset.write_bytes(row.image_data)
+                asset = publish_asset(assets_dir, filename, row.image_data, [source, out, idx, provenance])
                 rel = asset.relative_to(out.parent).as_posix()
                 row.text = f"![Embedded attachment from PDF page {pno}]({rel})"
                 current.attachments.append(f"Embedded image: {rel}")
@@ -289,7 +291,7 @@ def main():
         parser.error("No TextPort message timestamp headers detected. "
                      "This script does not support arbitrary scanned PDFs.")
 
-    archive = [
+    archive = [MARKER,
         f"# SMS / iMessage archive — {contact}",
         "",
         f"**Source PDF:** `{source.name}`",
@@ -316,7 +318,7 @@ def main():
             f"**Source:** PDF page{'s' if msg.page_start != msg.page_end else ''} "
             f"{msg.page_start}" + (f"–{msg.page_end}" if msg.page_end != msg.page_start else ""),
             "",
-            body or "[No readable message body in PDF]", "",
+            frame_body(body or "[No readable message body in PDF]"), "",
         ]
         csv_rows.append({
             "message_number": msg.no,
@@ -330,13 +332,14 @@ def main():
             "body_characters": len(body),
             "attachment_files_json": json.dumps(files_by_message.get(msg.no, [])),
         })
-    with staged_outputs([out, idx]) as stages:
+    with staged_outputs([out, idx, provenance]) as stages:
         stages[0].write_text("\n".join(archive), encoding="utf-8")
         fields = list(csv_rows[0])
         with stages[1].open("w", newline="", encoding="utf-8-sig") as f:
             writer = csv.DictWriter(f, fieldnames=fields)
             writer.writeheader()
             writer.writerows(csv_rows)
+        write_generation(stages[2], stages[0], stages[1], out, idx, 'iphone', source)
 
     print(f"Source PDF: {source.name} ({len(pdf)} pages)")
     print(f"Contact: {contact}; outgoing sender: {args.me}")

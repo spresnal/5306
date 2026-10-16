@@ -65,6 +65,8 @@ class ProjectLayoutTests(unittest.TestCase):
                 '# Gmail\n\n## Email 001 — 2026-05-01 16:02 UTC\n'
                 '**From:** Darcy <darcy@example.com>\n**To:** Sam <sam@example.com>\n'
                 '**Subject:** Fixture\n\nEmail fixture.\n', encoding='utf-8')
+            root.joinpath('data/archives/gmail/property_email_source_index.csv').write_text(
+                'source_email_number,attachment_files_json\n1,[]\n', encoding='utf-8')
 
             result = subprocess.run([sys.executable, '-m', 'property_timeline.combine_timeline',
                                      '--phone-timezone', 'America/New_York'],
@@ -100,3 +102,14 @@ class ProjectLayoutTests(unittest.TestCase):
                          'android_darcy_group.smsbackup', 'iphone_darcy.pdf', 'iphone_derrick.pdf']:
                 self.assertIn(name, markdown)
                 self.assertNotIn(f'supporting source unavailable:** `{name}`', markdown)
+            # Lost index associations must fail before replacing the good bundle.
+            protected = {path: path.read_bytes() for path in output.parent.iterdir() if path.is_file()}
+            root.joinpath('data/archives/gmail/property_email_source_index.csv').write_text(
+                'source_email_number,attachment_files_json\n', encoding='utf-8')
+            failed = subprocess.run([sys.executable, '-m', 'property_timeline.combine_timeline',
+                                     '--phone-timezone', 'America/New_York'],
+                                    cwd=root, capture_output=True, text=True)
+            self.assertNotEqual(failed.returncode, 0)
+            self.assertIn('coverage differs', failed.stderr)
+            for path, contents in protected.items():
+                self.assertEqual(path.read_bytes(), contents)

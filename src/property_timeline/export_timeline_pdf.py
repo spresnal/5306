@@ -55,11 +55,8 @@ def main():
     parser.add_argument('--preview-pages', type=int, nargs='+', help='Save selected 1-based pages as PNGs in the PDF assets folder for visual review')
     args = parser.parse_args()
     if args.self_test:
-        import unittest
-        result = unittest.TextTestRunner(verbosity=2).run(unittest.defaultTestLoader.discover(str(Path('tests').resolve())))
-        if not result.wasSuccessful():
-            raise SystemExit(1)
-        return
+        from property_timeline.verify import main as verify
+        raise SystemExit(verify())
     source = args.html.resolve()
     output = (args.output or source.with_suffix('.pdf')).resolve()
     distinct_paths([source], [output])

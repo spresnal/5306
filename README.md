@@ -42,6 +42,9 @@ Chrome or Edge installed. Install once, or after dependencies change:
 python -m pip install -e .
 ```
 
+If the edited archive has a `*_provenance.json` sidecar, first acknowledge the
+reviewed edits with the [curation binding workflow](docs/WORKFLOWS.md#archive-indexes-curation-and-generation-binding).
+
 Then run each command after the previous one succeeds:
 
 ```powershell
@@ -67,12 +70,17 @@ source numbering or ordering changes.
 
 ## Sharing and further details
 
+Run `python -m property_timeline.verify --strict` for the complete offline test
+suite (Python, Node, and Chrome/Edge). See the maintenance guide for prerequisites
+and optional verification of the existing PDF.
+
 The PDF includes its attachments and can be shared alone. To share the HTML,
 include `output/` and `data/` with their relative folder layout intact.
 
 - [Maintenance workflows](docs/WORKFLOWS.md): importing exports, quote recovery, tests, and verification.
 - [Reading and file reference](docs/REFERENCE.md): filenames, extraction behavior, quotations, attachments, and PDF details.
 - [Code review](docs/CODE_REVIEW.md): original findings and remediation status.
+- [Enhancement design](docs/ENHANCEMENT_DESIGN.md): reliability design, implementation status, and validation.
 
 ## Automated review for counsel
 

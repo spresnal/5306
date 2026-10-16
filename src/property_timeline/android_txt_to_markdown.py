@@ -30,7 +30,9 @@ import json
 import os
 from urllib.parse import quote
 from property_timeline.android_html_export import read_export
-from property_timeline.output_safety import staged_outputs
+from property_timeline.output_safety import staged_outputs, distinct_paths
+from property_timeline.archive_format import MARKER, frame_body
+from property_timeline.archive_inventory import provenance_path, write_generation
 
 SOURCE_TYPE = 'android_sms'
 DAY_RE = re.compile(
@@ -179,6 +181,8 @@ def main():
     conversation_id = slugify(args.conversation_id or source.stem)
     output = (args.output or source.with_name(source.stem + '_messages.md')).expanduser().resolve()
     index = (args.index or source.with_name(source.stem + '_index.csv')).expanduser().resolve()
+    provenance = provenance_path(output)
+    distinct_paths([source], [output, index, provenance])
     if source in (output, index) or output == index:
         parser.error('Output paths must be distinct from each other and the original TXT')
     output.parent.mkdir(parents=True, exist_ok=True)
@@ -198,7 +202,7 @@ def main():
 
     participants = list(dict.fromkeys((args.me, args.wife, args.contact)))
     all_participants = ', '.join(participants)
-    header = [
+    header = [MARKER,
         f'# Android SMS archive — {args.contact} group', '',
         f'**Source type:** `{SOURCE_TYPE}`',
         f'**Source {"HTML" if is_html else "TXT"}:** `{source.name}`',
@@ -244,7 +248,7 @@ def main():
         if files:
             header.append('**Attachment files:** ' + ' · '.join(
                 '[' + re.sub(r'[\[\]\r\n]', '_', item['original_filename']) + '](' + quote(item['relative_path'], safe='/') + ')' + ('' if item['available'] else ' [unavailable]') for item in files))
-        header.extend(['', msg.body, ''])
+        header.extend(['', frame_body(msg.body), ''])
         csv_rows.append({
             'source_id': source_id,
             'source_type': SOURCE_TYPE,
@@ -272,12 +276,13 @@ def main():
         for a in anomalies:
             print('WARNING:', a)
         parser.error('Found anomalies in the export. No output written; review source TXT.')
-    with staged_outputs([output, index]) as stages:
+    with staged_outputs([output, index, provenance]) as stages:
         stages[0].write_text('\n'.join(header), encoding='utf-8')
         with stages[1].open('w', encoding='utf-8-sig', newline='') as f:
             writer = csv.DictWriter(f, fieldnames=list(csv_rows[0]))
             writer.writeheader()
             writer.writerows(csv_rows)
+        write_generation(stages[2], stages[0], stages[1], output, index, 'android', source)
 
     print('Original source:', source)
     print('Source type:', SOURCE_TYPE)

@@ -178,9 +178,9 @@ class ReviewRegressionTests(unittest.TestCase):
             prefix = '## Email 0001 — 2026-07-07 14:00 UTC\n**From:** Buyer\n\nCurated reply.'
             archive.write_text(prefix + '\n', encoding='utf-8')
             with index.open('w', newline='') as stream:
-                writer = csv.DictWriter(stream, fieldnames=['source_email_number', 'message_id', 'representation', 'output_body_chars'])
+                writer = csv.DictWriter(stream, fieldnames=['source_email_number', 'message_id', 'representation', 'output_body_chars', 'attachment_files_json'])
                 writer.writeheader()
-                writer.writerow(dict(source_email_number=1, message_id='<original@example.com>', representation='FULL', output_body_chars=14))
+                writer.writerow(dict(source_email_number=1, message_id='<original@example.com>', representation='FULL', output_body_chars=14, attachment_files_json='[]'))
             changes = recover(source, archive, index, manifest)
             self.assertEqual(len(changes), 1)
             self.assertTrue(archive.read_text(encoding='utf-8').startswith(prefix))

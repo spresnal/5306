@@ -80,6 +80,63 @@ resumes the same initial entries and never advances beyond its requested limit.
 
 ## Continue automatically
 
+### Preview comparison work locally
+
+After first-pass assessments are ready, preview the exact comparison plan:
+
+```powershell
+python -m property_timeline.review_runner plan --skip-manual-review
+python -m property_timeline.review_runner plan --max-chars 100000 --max-cross-tasks 6000
+```
+
+`plan` reads the current sources and extracts attachment text locally. It makes
+no model requests and writes no review files or runner lock. It lists included
+and excluded IDs, blocks, total tasks, reusable successes, failures, and estimated
+remaining external calls. Retries can increase calls. Use the same scope/budget
+options for preview and execution. `--max-cross-tasks` is also available on `run`;
+it rejects an oversized comparison plan before any comparison requests.
+`--max-cross-calls` continues to bound calls per invocation.
+
+Every saved plan now has an exact task-ID manifest and `plan_id`. Progress and
+completion count only required tasks in that manifest. Changing the budget or
+evidence can create a different plan; old successes count only when the exact
+task is reusable. Failed/skipped required tasks never count as completion.
+Legacy results are preserved, but their aggregate completion marker is unverified
+until a run rebuilds the manifest. `status` reports `cross_plan_verified: false`
+and zero active task counts for an unverifiable legacy plan; it does not delete
+historical tasks. Preview can show how much work is reusable before resuming.
+
+### Refresh accepted assessments with evidence gaps
+
+New assessments record a versioned preparation profile, supplied-evidence digest,
+extraction statuses, character ranges, and truncation. Legacy assessments remain
+usable with preparation provenance marked unknown. Ordinary resumes preserve
+accepted results. To retry after raising a text limit or repairing extraction:
+
+```powershell
+python -m property_timeline.review_runner run --unattended --refresh-review-gaps --attachment-chars 20000
+python -m property_timeline.review_runner run --unattended --refresh-id gmail:0001
+```
+
+Gap refresh re-prepares accepted assessments with gaps and requests a replacement
+only when their supplied evidence changes (or legacy preparation is unknown).
+`--refresh-id` explicitly reassesses an accepted ID; repeat the flag for multiple
+IDs. These options also allow the normal pending work to proceed. They do not
+replace `--retry-manual-review`, which selects failed entries. A failed refresh
+retains the previous accepted result. A replacement invalidates dependent
+comparison plans. Some gaps still require inspecting images or unavailable
+originals and cannot be repaired by raising text limits.
+
+Backend-wide quota, authentication, missing-executable, and configuration errors
+stop both passes with a failing exit status, including under manual skipping.
+Prior successes are checkpointed, a sanitized `run_stop` is saved, and later
+tasks remain pending. Task-local execution/validation errors retain their bounded
+retry/skip behavior. To reconsider historical skipped execution failures, omit
+the skip flag after restoring the backend; old prose is not automatically
+reclassified as a new error category.
+
+### Run or resume
+
 To review everything and inspect the results at the end, complete the brief and
 use unattended mode:
 
@@ -283,6 +340,15 @@ absent from the viewer are counted. If the HTML was generated without both brief
 and instructions, assessments are marked **Criteria unchecked** and are also
 excluded from current priority/topic filters; rebuild with the review workspace.
 Checks compare against the files at HTML generation time, so rebuild after edits.
+
+Saved failures have separate **Manual review required**, **Retry pending**,
+**Failure unchecked**, and **Historical failure** statuses, with their saved
+reason rendered as text. They can be filtered independently from accepted
+assessments with attachment gaps. Current accepted assessments take precedence
+over older failures. Failure fingerprints must match the viewer before a failure
+is labeled current. The status line also shows plan-bound comparison counts,
+failed/skipped tasks, and excluded entries. Legacy comparison completeness is
+shown as unverified until the runner rebuilds its exact plan manifest.
 
 **Clear review** removes annotations and review filters immediately, retaining
 your correspondence search/date/source selections. **Reset** clears all filters

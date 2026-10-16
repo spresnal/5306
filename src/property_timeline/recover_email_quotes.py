@@ -12,6 +12,8 @@ from property_timeline.email_parsing import normalized_passage
 from property_timeline.combine_timeline import parse_archive
 from property_timeline.output_safety import staged_outputs, distinct_paths
 from zoneinfo import ZoneInfo
+from property_timeline.archive_format import MARKER, frame_body
+from property_timeline.archive_inventory import provenance_path, write_generation, validate_index
 
 
 def legacy_boundary(lines, i):
@@ -64,6 +66,7 @@ def recover(mbox, archive, index, manifest):
     finally:
         box.close()
     records, _ = parse_archive(archive, 'gmail', ZoneInfo('America/New_York'))
+    validate_index(archive, 'gmail', records, index)
     lines = archive.read_text(encoding='utf-8-sig').splitlines(keepends=True)
     changes, modifications = [], []
     for record in records:
@@ -84,7 +87,7 @@ def recover(mbox, archive, index, manifest):
         if not additions:
             continue
         addition = '\n\n' + '\n\n'.join(additions) + '\n'
-        position = record['line_end']
+        position = record['body_end']
         modifications.append((position, addition))
         row['output_body_chars'] = str(int(row['output_body_chars']) + len(addition))
         if 'contains_reply_marker_review_original' in row:
@@ -95,17 +98,31 @@ def recover(mbox, archive, index, manifest):
         return []
     for position, addition in reversed(modifications):
         lines.insert(position, addition)
+    if lines and lines[0].rstrip('\r\n') == MARKER:
+        additions_by_id = {change['reference_id']: '\n\n' + '\n\n'.join(change['recovered_blocks']) + '\n'
+                           for change in changes}
+        preamble = archive.read_text(encoding='utf-8-sig').splitlines()[:records[0]['line_start'] - 1]
+        chunks = preamble
+        for record in records:
+            metadata, separator, body = record['text'].partition('\n\n')
+            if not separator:
+                raise ValueError('Record lacks a separate body section: ' + record['id'])
+            chunks.extend([metadata, '', frame_body(body + additions_by_id.get(record['id'], '')), ''])
+        lines = ['\n'.join(chunks)]
     previous = json.loads(manifest.read_text()) if manifest.exists() else dict(recoveries=[])
     previous['recoveries'].extend(changes)
     with mbox.open('rb') as stream:
         previous['mbox_sha256'] = hashlib.file_digest(stream, 'sha256').hexdigest()
-    with staged_outputs([archive, index, manifest]) as stages:
+    provenance = provenance_path(archive)
+    distinct_paths([mbox], [archive, index, manifest, provenance])
+    with staged_outputs([archive, index, manifest, provenance]) as stages:
         stages[0].write_text(''.join(lines), encoding='utf-8')
         with stages[1].open('w', encoding='utf-8-sig', newline='') as stream:
             writer = csv.DictWriter(stream, fieldnames=columns)
             writer.writeheader()
             writer.writerows(rows)
         stages[2].write_text(json.dumps(previous, ensure_ascii=False, indent=2), encoding='utf-8')
+        write_generation(stages[3], stages[0], stages[1], archive, index, 'gmail', mbox)
     return changes
 
 

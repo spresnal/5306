@@ -1,6 +1,6 @@
 """Resumable, evidence-checked correspondence review; writes only review artifacts."""
 import argparse
-from contextlib import contextmanager
+from contextlib import contextmanager, nullcontext
 import csv
 from datetime import datetime, timezone
 import hashlib
@@ -21,6 +21,7 @@ from property_timeline.combine_timeline import parse_archive
 from property_timeline.output_safety import staged_outputs
 from property_timeline.signature_attachments import is_signature_attachment
 from property_timeline.review_evidence import evidence_hash, criteria_hash
+from property_timeline.archive_inventory import validate_index
 
 VERSION = 1
 PRIORITIES = ['high', 'medium', 'low', 'uncertain']
@@ -96,11 +97,16 @@ FINDING = obj({'title': STRING, 'analysis': STRING, 'kind': {'type': 'string', '
 CROSS_SCHEMA = obj({'findings': {'type': 'array', 'items': FINDING}})
 
 
-class CodexError(RuntimeError):
+class CodexError(ValueError):
     """Sanitized CLI failure; auth/configuration failures are not retried."""
-    def __init__(self, message, retryable=False):
+    def __init__(self, message, retryable=False, category='backend'):
         super().__init__(message)
         self.retryable = retryable
+        self.category = category
+
+    @property
+    def fatal(self):
+        return self.category == 'backend' and not self.retryable
 
 
 class ReviewValidationError(ValueError):
@@ -307,8 +313,6 @@ class Workspace:
             raise ValueError('Timeline CSV omits archive entries or contains unknown origins; regenerate before review')
         archives = {}
         indexes = {}
-        names = {'gmail': ('property_email_source_index.csv', 'source_email_number'),
-                 'android': ('android_darcy_group_index.csv', 'message_number')}
         for row in rows:
             path = (csv_path.parent / row['archive_file']).resolve()
             if not path.is_relative_to(self.root / 'data/archives'):
@@ -318,17 +322,7 @@ class Workspace:
             if key not in archives:
                 records, _ = parse_archive(path, origin, ZoneInfo('America/New_York'))
                 archives[key] = {record['id']: record for record in records}
-                if origin == 'iphone':
-                    index_name = path.stem.removesuffix('_messages') + '_index.csv'
-                    number_field = 'message_number'
-                else:
-                    index_name, number_field = names[origin]
-                index_path = path.parent / index_name
-                with index_path.open(encoding='utf-8-sig', newline='') as stream:
-                    index_rows = list(csv.DictReader(stream))
-                indexes[key] = {int(item[number_field]): item for item in index_rows}
-                if len(indexes[key]) != len(index_rows):
-                    raise ValueError('Duplicate source index numbers')
+                indexes[key] = validate_index(path, origin, records)
             record = archives[key].get(row['reference_id'])
             if record is None or record['line_start'] != int(row['archive_line_start']) or record['line_end'] != int(row['archive_line_end']):
                 raise ValueError('Timeline CSV is stale; regenerate the timeline before review')
@@ -369,8 +363,7 @@ class Workspace:
     def coverage(self):
         current = [r for r in self.records if self.current(r)]
         known = {r['id'] for r in self.records}
-        snapshot = self.snapshot()
-        plan = self.state.get('cross_plan', {})
+        cross = self.cross_coverage()
         return {'total': len(self.records), 'reviewed': len(current),
                 'remaining': len(self.records) - len(current),
                 'stale': sum(r['id'] in self.state['assessments'] and not self.current(r) for r in self.records),
@@ -378,17 +371,36 @@ class Workspace:
                 'failed': sum(r['id'] in self.state['failures'] and not self.current(r) for r in self.records),
                 'manual_review': sum(self.manual_review(r) for r in self.records),
                 'attachment_incomplete': sum(bool(self.state['assessments'][r['id']]['review_gaps']) for r in current),
-                'cross_tasks_total': plan.get('total_tasks', 0) if plan.get('snapshot') == snapshot else 0,
-                'cross_tasks_completed': sum(review.get('snapshot') == snapshot
-                                             for review in self.state['cross_reviews'].values()),
-                'cross_tasks_failed': sum(failure.get('snapshot') == snapshot
-                                         for failure in self.state.get('cross_failures', {}).values()),
-                'cross_tasks_skipped': sum(failure.get('snapshot') == snapshot and failure.get('skipped', False)
-                                          for failure in self.state.get('cross_failures', {}).values()),
+                **cross,
                 'cross_entries_excluded': len(self.cross_excluded_ids()),
-                'cross_review_complete_for_scope': self.state.get('cross_complete_snapshot') == snapshot,
+                'cross_review_complete_for_scope': cross['cross_plan_verified'] and
+                    cross['cross_tasks_completed'] == cross['cross_tasks_total'],
                 'cross_review_complete': len(current) == len(self.records) and
-                    self.state.get('cross_complete_snapshot') == snapshot}
+                    cross['cross_plan_verified'] and cross['cross_tasks_completed'] == cross['cross_tasks_total']}
+
+    def active_task_ids(self):
+        """Legacy aggregate markers cannot prove that a comparison plan finished."""
+        plan = self.state.get('cross_plan', {})
+        excluded = set(self.cross_excluded_ids())
+        tasks = plan.get('task_ids')
+        if (plan.get('snapshot') != self.snapshot() or not isinstance(tasks, list)
+                or not all(isinstance(task, str) for task in tasks)
+                or len(set(tasks)) != len(tasks) or plan.get('total_tasks') != len(tasks)
+                or plan.get('plan_id') != hashed({'algorithm': 2, 'snapshot': plan.get('snapshot'), 'task_ids': tasks})
+                or not all(self.current(r) or r['id'] in excluded for r in self.records)):
+            return None
+        return set(tasks)
+
+    def cross_coverage(self):
+        required = self.active_task_ids()
+        snapshot = self.snapshot()
+        successes = {key for key in required or () if self.state['cross_reviews'].get(key, {}).get('snapshot') == snapshot}
+        failures = [failure for key, failure in self.state.get('cross_failures', {}).items()
+                    if key in (required or ()) and key not in successes and failure.get('snapshot') == snapshot]
+        return {'cross_plan_verified': required is not None,
+                'cross_tasks_total': len(required or ()), 'cross_tasks_completed': len(successes),
+                'cross_tasks_failed': len(failures),
+                'cross_tasks_skipped': sum(bool(failure.get('skipped')) for failure in failures)}
 
     def checkpoint(self):
         self.state['updated_at'] = stamp()
@@ -416,13 +428,17 @@ class Workspace:
         snapshot = self.snapshot()
         findings = {}
         excluded = set(self.cross_excluded_ids())
+        required = self.active_task_ids() or set()
         if all(self.current(record) or record['id'] in excluded for record in self.records):
-            for review in self.state['cross_reviews'].values():
-                if review.get('snapshot') == snapshot:
+            for key, review in self.state['cross_reviews'].items():
+                if key in required and review.get('snapshot') == snapshot:
                     for finding in review['findings']:
                         identifier = 'finding:' + hashed(finding)[:16]
                         findings[identifier] = {**finding, 'id': identifier}
-        return {'version': 2, 'complete': self.state.get('cross_complete_snapshot') == snapshot,
+        coverage = self.coverage()
+        return {'version': 2, 'complete': coverage['cross_review_complete_for_scope'],
+                'plan_id': self.state.get('cross_plan', {}).get('plan_id'),
+                'coverage': coverage,
                 'excluded_ids': sorted(excluded),
                 'criteria_hash': self.criteria_hash,
                 'entry_hashes': {r['id']: {'source_hash': r['source_hash'], 'review_hash': r['review_hash']}
@@ -434,7 +450,7 @@ class Workspace:
         metadata_id = record['id'] + '/metadata'
         if metadata_text:
             evidence[metadata_id] = metadata_text
-        attached, gaps = [], []
+        attached, gaps, sources = [], [], []
         for item in record['attachments']:
             source_id = item['source_id']
             path = item['path']
@@ -451,6 +467,7 @@ class Workspace:
                         self.extraction_cache[key] = ('extraction_failed', 'Local text extraction failed', [])
                 status, detail, sections = self.extraction_cache[key]
             text = '\n\n'.join(f'{label}\n{text}' for label, text in sections)
+            extracted_chars = len(text)
             if len(text) > attachment_chars:
                 text = text[:attachment_chars]
                 gaps.append(source_id + ': text truncated; inspect original')
@@ -461,11 +478,18 @@ class Workspace:
                 evidence[source_id] = text
             attached.append({'source_id': source_id, 'filename': item['metadata'].get('original_filename', ''),
                              'status': status, 'detail': detail, 'text': text})
+            sources.append({'source_id': source_id, 'status': status, 'detail': detail,
+                            'extracted_chars': extracted_chars, 'supplied_range': [0, len(text)],
+                            'truncated': extracted_chars > len(text)})
         if not attached and any(marker in record['text'] for marker in ('[Attachment:', '**Attachments:**', '**Attachment references:**')):
             gaps.append('Archive describes attachments without indexed original files; inspect source export')
         return {'id': record['id'], 'date': record['date'], 'text': record['text'],
                 'metadata_source_id': metadata_id, 'metadata_text': metadata_text,
-                'attachments': attached, 'evidence': evidence, 'review_gaps': gaps}
+                'attachments': attached, 'evidence': evidence, 'review_gaps': gaps,
+                'preparation': {'version': 1, 'extractor_version': 1,
+                                'attachment_chars': attachment_chars, 'sources': sources,
+                                'digest': hashed({'version': 1, 'evidence': evidence,
+                                                  'attachments': attached, 'review_gaps': gaps})}}
 
 
 def ask(args, instructions, payload, schema, validator):
@@ -493,15 +517,27 @@ def ask(args, instructions, payload, schema, validator):
                 delay = base + random.uniform(0, 1)
                 print(f'Retrying after {delay:.1f}s: {last_error}', flush=True)
                 time.sleep(delay)
-    if isinstance(last_exception, ReviewValidationError):
+    if isinstance(last_exception, (ReviewValidationError, CodexError)):
         raise last_exception
-    raise ValueError(last_error)
+    raise CodexError('Unexpected backend failure; check the review executable and configuration') from last_exception
 
 
 def run(work, args):
     if 'Review status: READY' not in work.brief or '[Describe' in work.brief:
         raise ValueError('Fill in data/reviews/case_brief.md and set Review status: READY first')
+    selected = set(getattr(args, 'refresh_ids', None) or ())
+    unknown = selected - {r['id'] for r in work.records}
+    if unknown:
+        raise ValueError('Unknown refresh IDs: ' + ', '.join(sorted(unknown)))
+    prepared = {}
     def eligible(record):
+        if work.current(record) and (record['id'] in selected or
+                (getattr(args, 'refresh_review_gaps', False) and
+                 work.state['assessments'][record['id']].get('review_gaps'))):
+            candidate = work.prepare(record, args.attachment_chars)
+            prepared[record['id']] = candidate
+            return (record['id'] in selected or candidate['preparation']['digest'] !=
+                    work.state['assessments'][record['id']].get('preparation', {}).get('digest'))
         return (not work.current(record) and
                 (getattr(args, 'retry_manual_review', False) or not work.manual_review(record)))
     pending = [record for record in work.records if eligible(record)]
@@ -524,7 +560,7 @@ def run(work, args):
     while pending and (args.max_batches is None or batches < args.max_batches):
         batch, size = [], base_size
         while pending and len(batch) < args.batch_size:
-            candidate = work.prepare(pending[0], args.attachment_chars)
+            candidate = prepared.get(pending[0]['id']) or work.prepare(pending[0], args.attachment_chars)
             candidate_size = len(json.dumps(candidate, ensure_ascii=False))
             if size + candidate_size > args.max_chars:
                 if not batch:
@@ -561,6 +597,18 @@ def run(work, args):
         try:
             result, usage = ask(args, work.instructions + '\nAssess entries only, not context_only records.',
                                 payload, SCHEMA, lambda result: validate_entries(result, batch, context))
+        except CodexError as exc:
+            if exc.fatal:
+                work.state['run_stop'] = {'at': stamp(), 'category': exc.category, 'error': str(exc)}
+                work.checkpoint()
+                raise
+            for item in batch:
+                record = next(r for r in work.records if r['id'] == item['id'])
+                work.state['failures'][item['id']] = {
+                    'at': stamp(), 'error': str(exc), 'kind': 'execution',
+                    'review_hash': record['review_hash'], 'criteria_hash': work.criteria_hash}
+            work.checkpoint()
+            raise
         except EntryValidationError as exc:
             records = {r['id']: r for r in work.records}
             for identifier, error in exc.failures.items():
@@ -571,8 +619,10 @@ def run(work, args):
             result, usage = exc.result, exc.usage
         except ValueError as exc:
             for item in batch:
+                record = next(r for r in work.records if r['id'] == item['id'])
                 work.state['failures'][item['id']] = {
                     'at': stamp(), 'error': str(exc),
+                    'review_hash': record['review_hash'], 'criteria_hash': work.criteria_hash,
                     'kind': 'validation' if isinstance(exc, ReviewValidationError) else 'execution'}
             work.checkpoint()
             if isinstance(exc, ReviewValidationError):
@@ -581,17 +631,23 @@ def run(work, args):
                 continue
             raise
         records = {r['id']: r for r in work.records}
+        request_hash = hashed({'instructions': work.instructions + '\nAssess entries only, not context_only records.',
+                               'payload': payload, 'schema': SCHEMA})
         for entry in result['entries']:
             record = records[entry['id']]
             source = next(item for item in batch if item['id'] == entry['id'])
             work.state['assessments'][entry['id']] = {
                 **entry, 'source_hash': record['source_hash'], 'review_hash': record['review_hash'],
                 'criteria_hash': work.criteria_hash, 'review_gaps': source['review_gaps'],
+                'preparation': source['preparation'],
+                'request_hash': request_hash,
                 'model': args.model or 'codex-default', 'backend': 'codex-chatgpt', 'reviewed_at': stamp()}
             work.state['failures'].pop(entry['id'], None)
         work.state['calls'].append({'at': stamp(), 'phase': 'entries', 'model': args.model or 'codex-default', 'backend': 'codex-chatgpt',
+                                    'request_hash': request_hash,
                                     'ids': [r['id'] for r in batch],
                                     'accepted_ids': [entry['id'] for entry in result['entries']], 'usage': usage})
+        work.state.pop('run_stop', None)
         work.checkpoint()
         batches += 1
     coverage = work.coverage()
@@ -644,12 +700,12 @@ def cross_evidence_units(work, limit):
     return units
 
 
-def cross_review(work, args):
-    """Reread full source evidence and compare every chronology block pair across topics."""
+def build_cross_plan(work, args):
+    """Prepare a deterministic plan locally; no writes and no backend requests."""
     work.state['cross_skip_manual_review'] = bool(getattr(args, 'skip_manual_review', False))
     excluded = work.cross_excluded_ids()
-    if excluded:
-        print(f'Partial cross-review: excluding {len(excluded)} manual-review entries.', flush=True)
+    if any(not work.current(r) and r['id'] not in excluded for r in work.records):
+        raise ValueError('Complete first-pass assessments or explicitly exclude manual-review entries before planning')
     snapshot = work.snapshot()
     limit = (args.max_chars - len(work.brief) - len(work.instructions) - 4000) // 2
     if limit <= 0:
@@ -664,9 +720,48 @@ def cross_review(work, args):
         size += length
     if block:
         blocks.append(block)
-    work.state['cross_plan'] = {'snapshot': snapshot, 'blocks': len(blocks),
-                                'excluded_ids': excluded,
-                                'total_tasks': len(blocks) * (len(blocks) + 1) // 2}
+    total = len(blocks) * (len(blocks) + 1) // 2
+    maximum = getattr(args, 'max_cross_tasks', None)
+    if maximum is not None and total > maximum:
+        raise ValueError(f'Cross-review plan requires {total} tasks, exceeding --max-cross-tasks {maximum}')
+    task_ids = [hashed({'algorithm': 2, 'entries': first if i == j else first + blocks[j], 'snapshot': snapshot})
+                for i, first in enumerate(blocks) for j in range(i, len(blocks))]
+    plan = {'version': 1, 'snapshot': snapshot, 'blocks': len(blocks), 'excluded_ids': excluded,
+            'included_ids': [r['id'] for r in work.records if r['id'] not in excluded],
+            'max_chars': args.max_chars, 'task_ids': task_ids, 'total_tasks': len(task_ids),
+            'plan_id': hashed({'algorithm': 2, 'snapshot': snapshot, 'task_ids': task_ids})}
+    return plan, blocks
+
+
+def preview_plan(work, args):
+    plan, blocks = build_cross_plan(work, args)
+    reusable = {key for key in plan['task_ids']
+                if work.state['cross_reviews'].get(key, {}).get('snapshot') == plan['snapshot']}
+    failures = [f for key, f in work.state.get('cross_failures', {}).items()
+                if key in plan['task_ids'] and key not in reusable]
+    external = 0
+    task_ids = iter(plan['task_ids'])
+    for i, first in enumerate(blocks):
+        for j in range(i, len(blocks)):
+            task_id = next(task_ids)
+            supplied = first if i == j else first + blocks[j]
+            failed = work.state.get('cross_failures', {}).get(task_id)
+            if (task_id not in reusable and len({unit['id'] for unit in supplied}) >= 2
+                    and not (getattr(args, 'skip_manual_review', False) and failed)):
+                external += 1
+    return {**{key: plan[key] for key in ('plan_id', 'blocks', 'total_tasks', 'included_ids', 'excluded_ids')},
+            'reusable_tasks': len(reusable), 'failed_tasks': len(failures),
+            'remaining_external_calls': external,
+            'note': 'Estimate excludes retries; --max-cross-calls bounds each invocation.'}
+
+
+def cross_review(work, args):
+    """Execute only tasks from the active manifest; historical plans remain saved."""
+    plan, blocks = build_cross_plan(work, args)
+    snapshot = plan['snapshot']
+    work.state['cross_plan'] = plan
+    work.state.pop('cross_complete_snapshot', None)
+    work.state.pop('cross_complete_plan', None)
     work.checkpoint()
     print(f"Cross-review plan: {len(blocks)} chronology blocks, {work.state['cross_plan']['total_tasks']} comparison tasks", flush=True)
     calls = 0
@@ -724,6 +819,10 @@ def cross_review(work, args):
                         'An empty findings list is valid.',
                         {'case_brief': work.brief, 'entries': supplied}, CROSS_SCHEMA, validate)
                 except ValueError as exc:
+                    if isinstance(exc, CodexError) and exc.fatal:
+                        work.state['run_stop'] = {'at': stamp(), 'category': exc.category, 'error': str(exc)}
+                        work.checkpoint()
+                        raise
                     work.state.setdefault('cross_failures', {})[task_hash] = {
                         'at': stamp(), 'error': str(exc), 'snapshot': snapshot,
                         'kind': 'validation' if isinstance(exc, ReviewValidationError) else 'execution',
@@ -743,6 +842,8 @@ def cross_review(work, args):
             work.checkpoint()
     if work.coverage()['cross_tasks_completed'] == work.state['cross_plan']['total_tasks']:
         work.state['cross_complete_snapshot'] = snapshot
+        work.state['cross_complete_plan'] = plan['plan_id']
+    work.state.pop('run_stop', None)
     work.checkpoint()
 
 
@@ -761,8 +862,9 @@ def report(work):
             label = 'Manual review required' if work.manual_review(record) else 'Retry pending'
             lines += [f"- {record['id']} — {label}: {work.state['failures'][record['id']]['error']}"]
         lines += ['']
-    cross_failures = [failure for failure in work.state.get('cross_failures', {}).values()
-                      if failure.get('snapshot') == work.snapshot()]
+    required = work.active_task_ids() or set()
+    cross_failures = [failure for key, failure in work.state.get('cross_failures', {}).items()
+                      if key in required and failure.get('snapshot') == work.snapshot()]
     if cross_failures:
         lines += ['## Failed cross-entry comparisons', '']
         for failure in cross_failures:
@@ -798,6 +900,8 @@ def report(work):
                   '**Uncertainty:** ' + entry['uncertainty'], '']
         if effective_priority(entry) != entry['priority']:
             lines += ['**Effective priority after contextual review:** ' + effective_priority(entry), '']
+        if not entry.get('preparation'):
+            lines += ['Prepared evidence provenance unknown (legacy assessment).', '']
         for quote in entry['quotes']:
             lines += ['> ' + quote['text'].replace('\n', '\n> '), '', 'Source: `' + quote['source_id'] + '`', '']
         for question in entry['questions']:
@@ -812,13 +916,16 @@ def report(work):
     if excluded:
         lines += [f'Partial chronology review: {len(excluded)} manual-review entries excluded. '
                   'Findings do not account for those entries.', '', 'Excluded IDs: ' + ', '.join(excluded), '']
-    if work.state.get('cross_complete_snapshot') != work.snapshot():
+    lines += [f"Comparison coverage: {coverage['cross_tasks_completed']}/{coverage['cross_tasks_total']} tasks; "
+              f"{coverage['cross_tasks_failed']} failed, {coverage['cross_tasks_skipped']} skipped. "
+              f"Plan: {work.state.get('cross_plan', {}).get('plan_id', 'legacy/unverified')}", '']
+    if not coverage['cross_review_complete_for_scope']:
         lines += ['Cross-entry pass is incomplete; resume the runner to finish it.', '']
     if coverage['remaining'] == len(excluded):
         seen = set()
         snapshot = work.snapshot()
-        for review in work.state['cross_reviews'].values():
-            if review.get('snapshot') != snapshot:
+        for key, review in work.state['cross_reviews'].items():
+            if key not in required or review.get('snapshot') != snapshot:
                 continue
             for finding in review['findings']:
                 fingerprint = hashed(finding)
@@ -860,17 +967,29 @@ def main():
                          help='Retry entries flagged for manual review; otherwise leave unchanged flagged entries skipped')
     command.add_argument('--skip-manual-review', action='store_true',
                          help='Allow pass two to exclude manual-review entries; findings explicitly have partial coverage')
+    command.add_argument('--refresh-review-gaps', action='store_true',
+                         help='Reprepare accepted assessments with gaps; reassess only changed evidence')
+    command.add_argument('--refresh-id', dest='refresh_ids', action='append',
+                         help='Explicitly reassess an entry ID; repeat for multiple IDs')
+    command.add_argument('--max-cross-tasks', type=int, help='Reject comparison plans larger than this total task count')
+    plan_command = commands.add_parser('plan', help='Preview exact comparison scope/workload locally without saving or model calls')
+    plan_command.add_argument('--max-chars', type=int, default=100000)
+    plan_command.add_argument('--skip-manual-review', action='store_true')
+    plan_command.add_argument('--max-cross-tasks', type=int)
     args = parser.parse_args()
+    if args.command == 'plan' and (args.max_chars <= 0 or
+            (args.max_cross_tasks is not None and args.max_cross_tasks <= 0)):
+        parser.error('Plan limits must be positive')
     if args.command == 'run':
         for key in ('batch_size', 'max_chars', 'attachment_chars', 'codex_timeout'):
             if getattr(args, key) <= 0:
                 parser.error('--' + key.replace('_', '-') + ' must be positive')
         if args.retries < 0 or any(value is not None and value <= 0 for value in
-                                  (args.pilot, args.max_batches, args.max_cross_calls)):
+                                  (args.pilot, args.max_batches, args.max_cross_calls, args.max_cross_tasks)):
             parser.error('Pilot/batch limits must be positive and retries nonnegative')
     work = Workspace(args.root)
     try:
-        with work.lock():
+        with (nullcontext() if args.command in ('status', 'plan') else work.lock()):
             if args.command == 'init':
                 for name, content in [('case_brief.md', BRIEF), ('REVIEW_INSTRUCTIONS.md', INSTRUCTIONS)]:
                     path = work.folder / name
@@ -885,6 +1004,8 @@ def main():
                 print('Initialized review workspace. Complete data/reviews/case_brief.md before the pilot.')
             elif args.command == 'status':
                 print(json.dumps(work.coverage(), indent=2))
+            elif args.command == 'plan':
+                print(json.dumps(preview_plan(work, args), indent=2))
             elif args.command == 'report':
                 report(work)
                 print('Wrote output/counsel_review.md')

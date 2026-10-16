@@ -88,6 +88,29 @@ async function load(value) {controls['review-file'].files=[{name:'entry_review.j
   controls['review-priority'].value='high';controls['review-priority'].listeners.input();
   assert.equal(cards[0].hidden,true);
   cards[2].dataset.reviewHash=hash;
+  const failure={manual_review:true,error:'<img src=x onerror=alert(1)>',review_hash:hash,criteria_hash:criteria};
+  await load({schema_version:1,assessments:{'gmail:0001':entry('gmail:0001')},
+    failures:{'gmail:0001':failure,'gmail:0002':failure,'iphone_darcy:0001':{...failure,manual_review:false}}});
+  assert.equal(cards[0].dataset.reviewState,'current'); // Accepted assessment takes precedence.
+  assert.equal(cards[1].dataset.reviewState,'manual');
+  assert.equal(cards[2].dataset.reviewState,'retry');
+  assert.match(cards[1].querySelector('.review-panel').textContent,/<img src=x/);
+  assert.equal(cards[1].querySelector('.review-panel').children.some(c=>c.tag==='img'),false);
+  assert.match(controls['review-status'].textContent,/1 manual review · 1 retry pending/);
+  controls['review-state'].value='manual';controls['review-state'].listeners.input();
+  assert.equal(cards[1].hidden,false);assert.equal(cards[0].hidden,true);
+  await load({schema_version:1,assessments:{},failures:{'gmail:0001':{...failure,review_hash:changed},
+    'gmail:0002':{error:'Legacy failure'}}});
+  assert.equal(cards[0].dataset.reviewState,'failure-stale');
+  assert.equal(cards[1].dataset.reviewState,'failure-unverified');
+  const coverage={cross_plan_verified:true,cross_tasks_total:5,cross_tasks_completed:3,cross_tasks_failed:2,cross_tasks_skipped:1};
+  await load({schema_version:1,assessments:{},contextual_review:{...manifest,complete:true,coverage}});
+  assert.match(controls['review-status'].textContent,/3\/5 comparisons · 2 failed · 1 skipped/);
+  assert.doesNotMatch(controls['review-status'].textContent,/complete for included/);
+  const previousStatus=cards[0].dataset.reviewState;
+  await load({schema_version:1,assessments:{},failures:{'gmail:0001':{error:42}}});
+  assert.match(controls['review-status'].textContent,/Could not load/);
+  assert.equal(cards[0].dataset.reviewState,previousStatus);
   controls['review-clear'].listeners.click();
   assert.equal(vm.runInContext("reviewState({source_hash:'a'.repeat(64),review_hash:'a'.repeat(64),criteria_hash:'c'.repeat(64)},cards[0],'')",context),'unverified');
   assert.equal(vm.runInContext("reviewState({source_hash:'a'.repeat(64),review_hash:'a'.repeat(64),criteria_hash:'c'.repeat(64)},cards[0],'d'.repeat(64))",context),'stale');
