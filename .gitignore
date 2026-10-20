@@ -43,6 +43,9 @@ Desktop.ini
 
 # Active review-runner lock; review results remain visible to Git.
 /data/reviews/.runner.lock
+/data/manual/.writer.lock
+/output/.publish.lock
+/output/generations/*/*_pdf_assets/
 
 # Originals, curated archives, review backups/results, and final timeline exports
 # are intentional project artifacts; keep data/, backups/, and output/ trackable.
