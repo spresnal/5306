@@ -37,17 +37,10 @@ htmlcov/
 Thumbs.db
 Desktop.ini
 
-# Temporary PDF renders/previews at any depth, including published generations.
-/output/**/*_pdf_assets/
-/output/**/.*_pdf_render.html
-
-# Interrupted output staging files; keep the completed exports and packages.
-/output/**/.*-*.html
-/output/**/.*-*.pdf
-/output/**/.*-*.md
-/output/**/.*-*.csv
-/output/**/.*-*.zip
-/output/**/.*-*.js
+# Rebuildable reading bundles, PDF packages/previews, media ZIPs, and local
+# generation pointers. Publish again from source after a fresh checkout.
+# Files already tracked in output/ remain tracked until explicitly removed.
+/output/
 
 # Manual editor upload receipts and preserved recovery copies are local state.
 # Evidence records, the ID registry, revision history, and originals stay trackable.
@@ -65,5 +58,5 @@ Desktop.ini
 /data/manual/.writer.lock
 /output/.publish.lock
 
-# Originals, curated archives, review backups/results, and final timeline exports
-# are intentional project artifacts; keep data/, backups/, and output/ trackable.
+# Originals, curated archives, manual evidence/history, and review results are
+# authoritative project data and remain trackable. Generated copies live in output/.
